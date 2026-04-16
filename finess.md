@@ -1,6 +1,8 @@
+# Indicateurs provenant de Finess
+
 **ID_indicateur :** ase_tx_equip_1000_0_20
 
-**Source :** DREES, Finess, Insee, recensements et estimations de population
+**Source :** DREES, [Finess](#finess), Insee, recensements et estimations de population
 
 **Dates :** 2004 à 2025 
 
@@ -34,12 +36,14 @@ Les maisons d’enfants à caractère social (MECS) sont les héritières des or
 
 Afin d'apprécier au mieux l'offre globale d'accueil, cet indicateur est à rapprocher de l'offre d'accueil en placement familial.
 
-Certains jeunes ne sont pas accueillis dans leur département d'origine, l'offre d'accueil est donc à analyser avec précaution. Ainsi, d'après l'enquête Aide sociale de la DREES auprès des conseils départementaux, les placements hors départements concernent 9% des mesures de placement au 31 décembre 2016, ce taux variant d'un département à l'autre. Inférieur à 3% dans un quart des départements, compris entre 3% et 8% dans la moitié d'entre eux, il peut dépasser 40% dans certains départements, les valeurs les plus élevées étant observées dans les départements franciliens. Au niveau national, les bénéficiaires accueillis hors de leurs départements sont 39% en famille d'accueil, 45% en établissement et 16% dans d'autres modes d'hébergement."
-Qualité et limites	"FINESS (Fichier national des établissements sanitaires et sociaux) est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
+Certains jeunes ne sont pas accueillis dans leur département d'origine, l'offre d'accueil est donc à analyser avec précaution. Ainsi, d'après l'enquête Aide sociale de la DREES auprès des conseils départementaux, les placements hors départements concernent 9% des mesures de placement au 31 décembre 2016, ce taux variant d'un département à l'autre. Inférieur à 3% dans un quart des départements, compris entre 3% et 8% dans la moitié d'entre eux, il peut dépasser 40% dans certains départements, les valeurs les plus élevées étant observées dans les départements franciliens. Au niveau national, les bénéficiaires accueillis hors de leurs départements sont 39% en famille d'accueil, 45% en établissement et 16% dans d'autres modes d'hébergement.
 
-L'enquête de la DREES auprès des établissements d'aide sociale à l'enfance est quadriennale. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de FINESS en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans FINESS et un important travail de mise en cohérence est alors mené.
+**Qualité et limites :**
+[Finess](#finess) (Fichier national des établissements sanitaires et sociaux) est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
 
-Attention aux comparaisons dans le temps au niveau départemental. En particulier le calcul du taux d'équipement a été légèrement modifié entre 2012 et 2013, suite à une révision des catégories d'établissement retenues dans FINESS.
+L'enquête de la DREES auprès des établissements d'aide sociale à l'enfance est quadriennale. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de [Finess](#finess) en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans [Finess](#finess) et un important travail de mise en cohérence est alors mené.
+
+Attention aux comparaisons dans le temps au niveau départemental. En particulier le calcul du taux d'équipement a été légèrement modifié entre 2012 et 2013, suite à une révision des catégories d'établissement retenues dans [Finess](#finess).
 
 L'enquête auprès des établissements et services de la protection de l’enfance (ES-PE)
 
@@ -47,7 +51,7 @@ L'enquête auprès des établissements et services de la protection de l’enfan
 
 **ID_indicateur :** ase_places_cpfse, ase_places_etab_acc_mere_enfant, ase_places_foyer_enfance, ase_places_lieux_vie_accueil, ase_places_mecs, ase_places_pouponniere_social, ase_places_struct_inter_placement_soc, ase_places_village_enfants
 
-**Source :** DREES, Finess
+**Source :** DREES, [Finess](#finess)
 
 **Dates :** 2004 à 2025 
 
@@ -80,11 +84,13 @@ Les maisons d’enfants à caractère social (MECS) sont les héritières des or
 Afin d'apprécier au mieux l'offre globale d'accueil, cet indicateur est à rapprocher de l'offre d'accueil en placement familial.
 
 Certains jeunes ne sont pas accueillis dans leur département d'origine, l'offre d'accueil est donc à analyser avec précaution. Ainsi, d'après l'enquête Aide sociale de la DREES auprès des conseils départementaux, les placements hors départements concernent 9% des mesures de placement au 31 décembre 2016, ce taux variant d'un département à l'autre. Inférieur à 3% dans un quart des départements, compris entre 3% et 8% dans la moitié d'entre eux, il peut dépasser 40% dans certains départements, les valeurs les plus élevées étant observées dans les départements franciliens. Au niveau national, les bénéficiaires accueillis hors de leurs départements sont 39% en famille d'accueil, 45% en établissement et 16% dans d'autres modes d'hébergement."
-Qualité et limites	"FINESS (Fichier national des établissements sanitaires et sociaux) est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
 
-L'enquête de la DREES auprès des établissements d'aide sociale à l'enfance est quadriennale. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de FINESS en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans FINESS et un important travail de mise en cohérence est alors mené.
+**Qualité et limites :**	
+[Finess](#finess) (Fichier national des établissements sanitaires et sociaux) est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
 
-Attention aux comparaisons dans le temps au niveau départemental. En particulier le calcul du taux d'équipement a été légèrement modifié entre 2012 et 2013, suite à une révision des catégories d'établissement retenues dans FINESS.
+L'enquête de la DREES auprès des établissements d'aide sociale à l'enfance est quadriennale. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de [Finess](#finess) en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans [Finess](#finess) et un important travail de mise en cohérence est alors mené.
+
+Attention aux comparaisons dans le temps au niveau départemental. En particulier le calcul du taux d'équipement a été légèrement modifié entre 2012 et 2013, suite à une révision des catégories d'établissement retenues dans [Finess](#finess).
 
 L'enquête auprès des établissements et services de la protection de l’enfance (ES-PE)
 
@@ -112,7 +118,7 @@ L'enquête auprès des établissements et services de la protection de l’enfan
 
 **ID_indicateur :** hs_places_autres_resid_soc, hs_places_fjt, hs_places_ftm, hs_places_heberg_soc, hs_places_insertion, hs_places_logement_accomp, hs_places_maisons_relais_pensions_fam, hs_places_stab, hs_places_urgences
 
-**Source :** DREES, Finess
+**Source :** DREES, [Finess](#finess)
 
 **Dates :** 
 
@@ -132,7 +138,7 @@ Nombre de places d'hébergement au 31 décembre
 
 **ID_indicateur :** pa_etab_autres_etab, pa_etab_centre_jour, pa_etab_ehpad, pa_etab_resid_autonomie, pa_etab_ssiad_spasad, pa_etab_usld
 
-**Source :** DREES, Finess
+**Source :** DREES, [Finess](#finess)
 
 **Dates :** 
 
@@ -157,7 +163,7 @@ Cet indicateur y contribue en appréciant l’offre d'équipement en places d’
 
 **ID_indicateur :** pa_places_acc_jour, pa_places_acc_jour_autres_etab, pa_places_acc_jour_ehpad, pa_places_acc_jour_resid_autonomie, pa_places_acc_nuit, pa_places_acc_temp, pa_places_acc_temp_autres_etab, pa_places_acc_temp_centre_jour, pa_places_acc_temp_ehpad, pa_places_acc_temp_resid_autonomie, pa_places_autres_etab, pa_places_centre_jour, pa_places_ehpad, pa_places_resid_autonomie, pa_places_ssiad_spasad, pa_places_usld
 
-**Source :** DREES, Finess
+**Source :** DREES, [Finess](#finess)
 
 **Dates :** 
 
@@ -181,7 +187,7 @@ Cet indicateur y contribue en appréciant l’offre d'équipement en places d’
 
 **ID_indicateur :** pa_tx_equip_centre_jours_1000_75p, pa_tx_equip_ehpad_1000_75p, pa_tx_equip_heberg_1000_75p, pa_tx_equip_lits_medic_1000_75p, pa_tx_equip_non_ehpad_1000_75p, pa_tx_equip_ssiad_spasad_1000_75p
 
-**Source :** DREES, Finess, Insee, recensements et estimations de population
+**Source :** DREES, [Finess](#finess), Insee, recensements et estimations de population
 
 **Dates :** 2009 à 2024
 
@@ -232,8 +238,8 @@ Numérateur : nombre de places en établissement d'hébergement pour personnes �
 
 > L'accueil familial n'est pas comptabilisé.
 
-> FINESS est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
-L'enquête de la DREES auprès des établissements d'hébergement pour personnes âgées (EHPA) est quadriennale. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de FINESS en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans FINESS et un important travail de mise en cohérence est alors mené."
+> [Finess](#finess) est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
+L'enquête de la DREES auprès des établissements d'hébergement pour personnes âgées ([EHPA](#ehpa)) est quadriennale. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de [Finess](#finess) en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans [Finess](#finess) et un important travail de mise en cohérence est alors mené."
 
 
 **Pour en savoir plus :**  
@@ -262,7 +268,7 @@ L'enquête de la DREES auprès des établissements d'hébergement pour personnes
 
 **ID_indicateur :** ph_adultes_etab_crp_cpo_ueros, ph_adultes_etab_eat, ph_adultes_etab_esat, ph_adultes_etab_exp, ph_adultes_etab_fam_eam, ph_adultes_etab_foyers_ph, ph_adultes_etab_mas, ph_adultes_etab_savs_samsah, ph_adultes_etab_ssiad_spasah
 
-**Source :** DREES, Finess
+**Source :** DREES, [Finess](#finess)
 
 **Dates :** 
 
@@ -287,7 +293,7 @@ Cet indicateur y contribue par la description de l’offre d'accueil et d'accomp
 
 **ID_indicateur :** ph_adultes_places_acc_jour, ph_adultes_places_acc_jour_eat, ph_adultes_places_acc_jour_exp, ph_adultes_places_acc_jour_fam_eam, ph_adultes_places_acc_jour_foyers_ph, ph_adultes_places_acc_jour_mas, ph_adultes_places_acc_medicalise, ph_adultes_places_acc_specialise, ph_adultes_places_acc_temp_eat, ph_adultes_places_acc_temp_exp, ph_adultes_places_acc_temp_fam_eam, ph_adultes_places_acc_temp_foyers_ph, ph_adultes_places_acc_temp_hors_jour, ph_adultes_places_acc_temp_mas, ph_adultes_places_acc_vie, ph_adultes_places_accomp_vie_soc, ph_adultes_places_crp_cpo_ueros, ph_adultes_places_eat, ph_adultes_places_esat, ph_adultes_places_exp, ph_adultes_places_fam_eam, ph_adultes_places_foyers_ph, ph_adultes_places_mas, ph_adultes_places_savs_samsah, ph_adultes_places_ssiad_spasah
 
-**Source :** DREES, Finess
+**Source :** DREES, [Finess](#finess)
 
 **Dates :** 
 
@@ -312,7 +318,7 @@ Cet indicateur y contribue par la description de l’offre d'accueil et d'accomp
 
 **ID_indicateur :** ph_adultes_tx_equip_acc_medicalise_1000_20_59, ph_adultes_tx_equip_acc_specialise_1000_20_59, ph_adultes_tx_equip_acc_vie_1000_20_59, ph_adultes_tx_equip_esat_1000_20_59, ph_adultes_tx_equip_etab_acc_non_medic_1000_20_59, ph_adultes_tx_equip_foyers_eam_1000_20_59, ph_adultes_tx_equip_heberg_1000_20_59, ph_adultes_tx_equip_mas_1000_20_59, ph_adultes_tx_equip_savs_samsah_1000_20_59, ph_enfants_tx_equip_etab_1000_m20, ph_enfants_tx_equip_sessad_1000_m20
 
-**Source :** DREES, Finess
+**Source :** DREES, [Finess](#finess)
 
 **Dates :** 
 
@@ -386,11 +392,11 @@ Donne la densité du nombre de places offertes dans le département.
 
 **Qualité et limites :**	
 
-FINESS est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
+[Finess](#finess) est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
 
-L'enquête de la DREES auprès des établissements et services pour personnes handicapées est quadriennale. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de FINESS en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans FINESS et un important travail de mise en cohérence est alors mené.
+L'enquête de la DREES auprès des établissements et services pour personnes handicapées est quadriennale. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de [Finess](#finess) en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans [Finess](#finess) et un important travail de mise en cohérence est alors mené.
 
-Attention aux comparaisons dans le temps au niveau départemental. En particulier le calcul du taux d'équipement a été légèrement modifié entre 2011 et 2012, suite à une révision des catégories d'établissement retenues dans FINESS.
+Attention aux comparaisons dans le temps au niveau départemental. En particulier le calcul du taux d'équipement a été légèrement modifié entre 2011 et 2012, suite à une révision des catégories d'établissement retenues dans [Finess](#finess).
 
 
 
@@ -420,16 +426,73 @@ Attention aux comparaisons dans le temps au niveau départemental. En particulie
 
 - [Makdessi Y., Mordier B., 2013, « Établissements et services pour enfants et adolescents handicapés. Résultats de l’enquête ES 2010 », Document de travail, DREES, Série Statistiques, n°177, mars.](https://drees.solidarites-sante.gouv.fr/publications/documents-de-travail-1998-2019/etablissements-et-services-pour-enfants-et-adolescents)
 
+
+----
+
+**ID_indicateur :** ph_enfants_etab_camsp, ph_enfants_etab_cmpp, ph_enfants_etab_etab_acc_temp, ph_enfants_etab_exp, ph_enfants_etab_foyer_heberg, ph_enfants_etab_iem, ph_enfants_etab_ime, ph_enfants_etab_itep, ph_enfants_etab_jardins_enf_spe, ph_enfants_etab_jeunes_def_sens, ph_enfants_etab_polyhandicap, ph_enfants_etab_sessad
+
+**Source :** DREES, [Finess](#finess)
+
+**Dates :** 
+
+**Périodicité :**	Annuelle
+
+
+**Descriptif :**  
+
+Nombre d'établissements médico-sociaux pour enfants handicapées au 31 décembre. 
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la part de la population en situation de handicap et des aides qui leur sont attribuées, selon différentes dimensions : risque de handicap, handicap ressenti, handicap reconnu, aides ou prestations attribuées, offre d'accueil et d'accompagnement. 
+
+Cet indicateur y contribue par la description de l’offre d'accueil et d'accompagnement des personnes en situation de handicap, enfant ou adulte.
+
+**Définition :** 
+
+**Intérêt de l’indicateur et interprétation :**	
+
+----
+
+**ID_indicateur :** ph_enfants_places_acc_ext_semi_int_iem, ph_enfants_places_acc_ext_semi_int_ime, ph_enfants_places_acc_ext_semi_int_itep, ph_enfants_places_acc_ext_semi_int_jeunes_def_sens, ph_enfants_places_acc_ext_semi_int_polyhandicap, ph_enfants_places_acc_jour_jeunes_def_sens, ph_enfants_places_acc_temp_iem, ph_enfants_places_acc_temp_ime, ph_enfants_places_acc_temp_itep, ph_enfants_places_acc_temp_jeunes_def_sens, ph_enfants_places_acc_temp_polyhandicap, ph_enfants_places_etab_acc_temp, ph_enfants_places_exp, ph_enfants_places_foyer_heberg, ph_enfants_places_iem, ph_enfants_places_ime, ph_enfants_places_itep, ph_enfants_places_jardins_acc_ext_semi_int_enf_spe, ph_enfants_places_jardins_acc_jour_enf_spe, ph_enfants_places_jardins_acc_temp_enf_spe, ph_enfants_places_jardins_enf_spe, ph_enfants_places_jeunes_def_sens, ph_enfants_places_polyhandicap, ph_enfants_places_sessad
+
+**Source :** DREES, [Finess](#finess)
+
+**Dates :** 
+
+**Périodicité :**	Annuelle
+
+
+**Descriptif :**  
+
+Nombre de places dans des établissements médico-sociaux pour enfants handicapées au 31 décembre. Distinction des places en accueil temporaires et en accueil de jour.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la part de la population en situation de handicap et des aides qui leur sont attribuées, selon différentes dimensions : risque de handicap, handicap ressenti, handicap reconnu, aides ou prestations attribuées, offre d'accueil et d'accompagnement. 
+
+Cet indicateur y contribue par la description de l’offre d'accueil et d'accompagnement des personnes en situation de handicap, enfant ou adulte.
+
+**Définition :** 
+
+**Intérêt de l’indicateur et interprétation :**	
+
+
 -------------------------- 
-Sources statistiques	
-Finess : Le Fichier National des Établissements Sanitaires et Sociaux (FINESS) est la principale source d’information sur les équipements des établissements. Mis à jour par les agences régionales de santé (ARS) et les directions régionales de la jeunesse et de la cohésion sociale (DRJSCS), il permet une identification précise des établissements, recense les lits et places autorisés et installés par discipline, et les équipements lourds de chaque structure.
 
-- [Accéder au Panorama statistique](https://drees.solidarites-sante.gouv.fr/sites/default/files/panorama/)*
- [Accéder à Finess](https://finess.esante.gouv.fr/fininter/jsp/index.jsp)
- (Cliquez sur les liens)[Accéder au Panorama statistique](https://data.drees.solidarites-sante.gouv.fr/explore/dataset/panorama-statistique-grand-age-et-autonomie0/)
+# **Sources statistiques**
+
+## **Finess**
+Le Fichier National des Établissements Sanitaires et Sociaux (FINESS) est la principale source d’information sur les équipements des établissements. Mis à jour par les agences régionales de santé (ARS) et les directions régionales de la jeunesse et de la cohésion sociale (DRJSCS), il permet une identification précise des établissements, recense les lits et places autorisés et installés par discipline, et les équipements lourds de chaque structure.
+
 [Accéder à Finess](https://finess.esante.gouv.fr/fininter/jsp/index.jsp)
-[L’enquête auprès des établissements d’hébergement pour personnes âgées (EHPA)](https://drees.solidarites-sante.gouv.fr/sources-outils-et-enquetes/07-lenquete-aupres-des-etablissements-dhebergement-pour-personnes-agees)
-[Données détaillées de l'enquête EHPA](https://drees2-sgsocialgouv.opendatasoft.com/explore/dataset/587_l-enquete-aupres-des-etablissements-d-hebergement-pour-personnes-agees-ehpa/information/)
 
+[Accéder au Panorama statistique](https://drees.solidarites-sante.gouv.fr/sites/default/files/panorama/)*
+
+## **Enquête auprès des établissements d’Hébergement pour Personnes Âgées**
+
+[L’enquête auprès des établissements d’hébergement pour personnes âgées (EHPA)](https://drees.solidarites-sante.gouv.fr/sources-outils-et-enquetes/07-lenquete-aupres-des-etablissements-dhebergement-pour-personnes-agees)
+
+[Données détaillées de l'enquête EHPA](https://drees2-sgsocialgouv.opendatasoft.com/explore/dataset/587_l-enquete-aupres-des-etablissements-d-hebergement-pour-personnes-agees-ehpa/information/)
 
 [Enquête auprès des établissements pour personnes handicapées](https://drees.solidarites-sante.gouv.fr/sources-outils-et-enquetes/lenquete-aupres-des-etablissements-et-services-pour-enfants-et-adultes)
