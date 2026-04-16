@@ -1,7 +1,5 @@
 # Indicateurs provenant de Finess
 
-[[_TOC_]]
-
 **ID_indicateur :** ase_tx_equip_1000_0_20
 
 **Source :** DREES, [Finess](#finess), Insee, recensements et estimations de population
