@@ -8,9 +8,9 @@
 
 **Périodicité :**	Annuelle
 
-**Descriptif :**  
+**Descriptif :** 
 
-- **Numérateur :**  Nombre de places installées en établissement d'aide sociale à l'enfance au 31 décembre
+- **Numérateur :** Nombre de places installées en établissement d'aide sociale à l'enfance au 31 décembre
 - **Dénominateur :** Nombre de mineurs et jeunes majeurs de moins de 21 ans vivant dans le département au 01/01/N+1
 
 Indicateur exprimé en pour 1000
@@ -58,7 +58,7 @@ L'enquête auprès des établissements et services de la protection de l’enfan
 **Périodicité :**	Annuelle
 
 
-**Descriptif :**  
+**Descriptif :** 
 
 Nombre de places installées en établissement d'aide sociale à l'enfance au 31 décembre
 
@@ -96,23 +96,23 @@ L'enquête auprès des établissements et services de la protection de l’enfan
 
  **Pour en savoir plus :**
 
-- [Amrous N. (dir.). (2023). L'aide sociale à l'enfance - Edition 2023. Dossier de la Drees, octobre](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/les-dossiers-de-la-drees/laide-sociale-lenfance-edition-2023)                                              
+- [Amrous N. (dir.). (2023). L'aide sociale à l'enfance - Edition 2023. Dossier de la Drees, octobre](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/les-dossiers-de-la-drees/laide-sociale-lenfance-edition-2023) 
 
-- [Abassi É., 2023, « Les jeunes quittant les établissements de l’aide sociale à l’enfance », Les Dossiers de la DREES, n°106, Drees, février.](https://drees.solidarites-sante.gouv.fr/publications/les-dossiers-de-la-drees/les-jeunes-quittant-les-etablissements-de-laide-sociale)         
+- [Abassi É., 2023, « Les jeunes quittant les établissements de l’aide sociale à l’enfance », Les Dossiers de la DREES, n°106, Drees, février.](https://drees.solidarites-sante.gouv.fr/publications/les-dossiers-de-la-drees/les-jeunes-quittant-les-etablissements-de-laide-sociale) 
 
 - [Abassi, É., Tortel A., 2023, « Un quart des mineurs non accompagnés (MNA) dormaient en centre d’hébergement ou dans la rue avant leur entrée en établissement de l’aide sociale à l’enfance (ASE) », Études et Résultats, n°1256, Drees, février.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/un-quart-des-mineurs-non-accompagnes-mna-dormaient-en-centre) 
 
-- [Abassi É., 2020, « 61 000 enfants, adolescents et jeunes majeurs hébergés fin 2017 dans les établissements de l’aide sociale à l’enfance », Les Dossiers de la DREES, n°55, Drees, mai.](https://drees.solidarites-sante.gouv.fr/publications/les-dossiers-de-la-drees/61-000-enfants-adolescents-et-jeunes-majeurs-heberges-fin)   
+- [Abassi É., 2020, « 61 000 enfants, adolescents et jeunes majeurs hébergés fin 2017 dans les établissements de l’aide sociale à l’enfance », Les Dossiers de la DREES, n°55, Drees, mai.](https://drees.solidarites-sante.gouv.fr/publications/les-dossiers-de-la-drees/61-000-enfants-adolescents-et-jeunes-majeurs-heberges-fin) 
 
-- [Emmanuel Pliquet, 2016, « Aide sociale à l’enfance : 55 000 enfants et adolescents hébergés en établissements », Études et Résultats, n°974, Drees, septembre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/aide-sociale-lenfance-55-000-enfants-et-adolescents-heberges-en)  
+- [Emmanuel Pliquet, 2016, « Aide sociale à l’enfance : 55 000 enfants et adolescents hébergés en établissements », Études et Résultats, n°974, Drees, septembre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/aide-sociale-lenfance-55-000-enfants-et-adolescents-heberges-en) 
 
 - [Emmanuel Pliquet, 2016, « Fin 2012, les établissements relevant de l’aide sociale à l’enfance offrent 60 000 places d’hébergement », Études et Résultats, n°955, Drees, mars.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/fin-2012-les-etablissements-relevant-de-laide-sociale-lenfance)
 
-- [Mainaud T., 2012, « Les établissements et services en faveur des enfants et adolescents en difficulté sociale. Activité, personnel et clientèle au 15 décembre 2008 », Document de travail, Série Statistiques, n°173, Drees, septembre.](https://drees.solidarites-sante.gouv.fr/publications/documents-de-travail-1998-2019/les-etablissements-et-services-en-faveur-des-enfants-et)    
+- [Mainaud T., 2012, « Les établissements et services en faveur des enfants et adolescents en difficulté sociale. Activité, personnel et clientèle au 15 décembre 2008 », Document de travail, Série Statistiques, n°173, Drees, septembre.](https://drees.solidarites-sante.gouv.fr/publications/documents-de-travail-1998-2019/les-etablissements-et-services-en-faveur-des-enfants-et) 
 
 - [Mainaud T., 2011, « 50 000 enfants et adolescents en difficulté sociale hébergés en établissements. Résultats de l’enquête ES 2008 », Études et Résultats, DREES, n° 778, octobre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/50-000-enfants-et-adolescents-en-difficulte-sociale-heberges-en)
 
-- [Mainaud T., 2010, « Les établissements hébergeant des enfants et des adolescents en difficulté sociale », études et résultats n°743.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/les-etablissements-hebergeant-des-enfants-et-des-adolescents-en)  
+- [Mainaud T., 2010, « Les établissements hébergeant des enfants et des adolescents en difficulté sociale », études et résultats n°743.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/les-etablissements-hebergeant-des-enfants-et-des-adolescents-en) 
 
 ----
 
@@ -120,19 +120,13 @@ L'enquête auprès des établissements et services de la protection de l’enfan
 
 **Source :** DREES, [Finess](#finess)
 
-**Dates :** 
+**Dates :** 2004 à 2025
 
-**Périodicité :**	Annuelle
+**Périodicité :**Annuelle
 
-
-**Descriptif :**  
+**Descriptif :** 
 
 Nombre de places d'hébergement au 31 décembre
-
-**Objectif :**
-**Définition :** 
-
-**Intérêt de l’indicateur et interprétation :**	
 
 ----
 
@@ -140,12 +134,12 @@ Nombre de places d'hébergement au 31 décembre
 
 **Source :** DREES, [Finess](#finess)
 
-**Dates :** 
+**Dates :** 2004 à 2025
 
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 
-**Descriptif :**  
+**Descriptif :** 
 
 Nombre d'établissement médico-sociaux pour personnes agées au 31 décembre
 
@@ -161,7 +155,7 @@ Cet indicateur y contribue en appréciant l’offre d'équipement en places d’
 
 ----
 
-**ID_indicateur :** pa_places_acc_jour, pa_places_acc_jour_autres_etab, pa_places_acc_jour_ehpad, pa_places_acc_jour_resid_autonomie, pa_places_acc_nuit, pa_places_acc_temp, pa_places_acc_temp_autres_etab, pa_places_acc_temp_centre_jour, pa_places_acc_temp_ehpad, pa_places_acc_temp_resid_autonomie, pa_places_autres_etab, pa_places_centre_jour, pa_places_ehpad, pa_places_resid_autonomie, pa_places_ssiad_spasad, pa_places_usld
+**ID_indicateur :** pa_places_acc_jour, pa_places_acc_jour_autres_etab, pa_places_acc_jour_ehpad, pa_places_acc_jour_resid_autonomie, pa_places_acc_nuit, pa_places_acc_temp, pa_places_acc_temp_autres_etab, pa_places_acc_temp_centre_jour, pa_places_acc_temp_ehpad, pa_places_acc_temp_resid_autonomie, pa_places_autres_etab, pa_places_centre_jour, pa_places_ehpad, pa_places_resid_autonomie, pa_places_ssiad_spasad
 
 **Source :** DREES, [Finess](#finess)
 
@@ -169,7 +163,7 @@ Cet indicateur y contribue en appréciant l’offre d'équipement en places d’
 
 **Périodicité :**	Annuelle
 
-**Descriptif :**  
+**Descriptif :** 
 
 Nombre de places dans des établissements médico-sociaux pour personnes agées au 31 décembre. Distinction des places en accueil temporaires et en accueil de jour.
 
@@ -179,9 +173,25 @@ L'objectif stratégique des indicateurs relatifs au personnes âgées est de mes
 
 Cet indicateur y contribue en appréciant l’offre d'équipement en places d’hébergement à destination des personnes âgées.
 
-**Définition :** 
+----
 
-**Intérêt de l’indicateur et interprétation :**	
+**ID_indicateur :** pa_places_usld
+
+**Source :** DREES, [Finess](#finess)
+
+**Dates :** 2000 à 2024
+
+**Périodicité :**	Annuelle
+
+**Descriptif :** 
+
+Nombre de lits en USLD
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs au personnes âgées est de mesurer la part des personnes âgées dépendantes ou en risque de dépendance et des aides qui leur sont attribuées, selon différentes dimensions : aide à domicile, y compris pour les personnes âgées en grande perte d'autonomie, aide en établissement, isolement et risque d'isolement des personnes âgées, offre de soins à domicile et d'hébergement, coordination gérontologique à l'échelle du département.
+
+Cet indicateur y contribue en appréciant l’offre d'équipement en places d’hébergement à destination des personnes âgées.
 
 ----
 
@@ -189,14 +199,14 @@ Cet indicateur y contribue en appréciant l’offre d'équipement en places d’
 
 **Source :** DREES, [Finess](#finess), Insee, recensements et estimations de population
 
-**Dates :** 2009 à 2024
+**Dates :** 2004 à 2024
 
 **Périodicité :**	Annuelle
 
 
-**Descriptif :**  
+**Descriptif :** 
 
-- **Numérateur :**  Nombre de places dans des établissements médico-sociaux pour personnes agées au 31 décembre.
+- **Numérateur :** Nombre de places dans des établissements médico-sociaux pour personnes agées au 31 décembre.
 - **Dénominateur :** Nombre de personnes âgées de 75 ans et plus vivant dans le département au 01/01/N+1
 
 Indicateur exprimé en pour 1000
@@ -242,7 +252,7 @@ Numérateur : nombre de places en établissement d'hébergement pour personnes �
 L'enquête de la DREES auprès des établissements d'hébergement pour personnes âgées ([EHPA](#ehpa)) est quadriennale. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de [Finess](#finess) en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans [Finess](#finess) et un important travail de mise en cohérence est alors mené."
 
 
-**Pour en savoir plus :**  
+**Pour en savoir plus :** 
 
 - [Balavoine A., 2023, « Résidences autonomie : avant le début de la crise sanitaire, le nombre de places augmentait, mais celui des résidents diminuait », Études et Résultats, n°284, novembre](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-article/etudes-et-resultats/residences-autonomie-avant-le-debut)
 
@@ -270,12 +280,12 @@ L'enquête de la DREES auprès des établissements d'hébergement pour personnes
 
 **Source :** DREES, [Finess](#finess)
 
-**Dates :** 
+**Dates :** 2004 à 2025
 
 **Périodicité :**	Annuelle
 
 
-**Descriptif :**  
+**Descriptif :** 
 
 Nombre d'établissements médico-sociaux pour personnes handicapées au 31 décembre. 
 
@@ -285,22 +295,18 @@ L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la p
 
 Cet indicateur y contribue par la description de l’offre d'accueil et d'accompagnement des personnes en situation de handicap, enfant ou adulte.
 
-**Définition :** 
-
-**Intérêt de l’indicateur et interprétation :**	
-
 ----
 
 **ID_indicateur :** ph_adultes_places_acc_jour, ph_adultes_places_acc_jour_eat, ph_adultes_places_acc_jour_exp, ph_adultes_places_acc_jour_fam_eam, ph_adultes_places_acc_jour_foyers_ph, ph_adultes_places_acc_jour_mas, ph_adultes_places_acc_medicalise, ph_adultes_places_acc_specialise, ph_adultes_places_acc_temp_eat, ph_adultes_places_acc_temp_exp, ph_adultes_places_acc_temp_fam_eam, ph_adultes_places_acc_temp_foyers_ph, ph_adultes_places_acc_temp_hors_jour, ph_adultes_places_acc_temp_mas, ph_adultes_places_acc_vie, ph_adultes_places_accomp_vie_soc, ph_adultes_places_crp_cpo_ueros, ph_adultes_places_eat, ph_adultes_places_esat, ph_adultes_places_exp, ph_adultes_places_fam_eam, ph_adultes_places_foyers_ph, ph_adultes_places_mas, ph_adultes_places_savs_samsah, ph_adultes_places_ssiad_spasah
 
 **Source :** DREES, [Finess](#finess)
 
-**Dates :** 
+**Dates :** 2004 à 2025
 
 **Périodicité :**	Annuelle
 
 
-**Descriptif :**  
+**Descriptif :** 
 
 Nombre de places dans des établissements médico-sociaux pour personnes handicapées au 31 décembre. Distinction des places en accueil temporaires et en accueil de jour.
 
@@ -310,23 +316,19 @@ L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la p
 
 Cet indicateur y contribue par la description de l’offre d'accueil et d'accompagnement des personnes en situation de handicap, enfant ou adulte.
 
-**Définition :** 
-
-**Intérêt de l’indicateur et interprétation :**	
-
 ----
 
 **ID_indicateur :** ph_adultes_tx_equip_acc_medicalise_1000_20_59, ph_adultes_tx_equip_acc_specialise_1000_20_59, ph_adultes_tx_equip_acc_vie_1000_20_59, ph_adultes_tx_equip_esat_1000_20_59, ph_adultes_tx_equip_etab_acc_non_medic_1000_20_59, ph_adultes_tx_equip_foyers_eam_1000_20_59, ph_adultes_tx_equip_heberg_1000_20_59, ph_adultes_tx_equip_mas_1000_20_59, ph_adultes_tx_equip_savs_samsah_1000_20_59, ph_enfants_tx_equip_etab_1000_m20, ph_enfants_tx_equip_sessad_1000_m20
 
 **Source :** DREES, [Finess](#finess)
 
-**Dates :** 
+**Dates :** 2004 à 2025
 
 **Périodicité :**	Annuelle
 
-**Descriptif :**  
+**Descriptif :** 
 
-- **Numérateur :**  Nombre de places installées au 1er janvier.
+- **Numérateur :** Nombre de places installées au 1er janvier.
 - **Dénominateur :** Nombre de personnes de la tranche d'âge vivant dans le département au 01/01/N+1
 
 Indicateur exprimé en pour 1000
@@ -357,13 +359,13 @@ Les établissements et services d’aide par le travail (ESAT) permettent aux tr
 
 Les services d’accompagnement à la vie sociale (SAVS) et les services d’accompagnement médico-social pour adultes handicapés (SAMSAH), ont pour objectif principal d’assurer le maintien des personnes handicapées dans le milieu ordinaire, par un soutien à la restauration des liens sociaux (familiaux, scolaires, professionnels, etc.) et en favorisant l’accès aux services offerts par la collectivité. Les SAMSAH offrent, en plus de ces prestations, un accompagnement médical. Les professionnels travaillant dans les SAVS sont en majorité des travailleurs sociaux, des psychologues et des chargés d’insertion. Dans les SAMSAH, l’équipe pluridisciplinaire comprend toujours un médecin. Dans tous les cas, selon les besoins de la personne, l’accompagnement peut être permanent, temporaire ou séquentiel, conformément à la décision prise par la commission des droits et de l’autonomie des personnes handicapées (CDAPH).
 
-Les instituts médico-éducatifs (IME)  accueillent et accompagnent des enfants ou des adolescents présentant un déficit intellectuel.
+Les instituts médico-éducatifs (IME) accueillent et accompagnent des enfants ou des adolescents présentant un déficit intellectuel.
 
-Les établissements pour enfants et adolescents polyhandicapés accueillent et accompagnent, conformément à leur plan personnalisé de compensation comprenant le projet  de scolarisation, des enfants ou adolescents présentant un handicap grave à expression multiple associant déficience motrice et déficience mentale sévère ou profonde.
+Les établissements pour enfants et adolescents polyhandicapés accueillent et accompagnent, conformément à leur plan personnalisé de compensation comprenant le projet de scolarisation, des enfants ou adolescents présentant un handicap grave à expression multiple associant déficience motrice et déficience mentale sévère ou profonde.
 
-Les instituts thérapeutiques, éducatifs et pédagogiques (ITEP)  accueillent des enfants, adolescents ou jeunes adultes qui présentent des difficultés psychologiques dont l’expression, notamment l’intensité des troubles du comportement, perturbe gravement la socialisation et l’accès aux apprentissages.
+Les instituts thérapeutiques, éducatifs et pédagogiques (ITEP) accueillent des enfants, adolescents ou jeunes adultes qui présentent des difficultés psychologiques dont l’expression, notamment l’intensité des troubles du comportement, perturbe gravement la socialisation et l’accès aux apprentissages.
 
-Les établissements d’éducation spéciale pour enfants déficients moteurs accueillent et accompagnent des enfants ou des adolescents présentant une déficience motrice, conformément à leur plan personnalisé de compensation comprenant le projet  de scolarisation et prenant en compte le recours à des moyens spécifiques pour le suivi médical, la scolarisation, la formation générale et professionnelle, afin de réaliser leur intégration familiale, sociale et professionnelle.
+Les établissements d’éducation spéciale pour enfants déficients moteurs accueillent et accompagnent des enfants ou des adolescents présentant une déficience motrice, conformément à leur plan personnalisé de compensation comprenant le projet de scolarisation et prenant en compte le recours à des moyens spécifiques pour le suivi médical, la scolarisation, la formation générale et professionnelle, afin de réaliser leur intégration familiale, sociale et professionnelle.
 
 Les établissements pour déficients sensoriels accueillent et accompagnent des enfants ou adolescents présentant une déficience auditive ou visuelle, conformément à leur plan personnalisé de compensation comprenant le projet personnalisé de scolarisation et prenant en compte le recours à des moyens spécifiques pour le suivi médical, la compensation du handicap, l’acquisition de connaissances scolaires et d’une formation professionnelle, afin de réaliser leur intégration familiale, sociale et professionnelle.
 
@@ -433,12 +435,12 @@ Attention aux comparaisons dans le temps au niveau départemental. En particulie
 
 **Source :** DREES, [Finess](#finess)
 
-**Dates :** 
+**Dates :** 2004 à 2025
 
 **Périodicité :**	Annuelle
 
 
-**Descriptif :**  
+**Descriptif :** 
 
 Nombre d'établissements médico-sociaux pour enfants handicapées au 31 décembre. 
 
@@ -448,22 +450,17 @@ L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la p
 
 Cet indicateur y contribue par la description de l’offre d'accueil et d'accompagnement des personnes en situation de handicap, enfant ou adulte.
 
-**Définition :** 
-
-**Intérêt de l’indicateur et interprétation :**	
-
 ----
 
 **ID_indicateur :** ph_enfants_places_acc_ext_semi_int_iem, ph_enfants_places_acc_ext_semi_int_ime, ph_enfants_places_acc_ext_semi_int_itep, ph_enfants_places_acc_ext_semi_int_jeunes_def_sens, ph_enfants_places_acc_ext_semi_int_polyhandicap, ph_enfants_places_acc_jour_jeunes_def_sens, ph_enfants_places_acc_temp_iem, ph_enfants_places_acc_temp_ime, ph_enfants_places_acc_temp_itep, ph_enfants_places_acc_temp_jeunes_def_sens, ph_enfants_places_acc_temp_polyhandicap, ph_enfants_places_etab_acc_temp, ph_enfants_places_exp, ph_enfants_places_foyer_heberg, ph_enfants_places_iem, ph_enfants_places_ime, ph_enfants_places_itep, ph_enfants_places_jardins_acc_ext_semi_int_enf_spe, ph_enfants_places_jardins_acc_jour_enf_spe, ph_enfants_places_jardins_acc_temp_enf_spe, ph_enfants_places_jardins_enf_spe, ph_enfants_places_jeunes_def_sens, ph_enfants_places_polyhandicap, ph_enfants_places_sessad
 
 **Source :** DREES, [Finess](#finess)
 
-**Dates :** 
+**Dates :** 2004 à 2025
 
 **Périodicité :**	Annuelle
 
-
-**Descriptif :**  
+**Descriptif :** 
 
 Nombre de places dans des établissements médico-sociaux pour enfants handicapées au 31 décembre. Distinction des places en accueil temporaires et en accueil de jour.
 
@@ -472,11 +469,6 @@ Nombre de places dans des établissements médico-sociaux pour enfants handicap�
 L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la part de la population en situation de handicap et des aides qui leur sont attribuées, selon différentes dimensions : risque de handicap, handicap ressenti, handicap reconnu, aides ou prestations attribuées, offre d'accueil et d'accompagnement. 
 
 Cet indicateur y contribue par la description de l’offre d'accueil et d'accompagnement des personnes en situation de handicap, enfant ou adulte.
-
-**Définition :** 
-
-**Intérêt de l’indicateur et interprétation :**	
-
 
 -------------------------- 
 
