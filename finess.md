@@ -1,6 +1,6 @@
 # Indicateurs provenant de Finess
 
-**ID_indicateur :** ase_tx_equip_1000_0_20
+## **ID_indicateur :** ase_tx_equip_1000_0_20
 
 **Source :** DREES, [Finess](#finess), Insee, recensements et estimations de population
 
@@ -49,7 +49,7 @@ L'enquête auprès des établissements et services de la protection de l’enfan
 
 ----
 
-**ID_indicateur :** ase_places_cpfse, ase_places_etab_acc_mere_enfant, ase_places_foyer_enfance, ase_places_lieux_vie_accueil, ase_places_mecs, ase_places_pouponniere_social, ase_places_struct_inter_placement_soc, ase_places_village_enfants
+## **ID_indicateur :** ase_places_cpfse, ase_places_etab_acc_mere_enfant, ase_places_foyer_enfance, ase_places_lieux_vie_accueil, ase_places_mecs, ase_places_pouponniere_social, ase_places_struct_inter_placement_soc, ase_places_village_enfants
 
 **Source :** DREES, [Finess](#finess)
 
@@ -116,7 +116,7 @@ L'enquête auprès des établissements et services de la protection de l’enfan
 
 ----
 
-**ID_indicateur :** hs_places_autres_resid_soc, hs_places_fjt, hs_places_ftm, hs_places_heberg_soc, hs_places_insertion, hs_places_logement_accomp, hs_places_maisons_relais_pensions_fam, hs_places_stab, hs_places_urgences
+## **ID_indicateur :** hs_places_autres_resid_soc, hs_places_fjt, hs_places_ftm, hs_places_heberg_soc, hs_places_insertion, hs_places_logement_accomp, hs_places_maisons_relais_pensions_fam, hs_places_stab, hs_places_urgences
 
 **Source :** DREES, [Finess](#finess)
 
@@ -130,7 +130,7 @@ Nombre de places d'hébergement au 31 décembre
 
 ----
 
-**ID_indicateur :** pa_etab_autres_etab, pa_etab_centre_jour, pa_etab_ehpad, pa_etab_resid_autonomie, pa_etab_ssiad_spasad, pa_etab_usld
+## **ID_indicateur :** pa_etab_autres_etab, pa_etab_centre_jour, pa_etab_ehpad, pa_etab_resid_autonomie, pa_etab_ssiad_spasad, pa_etab_usld
 
 **Source :** DREES, [Finess](#finess)
 
@@ -155,7 +155,7 @@ Cet indicateur y contribue en appréciant l’offre d'équipement en places d’
 
 ----
 
-**ID_indicateur :** pa_places_acc_jour, pa_places_acc_jour_autres_etab, pa_places_acc_jour_ehpad, pa_places_acc_jour_resid_autonomie, pa_places_acc_nuit, pa_places_acc_temp, pa_places_acc_temp_autres_etab, pa_places_acc_temp_centre_jour, pa_places_acc_temp_ehpad, pa_places_acc_temp_resid_autonomie, pa_places_autres_etab, pa_places_centre_jour, pa_places_ehpad, pa_places_resid_autonomie, pa_places_ssiad_spasad
+## **ID_indicateur :** pa_places_acc_jour, pa_places_acc_jour_autres_etab, pa_places_acc_jour_ehpad, pa_places_acc_jour_resid_autonomie, pa_places_acc_nuit, pa_places_acc_temp, pa_places_acc_temp_autres_etab, pa_places_acc_temp_centre_jour, pa_places_acc_temp_ehpad, pa_places_acc_temp_resid_autonomie, pa_places_autres_etab, pa_places_centre_jour, pa_places_ehpad, pa_places_resid_autonomie, pa_places_ssiad_spasad
 
 **Source :** DREES, [Finess](#finess)
 
@@ -175,7 +175,7 @@ Cet indicateur y contribue en appréciant l’offre d'équipement en places d’
 
 ----
 
-**ID_indicateur :** pa_places_usld
+## **ID_indicateur :** pa_places_usld
 
 **Source :** DREES, [Finess](#finess)
 
@@ -195,7 +195,7 @@ Cet indicateur y contribue en appréciant l’offre d'équipement en places d’
 
 ----
 
-**ID_indicateur :** pa_tx_equip_centre_jours_1000_75p, pa_tx_equip_ehpad_1000_75p, pa_tx_equip_heberg_1000_75p, pa_tx_equip_lits_medic_1000_75p, pa_tx_equip_non_ehpad_1000_75p, pa_tx_equip_ssiad_spasad_1000_75p
+## **ID_indicateur :** pa_tx_equip_centre_jours_1000_75p, pa_tx_equip_ehpad_1000_75p, pa_tx_equip_heberg_1000_75p, pa_tx_equip_lits_medic_1000_75p, pa_tx_equip_non_ehpad_1000_75p, pa_tx_equip_ssiad_spasad_1000_75p
 
 **Source :** DREES, [Finess](#finess), Insee, recensements et estimations de population
 
@@ -276,7 +276,7 @@ L'enquête de la DREES auprès des établissements d'hébergement pour personnes
 
 ----
 
-**ID_indicateur :** ph_adultes_etab_crp_cpo_ueros, ph_adultes_etab_eat, ph_adultes_etab_esat, ph_adultes_etab_exp, ph_adultes_etab_fam_eam, ph_adultes_etab_foyers_ph, ph_adultes_etab_mas, ph_adultes_etab_savs_samsah, ph_adultes_etab_ssiad_spasah
+## **ID_indicateur :** ph_adultes_etab_crp_cpo_ueros, ph_adultes_etab_eat, ph_adultes_etab_esat, ph_adultes_etab_exp, ph_adultes_etab_fam_eam, ph_adultes_etab_foyers_ph, ph_adultes_etab_mas, ph_adultes_etab_savs_samsah, ph_adultes_etab_ssiad_spasah
 
 **Source :** DREES, [Finess](#finess)
 
@@ -297,7 +297,7 @@ Cet indicateur y contribue par la description de l’offre d'accueil et d'accomp
 
 ----
 
-**ID_indicateur :** ph_adultes_places_acc_jour, ph_adultes_places_acc_jour_eat, ph_adultes_places_acc_jour_exp, ph_adultes_places_acc_jour_fam_eam, ph_adultes_places_acc_jour_foyers_ph, ph_adultes_places_acc_jour_mas, ph_adultes_places_acc_medicalise, ph_adultes_places_acc_specialise, ph_adultes_places_acc_temp_eat, ph_adultes_places_acc_temp_exp, ph_adultes_places_acc_temp_fam_eam, ph_adultes_places_acc_temp_foyers_ph, ph_adultes_places_acc_temp_hors_jour, ph_adultes_places_acc_temp_mas, ph_adultes_places_acc_vie, ph_adultes_places_accomp_vie_soc, ph_adultes_places_crp_cpo_ueros, ph_adultes_places_eat, ph_adultes_places_esat, ph_adultes_places_exp, ph_adultes_places_fam_eam, ph_adultes_places_foyers_ph, ph_adultes_places_mas, ph_adultes_places_savs_samsah, ph_adultes_places_ssiad_spasah
+## **ID_indicateur :** ph_adultes_places_acc_jour, ph_adultes_places_acc_jour_eat, ph_adultes_places_acc_jour_exp, ph_adultes_places_acc_jour_fam_eam, ph_adultes_places_acc_jour_foyers_ph, ph_adultes_places_acc_jour_mas, ph_adultes_places_acc_medicalise, ph_adultes_places_acc_specialise, ph_adultes_places_acc_temp_eat, ph_adultes_places_acc_temp_exp, ph_adultes_places_acc_temp_fam_eam, ph_adultes_places_acc_temp_foyers_ph, ph_adultes_places_acc_temp_hors_jour, ph_adultes_places_acc_temp_mas, ph_adultes_places_acc_vie, ph_adultes_places_accomp_vie_soc, ph_adultes_places_crp_cpo_ueros, ph_adultes_places_eat, ph_adultes_places_esat, ph_adultes_places_exp, ph_adultes_places_fam_eam, ph_adultes_places_foyers_ph, ph_adultes_places_mas, ph_adultes_places_savs_samsah, ph_adultes_places_ssiad_spasah
 
 **Source :** DREES, [Finess](#finess)
 
@@ -318,7 +318,7 @@ Cet indicateur y contribue par la description de l’offre d'accueil et d'accomp
 
 ----
 
-**ID_indicateur :** ph_adultes_tx_equip_acc_medicalise_1000_20_59, ph_adultes_tx_equip_acc_specialise_1000_20_59, ph_adultes_tx_equip_acc_vie_1000_20_59, ph_adultes_tx_equip_esat_1000_20_59, ph_adultes_tx_equip_etab_acc_non_medic_1000_20_59, ph_adultes_tx_equip_foyers_eam_1000_20_59, ph_adultes_tx_equip_heberg_1000_20_59, ph_adultes_tx_equip_mas_1000_20_59, ph_adultes_tx_equip_savs_samsah_1000_20_59, ph_enfants_tx_equip_etab_1000_m20, ph_enfants_tx_equip_sessad_1000_m20
+## **ID_indicateur :** ph_adultes_tx_equip_acc_medicalise_1000_20_59, ph_adultes_tx_equip_acc_specialise_1000_20_59, ph_adultes_tx_equip_acc_vie_1000_20_59, ph_adultes_tx_equip_esat_1000_20_59, ph_adultes_tx_equip_etab_acc_non_medic_1000_20_59, ph_adultes_tx_equip_foyers_eam_1000_20_59, ph_adultes_tx_equip_heberg_1000_20_59, ph_adultes_tx_equip_mas_1000_20_59, ph_adultes_tx_equip_savs_samsah_1000_20_59, ph_enfants_tx_equip_etab_1000_m20, ph_enfants_tx_equip_sessad_1000_m20
 
 **Source :** DREES, [Finess](#finess)
 
@@ -431,7 +431,7 @@ Attention aux comparaisons dans le temps au niveau départemental. En particulie
 
 ----
 
-**ID_indicateur :** ph_enfants_etab_camsp, ph_enfants_etab_cmpp, ph_enfants_etab_etab_acc_temp, ph_enfants_etab_exp, ph_enfants_etab_foyer_heberg, ph_enfants_etab_iem, ph_enfants_etab_ime, ph_enfants_etab_itep, ph_enfants_etab_jardins_enf_spe, ph_enfants_etab_jeunes_def_sens, ph_enfants_etab_polyhandicap, ph_enfants_etab_sessad
+## **ID_indicateur :** ph_enfants_etab_camsp, ph_enfants_etab_cmpp, ph_enfants_etab_etab_acc_temp, ph_enfants_etab_exp, ph_enfants_etab_foyer_heberg, ph_enfants_etab_iem, ph_enfants_etab_ime, ph_enfants_etab_itep, ph_enfants_etab_jardins_enf_spe, ph_enfants_etab_jeunes_def_sens, ph_enfants_etab_polyhandicap, ph_enfants_etab_sessad
 
 **Source :** DREES, [Finess](#finess)
 
@@ -452,7 +452,7 @@ Cet indicateur y contribue par la description de l’offre d'accueil et d'accomp
 
 ----
 
-**ID_indicateur :** ph_enfants_places_acc_ext_semi_int_iem, ph_enfants_places_acc_ext_semi_int_ime, ph_enfants_places_acc_ext_semi_int_itep, ph_enfants_places_acc_ext_semi_int_jeunes_def_sens, ph_enfants_places_acc_ext_semi_int_polyhandicap, ph_enfants_places_acc_jour_jeunes_def_sens, ph_enfants_places_acc_temp_iem, ph_enfants_places_acc_temp_ime, ph_enfants_places_acc_temp_itep, ph_enfants_places_acc_temp_jeunes_def_sens, ph_enfants_places_acc_temp_polyhandicap, ph_enfants_places_etab_acc_temp, ph_enfants_places_exp, ph_enfants_places_foyer_heberg, ph_enfants_places_iem, ph_enfants_places_ime, ph_enfants_places_itep, ph_enfants_places_jardins_acc_ext_semi_int_enf_spe, ph_enfants_places_jardins_acc_jour_enf_spe, ph_enfants_places_jardins_acc_temp_enf_spe, ph_enfants_places_jardins_enf_spe, ph_enfants_places_jeunes_def_sens, ph_enfants_places_polyhandicap, ph_enfants_places_sessad
+## **ID_indicateur :** ph_enfants_places_acc_ext_semi_int_iem, ph_enfants_places_acc_ext_semi_int_ime, ph_enfants_places_acc_ext_semi_int_itep, ph_enfants_places_acc_ext_semi_int_jeunes_def_sens, ph_enfants_places_acc_ext_semi_int_polyhandicap, ph_enfants_places_acc_jour_jeunes_def_sens, ph_enfants_places_acc_temp_iem, ph_enfants_places_acc_temp_ime, ph_enfants_places_acc_temp_itep, ph_enfants_places_acc_temp_jeunes_def_sens, ph_enfants_places_acc_temp_polyhandicap, ph_enfants_places_etab_acc_temp, ph_enfants_places_exp, ph_enfants_places_foyer_heberg, ph_enfants_places_iem, ph_enfants_places_ime, ph_enfants_places_itep, ph_enfants_places_jardins_acc_ext_semi_int_enf_spe, ph_enfants_places_jardins_acc_jour_enf_spe, ph_enfants_places_jardins_acc_temp_enf_spe, ph_enfants_places_jardins_enf_spe, ph_enfants_places_jeunes_def_sens, ph_enfants_places_polyhandicap, ph_enfants_places_sessad
 
 **Source :** DREES, [Finess](#finess)
 
