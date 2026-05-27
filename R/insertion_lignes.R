@@ -1,11 +1,13 @@
-#########################################################
+#-------------------------------------------------------#
 # Utilitaire pour insérer les codes isd et les libellés #
-#########################################################
+#-------------------------------------------------------#
 
 library(dplyr)
 library(stringr)
 library(readr)
 library(purrr)
+
+# Import ------
 
 # Table de correspondance
 
@@ -13,6 +15,8 @@ df_correspondance <- readxl::read_xlsx(
   "~/kDrive/Common documents/Drees/Livraison BISOK Mai 2026/documentation_biso_v27_05.xlsx"
 ) |>
   select(id_indicateur, isd, lib_indicateur)
+
+# Lecture et fusion des qmd
 
 yaml <- c(
   "---
@@ -31,7 +35,6 @@ yaml <- c(
   ""
 )
 
-# Lecture des qmd
 lignes <- c(
   yaml,
   map(
@@ -46,8 +49,9 @@ lignes <- c(
     flatten_chr()
 )
 
-# Fonction d'insertion
+# Insertion d'éléments ----
 
+# On ajoute les codes ISD et les libellés des indicateurs
 resultat <- map(
   seq_along(lignes),
   function(i) {
@@ -107,11 +111,11 @@ resultat <- map(
 ) |>
   unlist()
 
-# ------------------------------------------------------------------
-# Écriture du nouveau qmd
-# ------------------------------------------------------------------
+# Écriture du nouveau qmd et production du pdf -----
 
 write_lines(
   resultat,
-  "mon_fichier_enrichi.qmd"
+  "documentation_biso.qmd"
 )
+
+quarto::quarto_render("documentation_biso.qmd")
