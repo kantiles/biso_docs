@@ -33,8 +33,6 @@ Comparaisons spatiales et temporelles
 
 Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'étant pas disponibles à ce niveau de détail. 
 
-
-
 ----
 
 ## **ID_indicateur :** ase_depenses_brutes_placement_benef, ase_depenses_brutes_placement_hab
@@ -184,7 +182,7 @@ Cet indicateur y contribue en évaluant la part des mineurs et jeunes majeurs pr
 
 Nombre de mineurs et jeunes majeurs concernés par au moins une mesure en fin d’année pour 1000 jeunes de 0 à 20 ans révolus du département.
 
-En dehors des aides financières (allocations mensuelles et de secours), l’aide sociale à l’enfance (ASE) recouvre deux prestations principales :  les actions éducatives et les mesures de placement. Ces prestations sont accordées lorsque la santé de l’enfant, sa sécurité, son entretien ou son éducation l’exigent.
+En dehors des aides financières (allocations mensuelles et de secours), l’aide sociale à l’enfance (ASE) recouvre deux prestations principales : les actions éducatives et les mesures de placement. Ces prestations sont accordées lorsque la santé de l’enfant, sa sécurité, son entretien ou son éducation l’exigent.
 
 L’action éducative à domicile (AED) est une décision administrative prise par le président du conseil départemental à la demande des parents ou avec leur accord. Elle est exercée en milieu familial, pour :
 
@@ -206,7 +204,7 @@ L’action éducative à domicile (AED) est une décision administrative prise p
 **Numérateur :** Nombre d'enfants confiés par mode d'hébergement principal<>
 **Dénominateur :** Population de moins de 21 ans du département au 01/01/N+1
 
-Sont pris en compte les actions éducatives à domicile (AED), les actions éducatives en milieu ouvert (AEMO),  et l'ensemble des mesures de placements (placements directs par le juge en établissement et chez un tiers digne de confiance et placements ASE).
+Sont pris en compte les actions éducatives à domicile (AED), les actions éducatives en milieu ouvert (AEMO), et l'ensemble des mesures de placements (placements directs par le juge en établissement et chez un tiers digne de confiance et placements ASE).
 
 **Objectif :** 
 
@@ -218,8 +216,8 @@ Cet indicateur y contribue en évaluant la part des mineurs et jeunes majeurs pr
 
 Nombre de mineurs et jeunes majeurs concernés par au moins une mesure en fin d’année pour 1000 jeunes de 0 à 20 ans révolus du département.
 
-Sont pris en compte les actions éducatives à domicile (AED), les actions éducatives en milieu ouvert (AEMO),  et l'ensemble des mesures de placements (placements directs par le juge en établissement et chez un tiers digne de confiance et placements ASE).
-En dehors des aides financières (allocations mensuelles et de secours), l’aide sociale à l’enfance (ASE) recouvre deux prestations principales :  les actions éducatives et les mesures de placement. Ces prestations sont accordées lorsque la santé de l’enfant, sa sécurité, son entretien ou son éducation l’exigent.
+Sont pris en compte les actions éducatives à domicile (AED), les actions éducatives en milieu ouvert (AEMO), et l'ensemble des mesures de placements (placements directs par le juge en établissement et chez un tiers digne de confiance et placements ASE).
+En dehors des aides financières (allocations mensuelles et de secours), l’aide sociale à l’enfance (ASE) recouvre deux prestations principales : les actions éducatives et les mesures de placement. Ces prestations sont accordées lorsque la santé de l’enfant, sa sécurité, son entretien ou son éducation l’exigent.
 
 L’action éducative à domicile (AED) est une décision administrative prise par le président du conseil départemental à la demande des parents ou avec leur accord. Elle est exercée en milieu familial, pour :
 
@@ -261,27 +259,11 @@ Cet indicateur y contribue en estimant le coût global de l'aide sociale, normé
 
 **Définition :**
 
-Dépenses  brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
+Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
 
 Ces dépenses brutes sont toutefois exprimées après récupérations faites auprès des bénéficiaires, des obligés alimentaires et sur successions dans le cadre de l’aide sociale à l’hébergement (ASH) aux personnes âgées, afin de rendre plus robustes les comparaisons départementales. En effet, les pratiques départementales de récupérations de l'ASH sont très variables selon les collectivités et rendent impossible toute comparaison pertinente des dépenses brutes sur le sujet.
 
 **Intérêt de l’indicateur et interprétation :**	Comparaisons spatiales et temporelles
-
-**Pour en savoir plus :**  
-
-- [Présentation de l’enquête Aide sociale auprès des conseils départementaux](http://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/open-data/aide-et-action-sociale/article/l-enquete-aide-sociale-aupres-des-conseils-departementaux) 
-
-- [Données détaillées sur les bénéficiaires de l'aide sociale départementale](https://drees2-sgsocialgouv.opendatasoft.com/explore/dataset/375_les-beneficiaires-de-l-aide-sociale-departementale/information/) 
-
-- [Données détaillées sur les dépenses d'aide sociale départementale](https://drees2-sgsocialgouv.opendatasoft.com/explore/dataset/376_les-depenses-d-aide-sociale-departementale/information/) 
-
-- [Leroux, I. (dir.). (2022). L’aide et l’action sociales en France – Perte d’autonomie, handicap, protection de l’enfance et insertion – Édition 2022. Panoramas de la DREES - Social, DREES, décembre.](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/panoramas-de-la-drees/laide-et-laction) 
-
-- [Sarah Abdouni, 2019, « Aide sociale aux personnes âgées ou handicapées : les départements ont attribué 2 millions de prestations fin 2018 », Études et Résultats, n°1129, DREES octobre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/aide-sociale-aux-personnes-agees-ou-handicapees-les-departements) 
-
-- [Cheikh Tidiane Diallo, 2019, « Le ralentissement des dépenses d’aide sociale des départements se confirme en 2017 », Études et Résultats, n°1105, DREES, février.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/le-ralentissement-des-depenses-daide-sociale-des-departements-se) 
-
-- [Nadia Amrous, 2018, « 341 000 mesures d’aide sociale à l’enfance en cours fin 2017 », Études et Résultats, n°1090, DREES octobre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/341-000-mesures-daide-sociale-lenfance-en-cours-fin-2017) 
 
 ----
 
@@ -497,22 +479,6 @@ Dépenses brutes : dépenses de l'année avant déduction des recouvrements, rem
 
 **Qualité et limites :** Sont retenues pour cet indicateur les dépenses brutes, par souci de cohérence avec les postes PCH et ASE, pour lesquels les dépenses nettes ne sont pas disponibles à ce niveau de détail.
 
-**Pour en savoir plus :**  
-
-- [En savoir plus sur le RSA](https://drees.solidarites-sante.gouv.fr/revenu-de-solidarite-active-rsa) 
-
-- [Présentation de l'enquête Aide sociale auprès des conseils départementaux](https://drees.solidarites-sante.gouv.fr/sources-outils-et-enquetes/lenquete-aide-sociale-aupres-des-conseils-departementaux) 
-
-- [Données détaillées sur les dépenses d'aide sociale départementale](https://drees2-sgsocialgouv.opendatasoft.com/explore/dataset/376_les-depenses-d-aide-sociale-departementale/information/) 
-
-- [Leroux, I. (dir.). (2022). L’aide et l’action sociales en France – Perte d’autonomie, handicap, protection de l’enfance et insertion – Édition 2022. Panoramas de la DREES - Social, DREES, décembre.](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/panoramas-de-la-drees/laide-et-laction) 
-
-- [Cabannes, P.-Y., Chevalier, M. (dir). Minima sociaux et prestations sociales - Ménages aux revenus modestes et redistribution - édition 2023 " Coll. Panoramas de la DREES, DREES, septembre 2023.](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/panoramas-de-la-drees/minima-sociaux-et) 
-
-- [Mathieu CALVO, Céline LEROY, 2019, « En 2017, le nombre d’allocataires de minima sociaux se stabilise, après avoir baissé en 2016 », Études et Résultats, n°1108, DREES, mars.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/en-2017-le-nombre-dallocataires-de-minima-sociaux-se-stabilise) 
-
-- [Cheikh Tidiane Diallo, 2019, « Le ralentissement des dépenses d’aide sociale des départements se confirme en 2017 », Études et Résultats, n°1105, DREES, février.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/le-ralentissement-des-depenses-daide-sociale-des-departements-se) 
-
 ----
 
 ## **ID_indicateur :** ms_oarsa_delai_moy_rsa_primo_orientation
@@ -585,7 +551,7 @@ Dépenses d'APA par habitant
 
 Dépenses d'APA par bénéficiaire
 
-- **Numérateur :** Dépenses annuelles brutes d'APA  en euros, hors frais de personnel 
+- **Numérateur :** Dépenses annuelles brutes d'APA en euros, hors frais de personnel 
 - **Dénominateur :** Moyenne du nombre de bénéficiaires en décembre de l'année N-1 et de celui de l'année N.
 
 Indicateur exprimé en euros par habitant et par bénéficiaire
@@ -597,22 +563,6 @@ Mesurer l'évolution de la charge financière par habitant liée à l'APA dans l
 **Qualité et limites :**
 
 Sont retenues pour cet indicateur les dépenses brutes, par souci de cohérence avec les postes PCH et ASE, pour lesquels les dépenses nettes ne sont pas disponibles à ce niveau de détail. Les dépenses de personnel sont exclues, du fait d'un traitement hétérogène par les départements. 
-
-**Pour en savoir plus :**
-
-- [En savoir plus sur l’APA](https://drees.solidarites-sante.gouv.fr/allocation-personnalisee-dautonomie-apa) 
-
-- [Présentation de l’enquête Aide sociale auprès des conseils départementaux](http://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/open-data/aide-et-action-sociale/article/l-enquete-aide-sociale-aupres-des-conseils-departementaux) 
-
-- [Données détaillées sur les bénéficiaires de l'aide sociale départementale](https://drees2-sgsocialgouv.opendatasoft.com/explore/dataset/375_les-beneficiaires-de-l-aide-sociale-departementale/information/) 
-
-- [Données détaillées sur les dépenses d'aide sociale départementale](https://drees2-sgsocialgouv.opendatasoft.com/explore/dataset/376_les-depenses-d-aide-sociale-departementale/information/) 
-
-- [Leroux, I. (dir.). (2022). L’aide et l’action sociales en France – Perte d’autonomie, handicap, protection de l’enfance et insertion – Édition 2022. Panoramas de la DREES - Social, DREES, décembre.](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/panoramas-de-la-drees/laide-et-laction) 
-
-- [Sarah Abdouni, 2019, « Aide sociale aux personnes âgées ou handicapées : les départements ont attribué 2 millions de prestations fin 2018 », Études et Résultats, n°1129, DREES octobre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/aide-sociale-aux-personnes-agees-ou-handicapees-les-departements) 
-
-- [Cheikh Tidiane Diallo, 2019, « Le ralentissement des dépenses d’aide sociale des départements se confirme en 2017 », Études et Résultats, n°1105, DREES, février.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/le-ralentissement-des-depenses-daide-sociale-des-departements-se) 
 
 ----
 
@@ -630,7 +580,7 @@ Nombre de personnes âgées bénéficiaires (droits ouverts) d'une aide ménagè
 
 ----
 
-## **ID_indicateur :**  pa_part_benef_apa_dom_60p, pa_part_benef_apa_dom_75p, pa_part_benef_apa_dom_gir1_2, pa_part_benef_apa_etab_60p, pa_part_benef_apa_etab_75p, pa_part_benef_apa_tot_60p, pa_part_benef_apa_tot_75p
+## **ID_indicateur :** pa_part_benef_apa_dom_60p, pa_part_benef_apa_dom_75p, pa_part_benef_apa_dom_gir1_2, pa_part_benef_apa_etab_60p, pa_part_benef_apa_etab_75p, pa_part_benef_apa_tot_60p, pa_part_benef_apa_tot_75p
 
 **Source :** DREES, enquête Aide sociale
 
@@ -673,20 +623,6 @@ Lorsqu'un bénéficiaire est hébergé en établissement hors de son départemen
 
 - Fin 2017, 86% des bénéficiaires de l'APA à domicile et 91% des bénéficiaires de l'APA en établissement (hors dotation gloable) ont 75 ans ou plus. Pour cette raison, la tranche d'âge ""75 ans et plus"" a également été retenue pour cet indicateur, alors que l'APA est accessible dès 60 ans, afin de permettre de meilleures comparaisons départementales.
 
-**Pour en savoir plus :**
-
-- [En savoir plus sur l’APA](https://drees.solidarites-sante.gouv.fr/allocation-personnalisee-dautonomie-apa) 
-
-- [Présentation de l’enquête Aide sociale auprès des conseils départementaux](http://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/open-data/aide-et-action-sociale/article/l-enquete-aide-sociale-aupres-des-conseils-departementaux) 
-
-- [Données détaillées sur l'APA](https://drees2-sgsocialgouv.opendatasoft.com/explore/?sort=modified&q=apa) 
-
-- [Leroux, I. (dir.). (2022). L’aide et l’action sociales en France – Perte d’autonomie, handicap, protection de l’enfance et insertion – Édition 2022. Panoramas de la DREES - Social, DREES, décembre.](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/panoramas-de-la-drees/laide-et-laction) 
-
-- [Sarah Abdouni, 2019, « Aide sociale aux personnes âgées ou handicapées : les départements ont attribué 2 millions de prestations fin 2018 », Études et Résultats, n°1129, DREES octobre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/aide-sociale-aux-personnes-agees-ou-handicapees-les-departements) 
-
-- [Cheikh Tidiane Diallo, 2019, « Le ralentissement des dépenses d’aide sociale des départements se confirme en 2017 », Études et Résultats, n°1105, DREES, février.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/le-ralentissement-des-depenses-daide-sociale-des-departements-se) 
-
 ----
 
 ## **ID_indicateur :** pa_part_benef_ash_places_heberg
@@ -722,13 +658,13 @@ Les départements financent une partie des dépenses d’hébergement des person
 Résidences autonomie (anciennement « logements-foyers ») : Établissements proposant un accueil en logement regroupé aux personnes âgées, groupes de logements ou de chambres autonomes assortis d’équipements ou de services collectifs dont l’usage est facultatif.
 Établissements de soins de longue durée (USLD) : Établissements rattachés à des hôpitaux qui assurent un hébergement de longue durée aux personnes âgées dépendantes dont l’état de santé nécessite des soins médicaux lourds et une surveillance médicale constante.
 
-Places en établissement: DREES, DRJSCS et Exploitation du FINESS
+Places en établissement: DREES, DRJSCS et Exploitation du [Finess](#finess)
 Le panorama statistique « Jeunesse, Sports, Cohésion sociale » présente des données départementales et régionales homogènes sur la démographie, la politique de la ville, la pauvreté, la précarité et l’exclusion, le handicap et la dépendance, le logement et l’hébergement, la jeunesse, l’enfance et la protection de l’enfance, le sport, la délivrance de certains diplômes (professions sociales, profession de santé, animation socio culturelle et métiers du sport), enfin, l’emploi dans les domaines associatif et sportif.
 
-Le Fichier National des Établissements Sanitaires et Sociaux (FINESS) est la principale source d’information sur les équipements des établissements. Mis à jour par les agences régionales de santé (ARS) et les directions régionales de la jeunesse et de la cohésion sociale (DRJSCS), il permet une identification précise des établissements, recense les lits et places autorisés et installés par discipline, et les équipements lourds de chaque structure.
+Le Fichier National des Établissements Sanitaires et Sociaux ([Finess](#finess)) est la principale source d’information sur les équipements des établissements. Mis à jour par les agences régionales de santé (ARS) et les directions régionales de la jeunesse et de la cohésion sociale (DRJSCS), il permet une identification précise des établissements, recense les lits et places autorisés et installés par discipline, et les équipements lourds de chaque structure.
 
 La Statistique annuelle des établissements de santé (SAE) est une enquête administrative exhaustive et obligatoire auprès des établissements de santé installés en France (métropole et DROM) y compris les structures qui ne réalisent qu’un seul type d’hospitalisation ou qui ont une autorisation pour une seule activité de soins. Les données sont collectées par la DREES.
-                     
+ 
 Bénéficiaires de l'ASH : DREES, enquête Aide sociale, menée auprès des conseils départementaux
 
 **Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles.
@@ -738,26 +674,8 @@ Cet indicateur peut être rapproché des données de contexte sur le taux de pau
 
 - Certaines personnes âgées sont bénéficiaires de l'ASH dans leur département d'origine tout en étant hébergées dans un autre département. L'interprétation de l'indicateur serait donc à nuancer selon l'importance des flux de personnes entre départements.
 
-- FINESS est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
-L'enquête de la DREES auprès des établissements d'hébergement pour personnes âgées. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de FINESS en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans FINESS et un important travail de mise en cohérence est alors mené.
-
-**Pour en savoir plus :**
-
-- [Accéder au Panorama statistique](https://data.drees.solidarites-sante.gouv.fr/explore/dataset/panorama-statistique-grand-age-et-autonomie0/) 
-
-- L’enquête auprès des établissements d’hébergement pour personnes âgées (EHPA) 
-
-- [Wilfired Guets, Sitara Khan, Elodie Martial, (2023), "Un tiers des bénéficiaires de l'aide sociale à l'hébergement ont au moins un obligé alimentaire", Etudes et Résultats, n°1272, DREES, juin.](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/un-tiers-des-beneficiaires-de-laide-sociale) 
-
-- [Leroux, I. (dir.). (2022). L’aide et l’action sociales en France – Perte d’autonomie, handicap, protection de l’enfance et insertion – Édition 2022. Panoramas de la DREES - Social, DREES, décembre.](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/panoramas-de-la-drees/laide-et-laction) 
-
-- [Balavoine A., 2022, « Des résidents de plus en plus âgés et dépendants dans les établissements d’hébergement pour personnes âgées », Études et Résultats, n°1237, juillet.](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/des-residents-de-plus-en-plus-ages-et) 
-
-- [Sarah Abdouni, 2019, « Aide sociale aux personnes âgées ou handicapées : les départements ont attribué 2 millions de prestations fin 2018 », Études et Résultats, n°1129, DREES octobre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/aide-sociale-aux-personnes-agees-ou-handicapees-les-departements) 
-
-- [Cheikh Tidiane Diallo, 2019, « Le ralentissement des dépenses d’aide sociale des départements se confirme en 2017 », Études et Résultats, n°1105, DREES, février.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/le-ralentissement-des-depenses-daide-sociale-des-departements-se) 
-
-- Marianne Muller, 2017, « L’accueil des personnes âgées en établissement : entre progression et diversification de l’offre », Les Dossiers de la Drees, n° 20, DREES, septembre 
+- [Finess](#finess) est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
+L'enquête de la DREES auprès des établissements d'hébergement pour personnes âgées. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de [Finess](#finess) en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans [Finess](#finess) et un important travail de mise en cohérence est alors mené.
 
 ----
 
@@ -778,7 +696,7 @@ Dépenses brutes d'aide à l'accueil en établissement par habitant
 - **Numérateur :** Dépenses annuelles brutes d'aide à l'accueil (accueil de jour et hébergement) en établissement (foyer d'hébergement, foyer occupationnel, foyer d'accueil médicalisé, maison de retraite), en euros
 - **Dénominateur :** Nombre d'habitants au 01/01/N+1
 
-Dépenses brutes d'aide à l'accueil en établissement  par bénéficiaire
+Dépenses brutes d'aide à l'accueil en établissement par bénéficiaire
 
 - **Numérateur :** Dépenses annuelles brutes d'aide à l'accueil (accueil de jour et hébergement) en établissement (foyer d'hébergement, foyer occupationnel, foyer d'accueil médicalisé, maison de retraite), en euros
 - **Dénominateur :** Moyenne du nombre de bénéficiaires au 31/12 de l'année N-1 et de celui au 31/12 de l'année N
@@ -797,22 +715,6 @@ Cet indicateur y contribue en estimant le coût moyen de la principale dépense 
 **Qualité et limites :**
 
 Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'étant pas disponibles à ce niveau de détail. 
-
-**Pour en savoir plus :**
-
-- [Présentation de l'enquête Aide sociale auprès des conseils départementaux](https://drees.solidarites-sante.gouv.fr/sources-outils-et-enquetes/lenquete-aide-sociale-aupres-des-conseils-departementaux) 
- 
-- [Données détaillées sur les bénéficiaires de l'aide sociale départementale](https://drees2-sgsocialgouv.opendatasoft.com/explore/dataset/375_les-beneficiaires-de-l-aide-sociale-departementale/information/) 
- 
-- [Données détaillées sur les dépenses d'aide sociale départementale](https://drees2-sgsocialgouv.opendatasoft.com/explore/dataset/376_les-depenses-d-aide-sociale-departementale/information/) 
-
-- [Wilfired Guets, Sitara Khan, Elodie Martial, (2023), "Un tiers des bénéficiaires de l'aide sociale à l'hébergement ont au moins un obligé alimentaire", Etudes et Résultats, n°1272, DREES, juin.](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/un-tiers-des-beneficiaires-de-laide-sociale) 
-
-- [Leroux, I. (dir.). (2022). L’aide et l’action sociales en France – Perte d’autonomie, handicap, protection de l’enfance et insertion – Édition 2022. Panoramas de la DREES - Social, DREES, décembre.](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/panoramas-de-la-drees/laide-et-laction) 
-
-- [Sarah Abdouni, 2019, « Aide sociale aux personnes âgées ou handicapées : les départements ont attribué 2 millions de prestations fin 2018 », Études et Résultats, n°1129, DREES octobre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/aide-sociale-aux-personnes-agees-ou-handicapees-les-departements) 
-
-- [Cheikh Tidiane Diallo, 2019, « Le ralentissement des dépenses d’aide sociale des départements se confirme en 2017 », Études et Résultats, n°1105, DREES, février.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/le-ralentissement-des-depenses-daide-sociale-des-departements-se) 
 
 ----
 
@@ -879,21 +781,6 @@ Mesurer les variations départementales en termes de charge totale rapportée à
 **Qualité et limites :**
 
 Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'étant pas disponibles à ce niveau de détail. Les dépenses de personnel sont exclues, du fait d'un traitement hétérogène par les départements
-
-**Pour en savoir plus :**
-
-
-- [Présentation de l’enquête Aide sociale auprès des conseils départementaux](http://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/open-data/aide-et-action-sociale/article/l-enquete-aide-sociale-aupres-des-conseils-departementaux) 
-
-- [Données détaillées sur les bénéficiaires de l'aide sociale départementale](https://drees2-sgsocialgouv.opendatasoft.com/explore/dataset/375_les-beneficiaires-de-l-aide-sociale-departementale/information/) 
-
-- [Données détaillées sur les dépenses d'aide sociale départementale](https://drees2-sgsocialgouv.opendatasoft.com/explore/dataset/376_les-depenses-d-aide-sociale-departementale/information/) 
-
-- [Leroux, I. (dir.). (2022). L’aide et l’action sociales en France – Perte d’autonomie, handicap, protection de l’enfance et insertion – Édition 2022. Panoramas de la DREES - Social, DREES, décembre.](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/panoramas-de-la-drees/laide-et-laction) 
-
-- [Sarah Abdouni, 2019, « Aide sociale aux personnes âgées ou handicapées : les départements ont attribué 2 millions de prestations fin 2018 », Études et Résultats, n°1129, DREES octobre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/aide-sociale-aux-personnes-agees-ou-handicapees-les-departements) 
-
-- [Cheikh Tidiane Diallo, 2019, « Le ralentissement des dépenses d’aide sociale des départements se confirme en 2017 », Études et Résultats, n°1105, DREES, février.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/le-ralentissement-des-depenses-daide-sociale-des-departements-se) 
 
 ----
 
@@ -1007,16 +894,6 @@ Comparaisons entre les départements
 Les délais d'attribution de la PCH peuvent être assez longs et les décisions sont rétroactives à la date de dépôt de la demande; ainsi certaines données départementales peuvent être provisoires.
 Il est difficile de distinguer les bénéficiaires de la PCH enfant autrement qu'en retenant un critère d'âge du bénéficiaire à la date du décompte.
 
-**Pour en savoir plus :**
-   
-- [Présentation de l'enquête Aide sociale auprès des conseils départementaux](https://drees.solidarites-sante.gouv.fr/sources-outils-et-enquetes/lenquete-aide-sociale-aupres-des-conseils-departementaux) 
-
-- [Leroux, I. (dir.). (2022). L’aide et l’action sociales en France – Perte d’autonomie, handicap, protection de l’enfance et insertion – Édition 2022. Panoramas de la DREES - Social, DREES, décembre.](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/panoramas-de-la-drees/laide-et-laction) 
-
-- [Sarah Abdouni, 2019, « Aide sociale aux personnes âgées ou handicapées : les départements ont attribué 2 millions de prestations fin 2018 », Études et Résultats, n°1129, DREES octobre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/aide-sociale-aux-personnes-agees-ou-handicapees-les-departements) 
-
-- [Cheikh Tidiane Diallo, 2019, « Le ralentissement des dépenses d’aide sociale des départements se confirme en 2017 », Études et Résultats, n°1105, DREES, février.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/le-ralentissement-des-depenses-daide-sociale-des-departements-se) 
-
 ----
 
 ## **ID_indicateur :** pmi_eff_auxpuer, pmi_eff_cconj, pmi_eff_eje, pmi_eff_ide, pmi_eff_med, pmi_eff_psy, pmi_eff_puer, pmi_eff_sagefemme
@@ -1044,3 +921,5 @@ Effectifs des personnels de PMI par métier
 **Descriptif :** 
 
 ETP des personnels de PMI par métier
+
+----

@@ -1,4 +1,4 @@
-# Indicateurs provenant de Finess
+# Indicateurs provenant de [Finess](#finess)
 
 ## **ID_indicateur :** ase_tx_equip_1000_0_20
 
@@ -93,26 +93,6 @@ L'enquête de la DREES auprès des établissements d'aide sociale à l'enfance e
 Attention aux comparaisons dans le temps au niveau départemental. En particulier le calcul du taux d'équipement a été légèrement modifié entre 2012 et 2013, suite à une révision des catégories d'établissement retenues dans [Finess](#finess).
 
 L'enquête auprès des établissements et services de la protection de l’enfance (ES-PE)
-
- **Pour en savoir plus :**
-
-- [Amrous N. (dir.). (2023). L'aide sociale à l'enfance - Edition 2023. Dossier de la Drees, octobre](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/les-dossiers-de-la-drees/laide-sociale-lenfance-edition-2023) 
-
-- [Abassi É., 2023, « Les jeunes quittant les établissements de l’aide sociale à l’enfance », Les Dossiers de la DREES, n°106, Drees, février.](https://drees.solidarites-sante.gouv.fr/publications/les-dossiers-de-la-drees/les-jeunes-quittant-les-etablissements-de-laide-sociale) 
-
-- [Abassi, É., Tortel A., 2023, « Un quart des mineurs non accompagnés (MNA) dormaient en centre d’hébergement ou dans la rue avant leur entrée en établissement de l’aide sociale à l’enfance (ASE) », Études et Résultats, n°1256, Drees, février.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/un-quart-des-mineurs-non-accompagnes-mna-dormaient-en-centre) 
-
-- [Abassi É., 2020, « 61 000 enfants, adolescents et jeunes majeurs hébergés fin 2017 dans les établissements de l’aide sociale à l’enfance », Les Dossiers de la DREES, n°55, Drees, mai.](https://drees.solidarites-sante.gouv.fr/publications/les-dossiers-de-la-drees/61-000-enfants-adolescents-et-jeunes-majeurs-heberges-fin) 
-
-- [Emmanuel Pliquet, 2016, « Aide sociale à l’enfance : 55 000 enfants et adolescents hébergés en établissements », Études et Résultats, n°974, Drees, septembre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/aide-sociale-lenfance-55-000-enfants-et-adolescents-heberges-en) 
-
-- [Emmanuel Pliquet, 2016, « Fin 2012, les établissements relevant de l’aide sociale à l’enfance offrent 60 000 places d’hébergement », Études et Résultats, n°955, Drees, mars.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/fin-2012-les-etablissements-relevant-de-laide-sociale-lenfance)
-
-- [Mainaud T., 2012, « Les établissements et services en faveur des enfants et adolescents en difficulté sociale. Activité, personnel et clientèle au 15 décembre 2008 », Document de travail, Série Statistiques, n°173, Drees, septembre.](https://drees.solidarites-sante.gouv.fr/publications/documents-de-travail-1998-2019/les-etablissements-et-services-en-faveur-des-enfants-et) 
-
-- [Mainaud T., 2011, « 50 000 enfants et adolescents en difficulté sociale hébergés en établissements. Résultats de l’enquête ES 2008 », Études et Résultats, DREES, n° 778, octobre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/50-000-enfants-et-adolescents-en-difficulte-sociale-heberges-en)
-
-- [Mainaud T., 2010, « Les établissements hébergeant des enfants et des adolescents en difficulté sociale », études et résultats n°743.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/les-etablissements-hebergeant-des-enfants-et-des-adolescents-en) 
 
 ----
 
@@ -251,29 +231,6 @@ Numérateur : nombre de places en établissement d'hébergement pour personnes �
 > [Finess](#finess) est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
 L'enquête de la DREES auprès des établissements d'hébergement pour personnes âgées ([EHPA](#ehpa)) est quadriennale. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de [Finess](#finess) en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans [Finess](#finess) et un important travail de mise en cohérence est alors mené."
 
-
-**Pour en savoir plus :** 
-
-- [Balavoine A., 2023, « Résidences autonomie : avant le début de la crise sanitaire, le nombre de places augmentait, mais celui des résidents diminuait », Études et Résultats, n°284, novembre](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-article/etudes-et-resultats/residences-autonomie-avant-le-debut)
-
-- [Balavoine A., 2022, « Des résidents de plus en plus âgés et dépendants dans les établissements d’hébergement pour personnes âgées », Études et Résultats, n°1237, juillet.](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/des-residents-de-plus-en-plus-ages-et)
-
-- [MULLER M., Roy D., 2018, « L’Ehpad, dernier lieu de vie pour un quart des personnes décédées en France en 2015 », Études et Résultats, n°1094, novembre](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/lehpad-dernier-lieu-de-vie-pour-un-quart-des-personnes-decedees-en)
-
-- [MULLER M., 2018, « L’enquête EHPA 2015 - Les différentes phases de l’enquête », Document de travail, Série sources et méthodes, n°67,Août.](https://drees.solidarites-sante.gouv.fr/publications/documents-de-travail-1998-2019/lenquete-ehpa-2015-les-differentes-phases-de-lenquete-0)
-
-- [Bazin M. et Muller M., 2018, « Le personnel et les difficultés de recrutement dans les Ehpad », Études et Résultats, n°1067, juin.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/le-personnel-et-les-difficultes-de-recrutement-dans-les-ehpad)
-
-- [Muller M., 2017, « 728 000 résidents en établissements d’hébergement pour personnes âgées en 2015 », Études et résultats n°1015, juillet.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/728-000-residents-en-etablissements-dhebergement-pour-personnes)
-
-- [Makdessi Y., Pradines N., 2016, « En EHPAD, les résidents les plus dépendants souffrent davantage de pathologies aigües », Études et résultats n°989, décembre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/en-ehpad-les-residents-les-plus-dependants-souffrent-davantage-de)
-
-- [Volant S., 2014, « 693 000 résidents en établissements d’hébergement pour personnes âgées en 2011 », Études et résultats n°899, décembre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/693-000-residents-en-etablissements-dhebergement-pour-personnes)
-
-- [Ramos-Gorand M., Volant S., 2014, « Accessibilité et accès aux établissements d’hébergement pour personnes âgées en 2011 », Études et résultats n°891, septembre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/accessibilite-et-acces-aux-etablissements-dhebergement-pour)
-
-- [Sabrina Volant, 2014, « L’offre en établissements d’hébergement pour personnes âgées en 2011 », Études et Résultats, n°877, Drees, Février](https://drees.solidarites-sante.gouv.fr/publications/dossiers-solidarite-et-sante-1998-2016/accessibilite-de-loffre-en-etablissements)
-
 ----
 
 ## **ID_indicateur :** ph_adultes_etab_crp_cpo_ueros, ph_adultes_etab_eat, ph_adultes_etab_esat, ph_adultes_etab_exp, ph_adultes_etab_fam_eam, ph_adultes_etab_foyers_ph, ph_adultes_etab_mas, ph_adultes_etab_savs_samsah, ph_adultes_etab_ssiad_spasah
@@ -400,35 +357,6 @@ L'enquête de la DREES auprès des établissements et services pour personnes ha
 
 Attention aux comparaisons dans le temps au niveau départemental. En particulier le calcul du taux d'équipement a été légèrement modifié entre 2011 et 2012, suite à une révision des catégories d'établissement retenues dans [Finess](#finess).
 
-
-
-**Pour en savoir plus :**
-
-- [Bellamy V., Bergeron T., 2022, « 312 000 personnes sont accompagnées dans les établissements et services médico-sociaux pour adultes handicapés fin 2018 », Études et Résultats, DREES, n°1247, novembre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/312-000-personnes-sont-accompagnees-dans-les-etablissements-et)
-
-- Kupska N., Bellamy V.,2022, « Deux tiers des adultes handicapés accompagnés par des structures dédiées bénéficient d’une protection juridique fin 2018 », Études et Résultats, DREES, n°1246, novembre.
-
-- [Thomas Bergeron, 2022, « Près de 170 000 enfants et adolescents handicapés sont accompagnés dans des structures dédiées fin 2018 », Études et Résultats, DREES, n°1231, mai.](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/pres-de-170-000-enfants-et-adolescents)
-
-- [Bellamy V., 2022, « 25 000 jeunes accompagnés par les structures pour enfants et adolescents handicapés sont bénéficiaires de l’aide sociale à l’enfance », Études et Résultats,  DREES, n°1230, mai.](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/25-000-jeunes-accompagnes-par-les-structures)
-
-- [Thomas Bergeron, Jean-Sébastien Eideliman, 2018, « Les personnes accueillies dans les établissements et services médico-sociaux pour enfants ou adultes handicapés en 2014 - Résultats de l’enquête ES-Handicap 2014 », Les Dossiers de la DREES, DREES, n°28, juillet.](https://drees.solidarites-sante.gouv.fr/publications/les-dossiers-de-la-drees/les-personnes-accueillies-dans-les-etablissements-et-services)
-
-- [Bergeron, T., Dauphin, L., 2020, L’offre d’accueil des personnes handicapées dans les établissements et services médico-sociaux fin 2018. Études et résultats, n°1170, décembre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/loffre-daccueil-des-personnes-handicapees-dans-les-0)
-
-- [Ida Falinower , 2016, « L’offre d’accueil des personnes handicapées dans les établissements et services médico-sociaux entre 2010 et 2014 », Études et Résultats, n°975, Drees, septembre.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/loffre-daccueil-des-personnes-handicapees-dans-les-etablissements)
-
-- [Thomas Irace, Delphine Roy, 2016, « Amendement Creton : 6 000 jeunes adultes dans des établissements pour enfants handicapés », Études et Résultats, n°946, Drees, janvier.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/amendement-creton-6-000-jeunes-adultes-dans-des-etablissements)
-
-- [B. MORDIER, 2013, « L’accueil des adultes handicapés dans les établissements et services médico-sociaux en 2010 » , Études et Résultats, DREES, n°833, février.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/laccueil-des-adultes-handicapes-dans-les-etablissements-et)
-
-- [Y. MAKDESSI, 2013, « L’accueil des enfants handicapés dans les établissements et services médico-sociaux en 2010 » , Études et Résultats, DREES, n°832, février.](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/laccueil-des-enfants-handicapes-dans-les-etablissements-et)
-
-- [Makdessi Y., Mordier B., 2013, « Établissements et services pour adultes handicapés. Résultats de l’enquête ES 2010 », Document de travail, DREES, Série Statistiques, n°180, mai.](https://drees.solidarites-sante.gouv.fr/publications/documents-de-travail-1998-2019/les-etablissements-et-services-pour-adultes-handicapes)
-
-- [Makdessi Y., Mordier B., 2013, « Établissements et services pour enfants et adolescents handicapés. Résultats de l’enquête ES 2010 », Document de travail, DREES, Série Statistiques, n°177, mars.](https://drees.solidarites-sante.gouv.fr/publications/documents-de-travail-1998-2019/etablissements-et-services-pour-enfants-et-adolescents)
-
-
 ----
 
 ## **ID_indicateur :** ph_enfants_etab_camsp, ph_enfants_etab_cmpp, ph_enfants_etab_etab_acc_temp, ph_enfants_etab_exp, ph_enfants_etab_foyer_heberg, ph_enfants_etab_iem, ph_enfants_etab_ime, ph_enfants_etab_itep, ph_enfants_etab_jardins_enf_spe, ph_enfants_etab_jeunes_def_sens, ph_enfants_etab_polyhandicap, ph_enfants_etab_sessad
@@ -470,21 +398,4 @@ L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la p
 
 Cet indicateur y contribue par la description de l’offre d'accueil et d'accompagnement des personnes en situation de handicap, enfant ou adulte.
 
--------------------------- 
-
-# **Sources statistiques**
-
-## **Finess**
-Le Fichier National des Établissements Sanitaires et Sociaux (FINESS) est la principale source d’information sur les équipements des établissements. Mis à jour par les agences régionales de santé (ARS) et les directions régionales de la jeunesse et de la cohésion sociale (DRJSCS), il permet une identification précise des établissements, recense les lits et places autorisés et installés par discipline, et les équipements lourds de chaque structure.
-
-[Accéder à Finess](https://finess.esante.gouv.fr/fininter/jsp/index.jsp)
-
-[Accéder au Panorama statistique](https://drees.solidarites-sante.gouv.fr/sites/default/files/panorama/)*
-
-## **Enquête auprès des établissements d’Hébergement pour Personnes Âgées**
-
-[L’enquête auprès des établissements d’hébergement pour personnes âgées (EHPA)](https://drees.solidarites-sante.gouv.fr/sources-outils-et-enquetes/07-lenquete-aupres-des-etablissements-dhebergement-pour-personnes-agees)
-
-[Données détaillées de l'enquête EHPA](https://drees2-sgsocialgouv.opendatasoft.com/explore/dataset/587_l-enquete-aupres-des-etablissements-d-hebergement-pour-personnes-agees-ehpa/information/)
-
-[Enquête auprès des établissements pour personnes handicapées](https://drees.solidarites-sante.gouv.fr/sources-outils-et-enquetes/lenquete-aupres-des-etablissements-et-services-pour-enfants-et-adultes)
+----
