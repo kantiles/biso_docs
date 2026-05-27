@@ -15,6 +15,16 @@ Il réunit les trois objets.
 
 ## Structure
 
-La documentation se décompose en quatres fichiers selon leurs sources :
+La documentation se décompose en quatre fichiers selon leurs sources :
 
 - [Indicateurs basés sur Finess](finess.md)
+- [Indicateurs basés sur AS](as.md)
+- [Indicateurs basés sur le RP](rp.md)
+- [Indicateurs basés sur d'autres sources](autre.md)
+
+Plus un fichier pour les éléments communs :
+- [Sources statistiques et définitions](meta.md)
+
+Un script permet leur agrégation et la production d'un document pdf : 
+
+- [Script d'agregation](R/insertion_lignes.R)
