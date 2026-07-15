@@ -79,7 +79,6 @@ Comparaisons spatiales et temporelles
 
 Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'étant pas disponibles à ce niveau de détail. 
 
-
 ----
 
 ## **ID_indicateur :** ase_depenses_nettes
@@ -111,7 +110,6 @@ Comparaisons spatiales et temporelles
 **Qualité et limites :**
 
 Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'étant pas disponibles à ce niveau de détail. 
-
 
 ----
 
@@ -157,7 +155,7 @@ Nombre d'enfants confiés à l'ASE par une mesure judiciaire de placement et nom
 
 ----
 
-## **ID_indicateur :** ase_part_aed_actions_educatives, ase_part_aed_mesures
+## **ID_indicateur :** ase_part_aed_actions_educatives, ase_tx_actions_educ_0_20
 
 **Source :** DREES, Enquête Aide sociale
 
@@ -191,7 +189,7 @@ L’action éducative à domicile (AED) est une décision administrative prise p
 
 ----
 
-## **ID_indicateur :** ase_part_benef_autonome, ase_part_benef_autres, ase_part_enf_confies_etab
+## **ID_indicateur :** ase_part_aed_mesures, ase_tx_mesures_0_20
 
 **Source :** DREES, Enquête Aide sociale
 
@@ -201,7 +199,58 @@ L’action éducative à domicile (AED) est une décision administrative prise p
 
 **Descriptif :** 
 
-**Numérateur :** Nombre d'enfants confiés par mode d'hébergement principal<>
+Taux de mesures d'aide sociale à l'enfance pour 100 jeunes de 0 à 20 ans, au 31 décembre
+
+-**Numérateur :** Nombre de mesures au 31 décembre, par type de mesures
+-**Dénominateur :** Population de moins de 21 ans du département, au 01/01/N+1
+
+Sont pris en compte les actions éducatives à domicile (AED), les actions éducatives en milieu ouvert (AEMO), et l'ensemble des mesures de placements (placements directs par le juge en établissement et chez un tiers digne de confiance et placements ASE).
+
+Déclinaison par sous-population : Taux de mesures totales (mesures de placements et actions éducatives) dans la population des 0-20 ans ; Part des actions éducatives à domicile (AED) dans l'ensemble des mesures d'aide sociale à l'enfance ; Taux d'actions éducatives dans la population des 0-20 ans ; Part des actions éducatives à domicile dans l'ensemble des actions éducatives ; Taux de mesures de placements (enfants accueillis à l'ASE) dans la population des 0-20 ans ; Part des placements directs parmi les mesures de placement ; Part des mesures judiciaires parmi les enfants confiés ; Répartition par mode d'hébergement principal des enfants confiés à l'ASE
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs à la protection de l'enfance et de la jeunesse en danger est de mesurer la part de la population des mineurs et jeunes majeurs en risque de danger, ou en danger, ou encore bénéficiaires d'une mesure d'aide sociale à l'enfance ainsi que l'offre d'accueil existant pour ces publics.
+
+Cet indicateur y contribue en évaluant la part des mineurs et jeunes majeurs pris en charge par la protection de l'enfance. 
+
+**Définition :**
+
+En dehors des aides financières (allocations mensuelles et de secours), l’aide sociale à l’enfance (ASE) recouvre deux prestations principales : les actions éducatives et les mesures de placement. Ces prestations sont accordées lorsque la santé de l’enfant, sa sécurité, son entretien ou son éducation l’exigent.
+
+L’action éducative à domicile (AED) est une décision administrative prise par le président du conseil départemental à la demande des parents ou avec leur accord. Elle est exercée en milieu familial, pour :
+
+- apporter un soutien éducatif, psychologique aux mineurs, à leur famille, aux mineurs émancipés et aux jeunes majeurs âgés de moins de vingt et un ans. Ce soutien est exercé par des travailleurs sociaux (notamment éducateurs spécialisés et psychologues) appartenant aux services départementaux de l’ASE ou à un service habilité. Ils aident les parents dans l’exercice de leur autorité, ou permettent des liens avec les institutions, dont l’école ;
+- éviter le placement hors du milieu familial, préparer un placement ou, à l’issue de celui-ci, préparer le retour dans la famille.
+L’action éducative en milieu ouvert (AEMO), exercée en vertu d’un mandat judiciaire, poursuit le même but que l’AED, mais contrairement à cette dernière, elle est contraignante à l’égard des familles, puisqu'elle s'impose à elles (ces dernières peuvent faire appel de la décision).
+
+Les mesures de placement à l’ASE sont de trois types :
+
+- les mesures administratives sont décidées par le président du conseil départemental sur demande ou en accord avec la famille. Ce sont les accueils provisoires de mineurs, les accueils provisoires de jeunes majeurs et des pupilles de l’État ;
+- les mesures judiciaires sont décidées par le juge des enfants. L’enfant est alors confié au service de l’ASE qui détermine les modalités de son placement. Elles comprennent la délégation de l’autorité parentale à l’ASE, le retrait partiel de l’autorité parentale, la tutelle d’État déférée à l’ASE, et le placement à l’ASE par le juge au titre de l’assistance éducative ou de l’ordonnance de 1945 sur l’enfance délinquante ;
+- les placements directs comprennent le placement par un juge auprès d’un établissement ou d’un tiers digne de confiance et la délégation de l’autorité parentale à un particulier ou à un établissement.
+
+**Intérêt de l’indicateur et interprétation :**
+
+Comparaisons spatiales, comparaisons dans le temps
+
+**Qualité et limites :**
+
+Le nombre de mesures diffère du nombre de jeunes, certains d'entre eux pouvant bénéficier de plusieurs mesures.
+
+----
+
+## **ID_indicateur :** ase_part_benef_autonome, ase_part_benef_autres, ase_part_enf_confies_etab, ase_part_enf_confies_assfam, ase_part_placements_directs, ase_part_mesures_judiciaires, ase_tx_mesures_placement_0_20, ase_part_jeunes_majeurs
+
+**Source :** DREES, Enquête Aide sociale
+
+**Dates :** 2002 à 2024
+
+**Périodicité :**	Annuelle
+
+**Descriptif :** 
+
+**Numérateur :** Nombre d'enfants confiés par mode d'hébergement principal
 **Dénominateur :** Population de moins de 21 ans du département au 01/01/N+1
 
 Sont pris en compte les actions éducatives à domicile (AED), les actions éducatives en milieu ouvert (AEMO), et l'ensemble des mesures de placements (placements directs par le juge en établissement et chez un tiers digne de confiance et placements ASE).
@@ -214,7 +263,7 @@ Cet indicateur y contribue en évaluant la part des mineurs et jeunes majeurs pr
 
 **Définition :**
 
-Nombre de mineurs et jeunes majeurs concernés par au moins une mesure en fin d’année pour 1000 jeunes de 0 à 20 ans révolus du département.
+Nombre de mineurs et jeunes majeurs concernés par au moins une mesure en fin d’année pour 100 jeunes de 0 à 20 ans révolus, part des placements directs dans les mesures de placement, part des mesures judiciaires parmi les enfants confiés et répartition par mode d'hébergement principal des enfants confiés.
 
 Sont pris en compte les actions éducatives à domicile (AED), les actions éducatives en milieu ouvert (AEMO), et l'ensemble des mesures de placements (placements directs par le juge en établissement et chez un tiers digne de confiance et placements ASE).
 En dehors des aides financières (allocations mensuelles et de secours), l’aide sociale à l’enfance (ASE) recouvre deux prestations principales : les actions éducatives et les mesures de placement. Ces prestations sont accordées lorsque la santé de l’enfant, sa sécurité, son entretien ou son éducation l’exigent.
@@ -595,7 +644,6 @@ Part des bénéficiaires de l'APA parmi la population de 60 ans et plus, à domi
 - **Numérateur :** Nombre de bénéficiaires de l'APA de la classe d'âge considérée, à domicile ou en établissement durant l'année N
 - **Dénominateur :** Nombre de personne de la classe d'âge considérée
 
-
 Déclinaison par sous-population : Bénéficiaires à domicile / Bénéficiaires en établissement (sous dotation globale ou non)
 Nombre d'habitants de 60 ans et plus; Nombre d'habitants de 75 ans et plus
 
@@ -658,13 +706,13 @@ Les départements financent une partie des dépenses d’hébergement des person
 Résidences autonomie (anciennement « logements-foyers ») : Établissements proposant un accueil en logement regroupé aux personnes âgées, groupes de logements ou de chambres autonomes assortis d’équipements ou de services collectifs dont l’usage est facultatif.
 Établissements de soins de longue durée (USLD) : Établissements rattachés à des hôpitaux qui assurent un hébergement de longue durée aux personnes âgées dépendantes dont l’état de santé nécessite des soins médicaux lourds et une surveillance médicale constante.
 
-Places en établissement: DREES, DRJSCS et Exploitation du [Finess](#finess)
+Places en établissement: DREES, DRJSCS et Exploitation du FINESS
 Le panorama statistique « Jeunesse, Sports, Cohésion sociale » présente des données départementales et régionales homogènes sur la démographie, la politique de la ville, la pauvreté, la précarité et l’exclusion, le handicap et la dépendance, le logement et l’hébergement, la jeunesse, l’enfance et la protection de l’enfance, le sport, la délivrance de certains diplômes (professions sociales, profession de santé, animation socio culturelle et métiers du sport), enfin, l’emploi dans les domaines associatif et sportif.
 
-Le Fichier National des Établissements Sanitaires et Sociaux ([Finess](#finess)) est la principale source d’information sur les équipements des établissements. Mis à jour par les agences régionales de santé (ARS) et les directions régionales de la jeunesse et de la cohésion sociale (DRJSCS), il permet une identification précise des établissements, recense les lits et places autorisés et installés par discipline, et les équipements lourds de chaque structure.
+Le Fichier National des Établissements Sanitaires et Sociaux (FINESS) est la principale source d’information sur les équipements des établissements. Mis à jour par les agences régionales de santé (ARS) et les directions régionales de la jeunesse et de la cohésion sociale (DRJSCS), il permet une identification précise des établissements, recense les lits et places autorisés et installés par discipline, et les équipements lourds de chaque structure.
 
 La Statistique annuelle des établissements de santé (SAE) est une enquête administrative exhaustive et obligatoire auprès des établissements de santé installés en France (métropole et DROM) y compris les structures qui ne réalisent qu’un seul type d’hospitalisation ou qui ont une autorisation pour une seule activité de soins. Les données sont collectées par la DREES.
- 
+
 Bénéficiaires de l'ASH : DREES, enquête Aide sociale, menée auprès des conseils départementaux
 
 **Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles.
@@ -674,8 +722,8 @@ Cet indicateur peut être rapproché des données de contexte sur le taux de pau
 
 - Certaines personnes âgées sont bénéficiaires de l'ASH dans leur département d'origine tout en étant hébergées dans un autre département. L'interprétation de l'indicateur serait donc à nuancer selon l'importance des flux de personnes entre départements.
 
-- [Finess](#finess) est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
-L'enquête de la DREES auprès des établissements d'hébergement pour personnes âgées. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de [Finess](#finess) en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans [Finess](#finess) et un important travail de mise en cohérence est alors mené.
+- FINESS est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
+L'enquête de la DREES auprès des établissements d'hébergement pour personnes âgées. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de FINESS en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans FINESS et un important travail de mise en cohérence est alors mené.
 
 ----
 
@@ -709,7 +757,6 @@ L'objectif stratégique des indicateurs financiers est de fournir quelques élé
 
 Cet indicateur y contribue en estimant le coût moyen de la principale dépense du département à destination des personnes handicapées et en évaluant son coût global normé par la taille de la population du département.
 
-
 **Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles, les variations spatiales sont en partie liées au contexte départemental.
 
 **Qualité et limites :**
@@ -732,13 +779,11 @@ Dépenses brutes : dépenses de l'année avant déduction des recouvrements, rem
 
 Dépenses brutes et nettes totales d'aides sociales aux personnes handicapées
 
-
 **Objectif :**
 
 L'objectif stratégique des indicateurs financiers est de fournir quelques éléments élémentaires de comparaison de coût et de dépenses, afin de compléter l'analyse des indicateurs thématiques. Ils ne peuvent permettre une analyse d’efficience rapportant les résultats aux moyens engagés.
 
 Cet indicateur y contribue en estimant le coût moyen de la principale dépense du département à destination des personnes handicapées et en évaluant son coût global normé par la taille de la population du département.
-
 
 **Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles, les variations spatiales sont en partie liées au contexte départemental.
 
@@ -774,7 +819,6 @@ L'objectif stratégique des indicateurs financiers est de fournir quelques élé
 
 Cet indicateur y contribue en estimant le coût moyen de la principale dépense du département à destination des personnes handicapées et en évaluant son coût global normé par la taille de la population du département.
 
-
 **Intérêt de l’indicateur et interprétation :** Mesurer l'évolution de la charge financière par habitant liée à la PCH et l'ACTP
 Mesurer les variations départementales en termes de charge totale rapportée à la taille du département et en termes de coût moyen par bénéficiaire, en partie liées au contexte départemental
 
@@ -802,7 +846,6 @@ L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la p
 
 Cet indicateur y contribue en mesurant la part de la population reconnue en situation de handicap et bénéficiaire de la PCH ou de l'ACTP parmi l'ensemble de la population.
 
-
 **Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles, les variations spatiales sont en partie liées au contexte départemental.
 
 ----
@@ -824,7 +867,6 @@ Nombre de bénéficiaires de la PCH et/ou de l'ACTP de plus ou moins de 60 ans.
 L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la part de la population en situation de handicap et des aides qui leur sont attribuées, selon différentes dimensions : risque de handicap, handicap ressenti, handicap reconnu, aides ou prestations attribuées, offre d'accueil et d'accompagnement. 
 
 Cet indicateur y contribue en mesurant la part de la population reconnue en situation de handicap et bénéficiaire de la PCH ou de l'ACTP parmi l'ensemble de la population.
-
 
 **Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles, les variations spatiales sont en partie liées au contexte départemental.
 
@@ -875,7 +917,6 @@ Cet indicateur y contribue en mesurant la part de la population reconnue en situ
 
 **Définition :**
 
-
 Mise en place en 2006, la prestation de compensation (PCH) est versée par les conseils départementaux aux personnes handicapées, qu’elles vivent à leur domicile ou qu’elles résident en établissement. C’est une aide personnalisée, visant à financer les besoins de compensation des personnes au regard de leur projet de vie. Elle concerne les aides humaines, les aides techniques et matérielles (par exemple : aménagement du logement et du véhicule), les aides animalières. Peuvent en bénéficier les personnes reconnues éligibles à la PCH par les commissions des droits et de l’autonomie des personnes handicapées (CDAPH).
 
 Le dispositif de l’ACTP (allocation compensatrice pour tierce personne) est remplacé par celui de la PCH, en vigueur au 1er janvier 2006. Cependant, les personnes admises au bénéfice de l’ACTP avant cette date peuvent continuer à la percevoir, tant qu’elles en remplissent les conditions d’attribution et qu’elles en expriment le choix, à chaque renouvellement des droits.
@@ -921,5 +962,3 @@ Effectifs des personnels de PMI par métier
 **Descriptif :** 
 
 ETP des personnels de PMI par métier
-
-----

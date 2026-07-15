@@ -1,6 +1,6 @@
 # Indicateurs provenant de sources diverses
 
-## **ID_indicateur :** pop_tot, pop_m20, pop_m25, pop_25_64, pop_65p, pop_75p, pop_80p, pop_85p
+## **ID_indicateur :** pop_tot, pop_m20, pop_m25, pop_25_64, pop_65p, pop_75p, pop_80p, pop_85p, pop_part_25_64, pop_part_65p, pop_part_75p, pop_part_80p, pop_part_85p, pop_part_m20, pop_part_m25
 
 **Source :** Insee, estimations de population et RP
 
@@ -10,6 +10,10 @@
 
 **Descriptif :** 
 
+Population estimée en nombre et en proportion par classe d'âge.
+
+- **Numérateur :** Population de la classe d'âge considérée dans le département
+- **Dénominateur :** Population totale du département
 
 **Objectif :**
 
@@ -18,10 +22,6 @@ L'objectif stratégique des indicateurs de contexte est de caractériser le terr
 Cet indicateur y contribue en définissant l’équilibre des âges sur le territoire.
 
 **Définition :** 
-
-[Etat-civil](https://www.insee.fr/fr/metadonnees/source/serie/s1170)
-[Âge](https://www.insee.fr/fr/metadonnees/definition/c1187)
-[Sources et méthodes : Estimations de population](https://www.insee.fr/fr/metadonnees/source/serie/s1169)
 
 Classes d'âge utilisées :
 
@@ -54,7 +54,7 @@ Les résultats sont provisoires ; ils deviennent définitifs avec le recensement
 
 **Descriptif :** 
 
-[Juge des enfants](https://www.insee.fr/fr/metadonnees/definition/c1542)
+Juge des enfants
 
 Chaque année, les Tribunaux de Grande Instance produisent un Tableau de Bord concernant l’activité du juge des enfants en matière civile. Ce Tableau de Bord s’intéresse à l’activité de leur juridiction en matière d’assistance éducative.
 
@@ -124,7 +124,7 @@ La part des saisines du parquet et des saisines d’office dont l’origine est 
 
 **Définition :** 
 
-[Catégories de demandes d'emploi établies par arrêté : https://www.insee.fr/fr/metadonnees/definition/c2010](https://www.insee.fr/fr/metadonnees/definition/c2010)
+Catégories de demandes d'emploi établies par arrêté
 
 Cet indicateur est enrichi, à partir de la vague 1 de mise à jour en 2019, par des indicateurs de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
 
@@ -156,7 +156,7 @@ Les demandeurs d’emplois inscrits dans les catégories ABC ne sont pas tous ch
 Des changements de mode de gestion à Pôle emploi peuvent affecter les variations enregistrées.
 Ne pas confondre avec un taux de CLD (chômeurs DEFM longue durée parmi les DEFM chômeurs).
 
----
+----
 
 ## **ID_indicateur :** chom_part_defm_abc_pop_age_trav, chom_part_defm_longue_duree_defm, chom_part_defm_longue_duree_pop_15_24, chom_part_defm_longue_duree_pop_15_64, chom_part_defm_longue_duree_pop_25_49, chom_part_defm_longue_duree_pop_50_65,chom_part_defm_longue_duree_pop_femmes, chom_part_defm_longue_duree_pop_hommes, chom_repart_defm_abc_pop_50p, chom_repart_defm_abc_pop_femmes, chom_repart_defm_abc_pop_m25
 
@@ -181,7 +181,7 @@ Autres indicateurs :
 
 **Définition :** 
 
-[Catégories de demandes d'emploi établies par arrêté : https://www.insee.fr/fr/metadonnees/definition/c2010](https://www.insee.fr/fr/metadonnees/definition/c2010)
+Catégories de demandes d'emploi établies par arrêté
 
 Cet indicateur est enrichi, à partir de la vague 1 de mise à jour en 2019, par des indicateurs de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
 
@@ -238,8 +238,7 @@ Nombre de diplômes délivrés dans les formations aux professions sociales, y c
 
 Ces données ne sont disponibles qu'au niveau régionnal.
 
-
----
+----
 
 ## **ID_indicateur :** cont_esp_vie_60_f, cont_esp_vie_60_h, cont_esp_vie_65_f, cont_esp_vie_65_h, cont_esp_vie_naissance_f, cont_esp_vie_naissance_h
 
@@ -250,8 +249,6 @@ Ces données ne sont disponibles qu'au niveau régionnal.
 **Périodicité :**	Annuelle
 
 **Définition :** 
-
-[Espérance de vie](https://www.insee.fr/fr/metadonnees/definition/c1374)
 
 L'espérance de vie à l'âge x représente, pour une année donnée, l'âge moyen au décès des individus d'une génération fictive d'âge x qui auraient, à chaque âge, la probabilité de décéder observée cette année-là au même âge.
 Autrement dit, elle est le nombre moyen d'années restant à vivre au-delà de cet âge x (ou durée de survie moyenne à l'âge x), dans les conditions de mortalité par âge de l'année considérée.
@@ -274,9 +271,9 @@ Comparaisons spatiales utiles : situer les territoires par rapport au niveau na
 
 Les résultats (estimations de population) sont provisoires ; ils deviennent définitifs avec le recensement de la population.
 
----
+----
 
-## **ID_indicateur :** cont_nb_deces_domicilies
+## **ID_indicateur :** cont_nb_deces_domicilies, cont_nb_naissances
 
 **Source :** Insee, Etat civil ; estimations de population
 
@@ -286,7 +283,7 @@ Les résultats (estimations de population) sont provisoires ; ils deviennent dé
 
 **Définition :** 
 
-Nombre de décés domiciliés dans l'année.
+Nombre de décés domiciliés et de naissance dans l'année.
 
 Avertissement : le total des décès domiciliés est différent de celui des tableaux nationaux, qui comptabilisent les décès enregistrés. 
 Par ailleurs, le total France comprend les décès de Mayotte. Toutefois, pour ce département, les données sur les décès sont à considérer prudemment car elles sont probablement sous-estimées. 
@@ -306,9 +303,9 @@ Les disparités spatiales sont en partie liées aux différences de composition 
 Les résultats (estimations de population) sont provisoires ; ils deviennent définitifs avec le recensement de la population.
 Attention aux faibles effectifs concernés dans certains départements.
 
----
+----
 
-## **ID_indicateur :** cont_nb_entrees_apprentissage_30m,
+## **ID_indicateur :** cont_nb_entrees_apprentissage_30m
 
 **Source :** Dares
 
@@ -320,9 +317,9 @@ Attention aux faibles effectifs concernés dans certains départements.
 
 Nombre d'entrées de jeunes de 30 ans ou moins en contrat d'apprentissage
 
----
+----
 
-## **ID_indicateur :** cont_nb_entrees_emplois_francs,
+## **ID_indicateur :** cont_nb_entrees_emplois_francs
 
 **Source :** Dares
 
@@ -334,9 +331,9 @@ Nombre d'entrées de jeunes de 30 ans ou moins en contrat d'apprentissage
 
 Nombre d'entrées en emploi franc
 
----
+----
 
-## **ID_indicateur :** cont_nb_entrees_parc_empl_comp_m26,
+## **ID_indicateur :** cont_nb_entrees_parc_empl_comp_m26
 
 **Source :** Dares
 
@@ -348,9 +345,9 @@ Nombre d'entrées en emploi franc
 
 Nombre d'entrées de jeunes de moins de 26 ans en Parcours Emplois Compétences (PEC)
 
----
+----
 
-## **ID_indicateur :** cont_nb_entrees_professionnalisation_m26,
+## **ID_indicateur :** cont_nb_entrees_professionnalisation_m26
 
 **Source :** Dares
 
@@ -362,9 +359,9 @@ Nombre d'entrées de jeunes de moins de 26 ans en Parcours Emplois Compétences 
 
 Nombre d'entrées de jeunes de moins de 26 ans en contrat de professionnalisation
 
----
+----
 
-## **ID_indicateur :** cont_nb_entrees_service_civique_16_25,
+## **ID_indicateur :** cont_nb_entrees_service_civique_16_25
 
 **Source :** Service civique
 
@@ -376,7 +373,7 @@ Nombre d'entrées de jeunes de moins de 26 ans en contrat de professionnalisatio
 
 Nombre d'entrées de jeunes de 16 à 25 ans dans le dispositif du Service Civique
 
----
+----
 
 ## **ID_indicateur :** cont_nb_jeunes_primo_acc_paio_miss_loc, cont_part_jeunes_non_dipl_primo_acc_paio_miss_loc_16_25, cont_part_jeunes_primo_acc_paio_miss_loc_16_25
 
@@ -428,11 +425,11 @@ A rapprocher des indicateurs régionaux concernant les jeunes (source : Céreq)
 Tous les jeunes en difficulté ne s’adressent pas au réseau ML-PAIO
 Données sur le diplôme déclaratives (sous-estimation probable du nombre de jeunes accueillis sans diplôme)
 
----
+----
 
 ## **ID_indicateur :** cont_nb_menages_pauv_revenus_act
 
-**Source :** Insee, [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi))
+**Source :** Insee, FiLoSoFi
 
 **Dates :** 2021
 
@@ -440,12 +437,9 @@ Données sur le diplôme déclaratives (sous-estimation probable du nombre de je
 
 **Définition :** 
 
-[Revenu disponible](https://www.insee.fr/fr/metadonnees/definition/c1458)
-[Unité de consommation](https://www.insee.fr/fr/metadonnees/definition/c1802)
-
 Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
 
-L’origine principale des revenus déclarés : elle correspond au type de revenu qui représente la part la plus importante du revenu total déclaré par le ménage. On distingue 6 catégories de revenus :
+L’origine principale des revenus disponibles déclarés : elle correspond au type de revenu qui représente la part la plus importante du revenu total déclaré par le ménage. On distingue 6 catégories de revenus :
 
 - salaires et traitements hors indemnités de chômage
 - indemnités de chômage
@@ -472,13 +466,13 @@ Comparaisons spatiales : situer les territoires par rapport au niveau national e
 
 **Qualité et limites :**
 
-L'indicateur proposé ne correspond pas à l’indicateur européen “in-work poverty risk” [voir Bardone et Guio, 2005] pour lequel la définition des travailleurs est la suivante : il s’agit des personnes en âge de travailler (18-64 ans) ayant occupé un emploi (effectivement travaillé) plus de 6 mois au cours d’une période de référence de 12 mois. Du fait de l'impossibilité de cerner dans [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi)) les personnes ayant effectivement travaillé plus de 6 mois, le critère d'origine principale des revenus déclarés est utilisé dans ce proxy.
+L'indicateur proposé ne correspond pas à l’indicateur européen “in-work poverty risk” [voir Bardone et Guio, 2005] pour lequel la définition des travailleurs est la suivante : il s’agit des personnes en âge de travailler (18-64 ans) ayant occupé un emploi (effectivement travaillé) plus de 6 mois au cours d’une période de référence de 12 mois. Du fait de l'impossibilité de cerner dans FiLoSoFi les personnes ayant effectivement travaillé plus de 6 mois, le critère d'origine principale des revenus déclarés est utilisé dans ce proxy.
 
 Il est conseillé d’interpréter avec prudence les évolutions de revenus ou de pauvreté entre deux années consécutives à l’échelon local du fait de changements méthodologiques et / ou de législation. 
 
 Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste la source de référence pour les indicateurs d’inégalité des niveaux de vie et de pauvreté. 
 
-Le nouveau dispositif [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi)) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
+Le nouveau dispositif FiLoSoFi crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
 
 Jusqu’au millésime 2019, l’indicateur désigne la part des ménages pauvres parmi ceux dont l’origine principale des revenus déclarés est constituée de revenus d’activité. À partir du millésime 2020, il s’agit des revenus disponibles.
 NE PAS FAIRE DE COMPARAISON ENTRE LES SÉRIES AVANT ET APRÈS 2020
@@ -489,12 +483,12 @@ Les données issues de ce fichier proviennent du rapprochement :
 
 Ces données fournissent de l'information sur le revenu déclaré des ménages fiscaux et permettent de reconstituer leur revenu disponible (c'est-à-dire après la prise en compte des impôts ainsi que des prestations sociales et des revenus financiers non déclarés) aux niveaux infra-communaux, communaux et supra-communaux. 
 
-A partir des données 2012, le dispositif [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi)) remplace les anciens dispositifs Revenus fiscaux localisés (RFL) et Revenus disponibles localisés (RDL).
+A partir des données 2012, le dispositif FiLoSoFi remplace les anciens dispositifs Revenus fiscaux localisés (RFL) et Revenus disponibles localisés (RDL).
 
 Le champ couvert est celui de l'ensemble des ménages fiscaux ordinaires : il exclut les personnes sans domicile ou vivant en institution (prison, foyer, maison de retraite…).
 Les résultats sont fournis pour la France métropolitaine, la Martinique et la Réunion. Aucun résultat n'est donc proposé au niveau France Entière. 
 
----
+----
 
 ## **ID_indicateur :** cont_part_accouch_faible_poids_2500g, cont_part_accouch_tres_faible_poids_1500g
 
@@ -536,7 +530,7 @@ Comparaison dans le temps et entre départements
 
 Dans le PMSI-MCO, il subsiste un risque de surestimation des enfants nés avec un petit poids lié à un mauvais codage possible du mode d'entrée en établissement de santé en cas de transfert, avec un mode d'entrée codé "domicile" au lieu de "transfert", ce qui introduit des doubles comptes. Le numéro anonyme de patient n'est pas alors de qualité suffisante pour permettre d'éliminer ces doublons.
 
----
+----
 
 ## **ID_indicateur :** cont_part_accouch_gde_prema, cont_part_accouch_prema, cont_part_accouch_tres_gde_prema
 
@@ -585,7 +579,7 @@ Comparaison dans le temps et entre les départements
 
 Dans le PMSI-MCO, il subsiste un risque de surestimation des enfants prématurés lié à un mauvais codage possible du mode d'entrée en établissement de santé en cas de transfert, avec un mode d'entrée codé "domicile" au lieu de "transfert", ce qui introduit des doubles comptes. Le numéro anonyme de patient n'est pas alors de qualité suffisante pour permettre d'éliminer ces doublons.
 
----
+----
 
 ## **ID_indicateur :** cont_part_accouch_mere_20_24, cont_part_accouch_mere_25_29, cont_part_accouch_mere_30_34, cont_part_accouch_mere_35_39, cont_part_accouch_mere_40p, cont_part_accouch_mere_m20
 
@@ -622,7 +616,7 @@ Comparaison dans le temps et entre départements
 
 Le nombre de naissances peut être légèrement sous estimé, du fait de l’absence des accouchements à domicile, sans hospitalisation dans les suites immédiates.
 
----
+----
 
 ## **ID_indicateur :** cont_part_eleves_2d_demi_pens_internes, cont_part_eleves_2d_demi_pens_internes_prive, cont_part_eleves_2d_demi_pens_internes_public, cont_part_eleves_2d_demi_pens_internes_public_hors_ep, cont_part_eleves_2d_demi_pens_internes_public_rep, cont_part_eleves_2d_demi_pens_internes_public_rep_plus
 
@@ -646,7 +640,7 @@ Déclinaison par :
 - Statut public/privé
 - rep/repplus/hors rep dans le public
 
----
+----
 
 ## **ID_indicateur :** cont_part_eleves_3e_retard_2ans, cont_part_eleves_6e_retard
 
@@ -683,7 +677,7 @@ Le retard scolaire en primaire est un frein à la fluidité des parcours, il est
 En série longue, l'indicateur reflète les politiques éducatives visant à limiter les redoublements pendant la scolarité élémentaire.
 Les comparaisons dans le temps sont donc délicates pour cette raison.
 
----
+----
 
 ## **ID_indicateur :** cont_part_jeunes_diff_lecture, cont_part_jeunes_grave_diff_lecture
 
@@ -728,11 +722,11 @@ Comparaisons spatiales et temporelles
 Jeunes étrangers non concernés.
 Les jeunes non recensés à temps passent les tests à 18, 19 ou 20 ans et non à 17 ans : des différences entre départements existent sur ce point et peuvent donc induire des différences spatiales dans l'indicateur.
 
----
+----
 
 ## **ID_indicateur :** cont_part_menages_pauv_parmi_revenus_act
 
-**Source :** Insee, [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi))
+**Source :** Insee, FiLoSoFi
 
 **Dates :** 2021
 
@@ -740,12 +734,9 @@ Les jeunes non recensés à temps passent les tests à 18, 19 ou 20 ans et non �
 
 **Définition :** 
 
-[Revenu disponible](https://www.insee.fr/fr/metadonnees/definition/c1458)
-[Unité de consommation](https://www.insee.fr/fr/metadonnees/definition/c1802)
-
 Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
 
-ATTENTION : rupture de série à partir du millésime 2020 de [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi))
+ATTENTION : rupture de série à partir du millésime 2020 de FiLoSoFi
 
 Jusqu’au millésime 2019, l’indicateur INS01 désigne la part des ménages pauvres parmi ceux dont l’origine principale des revenus déclarés est constituée de revenus d’activité. À partir du millésime 2020, il s’agit des revenus disponibles.
 NE PAS FAIRE DE COMPARAISON ENTRE LES SÉRIES AVANT ET APRÈS 2020
@@ -779,15 +770,15 @@ Comparaisons spatiales : situer les territoires par rapport au niveau national e
 
 **Qualité et limites :**
 
-L'indicateur proposé ne correspond pas à l’indicateur européen “in-work poverty risk” [voir Bardone et Guio, 2005] pour lequel la définition des travailleurs est la suivante : il s’agit des personnes en âge de travailler (18-64 ans) ayant occupé un emploi (effectivement travaillé) plus de 6 mois au cours d’une période de référence de 12 mois. Du fait de l'impossibilité de cerner dans [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi)) les personnes ayant effectivement travaillé plus de 6 mois, le critère d'origine principale des revenus déclarés est utilisé dans ce proxy.
+L'indicateur proposé ne correspond pas à l’indicateur européen “in-work poverty risk” [voir Bardone et Guio, 2005] pour lequel la définition des travailleurs est la suivante : il s’agit des personnes en âge de travailler (18-64 ans) ayant occupé un emploi (effectivement travaillé) plus de 6 mois au cours d’une période de référence de 12 mois. Du fait de l'impossibilité de cerner dans FiLoSoFi les personnes ayant effectivement travaillé plus de 6 mois, le critère d'origine principale des revenus déclarés est utilisé dans ce proxy.
 
 Il est conseillé d’interpréter avec prudence les évolutions de revenus ou de pauvreté entre deux années consécutives à l’échelon local du fait de changements méthodologiques et / ou de législation. 
 
 Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste la source de référence pour les indicateurs d’inégalité des niveaux de vie et de pauvreté. 
 
-Le nouveau dispositif [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi)) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
+Le nouveau dispositif FiLoSoFi crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
 
----
+----
 
 ## **ID_indicateur :** cont_proj_pop_2070
 
@@ -801,7 +792,21 @@ Le nouveau dispositif [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-f
 
 Projection de population en 2070
 
----
+----
+
+## **ID_indicateur :** pa_nb_benef_apa_f_60_74_proj, pa_nb_benef_apa_f_60p_proj, pa_nb_benef_apa_f_75_84_proj, pa_nb_benef_apa_f_85p_proj, pa_nb_benef_apa_h_60_74_proj, pa_nb_benef_apa_h_60p_proj, pa_nb_benef_apa_h_75_84_proj, pa_nb_benef_apa_h_85p_proj
+
+**Source :** Drees, modèle LIVIA
+
+**Dates :** 2015 à 2050
+
+**Périodicité :** Ponctuelle
+
+**Définition :** 
+
+Projection 2015-2050 du nombre de bénéficiaires de l'APA par sexe et tranche d'âge.
+
+----
 
 ## **ID_indicateur :** cont_tx_chom_loc
 
@@ -839,9 +844,9 @@ Conjoncture du marché du travail local
 
 **Qualité et limites :**
 
-Par construction (référence aux DEFM, demandeurs d'emploi en fin de mois), le taux de chômage localisé n'est pas un taux de chômage au sens du BIT. Pour plus de précisions : [https://www.insee.fr/fr/metadonnees/source/indicateur/p1660/description](https://www.insee.fr/fr/metadonnees/source/indicateur/p1660/description)
+Par construction (référence aux DEFM, demandeurs d'emploi en fin de mois), le taux de chômage localisé n'est pas un taux de chômage au sens du BIT. 
 
----
+----
 
 ## **ID_indicateur :** cont_tx_mortalite_brut_1000, cont_tx_mortalite_brut_femmes_1000, cont_tx_mortalite_brut_hommes_1000, cont_tx_mortalite_infantile_1000, cont_tx_mortalite_standard_0_64_1000, cont_tx_mortalite_standard_65p_1000
 
@@ -885,7 +890,7 @@ Les résultats (estimations de population) sont provisoires ; ils deviennent dé
 Limites liées aux définitions : l’indicateur standardisé permet de comparer les départements en neutralisant l’effet de structure par âge, mais les taux bruts permettent une meilleure interprétation des évolutions dans le temps.
 Attention aux faibles effectifs concernés dans certains départements.
 
----
+----
 
 ## **ID_indicateur :** cont_tx_scol_2ans
 
@@ -915,9 +920,9 @@ L'objectif stratégique des indicateurs de contexte est de caractériser le terr
 
 Cet indicateur y contribue en mesurant le taux de scolarisation des enfants de deux ans.
 
----
+----
 
-## **ID_indicateur :** dalo_heberg_benef_accueillis, dalo_heberg_benef_accueillis_et_refus, dalo_heberg_decisions, alo_heberg_decisions_favorables, dalo_heberg_recours, dalo_heberg_refus_proposition
+## **ID_indicateur :** dalo_heberg_benef_accueillis, dalo_heberg_benef_accueillis_et_refus, dalo_heberg_decisions, dalo_heberg_decisions_favorables, dalo_heberg_recours, dalo_heberg_refus_proposition
 
 **Source :** Infocentre Dalo
 
@@ -934,7 +939,7 @@ alo_heberg_decisions_favorables : Nombre de décisions favorables "hébergement"
 dalo_heberg_recours : Nombre de recours "hébergement" reçus
 dalo_heberg_refus_proposition : Nombre de refus de proposition adaptée
 
----
+----
 
 ## **ID_indicateur :** dalo_lgmt_benef_reloges, dalo_lgmt_decisions, dalo_lgmt_decisions_favorables, dalo_lgmt_recours, dalo_lgmt_refus_offre, dalo_lgmt_total_reloges_et_refus
 
@@ -953,7 +958,7 @@ dalo_lgmt_recours : Nombre de recours "logement" reçus
 dalo_lgmt_refus_offre : Nombre de refus d’offre adaptée
 dalo_lgmt_total_reloges_et_refus : Total de bénéficiaires logés ou ayant refusé ou n’étant plus à reloger
 
----
+----
 
 ## **ID_indicateur :** dalo_tot_benef_reloges_accueillis, dalo_tot_benef_reloges_accueillis_et_refus, dalo_tot_decisions, dalo_tot_decisions_favorables, dalo_tot_recours, dalo_tot_refus_offre_proposition
 
@@ -972,7 +977,7 @@ dalo_tot_decisions_favorables : Nombre de décisions favorables prises
 dalo_tot_recours : Nombre de recours reçus
 dalo_tot_refus_offre_proposition : Nombre de refus d’offre/ proposition adaptée
 
----
+----
 
 ## **ID_indicateur :** fam_nb_ass_mat, fam_nb_garde_dom
 
@@ -989,7 +994,7 @@ Nombres de :
 - Assistantes maternelles employées par des particuliers
 - Garde d'enfants à domicile employées par des particuliers
 
----
+----
 
 ## **ID_indicateur :** fam_tx_equip_places_100_m3
 
@@ -1003,7 +1008,7 @@ Nombres de :
 
 Taux d'équipement places d'accueil pour 100 enfants de moins de 3 ans
 
----
+----
 
 ## **ID_indicateur :** lgmt_nb_expulsions_locatives, lgmt_nb_expulsions_locatives_conditionnelles, lgmt_nb_expulsions_locatives_fermes, lgmt_tx_expulsions_locatives_1000men
 
@@ -1040,7 +1045,7 @@ L'objectif stratégique des indicateurs relatifs aux minima sociaux et à l'inse
 
 Cet indicateur y contribue en mesurant l’expulsion pour impayé, qui traduit une situation extrême de charge de logement.
 
----
+----
 
 ## **ID_indicateur :** lgmt_nb_dossiers_surendet_energie, lgmt_part_dettes_surendet_energie, lgmt_part_dossiers_surendet_energie
 
@@ -1085,7 +1090,7 @@ Les résultats (estimations de population) sont provisoires ; ils deviennent dé
 Limites liées aux définitions : l’indicateur standardisé permet de comparer les départements en neutralisant l’effet de structure par âge, mais les taux bruts permettent une meilleure interprétation des évolutions dans le temps.
 Attention aux faibles effectifs concernés dans certains départements.
 
----
+----
 
 ## **ID_indicateur :** lgmt_tx_effort_net_median_allocataires_aide
 
@@ -1139,7 +1144,7 @@ L'estimation des charges peut sous-estimer les taux d'effort notamment dans le p
 
 Attention, l'indicateur ne porte actuellement que sur le champ des allocataires de la CNAF, et non sur celui de la CCMSA.
 
----
+----
 
 ## **ID_indicateur :** ms_depenses_brutes_rsa_rso_rmi_cui_cont_avenir, ms_depenses_nettes_rsa_rso_rmi_cui_cont_avenir
 
@@ -1153,9 +1158,9 @@ Attention, l'indicateur ne porte actuellement que sur le champ des allocataires 
 
 Dépenses totales brutes et nettes liées au RSA, RSO, RMI, CUI et contrat d'avenir
 
----
+----
 
-## **ID_indicateur :** ms_nb_alloc_ass, ms_nb_alloc_asv_aspa, ms_nb_alloc_pa, ms_nb_alloc_pa_maj, ms_nb_alloc_pa_non_maj, ms_nb_alloc_rsa_maj_new, ms_nb_alloc_rsa_maj_old, ms_nb_alloc_rsa_non_maj_new, ms_nb_alloc_rsa_non_maj_old, ms_nb_benef_css_ac_ss_part
+## **ID_indicateur :** ms_nb_alloc_ass, ms_nb_alloc_asv_aspa, ms_nb_alloc_pa, ms_nb_alloc_pa_maj, ms_nb_alloc_pa_non_maj, ms_nb_alloc_rsa_maj_new, ms_nb_alloc_rsa_maj_old, ms_nb_alloc_rsa_new, ms_nb_alloc_rsa_old, ms_nb_alloc_rsa_non_maj_new, ms_nb_alloc_rsa_non_maj_old, ms_nb_benef_css_ac_ss_part
 
 **Source :** CNAM, MSA
 
@@ -1175,7 +1180,7 @@ Nombres d'allocataires des minimas :
 - Allocation de solidarité spécifique (ASS)
 - Allocation supplémentaire vieillesse (ASV) et allocation de solidarité aux personnes âgées (ASPA)
 - Prime d'activité majorée ou non
-- RSA majorée ou non
+- RSA majorée ou non et total
 - Complémentaire Santé Solidaire avec et sans participation financière (CSS) (C2S, C2SP)
 
 Attention rupture de série : à la suite d'une amélioration du système de production statistique de la Cnaf sur les bénéficiaires de prestations légales, les données à partir de 2016 ne sont pas comparables avec celles des années précédentes.
@@ -1191,7 +1196,7 @@ L’allocation aux adultes handicapés (AAH), instituée en 1975, s’adresse au
 
 Les allocations du minimum vieillesse (ASV et ASPA) : l’allocation supplémentaire vieillesse (ASV), créée en 1956, s’adresse aux personnes âgées de plus de 65 ans (60 ans en cas d’inaptitude au travail) et leur assure un niveau de revenu égal au minimum vieillesse. Une nouvelle prestation, l’allocation de solidarité aux personnes âgées (ASPA) est entrée en vigueur le 13 janvier 2007 et remplacera à terme l'ASV. Cette allocation unique se substitue, pour les nouveaux bénéficiaires, aux prestations de premier étage du minimum (qui ne font pas partie des minima sociaux) et à l’allocation supplémentaire vieillesse.
 
----
+----
 
 ## **ID_indicateur :** ms_part_pop_couv_rsa_new, ms_part_pop_couv_rsa_old
 
@@ -1229,7 +1234,7 @@ Lié à la conjoncture économique et sociale locale
 Comparaison dans le temps
 Comparaisons spatiales
 
----
+----
 
 ## **ID_indicateur :** ms_tx_alloc_ass_15_64, ms_tx_alloc_asv_aspa_60p, ms_tx_alloc_minima_15_64_new, ms_tx_alloc_minima_15_64_old, ms_tx_alloc_rsa_15_64_new, ms_tx_alloc_rsa_15_64_old
 
@@ -1284,7 +1289,7 @@ Comparaisons spatiales
 Définition administrative
 Certaines données départementales sont estimées
 
----
+----
 
 ## **ID_indicateur :** ms_tx_benef_cmuc_css, ms_tx_benef_css_ac_ss_part
 
@@ -1313,7 +1318,7 @@ L'objectif stratégique des indicateurs relatifs aux minima sociaux et à l'inse
 
 Cet indicateur y contribue en mesurant la part de population bénéficiant de la CMUC et de la CSS, afin d'améliorer leur accès aux soins.
 
----
+----
 
 ## **ID_indicateur :** pa_part_benef_apa_60_74_f, pa_part_benef_apa_60_74_h, pa_part_benef_apa_75_89_f, pa_part_benef_apa_75_89_h, pa_part_benef_apa_90p_f, pa_part_benef_apa_90p_h, pa_part_benef_apa_couple_f, pa_part_benef_apa_couple_h, pa_part_benef_apa_gir1_60_74, pa_part_benef_apa_gir1_75_89, pa_part_benef_apa_gir1_90p, pa_part_benef_apa_gir1_f, pa_part_benef_apa_gir1_h, pa_part_benef_apa_gir2_60_74, pa_part_benef_apa_gir2_75_89, pa_part_benef_apa_gir2_90p,pa_part_benef_apa_gir2_f, pa_part_benef_apa_gir2_h, pa_part_benef_apa_gir3_60_74, pa_part_benef_apa_gir3_75_89, pa_part_benef_apa_gir3_90p, pa_part_benef_apa_gir3_f, pa_part_benef_apa_gir3_h, pa_part_benef_apa_gir4_60_74, pa_part_benef_apa_gir4_75_89, pa_part_benef_apa_gir4_90p, pa_part_benef_apa_gir4_f, pa_part_benef_apa_gir4_h, pa_part_benef_apa_gir56_60_74, pa_part_benef_apa_gir56_75_89, pa_part_benef_apa_gir56_90p, pa_part_benef_apa_gir56_f, pa_part_benef_apa_gir56_h, pa_part_benef_apa_seul_f, pa_part_benef_apa_seul_h
 
@@ -1327,7 +1332,7 @@ Cet indicateur y contribue en mesurant la part de population bénéficiant de la
 
 Répartition des bénéficiaires de l'APA par âge, sexe et gir
 
----
+----
 
 ## **ID_indicateur :** pa_part_limitations_importante_comprehension, pa_part_limitations_importante_concentration, pa_part_limitations_importante_lever_bras, pa_part_limitations_importante_main, pa_part_limitations_importante_marche, pa_part_limitations_importante_ouie, pa_part_limitations_importante_sortir, pa_part_limitations_importante_vue
 
@@ -1341,7 +1346,7 @@ Répartition des bénéficiaires de l'APA par âge, sexe et gir
 
 Part des personnes âgées déclarant des limitations importantes dans leurs activités quotidiennes.
 
----
+----
 
 ## **ID_indicateur :** pa_part_plan_satures_apa_dom_96perc
 
@@ -1355,7 +1360,7 @@ Part des personnes âgées déclarant des limitations importantes dans leurs act
 
 Part de plans saturés à 96 % pour les bénéficiaires de l'APA à domicile
 
----
+----
 
 ## **ID_indicateur :** pa_revenus_benef_apa_1q, pa_revenus_benef_apa_3q, pa_revenus_benef_apa_mediane, pa_revenus_benef_apa_moyenne
 
@@ -1369,7 +1374,7 @@ Part de plans saturés à 96 % pour les bénéficiaires de l'APA à domicile
 
 Distribution des revenus des bénéficiaires de l'APA
 
----
+----
 
 ## **ID_indicateur :** part_enf_men_pauv_ap_imp_systeme, part_enf_men_pauv_av_imp_systeme, part_pers_ac_enf_men_pauv_ap_imp_systeme, part_pers_ac_enf_men_pauv_av_imp_systeme
 
@@ -1380,12 +1385,6 @@ Distribution des revenus des bénéficiaires de l'APA
 **Périodicité :**	Ponctuelle
 
 **Définition :** 
-
-[Taux de pauvreté](https://www.insee.fr/fr/metadonnees/definition/c1320)
-[Niveau de vie](https://www.insee.fr/fr/metadonnees/definition/c1890)
-[Revenu disponible](https://www.insee.fr/fr/metadonnees/definition/c1458)
-[Unité de consommation](https://www.insee.fr/fr/metadonnees/definition/c1802)
-[Nombre de personnes du ménage fiscal](https://www.insee.fr/fr/metadonnees/definition/c1285)
 
 Taux de pauvreté monétaire : part de la population dont le revenu disponible du ménage par unité de consommation, dit « niveau de vie », est inférieur à 60 % de la médiane nationale (définition européenne).
 Unité de consommation : échelle d’Oxford révisée.
@@ -1431,13 +1430,13 @@ Il est conseillé d’interpréter avec prudence les évolutions de revenus ou d
 
 Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste la source de référence pour les indicateurs d’inégalité des niveaux de vie et de pauvreté. 
 
-Le nouveau dispositif [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi)) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
+Le nouveau dispositif FiLoSoFi crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
 
----
+----
 
 ## **ID_indicateur :** pauv_intensite, pauv_intensite_benef_ms
 
-**Source :** Insee, [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi))
+**Source :** Insee, FiLoSoFi
 
 **Dates :** 2021
 
@@ -1445,11 +1444,7 @@ Le nouveau dispositif [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-f
 
 **Définition :** 
 
-[Intensité de la pauvreté](https://www.insee.fr/fr/metadonnees/definition/c2021)
-[Niveau de vie](https://www.insee.fr/fr/metadonnees/definition/c1890)
-[Revenu disponible](https://www.insee.fr/fr/metadonnees/definition/c1458)
-[Unité de consommation](https://www.insee.fr/fr/metadonnees/definition/c1802)
-[Nombre de personnes du ménage fiscal](https://www.insee.fr/fr/metadonnees/definition/c1285)
+Intensité de la pauvreté
 
 Ecart relatif, en pourcentage du seuil de pauvreté à 60%, entre le niveau de vie médian des personnes pauvres et ce seuil (définition européenne).
 A partir de la deuxième vague de mise à jour de 2018, cet indicateur est complété par l’intensité de la pauvreté des bénéficiaires de minima sociaux, qui était un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017). 
@@ -1483,13 +1478,13 @@ Il est conseillé d’interpréter avec prudence les évolutions de revenus ou d
 
 Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste la source de référence pour les indicateurs d’inégalité des niveaux de vie et de pauvreté. 
 
-Le nouveau dispositif [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi)) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
+Le nouveau dispositif FiLoSoFi crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
 
----
+----
 
 ## **ID_indicateur :** pauv_nb_menages_revenus_act
 
-**Source :** Insee, [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi))
+**Source :** Insee, FiLoSoFi
 
 **Dates :** 2021
 
@@ -1497,12 +1492,9 @@ Le nouveau dispositif [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-f
 
 **Définition :** 
 
-[Revenu disponible](https://www.insee.fr/fr/metadonnees/definition/c1458)
-[Unité de consommation](https://www.insee.fr/fr/metadonnees/definition/c1802)
-
 Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
 
-ATTENTION : rupture de série à partir du millésime 2020 de [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi))
+ATTENTION : rupture de série à partir du millésime 2020 de FiLoSoFi
 
 Jusqu’au millésime 2019, l’indicateur INS01 désigne la part des ménages pauvres parmi ceux dont l’origine principale des revenus déclarés est constituée de revenus d’activité. À partir du millésime 2020, il s’agit des revenus disponibles.
 NE PAS FAIRE DE COMPARAISON ENTRE LES SÉRIES AVANT ET APRÈS 2020
@@ -1534,30 +1526,25 @@ Comparaisons spatiales : situer les territoires par rapport au niveau national e
 
 **Qualité et limites :**
 
-L'indicateur proposé ne correspond pas à l’indicateur européen “in-work poverty risk” [voir Bardone et Guio, 2005] pour lequel la définition des travailleurs est la suivante : il s’agit des personnes en âge de travailler (18-64 ans) ayant occupé un emploi (effectivement travaillé) plus de 6 mois au cours d’une période de référence de 12 mois. Du fait de l'impossibilité de cerner dans [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi)) les personnes ayant effectivement travaillé plus de 6 mois, le critère d'origine principale des revenus déclarés est utilisé dans ce proxy.
+L'indicateur proposé ne correspond pas à l’indicateur européen “in-work poverty risk” [voir Bardone et Guio, 2005] pour lequel la définition des travailleurs est la suivante : il s’agit des personnes en âge de travailler (18-64 ans) ayant occupé un emploi (effectivement travaillé) plus de 6 mois au cours d’une période de référence de 12 mois. Du fait de l'impossibilité de cerner dans FiLoSoFi les personnes ayant effectivement travaillé plus de 6 mois, le critère d'origine principale des revenus déclarés est utilisé dans ce proxy.
 
 Il est conseillé d’interpréter avec prudence les évolutions de revenus ou de pauvreté entre deux années consécutives à l’échelon local du fait de changements méthodologiques et / ou de législation. 
 
 Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste la source de référence pour les indicateurs d’inégalité des niveaux de vie et de pauvreté. 
 
-Le nouveau dispositif [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi)) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
+Le nouveau dispositif FiLoSoFi crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
 
----
+----
 
 ## **ID_indicateur :** pauv_niv_vie_median
 
-**Source :** Insee, [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi))
+**Source :** Insee, FiLoSoFi
 
 **Dates :** 2021
 
 **Périodicité :**	Ponctuelle
 
 **Définition :** 
-
-[Niveau de vie](https://www.insee.fr/fr/metadonnees/definition/c1890)
-[Revenu disponible](https://www.insee.fr/fr/metadonnees/definition/c1458)
-[Unité de consommation](https://www.insee.fr/fr/metadonnees/definition/c1802)
-[Nombre de personnes du ménage fiscal](https://www.insee.fr/fr/metadonnees/definition/c1285)
 
 Le niveau de vie est le rapport du revenu disponible du ménage auquel appartient l'individu au nombre d’unités de consommation (UC) du ménage. Par convention, tous les individus d’un même ménage ont le même niveau de vie. L’échelle utilisée pour calculer le nombre d’UC d’un ménage est l’échelle de l’OCDE modifiée (1 pour le premier adulte, 0,5 pour les autres personnes de 14 ans ou plus, 0,3 pour les moins de 14 ans). 
 Il est calculé en euros. 
@@ -1590,24 +1577,19 @@ Il est conseillé d’interpréter avec prudence les évolutions de revenus ou d
 
 Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste la source de référence pour les indicateurs d’inégalité des niveaux de vie et de pauvreté. 
 
-Le nouveau dispositif [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi)) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
+Le nouveau dispositif FiLoSoFi crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
 
----
+----
 
 ## **ID_indicateur :** pauv_part_enf_m3_men_pauv_ac_frais_garde
 
-**Source :** Insee, [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi))
+**Source :** Insee, FiLoSoFi
 
 **Dates :** 2021
 
 **Périodicité :**	Ponctuelle
 
 **Définition :** 
-
-[Niveau de vie](https://www.insee.fr/fr/metadonnees/definition/c1890)
-[Revenu disponible](https://www.insee.fr/fr/metadonnees/definition/c1458)
-[Unité de consommation](https://www.insee.fr/fr/metadonnees/definition/c1802)
-[Nombre de personnes du ménage fiscal](https://www.insee.fr/fr/metadonnees/definition/c1285)
 
 Part des enfants de moins de 3 ans vivant dans un ménage pauvre et déclarant des frais de garde parmi les enfants de moins de 3 ans vivant dans un ménage pauvre :
 part des enfants de moins de 3 ans vivant dans des ménages pauvres (dont le revenu disponible par UC est en-dessous du seuil de pauvreté à 60 %) et qui déclarent une déduction fiscale relative au mode de garde parmi les enfants de moins de 3 ans vivant dans les ménages pauvres.
@@ -1645,26 +1627,19 @@ Il est conseillé d’interpréter avec prudence les évolutions de revenus ou d
 
 Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste la source de référence pour les indicateurs d’inégalité des niveaux de vie et de pauvreté. 
 
-Le nouveau dispositif [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi)) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
+Le nouveau dispositif FiLoSoFi crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
 
----
+----
 
 ## **ID_indicateur :** pauv_rapport_interdecile_niv_vie
 
-**Source :** Insee, [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi))
+**Source :** Insee, FiLoSoFi
 
 **Dates :** 2021
 
 **Périodicité :**	Ponctuelle
 
 **Définition :** 
-
-[Rapports interdéciles](https://www.insee.fr/fr/metadonnees/definition/c1488)
-[Rapport interdécile des revenus](https://www.insee.fr/fr/metadonnees/definition/c1080)[Déciles](https://www.insee.fr/fr/metadonnees/definition/c1265)
-[Niveau de vie](https://www.insee.fr/fr/metadonnees/definition/c1890)
-[Revenu disponible](https://www.insee.fr/fr/metadonnees/definition/c1458)
-[Unité de consommation](https://www.insee.fr/fr/metadonnees/definition/c1802)
-[Nombre de personnes du ménage fiscal](https://www.insee.fr/fr/metadonnees/definition/c1285)
 
 Rapport interdéciles D9/D1 des niveaux de vie : revenu équivalent (ou niveau de vie) minimal des 10 % de ménages les plus riches rapporté au revenu équivalent maximal des 10 % les plus pauvres.
 Remarque : la définition européenne utilise D8/D2
@@ -1695,13 +1670,13 @@ Il est conseillé d’interpréter avec prudence les évolutions de revenus ou d
 
 Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste la source de référence pour les indicateurs d’inégalité des niveaux de vie et de pauvreté. 
 
-Le nouveau dispositif [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi)) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
+Le nouveau dispositif FiLoSoFi crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
 
----
+----
 
-## **ID_indicateur :** pauv_taux_pauv_menage_ac_rev_act, pauv_tx_pauv_mon, pauv_tx_pauv_mon_1pers, pauv_tx_pauv_mon_2pers, pauv_tx_pauv_mon_30_39, pauv_tx_pauv_mon_3pers, pauv_tx_pauv_mon_40_49, pauv_tx_pauv_mon_4pers, pauv_tx_pauv_mon_50_59, pauv_tx_pauv_mon_5ppers, pauv_tx_pauv_mon_60_74, pauv_tx_pauv_mon_75p, pauv_tx_pauv_mon_couple_ac_enf, pauv_tx_pauv_mon_couple_ss_enf, pauv_tx_pauv_mon_fam_monoparentale, pauv_tx_pauv_mon_femme_seule, pauv_tx_pauv_mon_homme_seul, pauv_tx_pauv_mon_m30, pauv_tx_pauv_mon_men_complexe
+## **ID_indicateur :** pauv_taux_pauv_menage_ac_rev_act, pauv_tx_pauv_mon, pauv_tx_pauv_mon_1pers, pauv_tx_pauv_mon_2pers, pauv_tx_pauv_mon_30_39, pauv_tx_pauv_mon_3pers, pauv_tx_pauv_mon_40_49, pauv_tx_pauv_mon_4pers, pauv_tx_pauv_mon_50_59, pauv_tx_pauv_mon_5pers, pauv_tx_pauv_mon_60_74, pauv_tx_pauv_mon_75p, pauv_tx_pauv_mon_couple_ac_enf, pauv_tx_pauv_mon_couple_ss_enf, pauv_tx_pauv_mon_fam_monoparentale, pauv_tx_pauv_mon_femme_seule, pauv_tx_pauv_mon_homme_seul, pauv_tx_pauv_mon_m30, pauv_tx_pauv_mon_men_complexe
 
-**Source :** Insee, [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi))
+**Source :** Insee, FiLoSoFi
 
 **Dates :** 2021
 
@@ -1765,9 +1740,9 @@ Il est conseillé d’interpréter avec prudence les évolutions de revenus ou d
 
 Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste la source de référence pour les indicateurs d’inégalité des niveaux de vie et de pauvreté. 
 
-Le nouveau dispositif [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi)) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
+Le nouveau dispositif FiLoSoFi crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
 
----
+----
 
 ## **ID_indicateur :** ph_benef_aah
 
@@ -1781,7 +1756,7 @@ Le nouveau dispositif [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-f
 
 Nombre d'allocataires de l'AAH
 
----
+----
 
 ## **ID_indicateur :** ph_enfants_part_eleves_handicap_1_2_deg_1000, ph_enfants_part_eleves_handicap_1_deg_1000, ph_enfants_part_eleves_handicap_2_deg_1000
 
@@ -1823,9 +1798,9 @@ Il est conseillé d’interpréter avec prudence les évolutions de revenus ou d
 
 Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste la source de référence pour les indicateurs d’inégalité des niveaux de vie et de pauvreté. 
 
-Le nouveau dispositif [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-fiscal-(filosofi)) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
+Le nouveau dispositif FiLoSoFi crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
 
----
+----
 
 ## **ID_indicateur :** ph_nb_pers_mandataires_indiv, ph_nb_pers_mandataires_indiv_services, ph_nb_pers_mandataires_services
 
@@ -1839,7 +1814,7 @@ Le nouveau dispositif [FiLoSoFi](#insee-dispositif-fichier-localisé-social-et-f
 
 Nombre de personnes prises en charge par des mandataires individuels, par des services mandataires et total
 
----
+----
 
 ## **ID_indicateur :** ph_part_benef_aah_15_64_new, ph_part_benef_aah_15_64_old, ph_part_benef_aah_20_64_new, ph_part_benef_aah_20_64_old
 
@@ -1875,7 +1850,7 @@ Comparaisons entre les départements
 
 Âge maximum : L'AAH n'est plus versée à partir de l'âge de départ à la retraite en cas d'incapacité de 50 % à 79 % ; à cet âge, les bénéficiaires basculent dans le régime de retraite pour inaptitude. En cas d'incapacité d'au moins 80 %, une AAH différentielle (allocation mensuelle réduite) peut être versée au-delà de cet âge en complément d'une retraite inférieure au minimum vieillesse.
 
----
+----
 
 ## **ID_indicateur :** ph_part_limitations_act_quo_25_59, ph_part_limitations_act_quo_60p, ph_part_limitations_act_quo_m25
 
