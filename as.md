@@ -1,8 +1,9 @@
-# Indicateurs provenant de l'enquête Aide Sociale
+
+# Indicateurs provenant de l'[Enquête Aide sociale](#as)
 
 ## **ID_indicateur :** ase_depenses_brutes, ase_depenses_brutes_actions_educatives, ase_depenses_brutes_allocations, ase_depenses_brutes_placement, ase_depenses_brutes_prevention_spe, ase_depenses_nettes
 
-**Source :** DREES, Enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 1999 à 2023
 
@@ -37,7 +38,7 @@ Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'�
 
 ## **ID_indicateur :** ase_depenses_brutes_placement_benef, ase_depenses_brutes_placement_hab
 
-**Source :** DREES, Enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 1999 à 2023
 
@@ -83,7 +84,7 @@ Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'�
 
 ## **ID_indicateur :** ase_depenses_nettes
 
-**Source :** DREES, Enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 1999 à 2023
 
@@ -115,7 +116,7 @@ Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'�
 
 ## **ID_indicateur :** ase_nb_actions_educ_aed, ase_nb_actions_educ_aemo, ase_nb_actions_educ_tot
 
-**Source :** DREES, Enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2002 à 2024
 
@@ -129,7 +130,7 @@ Nombre d'actions éducatives à domicile (AED), en milieu ouvert (AEMO) ou au to
 
 ## **ID_indicateur :** ase_nb_enf_confies, ase_nb_enf_confies_ass_fam, ase_nb_enf_confies_placement_direct
 
-**Source :** DREES, Enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2002 à 2024
 
@@ -143,7 +144,7 @@ Nombre d'enfants confiés à l'ASE, placés en famille d'accueil, ou au total
 
 ## **ID_indicateur :** ase_nb_mesures_judi_accueil, ase_nb_placement_direct
 
-**Source :** DREES, Enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2002 à 2024
 
@@ -157,7 +158,7 @@ Nombre d'enfants confiés à l'ASE par une mesure judiciaire de placement et nom
 
 ## **ID_indicateur :** ase_part_aed_actions_educatives, ase_tx_actions_educ_0_20
 
-**Source :** DREES, Enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2002 à 2024
 
@@ -191,7 +192,7 @@ L’action éducative à domicile (AED) est une décision administrative prise p
 
 ## **ID_indicateur :** ase_part_aed_mesures, ase_tx_mesures_0_20
 
-**Source :** DREES, Enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2002 à 2024
 
@@ -201,8 +202,8 @@ L’action éducative à domicile (AED) est une décision administrative prise p
 
 Taux de mesures d'aide sociale à l'enfance pour 100 jeunes de 0 à 20 ans, au 31 décembre
 
--**Numérateur :** Nombre de mesures au 31 décembre, par type de mesures
--**Dénominateur :** Population de moins de 21 ans du département, au 01/01/N+1
+- **Numérateur :** Nombre de mesures au 31 décembre, par type de mesures
+- **Dénominateur :** Population de moins de 21 ans du département, au 01/01/N+1
 
 Sont pris en compte les actions éducatives à domicile (AED), les actions éducatives en milieu ouvert (AEMO), et l'ensemble des mesures de placements (placements directs par le juge en établissement et chez un tiers digne de confiance et placements ASE).
 
@@ -227,7 +228,7 @@ L’action éducative en milieu ouvert (AEMO), exercée en vertu d’un mandat j
 Les mesures de placement à l’ASE sont de trois types :
 
 - les mesures administratives sont décidées par le président du conseil départemental sur demande ou en accord avec la famille. Ce sont les accueils provisoires de mineurs, les accueils provisoires de jeunes majeurs et des pupilles de l’État ;
-- les mesures judiciaires sont décidées par le juge des enfants. L’enfant est alors confié au service de l’ASE qui détermine les modalités de son placement. Elles comprennent la délégation de l’autorité parentale à l’ASE, le retrait partiel de l’autorité parentale, la tutelle d’État déférée à l’ASE, et le placement à l’ASE par le juge au titre de l’assistance éducative ou de l’ordonnance de 1945 sur l’enfance délinquante ;
+- les mesures judiciaires sont décidées par le [Juge des enfants](#jde). L’enfant est alors confié au service de l’ASE qui détermine les modalités de son placement. Elles comprennent la délégation de l’autorité parentale à l’ASE, le retrait partiel de l’autorité parentale, la tutelle d’État déférée à l’ASE, et le placement à l’ASE par le juge au titre de l’assistance éducative ou de l’ordonnance de 1945 sur l’enfance délinquante ;
 - les placements directs comprennent le placement par un juge auprès d’un établissement ou d’un tiers digne de confiance et la délégation de l’autorité parentale à un particulier ou à un établissement.
 
 **Intérêt de l’indicateur et interprétation :**
@@ -242,7 +243,7 @@ Le nombre de mesures diffère du nombre de jeunes, certains d'entre eux pouvant 
 
 ## **ID_indicateur :** ase_part_benef_autonome, ase_part_benef_autres, ase_part_enf_confies_etab, ase_part_enf_confies_assfam, ase_part_placements_directs, ase_part_mesures_judiciaires, ase_tx_mesures_placement_0_20, ase_part_jeunes_majeurs
 
-**Source :** DREES, Enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2002 à 2024
 
@@ -278,14 +279,14 @@ L’action éducative en milieu ouvert (AEMO), exercée en vertu d’un mandat j
 Les mesures de placement à l’ASE sont de trois types :
 
 - les mesures administratives sont décidées par le président du conseil départemental sur demande ou en accord avec la famille. Ce sont les accueils provisoires de mineurs, les accueils provisoires de jeunes majeurs et des pupilles de l’État ;
-- les mesures judiciaires sont décidées par le juge des enfants. L’enfant est alors confié au service de l’ASE qui détermine les modalités de son placement. Elles comprennent la délégation de l’autorité parentale à l’ASE, le retrait partiel de l’autorité parentale, la tutelle d’État déférée à l’ASE, et le placement à l’ASE par le juge au titre de l’assistance éducative ou de l’ordonnance de 1945 sur l’enfance délinquante ;
+- les mesures judiciaires sont décidées par le [Juge des enfants](#jde). L’enfant est alors confié au service de l’ASE qui détermine les modalités de son placement. Elles comprennent la délégation de l’autorité parentale à l’ASE, le retrait partiel de l’autorité parentale, la tutelle d’État déférée à l’ASE, et le placement à l’ASE par le juge au titre de l’assistance éducative ou de l’ordonnance de 1945 sur l’enfance délinquante ;
 - les placements directs comprennent le placement par un juge auprès d’un établissement ou d’un tiers digne de confiance et la délégation de l’autorité parentale à un particulier ou à un établissement.
 
 ----
 
 ## **ID_indicateur :** cont_depenses_brutes_aide_sociale_hab
 
-**Source :** DREES, Enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 1999 à 2023
 
@@ -419,6 +420,8 @@ Nombre d'ETP des personnels de PMI
 
 Nombre total de places en accueil collectif au 31 décembre
 
+Du fait  de la réforme des modes d'accueil de 2021, une nouvelle nomenclature des établissements d'accueil des jeunes enfants a repris les spécifications inscrites dans le code de la Santé Publique (Article R2324-17). Les données ne sont donc pas comparables avec celles présentées dans les panoramas précédents.
+
 ----
 
 ## **ID_indicateur :** fam_places_creches_coll, fam_places_creches_coll_fam, fam_places_creches_fam, fam_places_etab_parent, fam_places_jard_enf
@@ -432,6 +435,8 @@ Nombre total de places en accueil collectif au 31 décembre
 **Descriptif :** 
 
 Nombre de places dans les différentes structures d'accueil collectif au 31 décembre
+
+Du fait  de la réforme des modes d'accueil de 2021, une nouvelle nomenclature des établissements d'accueil des jeunes enfants a repris les spécifications inscrites dans le code de la Santé Publique (Article R2324-17). Les données ne sont donc pas comparables avec celles présentées dans les panoramas précédents.
 
 ----
 
@@ -483,9 +488,9 @@ Répartition des places dans les différentes structures d'accueil collectif au 
 
 ----
 
-## **ID_indicateur :** ms_depenses_brutes_rsa_benef_new, ms_depenses_brutes_rsa_benef_old,ms_depenses_brutes_rsa_hab
+## **ID_indicateur :** ms_depenses_brutes_rsa_benef_new, ms_depenses_brutes_rsa_benef_old, s_depenses_brutes_rsa_hab
 
-**Source :** DREES, enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2010 à 2023
 
@@ -493,18 +498,18 @@ Répartition des places dans les différentes structures d'accueil collectif au 
 
 **Descriptif :** 
 
-Dépenses d'insertion et d'allocation liées au RSA par habitant
+Dépenses d'insertion et d'allocation liées au [RSA](#rsa) par habitant
 
-- **Numérateur :** Dépenses annuelles brutes d'allocation et d'insertion liées au RSA en euros
+- **Numérateur :** Dépenses annuelles brutes d'allocation et d'insertion liées au [RSA](#rsa) en euros
 - **Dénominateur :** Nombre d'habitants au 01/01/N+1
 
-Dépenses d'insertion et d'allocation liées au RSA par bénéficiaire
+Dépenses d'insertion et d'allocation liées au [RSA](#rsa) par bénéficiaire
 
-- **Numérateur :** Dépenses annuelles brutes d'allocation et d'insertion liées au RSA en euros
+- **Numérateur :** Dépenses annuelles brutes d'allocation et d'insertion liées au [RSA](#rsa) en euros
 - **Dénominateur :** Moyenne du nombre de bénéficiaires au 31/12 de l'année N-1 et de celui au 31/12 de l'année N
 
 On entend par bénéficiaire ici les allocataires, leurs conjoints et les personnes à charge des allocataires (population couverte).
-Ne sont pas pris en compte les bénéficiaires du ""RSA jeune"", cette prestation étant à la charge de l’État. Ils représentent moins de 1 % de l'ensemble de la population couverte par le RSA total.
+Ne sont pas pris en compte les bénéficiaires du ""RSA jeune"", cette prestation étant à la charge de l’État. Ils représentent moins de 1 % de l'ensemble de la population couverte par le [RSA](#rsa) total.
 
 Indicateur exprimé en euros par habitant et en euros par bénéficiaire
 
@@ -512,19 +517,19 @@ Indicateur exprimé en euros par habitant et en euros par bénéficiaire
 
 L'objectif stratégique des indicateurs financiers est de fournir quelques éléments élémentaires de comparaison de coût et de dépenses, afin de compléter l'analyse des indicateurs thématiques. Ils ne peuvent permettre une analyse d’efficience rapportant les résultats aux moyens engagés.
 
-Cet indicateur y contribue en permettant d'estimer le coût global du RSA, normé par la taille de la population du département. Il donne également une estimation du coût moyen du RSA par bénéficiaire.
+Cet indicateur y contribue en permettant d'estimer le coût global du [RSA](#rsa), normé par la taille de la population du département. Il donne également une estimation du coût moyen du [RSA](#rsa) par bénéficiaire.
 
 **Définition :**
 
-Le RSA est en vigueur depuis le 1er juin 2009 en France métropolitaine et depuis le 1er janvier 2011 dans les départements d’outre-mer. Il a remplacé le revenu minimum d’insertion (RMI), l’allocation de parent isolé (API) et les dispositifs associés d’intéressement à la reprise d’activité. 
+Le [RSA](#rsa) est en vigueur depuis le 1er juin 2009 en France métropolitaine et depuis le 1er janvier 2011 dans les départements d’outre-mer. Il a remplacé le revenu minimum d’insertion (RMI), l’allocation de parent isolé (API) et les dispositifs associés d’intéressement à la reprise d’activité. 
 
-Il est à la fois une allocation visant à garantir un revenu minimum de ressources aux bénéficiaires et un dispositif d’accompagnement social et professionnel pour faciliter l’accès à l’emploi ou consolider les capacités professionnelles de ceux qui sont sans activité ou qui ne tirent de leur activité que des ressources limitées. Financé par les départements, il est un revenu minimum s'adressant aux personnes dont l'ensemble des ressources est inférieur à un montant forfaitaire dépendant de la composition du ménage. Ce montant est revu chaque année. Le RSA peut être majoré pour les personnes élevant seules de jeunes enfants.
+Il est à la fois une allocation visant à garantir un revenu minimum de ressources aux bénéficiaires et un dispositif d’accompagnement social et professionnel pour faciliter l’accès à l’emploi ou consolider les capacités professionnelles de ceux qui sont sans activité ou qui ne tirent de leur activité que des ressources limitées. Financé par les départements, il est un revenu minimum s'adressant aux personnes dont l'ensemble des ressources est inférieur à un montant forfaitaire dépendant de la composition du ménage. Ce montant est revu chaque année. Le [RSA](#rsa) peut être majoré pour les personnes élevant seules de jeunes enfants.
 
-Depuis le 1er septembre 2010, le RSA est étendu au moins de 25 ans (RSA jeunes) sous condition de justifier de deux ans d’activité en équivalent temps plein, au cours des trois dernières années. Dans ce cas, il est financé par l'Etat.
+Depuis le 1er septembre 2010, le [RSA](#rsa) est étendu au moins de 25 ans (RSA jeunes) sous condition de justifier de deux ans d’activité en équivalent temps plein, au cours des trois dernières années. Dans ce cas, il est financé par l'Etat.
 
 Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
 
-**Intérêt de l’indicateur et interprétation :**	Mesurer l'évolution de la charge financière par habitant liée au RSA dans l'espace et dans le temps ; les variations spatiales sont fortement liées au contexte économique départemental
+**Intérêt de l’indicateur et interprétation :**	Mesurer l'évolution de la charge financière par habitant liée au [RSA](#rsa) dans l'espace et dans le temps ; les variations spatiales sont fortement liées au contexte économique départemental
 
 **Qualité et limites :** Sont retenues pour cet indicateur les dépenses brutes, par souci de cohérence avec les postes PCH et ASE, pour lesquels les dépenses nettes ne sont pas disponibles à ce niveau de détail.
 
@@ -540,7 +545,7 @@ Dépenses brutes : dépenses de l'année avant déduction des recouvrements, rem
 
 **Descriptif :** 
 
-Délai moyen entre la date d'entrée dans le RSA et la date de primo-orientation (en jours)
+Délai moyen entre la date d'entrée dans le [RSA](#rsa) et la date de primo-orientation (en jours)
 
 ----
 
@@ -554,17 +559,17 @@ Délai moyen entre la date d'entrée dans le RSA et la date de primo-orientation
 
 **Descriptif :** 
 
-Part des bénéficiaires du RSA orientés parmi les personnes soumises aux droits et devoirs dont :
+Part des bénéficiaires du [RSA](#rsa) orientés parmi les personnes soumises aux droits et devoirs dont :
 
 - Part des personnes ayant un CER parmi les personnes orientées vers un organisme autre que Pôle Emploi
-- Part des bénéficiaires du RSA orientées par le conseil départemental et territorial
-- Part des bénéficiaires du RSA orientées par France Travail
+- Part des bénéficiaires du [RSA](#rsa) orientées par le conseil départemental et territorial
+- Part des bénéficiaires du [RSA](#rsa) orientées par France Travail
 
 ----
 
 ## **ID_indicateur :** pa_depenses_brutes, pa_depenses_brutes_aide_dom, pa_depenses_brutes_apa, pa_depenses_nettes
 
-**Source :** DREES, enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 1999 à 2023
 
@@ -574,7 +579,7 @@ Part des bénéficiaires du RSA orientés parmi les personnes soumises aux droit
 
 Dépenses nettes et brutes d'aides aux personnes âgées dont :
 
-- Dépenses brutes d'APA
+- Dépenses brutes d'[APA](#apa)
 - Dépenses brutes d'aide à domiciles aux personnes âgées
 
 Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
@@ -583,7 +588,7 @@ Dépenses brutes : dépenses de l'année avant déduction des recouvrements, rem
 
 ## **ID_indicateur :** pa_depenses_brutes_apa_benef, pa_depenses_brutes_apa_hab
 
-**Source :** DREES, enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2002 à 2023
 
@@ -593,12 +598,12 @@ Dépenses brutes : dépenses de l'année avant déduction des recouvrements, rem
 
 Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
 
-Dépenses d'APA par habitant
+Dépenses d'[APA](#apa) par habitant
 
 - **Numérateur :** Dépenses annuelles brutes d'APA en euros, hors frais de personnel 
 - **Dénominateur :** Nombre d'habitants au 01/01/N+1
 
-Dépenses d'APA par bénéficiaire
+Dépenses d'[APA](#apa) par bénéficiaire
 
 - **Numérateur :** Dépenses annuelles brutes d'APA en euros, hors frais de personnel 
 - **Dénominateur :** Moyenne du nombre de bénéficiaires en décembre de l'année N-1 et de celui de l'année N.
@@ -617,7 +622,7 @@ Sont retenues pour cet indicateur les dépenses brutes, par souci de cohérence 
 
 ## **ID_indicateur :** pa_nb_benef_aide_menagere, pa_nb_benef_aide_sociale, pa_nb_benef_aide_sociale_accueil, pa_nb_benef_aide_sociale_dom, pa_nb_benef_aide_sociale_tot, pa_nb_benef_apa_tot
 
-**Source :** DREES, enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2000 à 2024
 
@@ -625,13 +630,16 @@ Sont retenues pour cet indicateur les dépenses brutes, par souci de cohérence 
 
 **Descriptif :** 
 
-Nombre de personnes âgées bénéficiaires (droits ouverts) d'une aide ménagère, de l'aide sociale aux personnes âgées à l'accueil, de l'aide sociale aux personnes âgées à domicile, d'une aide sociale aux personnes âgées ou de l'APA payés au titre du mois de décembre, à domicile et en établissement
+Nombre de personnes âgées bénéficiaires (droits ouverts) d'une aide ménagère, de l'aide sociale aux personnes âgées à l'accueil, de l'aide sociale aux personnes âgées à domicile, d'une aide sociale aux personnes âgées ou de l'[APA](#apa) payés au titre du mois de décembre, à domicile et en établissement
+
+Pour l'[APA](#apa), ce sont des bénéficiaires payés au titre du mois de décembre qui sont comptabilisés alors que pour les autres prestations il s'agit du nombre de bénéficiaires (ayant des droits ouverts) au 31 décembre.
+Totalise des mesures d'aides et non des individus : une même personne peut être comptabilisée plusieurs fois si elle bénéficie de plusieurs types d'aide, en particulier l'APA et l'ASH.
 
 ----
 
 ## **ID_indicateur :** pa_part_benef_apa_dom_60p, pa_part_benef_apa_dom_75p, pa_part_benef_apa_dom_gir1_2, pa_part_benef_apa_etab_60p, pa_part_benef_apa_etab_75p, pa_part_benef_apa_tot_60p, pa_part_benef_apa_tot_75p
 
-**Source :** DREES, enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2002 à 2024
 
@@ -639,7 +647,7 @@ Nombre de personnes âgées bénéficiaires (droits ouverts) d'une aide ménagè
 
 **Descriptif :** 
 
-Part des bénéficiaires de l'APA parmi la population de 60 ans et plus, à domicile
+Part des bénéficiaires de l'[APA](#apa) parmi la population de 60 ans et plus, à domicile
 
 - **Numérateur :** Nombre de bénéficiaires de l'APA de la classe d'âge considérée, à domicile ou en établissement durant l'année N
 - **Dénominateur :** Nombre de personne de la classe d'âge considérée
@@ -657,7 +665,7 @@ Cet indicateur y contribue en évaluant la part de la population dépendante et 
 
 **Définition :**
 
-Mise en place en 2002, l’allocation personnalisée d’autonomie (APA) est versée par les conseils départementaux aux personnes âgées de 60 ans ou plus qui sont évaluées comme dépendantes d’après la grille AGGIR, qu’elles vivent à leur domicile ou qu’elles résident en établissement. Cette prestation permet de financer en partie les différentes aides (humaines et techniques) auxquelles ces personnes ont recours pour compenser leurs difficultés dans la réalisation des actes de la vie quotidienne.
+Mise en place en 2002, l’allocation personnalisée d’autonomie ([APA](#apa)) est versée par les conseils départementaux aux personnes âgées de 60 ans ou plus qui sont évaluées comme dépendantes d’après la grille AGGIR, qu’elles vivent à leur domicile ou qu’elles résident en établissement. Cette prestation permet de financer en partie les différentes aides (humaines et techniques) auxquelles ces personnes ont recours pour compenser leurs difficultés dans la réalisation des actes de la vie quotidienne.
 
 Bénéficiaires de l'APA = personnes payées au titre du mois de décembre, y compris personnes bénéficiaires en établissement sous dotation globale.
 Les bénéficiaires de l'APA vivant dans un établissement d'une capacité inférieure à 25 places ou ayant un GIR moyen pondéré inférieur à 300 et qui a opté pour un budget n'intégrant pas de section de soins, sont considérés comme des bénéficiaires de l'APA à domicile, de même que les bénéficiaires hébergés en famille d'accueil à titre onéreux.
@@ -675,7 +683,7 @@ Lorsqu'un bénéficiaire est hébergé en établissement hors de son départemen
 
 ## **ID_indicateur :** pa_part_benef_ash_places_heberg
 
-**Source :** DREES, enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2004 à 2024
 
@@ -706,30 +714,30 @@ Les départements financent une partie des dépenses d’hébergement des person
 Résidences autonomie (anciennement « logements-foyers ») : Établissements proposant un accueil en logement regroupé aux personnes âgées, groupes de logements ou de chambres autonomes assortis d’équipements ou de services collectifs dont l’usage est facultatif.
 Établissements de soins de longue durée (USLD) : Établissements rattachés à des hôpitaux qui assurent un hébergement de longue durée aux personnes âgées dépendantes dont l’état de santé nécessite des soins médicaux lourds et une surveillance médicale constante.
 
-Places en établissement: DREES, DRJSCS et Exploitation du FINESS
-Le panorama statistique « Jeunesse, Sports, Cohésion sociale » présente des données départementales et régionales homogènes sur la démographie, la politique de la ville, la pauvreté, la précarité et l’exclusion, le handicap et la dépendance, le logement et l’hébergement, la jeunesse, l’enfance et la protection de l’enfance, le sport, la délivrance de certains diplômes (professions sociales, profession de santé, animation socio culturelle et métiers du sport), enfin, l’emploi dans les domaines associatif et sportif.
+Places en établissement: DREES, DRJSCS et Exploitation du [Finess](#finess)
+Le [Panorama statistique](#pano) « Jeunesse, Sports, Cohésion sociale » présente des données départementales et régionales homogènes sur la démographie, la politique de la ville, la [Pauvreté](#pauv), la précarité et l’exclusion, le handicap et la dépendance, le logement et l’hébergement, la jeunesse, l’enfance et la protection de l’enfance, le sport, la délivrance de certains diplômes (professions sociales, profession de santé, animation socio culturelle et métiers du sport), enfin, l’emploi dans les domaines associatif et sportif.
 
-Le Fichier National des Établissements Sanitaires et Sociaux (FINESS) est la principale source d’information sur les équipements des établissements. Mis à jour par les agences régionales de santé (ARS) et les directions régionales de la jeunesse et de la cohésion sociale (DRJSCS), il permet une identification précise des établissements, recense les lits et places autorisés et installés par discipline, et les équipements lourds de chaque structure.
+Le Fichier National des Établissements Sanitaires et Sociaux ([Finess](#finess)) est la principale source d’information sur les équipements des établissements. Mis à jour par les agences régionales de santé (ARS) et les directions régionales de la jeunesse et de la cohésion sociale (DRJSCS), il permet une identification précise des établissements, recense les lits et places autorisés et installés par discipline, et les équipements lourds de chaque structure.
 
 La Statistique annuelle des établissements de santé (SAE) est une enquête administrative exhaustive et obligatoire auprès des établissements de santé installés en France (métropole et DROM) y compris les structures qui ne réalisent qu’un seul type d’hospitalisation ou qui ont une autorisation pour une seule activité de soins. Les données sont collectées par la DREES.
 
-Bénéficiaires de l'ASH : DREES, enquête Aide sociale, menée auprès des conseils départementaux
+Bénéficiaires de l'ASH : DREES, [Enquête Aide sociale](#as), menée auprès des conseils départementaux
 
 **Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles.
-Cet indicateur peut être rapproché des données de contexte sur le taux de pauvreté monétaire des personnes âgées et du taux d'équipement.
+Cet indicateur peut être rapproché des données de contexte sur le taux de [Pauvreté](#pauv) monétaire des personnes âgées et du taux d'équipement.
 
 **Qualité et limites :**
 
 - Certaines personnes âgées sont bénéficiaires de l'ASH dans leur département d'origine tout en étant hébergées dans un autre département. L'interprétation de l'indicateur serait donc à nuancer selon l'importance des flux de personnes entre départements.
 
-- FINESS est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
-L'enquête de la DREES auprès des établissements d'hébergement pour personnes âgées. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de FINESS en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans FINESS et un important travail de mise en cohérence est alors mené.
+- [Finess](#finess) est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
+L'enquête de la DREES auprès des établissements d'hébergement pour personnes âgées. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de [Finess](#finess) en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans [Finess](#finess) et un important travail de mise en cohérence est alors mené.
 
 ----
 
 ## **ID_indicateur :** ph_depenses_brutes_aide_accueil, ph_depenses_brutes_aide_accueil_benef, ph_depenses_brutes_aide_accueil_hab, ph_depenses_brutes_aide_accueil_jour_heberg, ph_depenses_brutes_aide_domicile
 
-**Source :** DREES, enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2004 à 2024
 
@@ -767,7 +775,7 @@ Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'�
 
 ## **ID_indicateur :** ph_depenses_brutes, ph_depenses_nettes
 
-**Source :** DREES, enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2004 à 2024
 
@@ -791,7 +799,7 @@ Cet indicateur y contribue en estimant le coût moyen de la principale dépense 
 
 ## **ID_indicateur :** ph_depenses_brutes_pch_actp_benef, ph_depenses_brutes_pch_actp_hab
 
-**Source :** DREES, enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2004 à 2024
 
@@ -830,7 +838,7 @@ Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'�
 
 ## **ID_indicateur :** ph_nb_benef_aide_menagere, ph_nb_benef_aide_sociale, ph_nb_benef_aide_sociale_acc, ph_nb_benef_aide_sociale_dom
 
-**Source :** DREES, enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2006 à 2024
 
@@ -838,7 +846,8 @@ Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'�
 
 **Descriptif :** 
 
-Nombre de bénéficiaires des différentes aides sociales aux personnes handicapées
+Nombre d'aides sociales aux personnes handicapées.
+Il s'agit d'un nombre d'aides sociales et non d'individus : une même personne peut être comptabilisée plusieurs fois si elle bénéficie de plusieurs types d'aide.
 
 **Objectif :**
 
@@ -852,7 +861,7 @@ Cet indicateur y contribue en mesurant la part de la population reconnue en situ
 
 ## **ID_indicateur :** ph_nb_benef_actp_60p, ph_nb_benef_actp_m60, ph_nb_benef_pch_60p, ph_nb_benef_pch_actp, ph_nb_benef_pch_m60
 
-**Source :** DREES, enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2015 à 2024
 
@@ -861,6 +870,8 @@ Cet indicateur y contribue en mesurant la part de la population reconnue en situ
 **Descriptif :** 
 
 Nombre de bénéficiaires de la PCH et/ou de l'ACTP de plus ou moins de 60 ans.
+Un bénéficiaire de la PCH ou de l'ACTP est une personne ayant un droit ouvert à la prestation au 31 décembre de l'année considérée, que ce droit ait donné lieu à un paiement ou non.
+Les données de certains départements étant manquantes, elles ont fait l'objet d'une estimation.
 
 **Objectif :**
 
@@ -874,7 +885,7 @@ Cet indicateur y contribue en mesurant la part de la population reconnue en situ
 
 ## **ID_indicateur :** ph_nb_mesures_aide_sociale, ph_nb_mesures_aide_sociale_accueil
 
-**Source :** DREES, enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2000 à 2024
 
@@ -894,7 +905,7 @@ Cet indicateur y contribue en mesurant la part de la population reconnue en situ
 
 ## **ID_indicateur :** ph_tx_benef_actp_1000hab, ph_tx_benef_actp_1000hab_60p, ph_tx_benef_actp_1000hab_m60, ph_tx_benef_pch_1000hab, ph_tx_benef_pch_1000hab_60p, ph_tx_benef_pch_1000hab_m60, ph_tx_benef_pch_actp_1000hab, ph_tx_benef_pch_actp_1000hab_60p, ph_tx_benef_pch_actp_1000hab_m60
 
-**Source :** DREES, enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2015 à 2024
 
@@ -921,7 +932,7 @@ Mise en place en 2006, la prestation de compensation (PCH) est versée par les c
 
 Le dispositif de l’ACTP (allocation compensatrice pour tierce personne) est remplacé par celui de la PCH, en vigueur au 1er janvier 2006. Cependant, les personnes admises au bénéfice de l’ACTP avant cette date peuvent continuer à la percevoir, tant qu’elles en remplissent les conditions d’attribution et qu’elles en expriment le choix, à chaque renouvellement des droits.
 
-Les bénéficiaires sont les personnes ayant des droits ouverts au 31/12 par la CDAPH ou bénéficiant d'une procédure d'urgence. Sont exclues les personnes dont les droits sont interrompus avant le 31/12, suite à décès, déménagement hors du département ou choix de l'APA.
+Les bénéficiaires sont les personnes ayant des droits ouverts au 31/12 par la CDAPH ou bénéficiant d'une procédure d'urgence. Sont exclues les personnes dont les droits sont interrompus avant le 31/12, suite à décès, déménagement hors du département ou choix de l'[APA](#apa).
 Pour la PCH, le droit peut avoir donné lieu à paiement ou non.
 Sont inclus les enfants bénéficiaires de la PCH.
 
@@ -939,7 +950,7 @@ Il est difficile de distinguer les bénéficiaires de la PCH enfant autrement qu
 
 ## **ID_indicateur :** pmi_eff_auxpuer, pmi_eff_cconj, pmi_eff_eje, pmi_eff_ide, pmi_eff_med, pmi_eff_psy, pmi_eff_puer, pmi_eff_sagefemme
 
-**Source :** DREES, enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2010 à 2023
 
@@ -953,7 +964,7 @@ Effectifs des personnels de PMI par métier
 
 ## **ID_indicateur :** pmi_etp_auxpuer, pmi_etp_cconj, pmi_etp_eje, pmi_etp_ide, pmi_etp_med, pmi_etp_psy, pmi_etp_puer, pmi_etp_sagefemme
 
-**Source :** DREES, enquête Aide sociale
+**Source :** DREES, [Enquête Aide sociale](#as)
 
 **Dates :** 2000 à 2024
 
@@ -962,3 +973,5 @@ Effectifs des personnels de PMI par métier
 **Descriptif :** 
 
 ETP des personnels de PMI par métier
+
+------------------
