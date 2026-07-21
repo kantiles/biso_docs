@@ -1,13 +1,9 @@
 
 # Indicateurs provenant de l'[Enquête Aide sociale](#as)
 
-## **ID_indicateur :** ase_depenses_brutes, ase_depenses_brutes_actions_educatives, ase_depenses_brutes_allocations, ase_depenses_brutes_placement, ase_depenses_brutes_prevention_spe, ase_depenses_nettes
+## **ID_indicateur :** ase_depenses_brutes, ase_depenses_brutes_actions_educatives, ase_depenses_brutes_allocations, ase_depenses_brutes_placement, ase_depenses_brutes_prevention_spe
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 1999 à 2023
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Descriptif :** 
 
@@ -38,11 +34,7 @@ Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'�
 
 ## **ID_indicateur :** ase_depenses_brutes_placement_benef, ase_depenses_brutes_placement_hab
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 1999 à 2023
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Descriptif :** 
 
@@ -84,11 +76,7 @@ Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'�
 
 ## **ID_indicateur :** ase_depenses_nettes
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 1999 à 2023
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Descriptif :** 
 
@@ -116,11 +104,7 @@ Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'�
 
 ## **ID_indicateur :** ase_nb_actions_educ_aed, ase_nb_actions_educ_aemo, ase_nb_actions_educ_tot
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2002 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Descriptif :** 
 
@@ -130,11 +114,7 @@ Nombre d'actions éducatives à domicile (AED), en milieu ouvert (AEMO) ou au to
 
 ## **ID_indicateur :** ase_nb_enf_confies, ase_nb_enf_confies_ass_fam, ase_nb_enf_confies_placement_direct
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2002 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Descriptif :** 
 
@@ -144,11 +124,7 @@ Nombre d'enfants confiés à l'ASE, placés en famille d'accueil, ou au total
 
 ## **ID_indicateur :** ase_nb_mesures_judi_accueil, ase_nb_placement_direct
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2002 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Descriptif :** 
 
@@ -158,11 +134,7 @@ Nombre d'enfants confiés à l'ASE par une mesure judiciaire de placement et nom
 
 ## **ID_indicateur :** ase_part_aed_actions_educatives, ase_tx_actions_educ_0_20
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2002 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Descriptif :** 
 
@@ -192,11 +164,7 @@ L’action éducative à domicile (AED) est une décision administrative prise p
 
 ## **ID_indicateur :** ase_part_aed_mesures, ase_tx_mesures_0_20
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2002 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Descriptif :** 
 
@@ -243,11 +211,7 @@ Le nombre de mesures diffère du nombre de jeunes, certains d'entre eux pouvant 
 
 ## **ID_indicateur :** ase_part_benef_autonome, ase_part_benef_autres, ase_part_enf_confies_etab, ase_part_enf_confies_assfam, ase_part_placements_directs, ase_part_mesures_judiciaires, ase_tx_mesures_placement_0_20, ase_part_jeunes_majeurs
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2002 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Descriptif :** 
 
@@ -286,11 +250,7 @@ Les mesures de placement à l’ASE sont de trois types :
 
 ## **ID_indicateur :** cont_depenses_brutes_aide_sociale_hab
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 1999 à 2023
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Descriptif :** 
 
@@ -313,15 +273,11 @@ Dépenses brutes : dépenses de l'année avant déduction des recouvrements, rem
 
 Ces dépenses brutes sont toutefois exprimées après récupérations faites auprès des bénéficiaires, des obligés alimentaires et sur successions dans le cadre de l’aide sociale à l’hébergement (ASH) aux personnes âgées, afin de rendre plus robustes les comparaisons départementales. En effet, les pratiques départementales de récupérations de l'ASH sont très variables selon les collectivités et rendent impossible toute comparaison pertinente des dépenses brutes sur le sujet.
 
-**Intérêt de l’indicateur et interprétation :**	Comparaisons spatiales et temporelles
+**Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles
 
 ----
 
 ## **ID_indicateur :** fam_consult_1000_enf_m6, fam_consult_1000_f_accouch
-
-**Source :** Drees, PMI
-
-**Dates :** 2020 à 2023
 
 **Périodicité :** Annuelle
 
@@ -341,10 +297,6 @@ Nombre de consultations pour 1 000 femmes ayant accouché au cours de l'année
 
 ## **ID_indicateur :** fam_consult_sante_sex_1000_f_15_49, fam_entretien_sante_sex_1000_f_15_49
 
-**Source :** Drees, PMI
-
-**Dates :** 2020 à 2023
-
 **Périodicité :** Annuelle
 
 **Descriptif :** 
@@ -359,10 +311,6 @@ Indicateur exprimé en pour 1000
 ----
 
 ## **ID_indicateur :** fam_vad_1000_enf_m6, fam_vad_1000_f_accouch
-
-**Source :** Drees, PMI
-
-**Dates :** 
 
 **Périodicité :** Annuelle
 
@@ -382,10 +330,6 @@ Nombre de Visite A Domicile (VAD) pour 1 000 femmes ayant accouché au cours de 
 
 ## **ID_indicateur :** fam_nb_ass_mat_agrement_valide
 
-**Source :** Drees, PMI
-
-**Dates :** 2020 à 2023
-
 **Périodicité :** Annuelle
 
 **Descriptif :** 
@@ -396,10 +340,6 @@ Nombre d'agréments d'assistantes maternelles en cours de validité au 31 décem
 
 ## **ID_indicateur :** fam_nb_etp_pmi
 
-**Source :** Drees, PMI
-
-**Dates :** 2020 à 2023
-
 **Périodicité :** Annuelle
 
 **Descriptif :** 
@@ -409,10 +349,6 @@ Nombre d'ETP des personnels de PMI
 ----
 
 ## **ID_indicateur :** fam_nb_places_acc_coll_m3
-
-**Source :** Drees, PMI
-
-**Dates :** 2020 à 2023
 
 **Périodicité :** Annuelle
 
@@ -426,10 +362,6 @@ Du fait  de la réforme des modes d'accueil de 2021, une nouvelle nomenclature d
 
 ## **ID_indicateur :** fam_places_creches_coll, fam_places_creches_coll_fam, fam_places_creches_fam, fam_places_etab_parent, fam_places_jard_enf
 
-**Source :** Drees, PMI
-
-**Dates :** 2020 à 2023
-
 **Périodicité :** Annuelle
 
 **Descriptif :** 
@@ -442,10 +374,6 @@ Du fait  de la réforme des modes d'accueil de 2021, une nouvelle nomenclature d
 
 ## **ID_indicateur :** fam_points_pmi
 
-**Source :** Drees, PMI
-
-**Dates :** 
-
 **Périodicité :** Annuelle
 
 **Descriptif :** 
@@ -456,10 +384,6 @@ Nombre de points de consultation de PMI
 
 ## **ID_indicateur :** fam_repart_places_creches_coll, fam_repart_places_creches_coll_fam, fam_repart_places_creches_fam, fam_repart_places_etab_parent, fam_repart_places_jard_enf
 
-**Source :** Drees, PMI
-
-**Dates :** 2020 à 2023
-
 **Périodicité :** Annuelle
 
 **Descriptif :** 
@@ -471,28 +395,7 @@ Répartition des places dans les différentes structures d'accueil collectif au 
 
 ----
 
-## **ID_indicateur :** fam_repart_places_creches_coll, fam_repart_places_creches_coll_fam, fam_repart_places_creches_fam, fam_repart_places_etab_parent, fam_repart_places_jard_enf
-
-**Source :** Drees, PMI
-
-**Dates :** 2020 à 2023
-
-**Périodicité :** Annuelle
-
-**Descriptif :** 
-
-Répartition des places dans les différentes structures d'accueil collectif au 31 décembre
-
-**Numérateur :** Nombre de places dans les établissements concernés dans le département au 31/12/N
-**Dénominateur :** Nombre total de places dans les structures d'accueil collectif dans le département au 31/12/N
-
-----
-
-## **ID_indicateur :** ms_depenses_brutes_rsa_benef_new, ms_depenses_brutes_rsa_benef_old, s_depenses_brutes_rsa_hab
-
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2010 à 2023
+## **ID_indicateur :** ms_depenses_brutes_rsa_benef_new, ms_depenses_brutes_rsa_benef_old, ms_depenses_brutes_rsa_hab
 
 **Périodicité :** Annuelle
 
@@ -529,17 +432,13 @@ Depuis le 1er septembre 2010, le [RSA](#rsa) est étendu au moins de 25 ans (RSA
 
 Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
 
-**Intérêt de l’indicateur et interprétation :**	Mesurer l'évolution de la charge financière par habitant liée au [RSA](#rsa) dans l'espace et dans le temps ; les variations spatiales sont fortement liées au contexte économique départemental
+**Intérêt de l’indicateur et interprétation :** Mesurer l'évolution de la charge financière par habitant liée au [RSA](#rsa) dans l'espace et dans le temps ; les variations spatiales sont fortement liées au contexte économique départemental
 
 **Qualité et limites :** Sont retenues pour cet indicateur les dépenses brutes, par souci de cohérence avec les postes PCH et ASE, pour lesquels les dépenses nettes ne sont pas disponibles à ce niveau de détail.
 
 ----
 
 ## **ID_indicateur :** ms_oarsa_delai_moy_rsa_primo_orientation
-
-**Source :** DREES, enquête OARSA
-
-**Dates :** 2017 à 2024
 
 **Périodicité :** Annuelle
 
@@ -550,10 +449,6 @@ Délai moyen entre la date d'entrée dans le [RSA](#rsa) et la date de primo-ori
 ----
 
 ## **ID_indicateur :** ms_oarsa_part_soumises_droits_devoirs_orientees, ms_oarsa_part_soumises_droits_devoirs_orientees_autres_ft_cer, ms_oarsa_part_soumises_droits_devoirs_orientees_cd, ms_oarsa_part_soumises_droits_devoirs_orientees_ft
-
-**Source :** DREES, enquête OARSA
-
-**Dates :** 2017 à 2024
 
 **Périodicité :** Annuelle
 
@@ -569,10 +464,6 @@ Part des bénéficiaires du [RSA](#rsa) orientés parmi les personnes soumises a
 
 ## **ID_indicateur :** pa_depenses_brutes, pa_depenses_brutes_aide_dom, pa_depenses_brutes_apa, pa_depenses_nettes
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 1999 à 2023
-
 **Périodicité :** Annuelle
 
 **Descriptif :** 
@@ -587,10 +478,6 @@ Dépenses brutes : dépenses de l'année avant déduction des recouvrements, rem
 ----
 
 ## **ID_indicateur :** pa_depenses_brutes_apa_benef, pa_depenses_brutes_apa_hab
-
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2002 à 2023
 
 **Périodicité :** Annuelle
 
@@ -622,10 +509,6 @@ Sont retenues pour cet indicateur les dépenses brutes, par souci de cohérence 
 
 ## **ID_indicateur :** pa_nb_benef_aide_menagere, pa_nb_benef_aide_sociale, pa_nb_benef_aide_sociale_accueil, pa_nb_benef_aide_sociale_dom, pa_nb_benef_aide_sociale_tot, pa_nb_benef_apa_tot
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2000 à 2024
-
 **Périodicité :** Annuelle
 
 **Descriptif :** 
@@ -638,10 +521,6 @@ Totalise des mesures d'aides et non des individus : une même personne peut êtr
 ----
 
 ## **ID_indicateur :** pa_part_benef_apa_dom_60p, pa_part_benef_apa_dom_75p, pa_part_benef_apa_dom_gir1_2, pa_part_benef_apa_etab_60p, pa_part_benef_apa_etab_75p, pa_part_benef_apa_tot_60p, pa_part_benef_apa_tot_75p
-
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2002 à 2024
 
 **Périodicité :** Annuelle
 
@@ -683,10 +562,6 @@ Lorsqu'un bénéficiaire est hébergé en établissement hors de son départemen
 
 ## **ID_indicateur :** pa_part_benef_ash_places_heberg
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2004 à 2024
-
 **Périodicité :** Annuelle
 
 **Descriptif :** 
@@ -714,14 +589,14 @@ Les départements financent une partie des dépenses d’hébergement des person
 Résidences autonomie (anciennement « logements-foyers ») : Établissements proposant un accueil en logement regroupé aux personnes âgées, groupes de logements ou de chambres autonomes assortis d’équipements ou de services collectifs dont l’usage est facultatif.
 Établissements de soins de longue durée (USLD) : Établissements rattachés à des hôpitaux qui assurent un hébergement de longue durée aux personnes âgées dépendantes dont l’état de santé nécessite des soins médicaux lourds et une surveillance médicale constante.
 
-Places en établissement: DREES, DRJSCS et Exploitation du [Finess](#finess)
+Places en établissement: Drees, DRJSCS et Exploitation du [Finess](#finess)
 Le [Panorama statistique](#pano) « Jeunesse, Sports, Cohésion sociale » présente des données départementales et régionales homogènes sur la démographie, la politique de la ville, la [Pauvreté](#pauv), la précarité et l’exclusion, le handicap et la dépendance, le logement et l’hébergement, la jeunesse, l’enfance et la protection de l’enfance, le sport, la délivrance de certains diplômes (professions sociales, profession de santé, animation socio culturelle et métiers du sport), enfin, l’emploi dans les domaines associatif et sportif.
 
 Le Fichier National des Établissements Sanitaires et Sociaux ([Finess](#finess)) est la principale source d’information sur les équipements des établissements. Mis à jour par les agences régionales de santé (ARS) et les directions régionales de la jeunesse et de la cohésion sociale (DRJSCS), il permet une identification précise des établissements, recense les lits et places autorisés et installés par discipline, et les équipements lourds de chaque structure.
 
-La Statistique annuelle des établissements de santé (SAE) est une enquête administrative exhaustive et obligatoire auprès des établissements de santé installés en France (métropole et DROM) y compris les structures qui ne réalisent qu’un seul type d’hospitalisation ou qui ont une autorisation pour une seule activité de soins. Les données sont collectées par la DREES.
+La Statistique annuelle des établissements de santé (SAE) est une enquête administrative exhaustive et obligatoire auprès des établissements de santé installés en France (métropole et DROM) y compris les structures qui ne réalisent qu’un seul type d’hospitalisation ou qui ont une autorisation pour une seule activité de soins. Les données sont collectées par la Drees.
 
-Bénéficiaires de l'ASH : DREES, [Enquête Aide sociale](#as), menée auprès des conseils départementaux
+Bénéficiaires de l'ASH : Drees, [Enquête Aide sociale](#as), menée auprès des conseils départementaux
 
 **Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles.
 Cet indicateur peut être rapproché des données de contexte sur le taux de [Pauvreté](#pauv) monétaire des personnes âgées et du taux d'équipement.
@@ -731,15 +606,11 @@ Cet indicateur peut être rapproché des données de contexte sur le taux de [Pa
 - Certaines personnes âgées sont bénéficiaires de l'ASH dans leur département d'origine tout en étant hébergées dans un autre département. L'interprétation de l'indicateur serait donc à nuancer selon l'importance des flux de personnes entre départements.
 
 - [Finess](#finess) est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
-L'enquête de la DREES auprès des établissements d'hébergement pour personnes âgées. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de [Finess](#finess) en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans [Finess](#finess) et un important travail de mise en cohérence est alors mené.
+L'enquête de la Drees auprès des établissements d'hébergement pour personnes âgées. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de [Finess](#finess) en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans [Finess](#finess) et un important travail de mise en cohérence est alors mené.
 
 ----
 
 ## **ID_indicateur :** ph_depenses_brutes_aide_accueil, ph_depenses_brutes_aide_accueil_benef, ph_depenses_brutes_aide_accueil_hab, ph_depenses_brutes_aide_accueil_jour_heberg, ph_depenses_brutes_aide_domicile
-
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2004 à 2024
 
 **Périodicité :** Annuelle
 
@@ -775,10 +646,6 @@ Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'�
 
 ## **ID_indicateur :** ph_depenses_brutes, ph_depenses_nettes
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2004 à 2024
-
 **Périodicité :** Annuelle
 
 **Descriptif :** 
@@ -798,10 +665,6 @@ Cet indicateur y contribue en estimant le coût moyen de la principale dépense 
 ----
 
 ## **ID_indicateur :** ph_depenses_brutes_pch_actp_benef, ph_depenses_brutes_pch_actp_hab
-
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2004 à 2024
 
 **Périodicité :** Annuelle
 
@@ -838,10 +701,6 @@ Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'�
 
 ## **ID_indicateur :** ph_nb_benef_aide_menagere, ph_nb_benef_aide_sociale, ph_nb_benef_aide_sociale_acc, ph_nb_benef_aide_sociale_dom
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2006 à 2024
-
 **Périodicité :** Annuelle
 
 **Descriptif :** 
@@ -860,10 +719,6 @@ Cet indicateur y contribue en mesurant la part de la population reconnue en situ
 ----
 
 ## **ID_indicateur :** ph_nb_benef_actp_60p, ph_nb_benef_actp_m60, ph_nb_benef_pch_60p, ph_nb_benef_pch_actp, ph_nb_benef_pch_m60
-
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2015 à 2024
 
 **Périodicité :** Annuelle
 
@@ -885,10 +740,6 @@ Cet indicateur y contribue en mesurant la part de la population reconnue en situ
 
 ## **ID_indicateur :** ph_nb_mesures_aide_sociale, ph_nb_mesures_aide_sociale_accueil
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2000 à 2024
-
 **Périodicité :** Annuelle
 
 **Descriptif :** 
@@ -904,10 +755,6 @@ Cet indicateur y contribue en mesurant la part de la population reconnue en situ
 ----
 
 ## **ID_indicateur :** ph_tx_benef_actp_1000hab, ph_tx_benef_actp_1000hab_60p, ph_tx_benef_actp_1000hab_m60, ph_tx_benef_pch_1000hab, ph_tx_benef_pch_1000hab_60p, ph_tx_benef_pch_1000hab_m60, ph_tx_benef_pch_actp_1000hab, ph_tx_benef_pch_actp_1000hab_60p, ph_tx_benef_pch_actp_1000hab_m60
-
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2015 à 2024
 
 **Périodicité :** Annuelle
 
@@ -950,10 +797,6 @@ Il est difficile de distinguer les bénéficiaires de la PCH enfant autrement qu
 
 ## **ID_indicateur :** pmi_eff_auxpuer, pmi_eff_cconj, pmi_eff_eje, pmi_eff_ide, pmi_eff_med, pmi_eff_psy, pmi_eff_puer, pmi_eff_sagefemme
 
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2010 à 2023
-
 **Périodicité :** Annuelle
 
 **Descriptif :** 
@@ -963,10 +806,6 @@ Effectifs des personnels de PMI par métier
 ----
 
 ## **ID_indicateur :** pmi_etp_auxpuer, pmi_etp_cconj, pmi_etp_eje, pmi_etp_ide, pmi_etp_med, pmi_etp_psy, pmi_etp_puer, pmi_etp_sagefemme
-
-**Source :** DREES, [Enquête Aide sociale](#as)
-
-**Dates :** 2000 à 2024
 
 **Périodicité :** Annuelle
 

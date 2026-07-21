@@ -51,11 +51,12 @@ df_doc <-
 df_doc_ids <-
   df_doc |>
   tibble::enframe(name = NULL, value = "ligne") |>
-  filter(str_starts(ligne, "\\#\\# \\*\\*ID_indicateur :\\*\\*")) |>
+  filter(str_detect(ligne, "\\*\\*ID_indicateur :\\*\\*")) |>
   mutate(
-    id_indicateur = str_remove(ligne, "^\\#\\# \\*\\*ID_indicateur :\\*\\* ")
+    id_indicateur = str_remove(ligne, "^\\#\\# ") |>
+      str_remove("^\\*\\*ID_indicateur :\\*\\* ")
   ) |>
-  separate_longer_delim(id_indicateur, delim = ",") |>
+  separate_longer_delim(id_indicateur, delim = ", ") |>
   mutate(id_indicateur = str_trim(id_indicateur))
 
 # Complétude -----
@@ -64,7 +65,8 @@ df_biso_doc |>
   filter_out(is.na(isd) & is.na(panorama) & is.na(vilas)) |>
   anti_join(df_doc_ids, by = join_by(id_indicateur)) |>
   arrange(Lots, panorama, id_indicateur) |>
-  select(Lots, id_indicateur, lib_indicateur, source, vilas, isd, panorama)
+  select(Lots, id_indicateur, lib_indicateur, source, vilas, isd, panorama) |>
+  print(n = Inf)
 
 # Faux -----
 
@@ -73,3 +75,9 @@ df_doc_ids |>
     df_biso_doc,
     by = join_by(id_indicateur)
   )
+
+# Doublons -----
+
+df_doc_ids |>
+  count(id_indicateur) |>
+  filter(n != 1)

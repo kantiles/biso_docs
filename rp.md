@@ -1,10 +1,7 @@
-# Indicateurs provenant du Recensement de la Population (RP)
+
+# Indicateurs provenant du [Recensement de la Population (RP)](#rp)
 
 ## **ID_indicateur :** fam_part_enf_ss_act_occ_mono, fam_part_enf_ss_act_occ_couple, fam_part_enf_ss_act_occ, fam_part_enf_mono_parmi_ss_act_occ, fam_part_enf_mono
-
-**Source :** Insee, RP, exploitation complémentaire
-
-**Dates :** 2022
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
@@ -18,6 +15,7 @@ Indicateur exprimé en %
 L'indicateur est décliné selon le type de famille (monoparentale ou couple).
 
 Sont également diffusées :
+
 - la part des enfants vivant dans une famille monoparentale parmi les enfants vivant dans une famille dont le(s) parent(s) n'a (n’ont) pas d'emploi et n’est (ne sont) ni retraité(s) ni étudiant(s)
 - la part des enfants vivant dans une famille monoparentale parmi l'ensemble des enfants
 
@@ -35,10 +33,6 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 ## **ID_indicateur :** cont_densite_pop, cont_superficie
 
-**Source :** Insee, estimation de la population
-
-**Dates :** 2016 à 2025
-
 **Périodicité :** Annuelle
 
 **Descriptif :** 
@@ -54,10 +48,6 @@ L'objectif stratégique des indicateurs de contexte est de caractériser le terr
 
 ## **ID_indicateur :** pop_rp_tot, cont_part_pop_immig
 
-**Source :** Insee, RP
-
-**Dates :** 2022
-
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
 **Descriptif :** 
@@ -68,10 +58,6 @@ Population selon le Recensement de la Population et part de la population immigr
 
 ## **ID_indicateur :** fam_part_fam_mono
 
-**Source :** Insee, RP
-
-**Dates :** 2022
-
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
 **Descriptif :** 
@@ -81,10 +67,6 @@ Part des familles monoparentales.
 ----
 
 ## **ID_indicateur :** cont_ind_vieillisement_pop
-
-**Source :** Insee, RP, estimations de population et populations définitives
-
-**Dates :** 2022
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
@@ -98,7 +80,7 @@ C’est le nombre de personnes de 65 ans ou plus pour 100 personnes de moins de 
 
 Indicateur exprimé en %.
 
-L'âge s'entend comme l'âge atteint au 1er janvier de l'année considérée.
+L'[âge](#age) s'entend comme l'âge atteint au 1er janvier de l'année considérée.
 
 **Objectif :**
 
@@ -119,23 +101,15 @@ Les résultats sont provisoires ; ils deviennent définitifs avec le recensement
 
 ## **ID_indicateur :** cont_tx_croissance_annuel_moyen, cont_tx_croissance_annuel_moyen_solde_mig
 
-**Source :** Insee, RP
-
-**Dates :** 2022
-
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
 **Descriptif :** 
 
-Taux de croissance annuel moyen et taux dû au solde migratoire
+Taux de croissance annuel moyen et taux dû au solde migratoire entre 2016 et 2022 (2012 à 2017 pour Mayotte).
 
 ----
 
 ## **ID_indicateur :** cont_part_pop_pole_urbain, cont_part_pop_pole_urbain_com_centre, cont_part_pop_pole_urbain_autre_com, cont_part_pop_no_pole_urbain_com_couronnes, cont_part_pop_no_pole_urbain_hors_attraction, cont_part_pop_no_pole_urbain
-
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2022
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
@@ -172,16 +146,13 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 ## **ID_indicateur :** cont_mobilite_resid_m18, cont_mobilite_resid_18_24, cont_mobilite_resid_25_39, cont_mobilite_resid_40_59, cont_mobilite_resid_60p, cont_mobilite_resid_interdp_18_39, cont_mobilite_resid_interdp_20_34
 
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
-
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. Comparaison dans le temps (intervalle passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
 Depuis le recensement de 2013, les migrations résidentielles sont mesurées sur un an, alors qu’elles étaient mesurées sur cinq ans depuis 2004. De ce fait, les comparaisons des volumes de migrations ne peuvent se faire directement avec les recensements antérieurs.
 
 **Descriptif :** 
 
 Au sein du territoire national, deux types de mouvements migratoires sont susceptibles d'affecter l'évolution de la population d'une zone géographique donnée :
+
 - d'une part, des mouvements en provenance ou à destination de l'étranger, qui affectent à la fois le solde migratoire de la zone et le solde migratoire national
 - d'autre part, des mouvements internes au territoire national, entre la zone considérée et les autres parties du territoire, qui affectent le solde migratoire de la zone sans affecter le solde migratoire national.
 
@@ -232,10 +203,6 @@ Par ailleurs, comme pour toutes les autres données du recensement rénové, le 
 
 ## **ID_indicateur :** cont_tx_act, cont_tx_act_h, cont_tx_act_f, cont_tx_act_f_15_24, cont_tx_act_f_25_49, cont_tx_act_f_50_64, cont_tx_act_h_15_24, cont_tx_act_h_25_49, cont_tx_act_h_50_64, cont_tx_act_50_64, cont_tx_act_50_64_chom, cont_tx_act_50_64_empl, cont_tx_act_50_64_f_chom, cont_tx_act_50_64_f_empl, cont_tx_act_50_64_h_chom, cont_tx_act_50_64_h_empl
 
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
-
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
 **Descriptif :** 
@@ -246,6 +213,7 @@ L'indicateur est le taux d’activité.
 - **Dénominateur :** Population de 15 à 64 ans révolus
 
 La population active au sens du recensement de la population comprend les personnes qui déclarent :
+
 - exercer une profession (salariée ou non) même à temps partiel
 - aider un membre de la famille dans son travail (même sans rémunération)
 - être apprenti, stagiaire rémunéré
@@ -269,7 +237,7 @@ Déclinaison par sous-population :
 
 L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
 
-Cet indicateur y contribue en caractérisant les marchés locaux du travail, par la mesure de la part de main d’œuvre employée et disponible dans la population en âge de travailler, en fonction de l'âge.
+Cet indicateur y contribue en caractérisant les marchés locaux du travail, par la mesure de la part de main d’œuvre employée et disponible dans la population en âge de travailler, en fonction de l'[âge](#age).
 
 **Intérêt de l’indicateur et interprétation :**
 
@@ -285,10 +253,6 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 ----
 
 ## **ID_indicateur :** cont_nb_actifs_50_64, cont_part_actifs_50_64_empl_admin_sante, cont_part_actifs_50_64_empl_agri, cont_part_actifs_50_64_empl_agri_sylvi_peche, cont_part_actifs_50_64_empl_arti_com_chefs, cont_part_actifs_50_64_empl_cadres, cont_part_actifs_50_64_empl_commerce_trans, cont_part_actifs_50_64_empl_construction, cont_part_actifs_50_64_empl_employes, cont_part_actifs_50_64_empl_industrie, cont_part_actifs_50_64_empl_ouvriers, cont_part_actifs_50_64_empl_prof_int
-
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
@@ -309,10 +273,6 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 ## **ID_indicateur :** cont_part_empl_50_64_non_sal, cont_part_empl_50_64_sal, cont_part_empl_50_64_sal_cdd, cont_part_empl_50_64_sal_cdi, cont_part_empl_50_64_sal_interim, cont_part_empl_50_64_sal_tps_part
 
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
-
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
 **Descriptif :** 
@@ -327,10 +287,6 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 ----
 
 ## **ID_indicateur :** cont_tx_chom_50_64, cont_tx_chom_f_50_64, cont_tx_chom_h_50_64, cont_tx_chom_long_dur_50_64, cont_tx_chom_long_dur_f_50_64, cont_tx_chom_long_dur_h_50_64
-
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
@@ -348,10 +304,6 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 ## **ID_indicateur :** cont_part_f_15_19_eleves, cont_part_f_15_19_emploi, cont_part_f_20_24_eleves, cont_part_f_20_24_emploi, cont_part_h_15_19_eleves, cont_part_h_15_19_emploi, cont_part_h_20_24_eleves, cont_part_h_20_24_emploi
 
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
-
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
 **Descriptif :** 
@@ -367,10 +319,6 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 ----
 
 ## **ID_indicateur :** cont_nb_neet_16_25, cont_nb_neet_16_25_chom, cont_nb_neet_26_29, cont_nb_neet_26_29_chom, cont_repart_neet_16_25_bac, cont_repart_neet_16_25_bac_p2, cont_repart_neet_16_25_bac_p3_4, cont_repart_neet_16_25_bac_p5p, cont_repart_neet_16_25_brevet, cont_repart_neet_16_25_cap_bep, cont_repart_neet_16_25_f, cont_repart_neet_16_25_h, cont_repart_neet_16_25_no_dipl, cont_repart_neet_26_29_bac, cont_repart_neet_26_29_bac_p2, cont_repart_neet_26_29_bac_p3_4, cont_repart_neet_26_29_bac_p5p, cont_repart_neet_26_29_brevet, cont_repart_neet_26_29_cap_bep, cont_repart_neet_26_29_f, cont_repart_neet_26_29_h, cont_repart_neet_26_29_no_dipl
-
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
@@ -388,28 +336,26 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 ## **ID_indicateur :** cont_nb_retraites_pre_retraites, cont_nb_retraites_pre_retraites_empl, cont_part_h_retraites_pre_retraites_m65_empl, cont_part_retraites_pre_retraites_empl, cont_part_retraites_pre_retraites_m65, cont_part_retraites_pre_retraites_m65_empl, cont_repart_cumul_empl_retraite_agri, cont_repart_cumul_empl_retraite_arti_com_chefs, cont_repart_cumul_empl_retraite_cadres, cont_repart_cumul_empl_retraite_employes, cont_repart_cumul_empl_retraite_ouvriers, cont_repart_cumul_empl_retraite_prof_int, cont_repart_retraites_pre_retraites_60_64, cont_repart_retraites_pre_retraites_65_69, cont_repart_retraites_pre_retraites_70_74, cont_repart_retraites_pre_retraites_75p, cont_repart_retraites_pre_retraites_dipl_supp, cont_repart_retraites_pre_retraites_m60, cont_repart_retraites_pre_retraites_non_sal, cont_repart_retraites_pre_retraites_tps_part
 
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
-
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
 **Descriptif :** 
 
-Nombre de retraités et de pré-retraités et répartition selon l'âge révolu, le type de contrat, le statut professionnel, la catégorie socio-professionnelle. 
+Nombre de retraités et de pré-retraités et répartition selon l'[âge](#age) révolu, le type de contrat, le statut professionnel, la catégorie socio-professionnelle. 
+
+Les données sur le cumul emploi-retraite sont tirées du recensement de la population, seule source disponible à l’échelle départementale. En revanche, à l’échelle nationale, d’autres approches sont utilisées dans les publications de la Drees
+https://drees.solidarites-sante.gouv.fr/sites/default/files/2022-05/22%20-%20Le%20cumul%20emploi-retraite_0.pdf
+Entre ces différentes approches, des différences peuvent exister sur les données nationales. Elles tiennent à la précision des sources mais également aux concepts et définitions retenus, le recensement de la population étant purement déclaratif 
 
 **Qualité et limites :**
 
 Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
 Limite : les chômeurs découragés ne sont pas pris en compte.
+
 Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
+
 ----
 
 ## **ID_indicateur :** cont_repart_actifs_occ_agri, cont_repart_actifs_occ_arti_com_chefs, cont_repart_actifs_occ_cadres, cont_repart_actifs_occ_employes, cont_repart_actifs_occ_ouvriers, cont_repart_actifs_occ_prof_int
-
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
@@ -426,10 +372,6 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 ----
 
 ## **ID_indicateur :** cont_part_csp_agri, cont_part_csp_aut_sans_act_pro, cont_part_csp_arti_com_ce, cont_part_csp_cadres, cont_part_csp_prof_inter, cont_part_csp_employ, cont_part_csp_ouvr_qual, cont_part_csp_ouvr_non_qual, cont_part_csp_retraites, cont_part_csp_eleves_etu_stag, cont_part_csp_retraites_agri, cont_part_csp_retraites_arti_com_ce, cont_part_csp_retraites_cadre_prof_inter, cont_part_csp_retraites_employ_ouvr
-
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
@@ -462,10 +404,6 @@ Comparaison dans le temps (intervalle de 5 ans, passé à 6 ans du fait de l’a
 ----
 
 ## **ID_indicateur :** cont_part_dipl_enseign_sup_25_34
-
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2006, 2011, 2016 et 2022
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
@@ -500,10 +438,6 @@ Comparaison dans le temps Comparaison dans le temps (intervalle de 5 ans entre d
 
 ## **ID_indicateur :** lgmt_part_residences_princ_sur_occ, lgmt_part_residences_princ_sous_occ, lgmt_part_residences_princ_occ_normal, lgmt_part_residences_princ_sous_occ_h_studio_1p, lgmt_part_residences_princ_sur_occ_h_studio_1p, lgmt_part_residences_princ_occ_normal_h_studio_1p, lgmt_part_residences_princ_sous_occ_h_studio_1_2p, lgmt_part_residences_princ_sur_occ_h_studio_1_2p, lgmt_part_residences_princ_occ_normal_h_studio_1_2p
 
-**Source :** Insee, Recensement de la population, exploitation complémentaire
-
-**Dates :** 2016 et 2022
-
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
 **Descriptif :** 
@@ -511,6 +445,7 @@ Comparaison dans le temps Comparaison dans le temps (intervalle de 5 ans entre d
 Le concept de suroccupation repose sur la composition du ménage et le nombre de pièces du logement. 
 
 Un logement est ici considéré comme suroccupé quand il lui manque au moins une pièce par rapport à la norme d' « occupation normale », fondée sur :
+
 - une pièce de séjour pour le ménage,
 - une pièce pour la personne de référence de chaque famille occupant le logement,
 - une pièce pour les personnes hors famille non célibataires ou les célibataires de 19 ans et plus, et, pour les célibataires de moins de 19 ans :
@@ -550,10 +485,6 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 ----
 
 ## **ID_indicateur :** cont_part_cadres_pop_active, cont_empl_fonction_agri, cont_empl_fonction_btp, cont_empl_fonction_fab, cont_empl_fonction_entr, cont_empl_fonction_distrib, cont_empl_fonction_trans, cont_empl_fonction_serv, cont_empl_fonction_commerce, cont_empl_fonction_culture, cont_empl_fonction_gestion, cont_empl_fonction_sante, cont_empl_fonction_presta, cont_empl_fonction_admin, cont_empl_fonction_educ, cont_empl_fonction_concept
-
-**Source :** Insee, Recensement de la population, exploitation complémentaire au lieu de travail et au lieu de résidence
-
-**Dates :** 2016 et 2022
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. L’intervalle est passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021.
 
@@ -608,10 +539,6 @@ Le changement de nomenclature, de la PCS 2003 vers la PCS 2020 a eu des effets d
 
 ## **ID_indicateur :** cont_part_jeunes_non_inseres_18_25
 
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
-
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte.
 
 **Descriptif :** 
@@ -643,10 +570,6 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 ## **ID_indicateur :** pa_repart_60p_couple_enf, pa_repart_60p_institution, pa_repart_60p_autres_non_seules, pa_repart_60p_seules, pa_repart_75p_couple_enf, pa_repart_75p_institution, pa_repart_75p_autres_non_seules, pa_repart_75p_seules
 
-**Source :** Insee, recensement de la population, exploitation complémentaire
-
-**Dates :** 2016 et 2022
-
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte.
 
 **Descriptif :** 
@@ -674,10 +597,6 @@ Comparaison dans le temps (intervalle de 6 ans pour tenir compte de l’absence 
 ----
 
 ## **ID_indicateur :** cont_part_no_dipl_no_scol_25_34, cont_part_no_dipl_no_scol_20_24
-
-**Source :** Insee, recensement de la population, exploitation complémentaire
-
-**Dates :** 2016 et 2022
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte.
 
@@ -707,4 +626,4 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 Si les jeunes ne sont pas en formation à la date d’interrogation, cela ne garantit pas qu’ils ont achevé leurs études. Or, il y a une zone de flou particulièrement forte entre scolarité classique et apprentissage. Pour ceux qui choisissent cette voie, l’entre-deux peut fréquemment durer plusieurs mois. Il faut donc éviter les âges trop jeunes. 
 D’autre part, le questionnaire est auto-administré et certaines situations d’alternance peuvent ne pas être comptées en formation, ce qui peut majorer l’indicateur. 
 
-----
+------------------

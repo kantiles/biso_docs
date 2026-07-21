@@ -5,11 +5,7 @@
 
 **ID_indicateur :** pop_tot, pop_m20, pop_m25, pop_25_64, pop_65p, pop_75p, pop_80p, pop_85p, pop_part_25_64, pop_part_65p, pop_part_75p, pop_part_80p, pop_part_85p, pop_part_m20, pop_part_m25
 
-**Source :** Insee, [Estimations de population](#estim_pop) et [RP](#rp)
-
-**Dates :** 2000 à 2026
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Descriptif :** 
 
@@ -51,11 +47,7 @@ Les résultats sont provisoires ; ils deviennent définitifs avec le recensement
 
 **ID_indicateur :** ase_part_mineurs_juge, ase_part_mineurs_juge_signal_ase, ase_part_mineurs_juge_signal_autre_canal, ase_part_mineurs_juge_signal_autres, ase_part_mineurs_juge_signal_famille, ase_part_mineurs_juge_signal_office
 
-**Source :** Ministère de la Justice, Tableau de bord des mineurs
-
-**Dates :** 2020, 2022, 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Descriptif :** 
 
@@ -121,11 +113,7 @@ La part des saisines du parquet et des saisines d’office dont l’origine est 
 
 **ID_indicateur :** chom_defm_a, chom_defm_abc, chom_defm_abc_longue_duree, chom_defm_abc_m25, chom_pop_age_trav
 
-**Source :** France Travail (données CVS-CJO) ; Insee, [Estimations de population](#estim_pop)
-
-**Dates :** 2000 à 2025
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -165,13 +153,9 @@ Ne pas confondre avec un taux de CLD (chômeurs DEFM longue durée parmi les DEF
 
 ## **Demandeurs d'emploi (répartition)**
 
-**ID_indicateur :** chom_part_defm_abc_pop_age_trav, chom_part_defm_longue_duree_defm, chom_part_defm_longue_duree_pop_15_24, chom_part_defm_longue_duree_pop_15_64, chom_part_defm_longue_duree_pop_25_49, chom_part_defm_longue_duree_pop_50_65, hom_part_defm_longue_duree_pop_femmes, chom_part_defm_longue_duree_pop_hommes, chom_repart_defm_abc_pop_50p, chom_repart_defm_abc_pop_femmes, chom_repart_defm_abc_pop_m25
+**ID_indicateur :** chom_part_defm_abc_pop_age_trav, chom_part_defm_longue_duree_defm, chom_part_defm_longue_duree_pop_15_24, chom_part_defm_longue_duree_pop_15_64, chom_part_defm_longue_duree_pop_25_49, chom_part_defm_longue_duree_pop_50_65, chom_part_defm_longue_duree_pop_femmes, chom_part_defm_longue_duree_pop_hommes, chom_repart_defm_abc_pop_50p, chom_repart_defm_abc_pop_femmes, chom_repart_defm_abc_pop_m25
 
-**Source :** France Travail (données CVS-CJO) ; Insee, [Estimations de population](#estim_pop)
-
-**Dates :** 2000 à 2025
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Descriptif :**
 
@@ -233,11 +217,7 @@ Ne pas confondre avec un taux de CLD (chômeurs DEFM longue durée parmi les DEF
 
 **ID_indicateur :** cont_dipl_prof_soc_yc_vae_partielle_aes, cont_dipl_prof_soc_yc_vae_partielle_af, cont_dipl_prof_soc_yc_vae_partielle_amp, cont_dipl_prof_soc_yc_vae_partielle_ass, cont_dipl_prof_soc_yc_vae_partielle_cafdes, cont_dipl_prof_soc_yc_vae_partielle_caferuis, cont_dipl_prof_soc_yc_vae_partielle_cesf, cont_dipl_prof_soc_yc_vae_partielle_deis, cont_dipl_prof_soc_yc_vae_partielle_eje, cont_dipl_prof_soc_yc_vae_partielle_es, cont_dipl_prof_soc_yc_vae_partielle_ets, cont_dipl_prof_soc_yc_vae_partielle_me, cont_dipl_prof_soc_yc_vae_partielle_mf, cont_dipl_prof_soc_yc_vae_partielle_tisf
 
-**Source :** Drees, enquête Ecoles
-
-**Dates :** 2021 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Descriptif :**
 
@@ -253,11 +233,7 @@ Ces données ne sont disponibles qu'au niveau régionnal.
 
 **ID_indicateur :** cont_esp_vie_60_f, cont_esp_vie_60_h, cont_esp_vie_65_f, cont_esp_vie_65_h, cont_esp_vie_naissance_f, cont_esp_vie_naissance_h
 
-**Source :** Insee, [Etat-civil](#ec) ; [Estimations de population](#estim_pop)
-
-**Dates :** 2021 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -288,11 +264,7 @@ Les résultats ([Estimations de population](#estim_pop)) sont provisoires ; ils 
 
 **ID_indicateur :** cont_nb_deces_domicilies, cont_nb_naissances
 
-**Source :** Insee, [Etat-civil](#ec) ; [Estimations de population](#estim_pop)
-
-**Dates :** 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -318,92 +290,24 @@ Attention aux faibles effectifs concernés dans certains départements.
 
 ----
 
-## **Entrées en apprentissages, en emploi franc et en Parcours Emplois Compétences**
+## **Entrées en apprentissages, en emploi franc, en Parcours Emplois Compétences, en professionnalisation, et en service civique**
 
-**ID_indicateur :** cont_nb_entrees_apprentissage_30m, cont_nb_entrees_emplois_francs, cont_nb_entrees_parc_empl_comp_m26
+**ID_indicateur :** cont_nb_entrees_apprentissage_30m, cont_nb_entrees_emplois_francs, cont_nb_entrees_parc_empl_comp_m26, cont_nb_entrees_professionnalisation_m26, cont_nb_entrees_service_civique_16_25
 
-**Source :** Dares
-
-**Dates :** 
-
-- cont_nb_entrees_apprentissage_30m : 2013 à 2025
-- cont_nb_entrees_emplois_francs : 2018 à 2024
-- cont_nb_entrees_parc_empl_comp_m26 : 2018 à 2025
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
-
-Nombre d'entrées de jeunes de 30 ans ou moins en contrat d'apprentissage
-
-----
-
-## **ID_indicateur :** 
-
-**Source :** Dares
-
-**Dates :** 2018 à 2024
-
-**Périodicité :**	Annuelle
-
-**Définition :** 
-
-Nombre d'entrées en emploi franc.
+Nombre d'entrées de jeunes de 30 ans ou moins en contrat d'apprentissage, de jeunes de moins de 26 ans en Parcours Emplois Compétences (PEC) et en contrat de professionnalisation, de jeunes en emploi franc et de jeunes de 16 à 25 ans dans le dispositif du Service Civique.
 La série sur les emplois francs présente une rupture avec celle présentée avant 2023 dans le panorama. Les données présentées portent sur la période janvier-novembre.
-
-----
-
-## **ID_indicateur :** 
-
-**Source :** Dares
-
-**Dates :** 2018 à 2025
-
-**Périodicité :**	Annuelle
-
-**Définition :** 
-
-Nombre d'entrées de jeunes de moins de 26 ans en Parcours Emplois Compétences (PEC).
 Depuis janvier 2018, les contrats aidés sont transormés en parcours emploi compétences (PEC).
-
-----
-
-## **ID_indicateur :** cont_nb_entrees_professionnalisation_m26
-
-**Source :** Dares
-
-**Dates :** 2012 à 2025
-
-**Périodicité :**	Annuelle
-
-**Définition :** 
-
-Nombre d'entrées de jeunes de moins de 26 ans en contrat de professionnalisation
 Le contrat de professionnalisation s'adresse à tous les jeunes âgés de 16 à 25 ans révolus, aux demandeurs d'emploi âgés de 26 ans et plus ainsi qu’aux bénéficiaires du revenu de solidarité active ([RSA](#rsa)), de l'allocation spécifique de solidarité (ASS), de l'allocation adulte handicapé (AAH) ou d'un contrat unique d'insertion (CUI)
-----
-
-## **ID_indicateur :** cont_nb_entrees_service_civique_16_25
-
-**Source :** Service civique
-
-**Dates :** 2020 à 2024
-
-**Périodicité :**	Annuelle
-
-**Définition :** 
-
-Nombre d'entrées de jeunes de 16 à 25 ans dans le dispositif du Service Civique
 
 ----
 
 ## **ID_indicateur :** cont_nb_jeunes_primo_acc_paio_miss_loc, cont_part_jeunes_non_dipl_primo_acc_paio_miss_loc_16_25, cont_part_jeunes_primo_acc_paio_miss_loc_16_25
 
-**Source :** Base Imilo, traitement Dares
-
-**Dates :** 2020 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -451,11 +355,7 @@ Données sur le diplôme déclaratives (sous-estimation probable du nombre de je
 
 ## **ID_indicateur :** cont_nb_menages_pauv_revenus_act
 
-**Source :** Insee, [FiLoSoFi](#filosofi)
-
-**Dates :** 2021
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -515,15 +415,11 @@ Les résultats sont fournis pour la France métropolitaine, la Martinique et la 
 
 ## **ID_indicateur :** cont_part_accouch_faible_poids_2500g, cont_part_accouch_tres_faible_poids_1500g
 
-**Source :** ATIH, PMSI-MCO
-
-**Dates :** 2012 à 2023
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
-Les données présentées ici sont issues du Programme de Médicalisation des Systèmes d’Information - Médecine, chirurgie, obstétrique et odontologie (PMSI-MCO) et recueillies selon les règles définies par l’Agence technique de l’information sur l’hospitalisation (ATIH). Les exploitations ont été réalisées par la DREES.
+Les données présentées ici sont issues du Programme de Médicalisation des Systèmes d’Information - Médecine, chirurgie, obstétrique et odontologie (PMSI-MCO) et recueillies selon les règles définies par l’Agence technique de l’information sur l’hospitalisation (ATIH). Les exploitations ont été réalisées par la Drees.
 
 Les naissances concernent toutes les naissances vivantes, non compris les entrées par transfert, selon le département de résidence de la mère.
 
@@ -559,15 +455,11 @@ Dans le PMSI-MCO, il subsiste un risque de surestimation des enfants nés avec u
 
 ## **ID_indicateur :** cont_part_accouch_gde_prema, cont_part_accouch_prema, cont_part_accouch_tres_gde_prema
 
-**Source :** ATIH, PMSI-MCO
-
-**Dates :** 2012 à 2023
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
-Les données présentées ici sont issues du Programme de Médicalisation des Systèmes d’Information - Médecine, chirurgie, obstétrique et odontologie (PMSI-MCO) et recueillies selon les règles définies par l’Agence technique de l’information sur l’hospitalisation (ATIH). Les exploitations ont été réalisées par la DREES.
+Les données présentées ici sont issues du Programme de Médicalisation des Systèmes d’Information - Médecine, chirurgie, obstétrique et odontologie (PMSI-MCO) et recueillies selon les règles définies par l’Agence technique de l’information sur l’hospitalisation (ATIH). Les exploitations ont été réalisées par la Drees.
 
 Les naissances concernent toutes les naissances vivantes, non compris les entrées par transfert, selon le département de résidence de la mère. 
 
@@ -608,15 +500,11 @@ Dans le PMSI-MCO, il subsiste un risque de surestimation des enfants prématuré
 
 ## **ID_indicateur :** cont_part_accouch_mere_20_24, cont_part_accouch_mere_25_29, cont_part_accouch_mere_30_34, cont_part_accouch_mere_35_39, cont_part_accouch_mere_40p, cont_part_accouch_mere_m20
 
-**Source :** ATIH, PMSI-MCO
-
-**Dates :** 2012 à 2023
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
-Les données présentées ici sont issues du Programme de Médicalisation des Systèmes d’Information - Médecine, chirurgie, obstétrique et odontologie (PMSI-MCO) et recueillies selon les règles définies par l’Agence technique de l’information sur l’hospitalisation (ATIH). Les exploitations ont été réalisées par la DREES.
+Les données présentées ici sont issues du Programme de Médicalisation des Systèmes d’Information - Médecine, chirurgie, obstétrique et odontologie (PMSI-MCO) et recueillies selon les règles définies par l’Agence technique de l’information sur l’hospitalisation (ATIH). Les exploitations ont été réalisées par la Drees.
 
 Les indicateurs sont calculés à partir des séjours des mères selon les modalités suivantes : 
 Séjours des mères = séjours d'accouchement : présence d'un code Z37 ou d'un acte d'accouchement (liste A23 V11f), avec contrôles de cohérence
@@ -645,11 +533,7 @@ Le nombre de naissances peut être légèrement sous estimé, du fait de l’abs
 
 ## **ID_indicateur :** cont_part_eleves_2d_demi_pens_internes, cont_part_eleves_2d_demi_pens_internes_prive, cont_part_eleves_2d_demi_pens_internes_public, cont_part_eleves_2d_demi_pens_internes_public_hors_ep, cont_part_eleves_2d_demi_pens_internes_public_rep, cont_part_eleves_2d_demi_pens_internes_public_rep_plus
 
-**Source :** DEPP
-
-**Dates :** 2020 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -669,11 +553,7 @@ Déclinaison par :
 
 ## **ID_indicateur :** cont_part_eleves_3e_retard_2ans, cont_part_eleves_6e_retard
 
-**Source :** DEPP
-
-**Dates :** 2013 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -708,11 +588,7 @@ Les comparaisons dans le temps sont donc délicates pour cette raison.
 
 ## **ID_indicateur :** cont_part_jeunes_diff_lecture, cont_part_jeunes_grave_diff_lecture
 
-**Source :** DEPP
-
-**Dates :** 2013 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -753,11 +629,7 @@ Les jeunes non recensés à temps passent les tests à 18, 19 ou 20 ans et non �
 
 ## **ID_indicateur :** cont_part_menages_pauv_parmi_revenus_act
 
-**Source :** Insee, [FiLoSoFi](#filosofi)
-
-**Dates :** 2021
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -809,11 +681,7 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 ## **ID_indicateur :** cont_proj_pop_2070
 
-**Source :** Insee, [Omphale](#omphale)
-
-**Dates :** 
-
-**Périodicité :**
+**Périodicité :** Ponctuelle
 
 **Définition :** 
 
@@ -822,10 +690,6 @@ Projection de population en 2070
 ----
 
 ## **ID_indicateur :** pa_nb_benef_apa_f_60_74_proj, pa_nb_benef_apa_f_60p_proj, pa_nb_benef_apa_f_75_84_proj, pa_nb_benef_apa_f_85p_proj, pa_nb_benef_apa_h_60_74_proj, pa_nb_benef_apa_h_60p_proj, pa_nb_benef_apa_h_75_84_proj, pa_nb_benef_apa_h_85p_proj
-
-**Source :** Drees, modèle [LIVIA](#livia)
-
-**Dates :** 2015 à 2050
 
 **Périodicité :** Ponctuelle
 
@@ -837,11 +701,7 @@ Projection 2015-2050 du nombre de bénéficiaires de l'[APA](#apa) par sexe et t
 
 ## **ID_indicateur :** cont_tx_chom_loc
 
-**Source :** Insee, taux de chômage localisés et taux de chômage au sens du BIT
-
-**Dates :** 2010 à 2025
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -877,11 +737,7 @@ Par construction (référence aux DEFM, demandeurs d'emploi en fin de mois), le 
 
 ## **ID_indicateur :** cont_tx_mortalite_brut_1000, cont_tx_mortalite_brut_femmes_1000, cont_tx_mortalite_brut_hommes_1000, cont_tx_mortalite_infantile_1000, cont_tx_mortalite_standard_0_64_1000, cont_tx_mortalite_standard_65p_1000
 
-**Source :** Insee, [Etat-civil](#ec) ; [Estimations de population](#estim_pop)
-
-**Dates :** 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -921,11 +777,7 @@ Attention aux faibles effectifs concernés dans certains départements.
 
 ## **ID_indicateur :** cont_tx_scol_2ans
 
-**Source :** DEPP
-
-**Dates :** 
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -951,11 +803,7 @@ Cet indicateur y contribue en mesurant le taux de scolarisation des enfants de d
 
 ## **ID_indicateur :** dalo_heberg_benef_accueillis, dalo_heberg_benef_accueillis_et_refus, dalo_heberg_decisions, dalo_heberg_decisions_favorables, dalo_heberg_recours, dalo_heberg_refus_proposition
 
-**Source :** Infocentre Dalo
-
-**Dates :** 2021 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -970,11 +818,7 @@ dalo_heberg_refus_proposition : Nombre de refus de proposition adaptée
 
 ## **ID_indicateur :** dalo_lgmt_benef_reloges, dalo_lgmt_decisions, dalo_lgmt_decisions_favorables, dalo_lgmt_recours, dalo_lgmt_refus_offre, dalo_lgmt_total_reloges_et_refus
 
-**Source :** Infocentre Dalo
-
-**Dates :** 2021 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -992,11 +836,7 @@ Le nombre de décisions prises peut excéder le nombre de demandes reçues en ra
 
 ## **ID_indicateur :** dalo_tot_benef_reloges_accueillis, dalo_tot_benef_reloges_accueillis_et_refus, dalo_tot_decisions, dalo_tot_decisions_favorables, dalo_tot_recours, dalo_tot_refus_offre_proposition
 
-**Source :** Infocentre Dalo
-
-**Dates :** 2021 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -1011,11 +851,7 @@ dalo_tot_refus_offre_proposition : Nombre de refus d’offre/proposition adapté
 
 ## **ID_indicateur :** fam_nb_ass_mat, fam_nb_garde_dom
 
-**Source :** Urssaf CN
-
-**Dates :** 2018 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -1028,11 +864,7 @@ Nombres de :
 
 ## **ID_indicateur :** fam_tx_equip_places_100_m3
 
-**Source :** Urssaf CN
-
-**Dates :** 2018 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -1042,11 +874,7 @@ Taux d'équipement places d'accueil pour 100 enfants de moins de 3 ans
 
 ## **ID_indicateur :** lgmt_nb_expulsions_locatives, lgmt_nb_expulsions_locatives_conditionnelles, lgmt_nb_expulsions_locatives_fermes, lgmt_tx_expulsions_locatives_1000men
 
-**Source :** Ministère de la Justice, RGC
-
-**Dates :** 2018 à 2025
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -1080,11 +908,7 @@ Cet indicateur y contribue en mesurant l’expulsion pour impayé, qui traduit u
 
 ## **ID_indicateur :** lgmt_nb_dossiers_surendet_energie, lgmt_part_dettes_surendet_energie, lgmt_part_dossiers_surendet_energie
 
-**Source :** Ministère de la Justice, RGC
-
-**Dates :** 2018 à 2025
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -1131,11 +955,7 @@ Attention aux faibles effectifs concernés dans certains départements.
 
 ## **ID_indicateur :** lgmt_tx_effort_net_median_allocataires_aide
 
-**Source :** CNAF
-
-**Dates :** 2014 à 2020, 2022 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -1188,11 +1008,7 @@ Attention, l'indicateur ne porte actuellement que sur le champ des allocataires 
 
 ## **ID_indicateur :** ms_depenses_brutes_rsa_rso_rmi_cui_cont_avenir, ms_depenses_nettes_rsa_rso_rmi_cui_cont_avenir
 
-**Source :** CNAM, MSA
-
-**Dates :** 2009 à 2023
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -1202,16 +1018,7 @@ Dépenses totales brutes et nettes liées au [RSA](#rsa), RSO, RMI, CUI et contr
 
 ## **ID_indicateur :** ms_nb_alloc_ass, ms_nb_alloc_asv_aspa, ms_nb_alloc_pa, ms_nb_alloc_pa_maj, ms_nb_alloc_pa_non_maj, ms_nb_alloc_rsa_maj_new, ms_nb_alloc_rsa_maj_old, ms_nb_alloc_rsa_new, ms_nb_alloc_rsa_old, ms_nb_alloc_rsa_non_maj_new, ms_nb_alloc_rsa_non_maj_old, ms_nb_benef_css_ac_ss_part
 
-**Source :** CNAM, MSA
-
-**Dates :** 
-ass : 1995 à 2025
-asv_aspa : 1996 à 2022
-pa : 2016 à 2025
-rsa : 2009 à 2023
-css : 2017 à 2025
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -1247,11 +1054,7 @@ correspondent au nombre d'allocataires au niveau régional divisé par 2.
 
 ## **ID_indicateur :** ms_part_pop_couv_rsa_new, ms_part_pop_couv_rsa_old
 
-**Source :** CNAM, MSA
-
-**Dates :** 2009 à 2023
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -1287,11 +1090,7 @@ Comparaisons spatiales
 
 ## **ID_indicateur :** ms_tx_alloc_ass_15_64, ms_tx_alloc_asv_aspa_60p, ms_tx_alloc_minima_15_64_new, ms_tx_alloc_minima_15_64_old, ms_tx_alloc_rsa_15_64_new, ms_tx_alloc_rsa_15_64_old
 
-**Source :** CNAM, MSA
-
-**Dates :** 
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -1317,7 +1116,7 @@ Les allocations du minimum vieillesse (ASV et ASPA) : l’allocation supplémen
  - **Dénominateur :** Population de 60 ans et plus au 01/01/N+1
 
 Attention rupture de série : à la suite d'une amélioration du système de production statistique de la Cnaf sur les bénéficiaires de prestations légales, les données à partir de 2016 sur le RSA, l'AAH et le total des minima sociaux ne sont pas comparables avec celles des années précédentes. 
-Une nouvelle méthode de comptabilisation des allocataires du minimum vieillesse a été introduite en 2021 dans l’enquête sur les allocations du minimum vieillesse de la DREES : les effectifs de l'allocation supplémentaire vieillesse (ASV) et de l'allocation de solidarité aux personnes âgées (Aspa) sont en "date d'entrée en jouissance", c'est à dire la date à partir de laquelle le droit est dû alors que jusque-là les effectifs pouvaient correspondre, selon les caisses de retraite, aux effectifs en date d'entrée en jouissance ou en date de versement, c'est à dire la date à partir de laquelle l'allocation est versée. 
+Une nouvelle méthode de comptabilisation des allocataires du minimum vieillesse a été introduite en 2021 dans l’enquête sur les allocations du minimum vieillesse de la Drees : les effectifs de l'allocation supplémentaire vieillesse (ASV) et de l'allocation de solidarité aux personnes âgées (Aspa) sont en "date d'entrée en jouissance", c'est à dire la date à partir de laquelle le droit est dû alors que jusque-là les effectifs pouvaient correspondre, selon les caisses de retraite, aux effectifs en date d'entrée en jouissance ou en date de versement, c'est à dire la date à partir de laquelle l'allocation est versée. 
 
 Les taux d'allocation de l'ASS, et de l'ASV/ASPA sont hors allocataires résidents à l'étranger et allocataires non ventilés par départements (ces derniers représentent 0,0001% de la population totale)
 
@@ -1344,11 +1143,7 @@ Certaines données départementales sont estimées
 
 ## **ID_indicateur :** ms_tx_benef_cmuc_css, ms_tx_benef_css_ac_ss_part
 
-**Source :** CNAM, MSA
-
-**Dates :** 2017 à 2025
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -1371,13 +1166,9 @@ Cet indicateur y contribue en mesurant la part de population bénéficiant de la
 
 ----
 
-## **ID_indicateur :** pa_part_benef_apa_60_74_f, pa_part_benef_apa_60_74_h, pa_part_benef_apa_75_89_f, pa_part_benef_apa_75_89_h, pa_part_benef_apa_90p_f, pa_part_benef_apa_90p_h, pa_part_benef_apa_couple_f, pa_part_benef_apa_couple_h, pa_part_benef_apa_gir1_60_74, pa_part_benef_apa_gir1_75_89, pa_part_benef_apa_gir1_90p, pa_part_benef_apa_gir1_f, pa_part_benef_apa_gir1_h, pa_part_benef_apa_gir2_60_74, pa_part_benef_apa_gir2_75_89, pa_part_benef_apa_gir2_90p, a_part_benef_apa_gir2_f, pa_part_benef_apa_gir2_h, pa_part_benef_apa_gir3_60_74, pa_part_benef_apa_gir3_75_89, pa_part_benef_apa_gir3_90p, pa_part_benef_apa_gir3_f, pa_part_benef_apa_gir3_h, pa_part_benef_apa_gir4_60_74, pa_part_benef_apa_gir4_75_89, pa_part_benef_apa_gir4_90p, pa_part_benef_apa_gir4_f, pa_part_benef_apa_gir4_h, pa_part_benef_apa_gir56_60_74, pa_part_benef_apa_gir56_75_89, pa_part_benef_apa_gir56_90p, pa_part_benef_apa_gir56_f, pa_part_benef_apa_gir56_h, pa_part_benef_apa_seul_f, pa_part_benef_apa_seul_h
+## **ID_indicateur :** pa_part_benef_apa_60_74_f, pa_part_benef_apa_60_74_h, pa_part_benef_apa_75_89_f, pa_part_benef_apa_75_89_h, pa_part_benef_apa_90p_f, pa_part_benef_apa_90p_h, pa_part_benef_apa_couple_f, pa_part_benef_apa_couple_h, pa_part_benef_apa_gir1_60_74, pa_part_benef_apa_gir1_75_89, pa_part_benef_apa_gir1_90p, pa_part_benef_apa_gir1_f, pa_part_benef_apa_gir1_h, pa_part_benef_apa_gir2_60_74, pa_part_benef_apa_gir2_75_89, pa_part_benef_apa_gir2_90p, pa_part_benef_apa_gir2_f, pa_part_benef_apa_gir2_h, pa_part_benef_apa_gir3_60_74, pa_part_benef_apa_gir3_75_89, pa_part_benef_apa_gir3_90p, pa_part_benef_apa_gir3_f, pa_part_benef_apa_gir3_h, pa_part_benef_apa_gir4_60_74, pa_part_benef_apa_gir4_75_89, pa_part_benef_apa_gir4_90p, pa_part_benef_apa_gir4_f, pa_part_benef_apa_gir4_h, pa_part_benef_apa_gir56_60_74, pa_part_benef_apa_gir56_75_89, pa_part_benef_apa_gir56_90p, pa_part_benef_apa_gir56_f, pa_part_benef_apa_gir56_h, pa_part_benef_apa_seul_f, pa_part_benef_apa_seul_h
 
-**Source :** DREES, RI Autonomie
-
-**Dates :** 2017
-
-**Périodicité :**	Ponctuelle
+**Périodicité :** Ponctuelle
 
 **Définition :** 
 
@@ -1387,11 +1178,7 @@ Répartition des bénéficiaires de l'[APA](#apa) par [âge](#age), sexe et gir
 
 ## **ID_indicateur :** pa_part_limitations_importante_comprehension, pa_part_limitations_importante_concentration, pa_part_limitations_importante_lever_bras, pa_part_limitations_importante_main, pa_part_limitations_importante_marche, pa_part_limitations_importante_ouie, pa_part_limitations_importante_sortir, pa_part_limitations_importante_vue
 
-**Source :** DREES, enquête VQS
-
-**Dates :** 2021
-
-**Périodicité :**	Ponctuelle
+**Périodicité :** Ponctuelle
 
 **Définition :** 
 
@@ -1401,11 +1188,7 @@ Part des personnes âgées déclarant des limitations importantes dans leurs act
 
 ## **ID_indicateur :** pa_part_plan_satures_apa_dom_96perc
 
-**Source :** DREES, RI Autonomie
-
-**Dates :** 2017
-
-**Périodicité :**	Ponctuelle
+**Périodicité :** Ponctuelle
 
 **Définition :** 
 
@@ -1415,11 +1198,7 @@ Part de plans saturés à 96 % pour les bénéficiaires de l'[APA](#apa) à domi
 
 ## **ID_indicateur :** pa_revenus_benef_apa_1q, pa_revenus_benef_apa_3q, pa_revenus_benef_apa_mediane, pa_revenus_benef_apa_moyenne
 
-**Source :** DREES, RI Autonomie
-
-**Dates :** 2017
-
-**Périodicité :**	Ponctuelle
+**Périodicité :** Ponctuelle
 
 **Définition :** 
 
@@ -1429,11 +1208,7 @@ Distribution des revenus des bénéficiaires de l'[APA](#apa)
 
 ## **ID_indicateur :** part_enf_men_pauv_ap_imp_systeme, part_enf_men_pauv_av_imp_systeme, part_pers_ac_enf_men_pauv_ap_imp_systeme, part_pers_ac_enf_men_pauv_av_imp_systeme
 
-**Source :** DREES, RI Autonomie
-
-**Dates :** 2017
-
-**Périodicité :**	Ponctuelle
+**Périodicité :** Ponctuelle
 
 **Définition :** 
 
@@ -1487,11 +1262,7 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 ## **ID_indicateur :** pauv_intensite, pauv_intensite_benef_ms
 
-**Source :** Insee, [FiLoSoFi](#filosofi)
-
-**Dates :** 2021
-
-**Périodicité :**	Ponctuelle
+**Périodicité :** Ponctuelle
 
 **Définition :** 
 
@@ -1533,11 +1304,7 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 ## **ID_indicateur :** pauv_nb_menages_revenus_act
 
-**Source :** Insee, [FiLoSoFi](#filosofi)
-
-**Dates :** 2021
-
-**Périodicité :**	Ponctuelle
+**Périodicité :** Ponctuelle
 
 **Définition :** 
 
@@ -1587,11 +1354,7 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 ## **ID_indicateur :** pauv_niv_vie_median
 
-**Source :** Insee, [FiLoSoFi](#filosofi)
-
-**Dates :** 2021 et 2023
-
-**Périodicité :**	Ponctuelle
+**Périodicité :** Ponctuelle
 
 **Définition :** 
 
@@ -1632,11 +1395,7 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 ## **ID_indicateur :** pauv_part_enf_m3_men_pauv_ac_frais_garde
 
-**Source :** Insee, [FiLoSoFi](#filosofi)
-
-**Dates :** 2021
-
-**Périodicité :**	Ponctuelle
+**Périodicité :** Ponctuelle
 
 **Définition :** 
 
@@ -1682,11 +1441,7 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 ## **ID_indicateur :** pauv_rapport_interdecile_niv_vie
 
-**Source :** Insee, [FiLoSoFi](#filosofi)
-
-**Dates :** 2021 et 2023
-
-**Périodicité :**	Ponctuelle
+**Périodicité :** Ponctuelle
 
 **Définition :** 
 
@@ -1725,12 +1480,9 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 ## **ID_indicateur :** pauv_tx_pauv_mon, pauv_tx_pauv_mon_1pers, pauv_tx_pauv_mon_2pers, pauv_tx_pauv_mon_3pers, pauv_tx_pauv_mon_4pers, pauv_tx_pauv_mon_5pers, pauv_tx_pauv_mon_30_39,  pauv_tx_pauv_mon_40_49, pauv_tx_pauv_mon_50_59, pauv_tx_pauv_mon_60_74, pauv_tx_pauv_mon_75p, pauv_tx_pauv_mon_couple_ac_enf, pauv_tx_pauv_mon_couple_ss_enf, pauv_tx_pauv_mon_fam_monoparentale, pauv_tx_pauv_mon_femme_seule, pauv_tx_pauv_mon_homme_seul, pauv_tx_pauv_mon_m30, pauv_tx_pauv_mon_men_complexe, pauv_taux_pauv_menage_ac_rev_act
 
-**Source :** Insee, [FiLoSoFi](#filosofi)
+**Périodicité :** Ponctuelle
 
-**Dates :** 2021
 Le taux de [pauvreté](#pauv) monétaire et certains découpages selon l'[âge](#age) sont disponibles pour 2023
-
-**Périodicité :**	Ponctuelle
 
 **Définition :** 
 
@@ -1796,11 +1548,7 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 ## **ID_indicateur :** ph_benef_aah
 
-**Source :** CNAF et MSA
-
-**Dates :** 1996 à 2025
-
-**Périodicité :**	Ponctuelle
+**Périodicité :** Ponctuelle
 
 **Définition :** 
 
@@ -1811,11 +1559,7 @@ Pour les données Cnaf la répartition est faite selon le département de la cai
 
 ## **ID_indicateur :** ph_enfants_part_eleves_handicap_1_2_deg_1000, ph_enfants_part_eleves_handicap_1_deg_1000, ph_enfants_part_eleves_handicap_2_deg_1000
 
-**Source :** DEPP
-
-**Dates :** 2013 à 2018, 2023 à 2024
-
-**Périodicité :**	Ponctuelle
+**Périodicité :** Ponctuelle
 
 **Définition :** 
 
@@ -1855,11 +1599,7 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 ## **ID_indicateur :** ph_nb_pers_mandataires_indiv, ph_nb_pers_mandataires_indiv_services, ph_nb_pers_mandataires_services
 
-**Source :** DGCS
-
-**Dates :** 2022 à 2024
-
-**Périodicité :**	Annuelle
+**Périodicité :** Ponctuelle
 
 **Définition :** 
 
@@ -1869,11 +1609,7 @@ Nombre de personnes prises en charge par des mandataires individuels, par des se
 
 ## **ID_indicateur :** ph_part_benef_aah_15_64_new, ph_part_benef_aah_15_64_old, ph_part_benef_aah_20_64_new, ph_part_benef_aah_20_64_old
 
-**Source :** CNAF et MSA
-
-**Dates :** 1999 à 2025
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 
@@ -1905,11 +1641,7 @@ Comparaisons entre les départements
 
 ## **ID_indicateur :** ph_part_limitations_act_quo_25_59, ph_part_limitations_act_quo_60p, ph_part_limitations_act_quo_m25
 
-**Source :** DREES, enquête VQS
-
-**Dates :** 2021
-
-**Périodicité :**	Annuelle
+**Périodicité :** Annuelle
 
 **Définition :** 
 Part de la population déclarant des limitations dans leurs activités quotidiennes
