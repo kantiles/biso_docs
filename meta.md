@@ -1,6 +1,7 @@
+
 # **Sources statistiques**
 
-## **Recensement de la Population (RP)**
+## **Recensement de la Population (RP)** {#rp}
 
 Le [recensement de la population](https://www.insee.fr/fr/metadonnees/definition/c1486) a pour objectifs le dénombrement des logements et de la population résidant en France et la connaissance de leurs principales caractéristiques : sexe, âge, activité, professions exercées, caractéristiques des ménages, taille et type de logement, modes de transport, déplacements quotidiens.
 
@@ -11,7 +12,7 @@ Elles sont une aide pour définir :
 au niveau national les politiques sociales et les infrastructures à mettre en place ;
 au niveau local les politiques urbaines, de transport, de logement, d'équipements culturels et sportifs, les infrastructures scolaires et la mise en place de structures d'accueil pour les jeunes enfants et les personnes âgées.
 
-## **Insee, Dispositif Fichier Localisé Social et Fiscal (FiLoSoFi)**
+## **Dispositif Fichier Localisé Social et Fiscal (FiLoSoFi)** {#filosofi}
 
 [Présentation de la source FiLoSoFi](https://www.insee.fr/fr/metadonnees/source/serie/s1172)
 
@@ -23,6 +24,18 @@ Les données issues de ce fichier proviennent du rapprochement :
 Ces données fournissent de l'information sur le revenu déclaré des ménages fiscaux et permettent de reconstituer leur revenu disponible (c'est-à-dire après la prise en compte des impôts ainsi que des prestations sociales et des revenus financiers non déclarés) aux niveaux infra-communaux, communaux et supra-communaux. 
 
 A partir des données 2012, le dispositif FiLoSoFi remplace les anciens dispositifs Revenus fiscaux localisés (RFL) et Revenus disponibles localisés (RDL).
+
+Avec le millésime 2023, le dispositif Filosofi connaît une refonte majeure et devient FiLoSoFi 2. [Plus d'informations ici](https://www.insee.fr/fr/metadonnees/source/operation/s2286/presentation)
+
+Compte tenu des changements méthodologiques importants entre les deux dispositifs, **toute analyse sur les évolutions de revenus cherchant à comparer les données de Filosofi et celles de Filosofi 2 est à proscrire**.
+
+Le millésime de Filosofi 2022, premier millésime impacté par la refonte du dispositif, n’a pas pu être produit en raison d’une qualité statistique insuffisante des sources fiscales.
+
+Il manque au millésime 2023 les indicateurs suivants : 
+
+- Intensité de la pauvreté
+- Intensité de la pauvreté des bénéficiaires de minima sociaux
+- Les taux de pauvreté selon les types de famille
 
 Le champ couvert est celui de l'ensemble des ménages fiscaux ordinaires : il exclut les personnes sans domicile ou vivant en institution (prison, foyer, maison de retraite…).
 Les résultats sont fournis pour la France métropolitaine, la Martinique et la Réunion. Aucun résultat n'est donc proposé au niveau France Entière. 
@@ -38,13 +51,13 @@ Ici, les résultats sont diffusés s'il y a au moins 200 enfants de moins de tro
 Lorsque les taux sont compris dans les intervalles [0;5] et [95;100], la valeur exacte n'est pas affichée, elle est remplacée par les valeurs 5 % et 95 % respectivement. 
 Les composantes du revenu disponible sont diffusées sur les zones de plus de 1000 ménages ou plus de 2000 personnes, à condition que pour chacune des composantes de revenu il y ait au moins 11 ménages pour lesquels la composante est non nulle.
 
-## **Fichier National des Établissements Sanitaires et Sociaux (Finess)**
+## **Fichier National des Établissements Sanitaires et Sociaux (Finess)** {#finess}
 
 Le Fichier National des Établissements Sanitaires et Sociaux (Finess) est la principale source d’information sur les équipements des établissements. Mis à jour par les agences régionales de santé (ARS) et les directions régionales de la jeunesse et de la cohésion sociale (DRJSCS), il permet une identification précise des établissements, recense les lits et places autorisés et installés par discipline, et les équipements lourds de chaque structure.
 
 [Accéder à Finess](https://Finess.esante.gouv.fr/fininter/jsp/index.jsp)
 
-## **Enquête auprès des établissements d’Hébergement pour Personnes Âgées (EHPA)**
+## **Enquête auprès des établissements d’Hébergement pour Personnes Âgées (EHPA)** {#EHPA}
 
 [L’enquête auprès des établissements d’hébergement pour personnes âgées (EHPA)](https://drees.solidarites-sante.gouv.fr/sources-outils-et-enquetes/07-lenquete-aupres-des-etablissements-dhebergement-pour-personnes-agees) recueille des informations sur l’activité des établissements médico-sociaux accueillant les personnes âgées, ainsi que sur le personnel qui y travaille et les personnes âgées qui y résident. Elle apporte ainsi de nombreux éléments d’analyse sur les caractéristiques et les moyens de ces établissements, leurs personnels et leurs résidents (effectifs et qualifications des personnels, âge et niveau de dépendance des résidents, etc.), et comporte des questions sur le bâti (confort, accessibilité, sécurité).
 
@@ -52,11 +65,11 @@ Les enquêtes EHPA, grâce à leur régularité, permettent aussi de mesurer les
 
 [Données détaillées de l'enquête EHPA](https://drees2-sgsocialgouv.opendatasoft.com/explore/dataset/587_l-enquete-aupres-des-etablissements-d-hebergement-pour-personnes-agees-ehpa/information/)
 
-## **Enquête auprès des Établissements et Services pour personnes Handicapées (ES-Handicap)**
+## **Enquête auprès des Établissements et Services pour personnes Handicapées (ES-Handicap)** {#esh}
 
 [L’enquête auprès des Établissements et Services pour personnes Handicapées](https://drees.solidarites-sante.gouv.fr/sources-outils-et-enquetes/lenquete-aupres-des-etablissements-et-services-pour-enfants-et-adultes) (ES-Handicap) recueille des informations sur l’activité des établissements et services médico-sociaux accompagnant les personnes handicapées, ainsi que sur le personnel qui y travaille et les personnes accompagnées. Elle apporte ainsi de nombreux éléments d’analyse sur les caractéristiques et les moyens de ces structures, de leurs personnels et des personnes accompagnées. On distingue les structures pour enfants et adolescents d’une part, et celles pour adultes d’autre part.
 
-## **Enquête Aide Sociale (AS)**
+## **Enquête Aide Sociale (AS)** {#as}
 
 L’aide sociale, qui relève de la compétence des départements depuis les lois de décentralisation de 1982-1984, comprend des prestations et services destinés aux personnes qui se trouvent dans l’impossibilité de faire face à un état de besoin en raison de la vieillesse, du handicap ou de difficultés sociales. Elle s’exerce dans quatre domaines principaux : l’aide aux personnes âgées, l’aide aux personnes handicapées, l’aide sociale à l’enfance ainsi que l’aide aux personnes en situation de précarité.
 
@@ -69,11 +82,11 @@ Enfin, elle comprend également un volet sur à la mesure d’accompagnement soc
 [Données détaillées sur les dépenses d'aide sociale départementale](https://drees2-sgsocialgouv.opendatasoft.com/explore/dataset/376_les-depenses-d-aide-sociale-departementale/information/) 
 [Données détaillées sur les bénéficiaires de l'aide sociale départementale](https://drees2-sgsocialgouv.opendatasoft.com/explore/dataset/375_les-beneficiaires-de-l-aide-sociale-departementale/information/) 
 
-## **Panorama statistique**
+## **Panorama statistique** {#pano}
 
 Le [panorama statistique « Cohésion sociale, Travail, Emploi »](https://data.drees.solidarites-sante.gouv.fr/explore/dataset/panorama-statistique-grand-age-et-autonomie0/)  présente des données départementales et régionales homogènes sur la démographie, la pauvreté, la précarité et l’exclusion, le handicap et la dépendance, le logement et l’hébergement, la jeunesse, l’enfance et la protection de l'enfance, la délivrance de certains diplômes (professions sociales), les jeunes ni en études, ni en emploi, ni en formation (NEET), l'emploi des séniors, le cumul emploi-retraite.
 
-## **Estimations de population**
+## **Estimations de population** {#estim_pop}
 
 Les [Estimations de population](https://www.insee.fr/fr/metadonnees/source/serie/s1169) ont pour objectif d'estimer :
 
@@ -84,7 +97,7 @@ Le recensement de la population sert de base aux estimations annuelles de popula
 
 Les estimations de population sont actualisés, chaque année, grâce aux statistiques de l'état civil (relatives aux naissances et décès) et à une estimation du solde migratoire.
 
-## **Etat-civil**
+## **Etat-civil** {#ec}
 
 Tout événement relatif à l'[état civil](https://www.insee.fr/fr/metadonnees/source/serie/s1170) doit faire l'objet d'un acte dressé, selon des normes très précises, sur un registre spécial, par une personne chargée des fonctions d'officier de l'état civil.
 
@@ -94,20 +107,41 @@ L'officier de l'état civil doit enregistrer tous les événements qui ont lieu 
 
 En outre, certains événements ayant eu lieu ailleurs ou ayant fait l'objet par ailleurs d'actes authentiques ou de jugements doivent être transcrits sur les registres de la commune (transcription de tout acte de décès ayant eu lieu ailleurs d'une personne domiciliée dans la commune, transcription d'un jugement d'adoption) ou mentionnés en marge d'actes dressés dans la commune (mention en marge des actes de naissance et de mariage des intéressés d'un jugement de divorce par exemple).
 
-## **Omphale**
+## **Omphale** {#omphale}
 
-## **modèle LIVIA**
+Omphale est le modèle de projection démographique de l’Insee utilise pour simuler l’évolution de la population française (métropole et DOM) jusqu’en 2070.  Basé sur le recensement de 2018, il projette la population par sexe et âge détaillé pour toute zone d’au moins 50 000 habitants (régions, départements, zones d’emploi ou communes agrégées). 
 
+Le modèle repose sur trois composantes démographiques :
+
+Fécondité : L’hypothèse centrale vise un indice conjoncturel de 1,80 enfant par femme à partir de 2022. 
+Mortalité : L’espérance de vie à la naissance est projetée à 90,0 ans pour les femmes et 87,5 ans pour les hommes en 2070 (scénario central).
+Migrations : Le solde migratoire central est maintenu à +70 000 personnes par an.
+
+L’Insee propose deux versions de résultats :
+
+Version légère (P1) : Contient 3 scénarios (central, population haute, population basse). 
+Version complète (P2) : Contient 11 scénarios prédéfinis (incluant des variations spécifiques sur la fécondité, l’espérance de vie et les migrations, ainsi que des scénarios combinés comme « population jeune » ou « population âgée »). 
+Ces projections constituent des simulations prospectives et non des prévisions, car elles ne tiennent pas compte de facteurs exogènes comme les politiques publiques locales ou les ruptures économiques. 
+
+Les indicateurs de la base BISO qui proviennent d'Omphale suivent tous l'hypothèse centrale.
+
+[Pour en savoir plus](https://www.insee.fr/fr/information/3683517)
+
+## **Modèle LIVIA** {#livia}
+
+Le modèle Lieux de vie et autonomie (LIVIA) de la Drees permet de réaliser des projections du nombre de personnes âgées de 60 ans ou plus entre 2021 et 2070 et donne des répartitions par sexe, tranche d’âge, niveau de besoin d’aide et lieu de vie.
+ 
+[Pour en savoir plus](https://drees.solidarites-sante.gouv.fr/definitions-ressources-et-methodes/projection-de-personnes-agees-dependantes-par-lieu-de-vie-le)
 
 # **Définitions**
 
-## **RSA**
+## **RSA** {#rsa}
 
 Le [revenu de solidarité active](https://www.insee.fr/fr/metadonnees/definition/c1718) est une allocation qui complète les ressources initiales du foyer pour qu'elles atteignent le niveau d'un revenu garanti.
 
 Le montant du revenu garanti varie en fonction de la composition du foyer et du nombre d'enfant(s) à charge.
 
-## **APA**
+## **APA** {#apa}
 
 L’[APA](https://drees.solidarites-sante.gouv.fr/allocation-personnalisee-dautonomie-apa) est une prestation qui permet de financer les dépenses d’aide auxquelles font face les personnes de 60 ans ou plus en perte d’autonomie, qu’elles résident à domicile ou en établissement.
 
@@ -115,7 +149,7 @@ Gérée par les départements, cette prestation en nature est, à domicile, déd
 
 [Données détaillées sur l'APA](https://drees2-sgsocialgouv.opendatasoft.com/explore/?sort=modified&q=apa)
 
-## **Âge**
+## **Âge** {#age}
 
 Sont distingués :
 
@@ -130,11 +164,11 @@ l'individu ayant son anniversaire après la date d aura comme âge en années r�
 l'individu ayant son anniversaire à la date d ou avant aura comme âge en années révolues (x).
 Seule exception : l'événement a lieu le 31 décembre. À cette date, le classement par âge atteint dans l'année et par âge en années révolues sont identiques. Et au 1er janvier, l'âge atteint dans l'année est égal à l'âge en années révolues plus un.
 
-## **Juge des enfants**
+## **Juge des enfants** {#jde}
 
 [Juge du tribunal de grande instance](https://www.insee.fr/fr/metadonnees/definition/c1542), spécialisé pour les affaires de mineurs en matière civile (mineurs en danger) comme en matière pénale (mineurs délinquants). Il prend des mesures d'assistance et de protection à l'égard des mineurs jusqu'à 18 ans. Au pénal il est à la fois juge d'instruction et juge de jugement, seul ou comme président du tribunal pour enfants.
 
-## **Catégories des inscrits à France Travail**
+## **Catégories des inscrits à France Travail** {#insc_ft}
 
 Les [inscrits à France Travail](https://www.insee.fr/fr/metadonnees/definition/c2010), qui regroupent les personnes inscrites sur les listes de France Travail, sont historiquement classés en cinq catégories selon leur situation vis-à-vis de l’obligation de recherche d’emploi et de l’exercice ou non d’une activité : A, B, C, D ou E. En janvier 2025, deux nouvelles catégories (F et G) ont été créées :
 
@@ -146,19 +180,19 @@ Les [inscrits à France Travail](https://www.insee.fr/fr/metadonnees/definition/
 - Catégorie F : personnes en parcours social ;
 - Catégorie G : personnes en attente d’orientation.
 
-## **Espérance de vie**
+## **Espérance de vie** {#esp_vie}
 
 L'[espérance de vie](https://www.insee.fr/fr/metadonnees/definition/c1374) à la naissance représente la durée de vie moyenne d'une génération fictive soumise aux conditions de mortalité par âge de l'année considérée.
 
 C'est un cas particulier de l'espérance de vie à l'âge x, c'est-à-dire le nombre moyen d'années restant à vivre au-delà de cet âge x dans les conditions de mortalité par âge de l'année.
 
-## **Revenu disponible**
+## **Revenu disponible** {#rev_disp}
 
 Le [revenu disponible](https://www.insee.fr/fr/metadonnees/definition/c1458) est le revenu à la disposition du ménage pour consommer et épargner. Il comprend les revenus d’activité nets des cotisations sociales, les indemnités de chômage, les retraites et pensions, les revenus du patrimoine (fonciers et financiers) et les autres prestations sociales perçues, nets des impôts directs.
 
 Ces derniers incluent l’impôt sur le revenu, la taxe d’habitation, la contribution sociale généralisée – CSG –, contribution à la réduction de la dette sociale – CRDS – et les prélèvements sociaux sur les revenus du patrimoine. Il comprend une partie du solde des transferts inter ménages.
 
-## **Unité de consommation**
+## **Unité de consommation** {#uc}
 
 Pour comparer les niveaux de vie de ménages de taille ou de composition différente, on divise le revenu par le nombre d’[unités de consommation](https://www.insee.fr/fr/metadonnees/definition/c1802)(UC). Celles-ci sont généralement calculées de la façon suivante :
 
@@ -167,13 +201,13 @@ Pour comparer les niveaux de vie de ménages de taille ou de composition différ
 0,3 UC pour les enfants de moins de 14 ans.
 Cette échelle d’équivalence (dite de l’OCDE) tient compte des économies d’échelle au sein du ménage. En effet, les besoins d'un ménage ne s'accroissent pas en stricte proportion de sa taille. Lorsque plusieurs personnes vivent ensemble, il n'est pas nécessaire de multiplier tous les biens de consommation (en particulier, les biens de consommation durables) par le nombre de personnes pour garder le même niveau de vie.
 
-## **Intensité de la pauvreté**
+## **Intensité de la pauvreté** {#pauv_intens}
 
 L'[intensité de la pauvreté](https://www.insee.fr/fr/metadonnees/definition/c2021) permet d'apprécier à quel point le niveau de vie de la population pauvre est éloigné du seuil de pauvreté. Comme Eurostat, l'Insee mesure cet indicateur comme l'écart relatif entre le niveau de vie médian de la population pauvre et le seuil de pauvreté. Plus cet indicateur est élevé et plus la pauvreté est dite intense, au sens où le niveau de vie des plus pauvres est très inférieur au seuil de pauvreté.
 
 Formellement, il est calculé de la manière suivante : (seuil de pauvreté - niveau de vie médian de la population pauvre) / seuil de pauvreté.
 
-## **Niveau de vie**
+## **Niveau de vie** {#niv_vie}
 
 Le [niveau de vie](https://www.insee.fr/fr/metadonnees/definition/c1890) est égal au revenu disponible du ménage divisé par le nombre d'unités de consommation (UC). Le niveau de vie est donc le même pour tous les individus d'un même ménage.
 
@@ -181,24 +215,13 @@ Le niveau de vie correspond à ce qu’Eurostat nomme « revenu disponible équi
 
 Les unités de consommation sont généralement calculées selon l'échelle d'équivalence dite de l'OCDE modifiée qui attribue 1 UC au premier adulte du ménage, 0,5 UC aux autres personnes de 14 ans ou plus et 0,3 UC aux enfants de moins de 14 ans.
 
-## **Nombre de personnes du ménage fiscal**
+## **Nombre de personnes du ménage fiscal** {#nb_pers_men_fisc}
 
 Le [nombre de personnes du ménage fiscal](https://www.insee.fr/fr/metadonnees/definition/c1285) est obtenu par cumul des personnes inscrites sur les déclarations de revenus qui le composent. On adopte le terme de personne et non celui d'habitant pour marquer le fait que toute personne rattachée fiscalement à un ménage ne vit pas forcément au sein de celui-ci : elle peut habiter ailleurs, cas fréquent chez les étudiants (rattachés fiscalement à leurs parents tout en occupant un logement indépendant).
 
 Du fait des particularités précédentes, le nombre de personnes ne coïncide pas avec la population des ménages issue du recensement de la population. Des écarts d'effectifs entre les deux sources peuvent donc être constatés.
 
-## **Déciles**
-
-Si on ordonne une distribution de salaires, de revenus, de chiffres d'affaires, etc., les [déciles](https://www.insee.fr/fr/metadonnees/definition/c1265) sont les valeurs qui partagent cette distribution en dix parties d’effectifs égaux.
-
-Ainsi, pour une distribution de salaires :
-
-- Le premier décile (noté généralement D1) est le salaire au-dessous duquel se situent 10 % des salaires ;
-- Le neuvième décile (noté généralement D9) est le salaire au-dessous duquel se situent 90 % des salaires.
-
-Le premier décile est, de manière équivalente, le salaire au-dessus duquel se situent 90 % des salaires ; le neuvième décile est le salaire au-dessus duquel se situent 10 % des salaires.
-
-## **Rapports interdéciles**
+## **Rapports interdéciles** {#rapp_inter_dec}
 
 Les [rapports interdéciles](https://www.insee.fr/fr/metadonnees/definition/c1488) permettent de mesurer les inégalités d’une distribution :
 
@@ -206,7 +229,7 @@ le rapport des déciles D9/D1 met en évidence l'écart entre le haut (9e décil
 le rapport D9/D5 compare le haut de la distribution à la valeur médiane ;
 le rapport D5/D1 compare la médiane au bas de la distribution.
 
-## **Pauvreté**
+## **Pauvreté** {#pauv}
 
 Un ménage et les individus qui le composent sont considérés comme [pauvres](https://www.insee.fr/fr/metadonnees/definition/c1320) lorsque le niveau de vie du ménage est inférieur au seuil de pauvreté. En France et en Europe, le seuil est le plus souvent fixé à 60 % du niveau de vie médian.
 
