@@ -84,7 +84,7 @@ Enfin, elle comprend également un volet sur à la mesure d’accompagnement soc
 
 ## **Panorama statistique** {#pano}
 
-Le [panorama statistique « Cohésion sociale, Travail, Emploi »](https://data.drees.solidarites-sante.gouv.fr/explore/dataset/panorama-statistique-grand-age-et-autonomie0/)  présente des données départementales et régionales homogènes sur la démographie, la pauvreté, la précarité et l’exclusion, le handicap et la dépendance, le logement et l’hébergement, la jeunesse, l’enfance et la protection de l'enfance, la délivrance de certains diplômes (professions sociales), les jeunes ni en études, ni en emploi, ni en formation (NEET), l'emploi des séniors, le cumul emploi-retraite.
+Le [panorama statistique « Cohésion sociale, Travail, Emploi »](https://data.drees.solidarites-sante.gouv.fr/explore/dataset/panorama-statistique-grand-age-et-autonomie0/) présente des données départementales et régionales homogènes sur la démographie, la pauvreté, la précarité et l’exclusion, le handicap et la dépendance, le logement et l’hébergement, la jeunesse, l’enfance et la protection de l'enfance, la délivrance de certains diplômes (professions sociales), les jeunes ni en études, ni en emploi, ni en formation (NEET), l'emploi des séniors, le cumul emploi-retraite.
 
 ## **Estimations de population** {#estim_pop}
 
@@ -109,7 +109,7 @@ En outre, certains événements ayant eu lieu ailleurs ou ayant fait l'objet par
 
 ## **Omphale** {#omphale}
 
-Omphale est le modèle de projection démographique de l’Insee utilise pour simuler l’évolution de la population française (métropole et DOM) jusqu’en 2070.  Basé sur le recensement de 2018, il projette la population par sexe et âge détaillé pour toute zone d’au moins 50 000 habitants (régions, départements, zones d’emploi ou communes agrégées). 
+Omphale est le modèle de projection démographique de l’Insee utilise pour simuler l’évolution de la population française (métropole et DOM) jusqu’en 2070. Basé sur le recensement de 2018, il projette la population par sexe et âge détaillé pour toute zone d’au moins 50 000 habitants (régions, départements, zones d’emploi ou communes agrégées). 
 
 Le modèle repose sur trois composantes démographiques :
 
@@ -133,21 +133,33 @@ Le modèle Lieux de vie et autonomie (LIVIA) de la Drees permet de réaliser des
  
 [Pour en savoir plus](https://drees.solidarites-sante.gouv.fr/definitions-ressources-et-methodes/projection-de-personnes-agees-dependantes-par-lieu-de-vie-le)
 
+## **Droit au Logement Opposable (DALO)** {#dalo}
+
 # **Définitions**
 
 ## **RSA** {#rsa}
 
 Le [revenu de solidarité active](https://www.insee.fr/fr/metadonnees/definition/c1718) est une allocation qui complète les ressources initiales du foyer pour qu'elles atteignent le niveau d'un revenu garanti.
 
+Le revenu de solidarité active ([RSA](#rsa)) est en vigueur depuis le 1er juin 2009 en France métropolitaine et depuis le 1er janvier 2011 dans les départements d’outre-mer. Il a remplacé le revenu minimum d’insertion (RMI), l’allocation de parent isolé (API) et les dispositifs associés d’intéressement à la reprise d’activité. 
+Il est à la fois une allocation visant à garantir un revenu minimum de ressources aux bénéficiaires et un dispositif d’accompagnement social et professionnel pour faciliter l’accès à l’emploi ou consolider les capacités professionnelles de ceux qui sont sans activité ou qui ne tirent de leur activité que des ressources limitées. Financé par les départements, il est un revenu minimum s'adressant aux personnes dont l'ensemble des ressources est inférieur à un montant forfaitaire dépendant de la composition du ménage. Ce montant est revu chaque année. Le RSA peut être majoré pour les personnes élevant seules de jeunes enfants.
+Depuis le 1er septembre 2010, le RSA est étendu au moins de 25 ans (RSA jeunes) sous condition de justifier de deux ans d’activité en équivalent temps plein, au cours des trois dernières années. Dans ce cas, il est financé par l'Etat.
+Jusqu’en 2015, le RSA « activité », financé par l’État, s’adressait aux foyers ayant des revenus compris entre le montant forfaitaire et un revenu garanti. Depuis le 1er janvier 2016, le RSA activité a fusionné avec la prime pour l’emploi pour devenir la prime d’activité.
+
 Le montant du revenu garanti varie en fonction de la composition du foyer et du nombre d'enfant(s) à charge.
+
+Attention rupture de série : à la suite d'une amélioration du système de production statistique de la Cnaf sur les bénéficiaires de prestations légales, les données à partir de 2016 sur le RSA, l'AAH et le total des minima sociaux ne sont pas comparables avec celles des années précédentes.
 
 ## **APA** {#apa}
 
-L’[APA](https://drees.solidarites-sante.gouv.fr/allocation-personnalisee-dautonomie-apa) est une prestation qui permet de financer les dépenses d’aide auxquelles font face les personnes de 60 ans ou plus en perte d’autonomie, qu’elles résident à domicile ou en établissement.
+L’allocation personnalisée d'autonomie (APA) est une prestation qui permet de financer les dépenses d’aide auxquelles font face les personnes de 60 ans ou plus en perte d’autonomie, qu’elles résident à domicile ou en établissement.
 
 Gérée par les départements, cette prestation en nature est, à domicile, dédiée à la prise en charge d’aides humaines, d’aides techniques ou de services (aménagement du logement, hébergement temporaire en structure d’accueil de jour, répit pour les aidants informels, etc.). Le degré de perte d’autonomie est évalué à l’aide de la grille AGGIR (autonomie gérontologie groupes iso-ressources), qui classe les personnes âgées en six niveaux. Les quatre premiers niveaux ouvrent droit à l’APA.
 
+[Pour en savoir plus](https://drees.solidarites-sante.gouv.fr/allocation-personnalisee-dautonomie-apa)
 [Données détaillées sur l'APA](https://drees2-sgsocialgouv.opendatasoft.com/explore/?sort=modified&q=apa)
+
+## **AAH** {#aah} 
 
 ## **Âge** {#age}
 
@@ -188,7 +200,8 @@ C'est un cas particulier de l'espérance de vie à l'âge x, c'est-à-dire le no
 
 ## **Revenu disponible** {#rev_disp}
 
-Le [revenu disponible](https://www.insee.fr/fr/metadonnees/definition/c1458) est le revenu à la disposition du ménage pour consommer et épargner. Il comprend les revenus d’activité nets des cotisations sociales, les indemnités de chômage, les retraites et pensions, les revenus du patrimoine (fonciers et financiers) et les autres prestations sociales perçues, nets des impôts directs.
+Le [revenu disponible](https://www.insee.fr/fr/metadonnees/definition/c1458) est le revenu à la disposition du ménage pour consommer et épargner. Il comprend les revenus d'activité, indemnités de chômage, retraites et pensions, revenus fonciers, les revenus financiers (imputés pour ceux qui ne sont pas soumis à déclaration : livrets exonérés, PEA, LEP, CEL, PEL, produits d'assurance vie) et les prestations sociales reçues (prestations familiales, minima sociaux et prestations logements). Au total de ces ressources, on déduit les impôts directs (impôt sur le revenu, taxe d'habitation) et les prélèvements sociaux : Contribution Sociale Généralisée (CSG), Contribution au Remboursement de la Dette Sociale (CRDS).
+Les aides locales (prestations versées par les mairies, association, etc...) ne sont pas prises en compte pour le calcul du revenu disponible.
 
 Ces derniers incluent l’impôt sur le revenu, la taxe d’habitation, la contribution sociale généralisée – CSG –, contribution à la réduction de la dette sociale – CRDS – et les prélèvements sociaux sur les revenus du patrimoine. Il comprend une partie du solde des transferts inter ménages.
 
@@ -209,13 +222,18 @@ Formellement, il est calculé de la manière suivante : (seuil de pauvreté - ni
 
 ## **Niveau de vie** {#niv_vie}
 
-Le [niveau de vie](https://www.insee.fr/fr/metadonnees/definition/c1890) est égal au revenu disponible du ménage divisé par le nombre d'unités de consommation (UC). Le niveau de vie est donc le même pour tous les individus d'un même ménage.
+Le [niveau de vie](#niv_vie), est le revenu disponible par "équivalent adulte". Il est calculé en rapportant le [revenu disponible](#rev_disp) du ménage au nombre d'[unité de consommation](#uc) qui le composent. Toutes les personnes rattachées au même ménage fiscal ont le même revenu disponible par UC (ou niveau de vie).
 
 Le niveau de vie correspond à ce qu’Eurostat nomme « revenu disponible équivalent ».
 
 Les unités de consommation sont généralement calculées selon l'échelle d'équivalence dite de l'OCDE modifiée qui attribue 1 UC au premier adulte du ménage, 0,5 UC aux autres personnes de 14 ans ou plus et 0,3 UC aux enfants de moins de 14 ans.
 
-## **Nombre de personnes du ménage fiscal** {#nb_pers_men_fisc}
+[Pour en savoir plus](https://www.insee.fr/fr/metadonnees/definition/c1890)
+
+## **Ménage fiscal** {#men_fisc}
+
+Le « ménage fiscal » est un ménage constitué par le regroupement des foyers fiscaux répertoriés dans un même logement. Son existence, une année donnée, tient au fait que coïncident au moins une déclaration indépendante de revenus et l’occupation d’un logement connu à la Taxe d’Habitation. Les ménages constitués de personnes ne disposant pas de leur indépendance fiscale (essentiellement des étudiants) sont comptés dans les ménages où ils déclarent leurs revenus même s'ils occupent un logement indépendant.
+Les contribuables vivant en collectivité (foyers de travailleurs, maisons de retraite, maisons de détention...) et les sans-abris, sont exclus des ménages fiscaux. 
 
 Le [nombre de personnes du ménage fiscal](https://www.insee.fr/fr/metadonnees/definition/c1285) est obtenu par cumul des personnes inscrites sur les déclarations de revenus qui le composent. On adopte le terme de personne et non celui d'habitant pour marquer le fait que toute personne rattachée fiscalement à un ménage ne vit pas forcément au sein de celui-ci : elle peut habiter ailleurs, cas fréquent chez les étudiants (rattachés fiscalement à leurs parents tout en occupant un logement indépendant).
 

@@ -17,7 +17,7 @@ L'objectif stratégique des indicateurs relatifs à la protection de l'enfance e
 
 Cet indicateur y contribue en décrivant l'offre d'accueil en établissement d'aide sociale à l'enfance.
 
-**Définition :**
+**Définitions :**
 
 Établissements d'aide sociale à l'enfance : établissements d'accueil mère-enfant, pouponnières à caractère social, foyers de l'enfance, maisons d'enfants à caractère social, structures intermédiaires de placement social, lieux de vie et d'accueil, villages d'enfants. Hors établissement exclusivement gérés par la PJJ.
 
@@ -66,7 +66,7 @@ L'objectif stratégique des indicateurs relatifs à la protection de l'enfance e
 
 Cet indicateur y contribue en décrivant l'offre d'accueil en établissement d'aide sociale à l'enfance.
 
-**Définition :**
+**Définitions :**
 
 Établissements d'aide sociale à l'enfance : établissements d'accueil mère-enfant, pouponnières à caractère social, foyers de l'enfance, maisons d'enfants à caractère social, structures intermédiaires de placement social, lieux de vie et d'accueil, villages d'enfants. Hors établissement exclusivement gérés par la PJJ.
 
@@ -123,7 +123,7 @@ Nombre d'établissements médico-sociaux pour personnes agées au 31 décembre
 Pour les Unités de soins de longue durée (USLD), la source est différente. Il s'agit de SAE - Activité réalisée : Soins de longue durée (SLD).
 Les SSIAD et SPASAD intègrent les services autonomes et services rattachés à un établissement (y Compris les équipes mobiles Alzheimer).
 
-**Définition :**
+**Définitions :**
 
 Les maisons de retraite, lieux d’hébergement collectif, assurent une prise en charge globale de la personne âgée, incluant l’hébergement en chambre (ou en logement), les repas et divers services spécifiques.
 
@@ -182,7 +182,7 @@ L'objectif stratégique des indicateurs relatifs au personnes âgées est de mes
 
 Cet indicateur y contribue en appréciant l’offre d'équipement en places d’hébergement à destination des personnes âgées.
 
-**Définition :**
+**Définitions :**
 
 Les maisons de retraite, lieux d’hébergement collectif, assurent une prise en charge globale de la personne âgée, incluant l’hébergement en chambre (ou en logement), les repas et divers services spécifiques.
 
@@ -225,7 +225,7 @@ Nombre d'établissements médico-sociaux pour personnes handicapées au 31 déce
 - Pour le travail protégé : établissements et services d'aide par le travail (ESAT)
 - Pour les services : les services d’accompagnement à la vie sociale (SAVS) et les services d’accompagnement médico-social pour adultes handicapés (SAMSAH)
 
-**Définition :**
+**Définitions :**
 
 Les établissements classés en catégorie FAM sont ceux qui disposent de lits d'accueil médicalisés, même si d'autres types de lits y sont présents
 La catégorie "foyer" inclut les foyers de vie (inclut les foyers occupationnels), les foyers d'hébergement, les foyers d'accueil polyvalent, et les établissements d'accueil non médicalisé pour personnes handicapées (E.A.N.M.)
@@ -278,7 +278,7 @@ Inversement, les places en accueil de jour (ph_adultes_places_acc_jour) et les p
 
 Le tableau présenté avant 2022 comptabilisait dans les places d'accompagnement à la vie sociale ou d'accompagnement médico-social pour adultes handicapés les disciplines 509, 510, 965 et 966. Les disciplines 965 et 966 étaient déjà comptées dans les places d'accueil de vie et les places d'accueil médicalisées. A partir de l'édition 2022, les places d'accompagnement à la vie sociale ou d'accompagnement médico-social pour adultes handicapés ne comportent désormais que les disciplines 509 et 510.
 
-**Définition :**
+**Définitions :**
 
 Voir (Adultes handicapées : Nombre d'établissements médico-sociaux)[#ph_adulte_etab]
 
@@ -313,7 +313,7 @@ L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la p
 
 Cet indicateur y contribue par la description de l’offre d'accueil et d'accompagnement des personnes en situation de handicap, enfant ou adulte.
 
-**Définition :**
+**Définitions :**
 
 Voir (Adultes handicapées : Nombre d'établissements médico-sociaux)[#ph_adulte_etab]
 
@@ -344,7 +344,7 @@ Nombre d'établissements médico-sociaux pour enfants handicapées au 31 décemb
 
 - Établissements d'hébergement : Instituts médico-éducatifs, établissements pour enfants et adolescents polyhandicapés, instituts thérapeutiques, éducatifs et pédagogiques, établissements pour déficients moteurs, établissements pour déficients sensoriels, foyer d'hébergement pour enfants et adolescents handicapés, Services d'éducation spéciale et de soins à domicile (SESSAD) 
 
-**Définition :**
+**Définitions :**
 
 Les instituts médico-éducatifs (IME) accueillent et accompagnent des enfants ou des adolescents présentant un déficit intellectuel.
 
@@ -378,7 +378,7 @@ Nombre de places dans des établissements médico-sociaux pour enfants handicap�
 
 Pour les Centres Médico-Psycho-Pédagogique (CMPP) et les Centres Action Médico-Sociale Précoce (CAMSP), les capacités ne sont pas mentionnées car ces structures fonctionnent en files actives.
 
-**Définition :**
+**Définitions :**
 
 Voir (Enfants handicapés : Nombre d'établissements médico-sociaux)
 [#ph_enfant_etab]
@@ -408,7 +408,7 @@ Le taux d'équipement en places dans les établissements pour enfants handicapé
 
 Le taux d'équipement en places dans les SESSAD (ph_enfants_tx_equip_sessad_1000_m20) est hors places d'accueil temporaire.
 
-**Définition :**
+**Définitions :**
 
 Voir (Enfants handicapés : Nombre d'établissements médico-sociaux)
 [#ph_enfant_etab]

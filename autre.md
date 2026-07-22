@@ -20,7 +20,7 @@ L'objectif stratégique des indicateurs de contexte est de caractériser le terr
 
 Cet indicateur y contribue en définissant l’équilibre des âges sur le territoire.
 
-**Définition :**
+**Définitions :**
 
 Classes d'âge utilisées :
 
@@ -58,27 +58,28 @@ ase_part_mineurs_juge (indicateur exprimé en pour mille) :
 - **Numérateur :** nombre de mineurs-affaire dont le juge est saisi au civil dans l’année (y compris délégation de compétence et transfert de dossier).
 On dénombre ici des mineurs-affaire dont le juge est saisi en assistance éducative dans l’année (y compris délégation de compétence et transfert de dossier). Ainsi :
 
- - si une affaire concerne 2 mineurs (une fratrie par exemple), on compte 2 mineurs-affaire
- - si un même mineur est concerné par 2 affaires au cours de l'année (placement, puis révision du mode de placement dans la même année, par exemple), on compte 2 mineurs-affaire en assistance éducative.
+  - si une affaire concerne 2 mineurs (une fratrie par exemple), on compte 2 mineurs-affaire
+  - si un même mineur est concerné par 2 affaires au cours de l'année (placement, puis révision du mode de placement dans la même année, par exemple), on compte 2 mineurs-affaire en assistance éducative.
 
 On additionne l’ensemble des signalements (ceux du service de l’aide sociale à l’enfance et les signalements directs) au procureur de la République donnant lieu à une saisine du [Juge des enfants](#jde), avec les saisines directes du juge par les parents, le gardien ou le mineur (y compris les délégations de compétence et transferts de dossiers) et les saisines d’office du [Juge des enfants](#jde). 
 Les conditions pour émettre un signalement au procureur de la République sont précisées dans l’article L. 226-4 du CASF. 
 
 - **Dénominateur :** moyenne de la population des jeunes de 0 à 17 ans du département au 1er janvier 2021 et au 1er janvier 2022.
 
-Autres indicateurs
+**Autres indicateurs :**
 
-- **Numérateurs :**
+*Les signalements par le service d’aide sociale à l’enfance :*
 
- - Les signalements par le service d’aide sociale à l’enfance :
 Le président du Conseil départemental avise sans délai le procureur de la République lorsqu’un mineur est en danger au sens de l’article 375 du code civil et 
- - que l’action ou les actions mises en œuvre précédemment n’ont pas permis de remédier à la situation.
- - que les mesures décidées ne peuvent être mises en place en raison du refus de la famille d’accepter l’intervention proposée ou de l’impossibilité dans laquelle elle se trouve de collaborer avec ce service. 
- - qu’il est impossible d’évaluer la situation.
+- que l’action ou les actions mises en œuvre précédemment n’ont pas permis de remédier à la situation.
+- que les mesures décidées ne peuvent être mises en place en raison du refus de la famille d’accepter l’intervention proposée ou de l’impossibilité dans laquelle elle se trouve de collaborer avec ce service. 
+- qu’il est impossible d’évaluer la situation.
 
- - les signalements directs. Toute personne travaillant au sein de services publics, ainsi que les établissements publics ou privés susceptibles de connaître des situations de mineurs en danger ou qui risquent de l’être, peut aviser directement, du fait de la gravité de la situation, le procureur de la République de la situation d’un mineur en danger.
+*Les signalements directs :*
 
-Autres modes de saisine : 
+Toute personne travaillant au sein de services publics, ainsi que les établissements publics ou privés susceptibles de connaître des situations de mineurs en danger ou qui risquent de l’être, peut aviser directement, du fait de la gravité de la situation, le procureur de la République de la situation d’un mineur en danger.
+
+*Autres modes de saisine :*
 
 - les saisines directes du [Juge des enfants](#jde) sont possibles pour le mineur, ses parents ou ses gardiens.
 - le [Juge des enfants](#jde) peut également se saisir d’office (l’auto-saisine).
@@ -115,21 +116,25 @@ La part des saisines du parquet et des saisines d’office dont l’origine est 
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Descriptif :**
 
-[Catégories de demandes d'emploi](#insc_ft) établies par arrêté
-
-Cet indicateur est enrichi, à partir de la vague 1 de mise à jour en 2019, par des indicateurs de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
-
-Champ : population des 15 à 64 ans.
+Moyenne des nombres de demandeurs d'emploi en fin de mois au pendant le T4 de chaque année.
 
 Demandeurs d'emploi en fin de mois (DEFM) : les demandeurs d'emploi en fin de mois sont les personnes inscrites à Pôle Emploi et ayant une demande en cours au dernier jour du mois.
 Les données du T4 2024 s’entendent comme la moyenne des stocks de demandeurs d’emploi à la fin des mois d’octobre 2024, novembre 2024 et décembre 2024. 
+
 Les effectifs sont arrondis à la dizaine.
+
 Les classes d’âge ont été construites à partir de l’âge révolu à la fin du mois.
 Près de 46 000 DEFM sont âgés de 65 ans et plus, dont près de 37 000 DEFM de longue durée.
 
-Population en âge de travailler (population d’âge actif) : population des 15 à 64 ans, issue des [Estimations de population](#estim_pop) au 1er janvier 2025 (résultats provisoires arrêtés en avril 2025).
+Les [catégories de demandes d'emploi](#insc_ft) sont établies par arrêté.
+
+Cet indicateur est enrichi, à partir de la vague 1 de mise à jour en 2019, par des indicateurs de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
+
+**Définitions :**
+
+Population en âge de travailler (population d’âge actif) : population des 15 à 64 ans, issue des [Estimations de population](#estim_pop).
 Les ratios calculés ici diffèrent des taux de chômage habituellement employés, puisqu’ils se rapportent à l’ensemble de la population en âge de travailler (15 ans à 64 ans), et non à la population active.
 
 **Objectif :**
@@ -170,9 +175,9 @@ Autres indicateurs :
 - **Numérateur :** Sous-population ciblée 
 - **Dénominateur :** nombre de demandeurs d’emploi (catégories A, B, C, c’est-à-dire tenus de faire des actes positifs de recherche d'emploi, mais pouvant exercer une activité réduite) inscrits à Pôle emploi depuis plus d’un an (longue durée)
 
-**Définition :**
+**Définitions :**
 
-[Catégories de demandes d'emploi](#insc_ft) établies par arrêté
+Les [catégories de demandes d'emploi](#insc_ft) sont établies par arrêté
 
 Cet indicateur est enrichi, à partir de la vague 1 de mise à jour en 2019, par des indicateurs de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
 
@@ -184,7 +189,7 @@ Les effectifs sont arrondis à la dizaine.
 Les classes d’âge ont été construites à partir de l’âge révolu à la fin du mois.
 Près de 46 000 DEFM sont âgés de 65 ans et plus, dont près de 37 000 DEFM de longue durée.
 
-Population en âge de travailler (population d’âge actif) : population des 15 à 64 ans, issue des [Estimations de population](#estim_pop) au 1er janvier 2025 (résultats provisoires arrêtés en avril 2025).
+Population en âge de travailler (population d’âge actif) : population des 15 à 64 ans, issue des [Estimations de population](#estim_pop).
 Les ratios calculés ici diffèrent des taux de chômage habituellement employés, puisqu’ils se rapportent à l’ensemble de la population en âge de travailler (15 ans à 64 ans), et non à la population active.
 
 Déclinaison par sous-population :
@@ -235,7 +240,7 @@ Ces données ne sont disponibles qu'au niveau régionnal.
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 L'[Espérance de vie](#esp_vie) à l'[âge](#age) x représente, pour une année donnée, l'âge moyen au décès des individus d'une génération fictive d'âge x qui auraient, à chaque âge, la probabilité de décéder observée cette année-là au même âge.
 Autrement dit, elle est le nombre moyen d'années restant à vivre au-delà de cet âge x (ou durée de survie moyenne à l'âge x), dans les conditions de mortalité par âge de l'année considérée.
@@ -266,7 +271,7 @@ Les résultats ([Estimations de population](#estim_pop)) sont provisoires ; ils 
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Nombre de décés domiciliés et de naissance dans l'année.
 
@@ -296,7 +301,7 @@ Attention aux faibles effectifs concernés dans certains départements.
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Nombre d'entrées de jeunes de 30 ans ou moins en contrat d'apprentissage, de jeunes de moins de 26 ans en Parcours Emplois Compétences (PEC) et en contrat de professionnalisation, de jeunes en emploi franc et de jeunes de 16 à 25 ans dans le dispositif du Service Civique.
 La série sur les emplois francs présente une rupture avec celle présentée avant 2023 dans le panorama. Les données présentées portent sur la période janvier-novembre.
@@ -311,7 +316,7 @@ Le contrat de professionnalisation s'adresse à tous les jeunes âgés de 16 à 
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Le réseau des missions locales a pour mission d’aider les jeunes de 16 à 25 ans dans leur insertion sociale et professionnelle. Il les informe, les conseille et, au besoin, les accompagne afin de faciliter leur accès à l’emploi. Depuis mars 2022, les missions locales mettent notamment en œuvre le contrat d'engagement jeune (CEJ), dispositif visant à accompagner les jeunes en difficulté d’insertion vers l’emploi durable.
 
@@ -353,8 +358,7 @@ A rapprocher des indicateurs régionaux concernant les jeunes (source : Céreq)
 Tous les jeunes en difficulté ne s’adressent pas au réseau ML-PAIO
 Données sur le diplôme déclaratives (sous-estimation probable du nombre de jeunes accueillis sans diplôme)
 
-----
-
+---- 
 
 ## **Prématurité et faibles poids à la naissance**
 
@@ -362,7 +366,7 @@ Données sur le diplôme déclaratives (sous-estimation probable du nombre de je
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Les données présentées ici sont issues du Programme de Médicalisation des Systèmes d’Information - Médecine, chirurgie, obstétrique et odontologie (PMSI-MCO) et recueillies selon les règles définies par l’Agence technique de l’information sur l’hospitalisation (ATIH). Les exploitations ont été réalisées par la Drees.
 
@@ -421,7 +425,7 @@ Dans le PMSI-MCO, il subsiste un risque de surestimation des enfants prématuré
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Les données présentées ici sont issues du Programme de Médicalisation des Systèmes d’Information - Médecine, chirurgie, obstétrique et odontologie (PMSI-MCO) et recueillies selon les règles définies par l’Agence technique de l’information sur l’hospitalisation (ATIH). Les exploitations ont été réalisées par la Drees.
 
@@ -456,7 +460,7 @@ Le nombre de naissances peut être légèrement sous estimé, du fait de l’abs
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Pourcentage d'élèves demi-pensionnaires ou internes dans le second degré 
 
@@ -478,7 +482,7 @@ Déclinaison par :
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 On considère qu'un élève présente un retard scolaire lorsqu'il a au moins une année de retard par rapport à un cursus normal, c'est-à-dire une scolarité sans interruption ni redoublement ni saut de classe.
 Autrement dit, les élèves en retard en 6e sont ceux qui ont 12 ans ou plus au 01 janvier de l'année scolaire considérée.
@@ -515,7 +519,7 @@ Les comparaisons dans le temps sont donc délicates pour cette raison.
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 A partir de 2009, les épreuves de lecture de la Journée Défense et Citoyenneté (JDC, ex. JAPD) ont été adaptées à un nouveau mode de passation afin d’améliorer la standardisation des procédures et de réduire sensiblement les contraintes logistiques.
 Les jeunes doivent répondre, grâce à un boîtier électronique, aux questions qui défilent sur un grand écran. Leurs réponses, et dans certains cas leurs temps de réaction, sont enregistrés. A la fin de la session d’évaluation, les différents scores sont calculés de manière automatique et les profils de lecteurs sont édités, afin de faciliter l’organisation des entretiens avec les jeunes repérés en difficulté.
@@ -558,7 +562,7 @@ Les jeunes non recensés à temps passent les tests à 18, 19 ou 20 ans et non �
 
 **Périodicité :** Ponctuelle
 
-**Définition :**
+**Définitions :**
 
 Projection de population en 2070 selon le scénario central de l'Insee.
 
@@ -578,7 +582,7 @@ Le dernier exercice de projection de population au niveau départemental a été
 
 **Périodicité :** Ponctuelle
 
-**Définition :**
+**Définitions :**
 
 Projection 2015-2050 du nombre de bénéficiaires de l'[APA](#apa) par sexe et tranche d'[âge](#age).
 
@@ -590,7 +594,7 @@ Projection 2015-2050 du nombre de bénéficiaires de l'[APA](#apa) par sexe et t
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Le taux de chômage localisé est le rapport entre le nombre de chômeurs et la population active résidente dans une zone donnée. 
 
@@ -628,7 +632,7 @@ Par construction (référence aux DEFM, demandeurs d'emploi en fin de mois), le 
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Le taux brut de mortalité est le rapport du nombre de décès de l'année à la population totale moyenne de l'année. Une zone comptant une population plus âgée qu'une autre a en général un taux brut de mortalité plus élevé. 
 
@@ -670,7 +674,7 @@ Attention aux faibles effectifs concernés dans certains départements.
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
 
@@ -698,7 +702,7 @@ Cet indicateur y contribue en mesurant le taux de scolarisation des enfants de d
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 La loi DALO (Droit au logement opposable), promulguée le 5 mars 2007 et entrée en vigueur en 2008, reconnaît l'État comme garant du droit au logement.
 
@@ -721,7 +725,7 @@ Le nombre de décisions prises peut excéder le nombre de demandes reçues en ra
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Nombres de :
 
@@ -736,7 +740,7 @@ Nombres de :
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Taux d'équipement places d'accueil pour 100 enfants de moins de 3 ans
 
@@ -748,7 +752,7 @@ Taux d'équipement places d'accueil pour 100 enfants de moins de 3 ans
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
 
@@ -784,7 +788,7 @@ Cet indicateur y contribue en mesurant l’expulsion pour impayé, qui traduit u
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
 
@@ -800,9 +804,9 @@ Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un
 
 Sont fournis comme indicateurs :
 
- - le nombre de dossiers présentant une dette pour impayés d'énergie (électricité, chauffage et gaz)
- - la part de ces dossiers dans l'ensemble des dossiers de surendettement
- - la part de cette dette pour impayés d'énergie dans la dette totale de l'ensemble des dossiers de surendettement
+  - le nombre de dossiers présentant une dette pour impayés d'énergie (électricité, chauffage et gaz)
+  - la part de ces dossiers dans l'ensemble des dossiers de surendettement
+  - la part de cette dette pour impayés d'énergie dans la dette totale de l'ensemble des dossiers de surendettement
 
 Un dossier de surendettement décrit en effet les postes concernés par cette dette (les postes les plus importants étant l'immobilier et les prêts à la consommation). Les dettes pour impayés d'énergie sont considérées comme des dettes de charge courante.
 
@@ -833,7 +837,7 @@ Attention aux faibles effectifs concernés dans certains départements.
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Le taux d’effort net est appréhendé par le ratio entre le coût du logement, déduction faite des allocations logement, et les revenus. Il représente donc la part du revenu des allocataires effectivement consacrée au loyer une fois prises en compte les allocations logement.
 
@@ -888,7 +892,7 @@ Attention, l'indicateur ne porte actuellement que sur le champ des allocataires 
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Dépenses totales brutes et nettes liées au [RSA](#rsa), RSO, RMI, CUI et contrat d'avenir
 
@@ -900,7 +904,7 @@ Dépenses totales brutes et nettes liées au [RSA](#rsa), RSO, RMI, CUI et contr
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Nombres d'allocataires des minimas : 
 
@@ -938,7 +942,7 @@ correspondent au nombre d'allocataires au niveau régional divisé par 2.
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Les personnes couvertes sont les allocataires, leurs conjoints et les personnes à charge des allocataires. Hors "RSA jeunes" (à la charge de l'État).
 
@@ -971,7 +975,7 @@ Comparaisons spatiales
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Le [revenu de solidarité active](#rsa) est une allocation qui complète les ressources initiales du foyer pour qu'elles atteignent le niveau d'un revenu garanti.
 
@@ -983,13 +987,13 @@ Les allocations du minimum vieillesse (ASV et ASPA) : l’allocation supplémen
 
 - Pour la population en [âge](#age) actif (15-64 ans) :
 
- - **Numérateur :** Nombre de personnes percevant un des principaux minima (allocation aux adultes handicapés (AAH), allocation de solidarité spécifique (ASS) ou revenu de solidarité active (RSA))
- - **Dénominateur :** Population de 15 à 64 ans au 01/01/N+1
+  - **Numérateur :** Nombre de personnes percevant un des principaux minima (allocation aux adultes handicapés (AAH), allocation de solidarité spécifique (ASS) ou revenu de solidarité active (RSA))
+  - **Dénominateur :** Population de 15 à 64 ans au 01/01/N+1
 
 - Pour la population de 60 ans et plus :
 
- - **Numérateur :** Nombre de personnes percevant le minimum vieillesse (ASPA-ASV)
- - **Dénominateur :** Population de 60 ans et plus au 01/01/N+1
+  - **Numérateur :** Nombre de personnes percevant le minimum vieillesse (ASPA-ASV)
+  - **Dénominateur :** Population de 60 ans et plus au 01/01/N+1
 
 Attention rupture de série : à la suite d'une amélioration du système de production statistique de la Cnaf sur les bénéficiaires de prestations légales, les données à partir de 2016 sur le RSA, l'AAH et le total des minima sociaux ne sont pas comparables avec celles des années précédentes. 
 Une nouvelle méthode de comptabilisation des allocataires du minimum vieillesse a été introduite en 2021 dans l’enquête sur les allocations du minimum vieillesse de la Drees : les effectifs de l'allocation supplémentaire vieillesse (ASV) et de l'allocation de solidarité aux personnes âgées (Aspa) sont en "date d'entrée en jouissance", c'est à dire la date à partir de laquelle le droit est dû alors que jusque-là les effectifs pouvaient correspondre, selon les caisses de retraite, aux effectifs en date d'entrée en jouissance ou en date de versement, c'est à dire la date à partir de laquelle l'allocation est versée. 
@@ -1023,7 +1027,7 @@ Certaines données départementales sont estimées
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 La Complémentaire santé solidaire sans participation financière (ex-CMU-C) permet à toute personne en situation régulière et résidant en France depuis plus de trois mois, dont le revenu mensuel du foyer ne dépasse pas un montant maximum, d'accéder à une complémentaire de santé gratuite. La CSS n'est pas applicable à Mayotte.
 
@@ -1050,7 +1054,7 @@ Cet indicateur y contribue en mesurant la part de population bénéficiant de la
 
 **Périodicité :** Ponctuelle
 
-**Définition :**
+**Définitions :**
 
 Répartition des bénéficiaires de l'[APA](#apa) par [âge](#age), sexe et gir
 L’[APA](#apa) est une prestation qui permet de financer les dépenses d’aide auxquelles font face les personnes de 60 ans ou plus en perte d’autonomie, qu’elles résident à domicile ou en établissement.
@@ -1063,7 +1067,7 @@ L’[APA](#apa) est une prestation qui permet de financer les dépenses d’aide
 
 **Périodicité :** Ponctuelle
 
-**Définition :**
+**Définitions :**
 
 Part des personnes âgées déclarant des limitations importantes dans leurs activités quotidiennes.
 
@@ -1075,7 +1079,7 @@ Part des personnes âgées déclarant des limitations importantes dans leurs act
 
 **Périodicité :** Ponctuelle
 
-**Définition :**
+**Définitions :**
 
 Part de plans saturés à 96 % pour les bénéficiaires de l'[APA](#apa) à domicile
 
@@ -1087,7 +1091,7 @@ Part de plans saturés à 96 % pour les bénéficiaires de l'[APA](#apa) à domi
 
 **Périodicité :** Ponctuelle
 
-**Définition :**
+**Définitions :**
 
 Distribution des revenus des bénéficiaires de l'[APA](#apa)
 
@@ -1099,7 +1103,7 @@ Distribution des revenus des bénéficiaires de l'[APA](#apa)
 
 **Périodicité :** Ponctuelle
 
-**Définition :**
+**Définitions :**
 
 Taux de [pauvreté](#pauv) monétaire : part de la population dont le [Revenu disponible](#rev_disp) du ménage par [Unité de consommation](#uc), dit « niveau de vie », est inférieur à 60 % de la médiane nationale (définition européenne).
 Unité de consommation : échelle d’Oxford révisée.
@@ -1155,7 +1159,7 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 **Périodicité :** Ponctuelle
 
-**Définition :**
+**Définitions :**
 
 Ecart relatif, en pourcentage du seuil de [pauvreté](#pauv) à 60%, entre le [Niveau de vie](#niv_vie) médian des personnes pauvres et ce seuil (définition européenne).
 A partir de la deuxième vague de mise à jour de 2018, cet indicateur est complété par l’intensité de la pauvreté des bénéficiaires de minima sociaux, qui était un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017). 
@@ -1199,7 +1203,7 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
 
@@ -1255,7 +1259,7 @@ Compte tenu des changements méthodologiques importants entre les deux dispositi
 
 **Périodicité :** Ponctuelle
 
-**Définition :**
+**Définitions :**
 
 Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
 
@@ -1307,7 +1311,7 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 **Périodicité :** Ponctuelle
 
-**Définition :**
+**Définitions :**
 
 Le [Niveau de vie](#niv_vie) est le rapport du [Revenu disponible](#rev_disp) du ménage auquel appartient l'individu au nombre d’unités de consommation (UC) du ménage. Par convention, tous les individus d’un même ménage ont le même niveau de vie. L’échelle utilisée pour calculer le nombre d’UC d’un ménage est l’échelle de l’OCDE modifiée (1 pour le premier adulte, 0,5 pour les autres personnes de 14 ans ou plus, 0,3 pour les moins de 14 ans). 
 Il est calculé en euros. 
@@ -1357,7 +1361,7 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 **Périodicité :** Ponctuelle
 
-**Définition :**
+**Définitions :**
 
 Part des enfants de moins de 3 ans vivant dans un ménage pauvre et déclarant des frais de garde parmi les enfants de moins de 3 ans vivant dans un ménage pauvre :
 part des enfants de moins de 3 ans vivant dans des ménages pauvres (dont le [Revenu disponible](#rev_disp) par UC est en-dessous du seuil de [pauvreté](#pauv) à 60 %) et qui déclarent une déduction fiscale relative au mode de garde parmi les enfants de moins de 3 ans vivant dans les ménages pauvres.
@@ -1401,13 +1405,13 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 ## **Taux de pauvreté monétaire**
 
-**ID_indicateur :** pauv_tx_pauv_mon, pauv_tx_pauv_mon_1pers, pauv_tx_pauv_mon_2pers, pauv_tx_pauv_mon_3pers, pauv_tx_pauv_mon_4pers, pauv_tx_pauv_mon_5pers, pauv_tx_pauv_mon_m30, pauv_tx_pauv_mon_30_39, pauv_tx_pauv_mon_40_49, pauv_tx_pauv_mon_50_59, pauv_tx_pauv_mon_60_74, pauv_tx_pauv_mon_75p, pauv_tx_pauv_mon_couple_ac_enf, pauv_tx_pauv_mon_couple_ss_enf, pauv_tx_pauv_mon_fam_monoparentale, pauv_tx_pauv_mon_femme_seule, pauv_tx_pauv_mon_homme_seul, pauv_tx_pauv_mon_men_complexe, pauv_taux_pauv_menage_ac_rev_act
+**ID_indicateur :** pauv_tx_pauv_mon, pauv_tx_pauv_mon_1pers, pauv_tx_pauv_mon_2pers, pauv_tx_pauv_mon_3pers, pauv_tx_pauv_mon_4pers, pauv_tx_pauv_mon_5pers, pauv_tx_pauv_mon_m18, pauv_tx_pauv_mon_m30, pauv_tx_pauv_mon_18_29, pauv_tx_pauv_mon_30_39, pauv_tx_pauv_mon_40_49, pauv_tx_pauv_mon_50_59, pauv_tx_pauv_mon_50_64, pauv_tx_pauv_mon_65_74, pauv_tx_pauv_mon_60_74, pauv_tx_pauv_mon_75p, pauv_tx_pauv_mon_couple_ac_enf, pauv_tx_pauv_mon_couple_ss_enf, pauv_tx_pauv_mon_fam_monoparentale, pauv_tx_pauv_mon_femme_seule, pauv_tx_pauv_mon_homme_seul, pauv_tx_pauv_mon_men_complexe, pauv_taux_pauv_menage_ac_rev_act
 
 **Périodicité :** Ponctuelle
 
 Le taux de [pauvreté](#pauv) monétaire et certains découpages selon l'[âge](#age) sont disponibles pour 2023
 
-**Définition :**
+**Définitions :**
 
 Taux de [pauvreté](#pauv) monétaire : part de la population dont le [revenu disponible](#rev_disp) du ménage par [unité de consommation](#uc), dit « niveau de vie », est inférieur à 60 % de la médiane nationale (définition européenne).
 Unité de consommation : échelle d’Oxford révisée.
@@ -1435,7 +1439,9 @@ Part des enfants vivant dans un ménage pauvre :
 
 Déclinaison par sous-population :
 
-- Par âge : 0-29 ans, 30-39 ans, 40-49 ans, 50-59 ans, 60-74 ans, 75 ans ou plus. 
+- Par âge : 
+  - FiLoSoFi : 0-29 ans, 30-39 ans, 40-49 ans, 50-59 ans, 60-74 ans, 75 ans ou plus. 
+  - FiLoSoFi 2 : 0-17 ans, 18-29 ans, 30-39 ans, 40-49 ans, 50-64 ans, 65-74 ans, 75 ans ou plus. 
 - Par type de ménage : famille monoparentale, couple avec ou sans enfant(s), ménage complexe, femme ou homme seul.
 - Selon le nombre de personnes du ménage : 1, 2, 3, 4, 5 et plus.
 
@@ -1474,7 +1480,7 @@ Compte tenu des changements méthodologiques importants entre les deux dispositi
 
 **Périodicité :** Ponctuelle
 
-**Définition :**
+**Définitions :**
 
 Nombre d'allocataires de l'[AAH](aah)
 Pour les données Cnaf la répartition est faite selon le département de la caisse de gestion
@@ -1487,7 +1493,7 @@ Pour les données Cnaf la répartition est faite selon le département de la cai
 
 **Périodicité :** Ponctuelle
 
-**Définition :**
+**Définitions :**
 
 Les modalités de scolarisation d'un jeune en situation de handicap sont diverses : scolarisation à temps complet ou partiel, en milieu ordinaire (i.e. dans une école ou un établissement scolaire de second degré) ou dans un établissement spécialisé (sanitaire ou médico-social), à domicile avec l'aide d'une association ou du CNED, etc... Ces différents modes de scolarisation peuvent se succéder ou se combiner.
 
@@ -1529,7 +1535,7 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 **Périodicité :** Ponctuelle
 
-**Définition :**
+**Définitions :**
 
 Nombre de personnes prises en charge par des mandataires individuels, par des services mandataires et total
 
@@ -1541,7 +1547,7 @@ Nombre de personnes prises en charge par des mandataires individuels, par des se
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 L’allocation aux adultes handicapés (AAH), instituée en 1975, s’adresse aux personnes handicapées ne pouvant prétendre ni à un avantage vieillesse ni à une rente d’accident du travail. Le titulaire doit justifier d’un taux d’incapacité d’au moins 80%, ou d’au moins 50% si la CDAPH (commission des droits et de l’autonomie des personnes handicapées) reconnaît qu’il lui est impossible de travailler en raison de son handicap.
 
@@ -1575,7 +1581,7 @@ Comparaisons entre les départements
 
 **Périodicité :** Annuelle
 
-**Définition :**
+**Définitions :**
 
 Part de la population déclarant des limitations dans leurs activités quotidiennes
 

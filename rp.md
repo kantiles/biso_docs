@@ -1,38 +1,6 @@
 
 # Indicateurs provenant du [Recensement de la Population (RP)](#rp)
 
-## **Parents sans emplois**
-
-**ID_indicateur :** fam_part_enf_ss_act_occ_mono, fam_part_enf_ss_act_occ_couple, fam_part_enf_ss_act_occ, fam_part_enf_mono_parmi_ss_act_occ, fam_part_enf_mono
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :**
-
-- **Numérateur :** Nombre d'enfants de moins de 18 ans vivant dans une famille dont le(s) parent(s) n'a (n’ont) pas d'emploi et n’est (ne sont) ni retraité(s) ni étudiant(s)
-- **Dénominateur :** Nombre d'enfants de moins de 18 ans
-
-Indicateur exprimé en %
-
-L'indicateur est décliné selon le type de famille (monoparentale ou couple).
-
-Sont également diffusées :
-
-- la part des enfants vivant dans une famille monoparentale parmi les enfants vivant dans une famille dont le(s) parent(s) n'a (n’ont) pas d'emploi et n’est (ne sont) ni retraité(s) ni étudiant(s)
-- la part des enfants vivant dans une famille monoparentale parmi l'ensemble des enfants
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs à la protection de l'enfance et de la jeunesse en danger est de mesurer la part de la population des mineurs et jeunes majeurs en risque de danger, ou en danger, ou encore bénéficiaires d'une mesure d'aide sociale à l'enfance ainsi que l'offre d'accueil existant pour ces publics.
-
-Cet indicateur y contribue en évaluant la part des enfants vivant dans un contexte familial fragilisé, au regard de l'emploi et selon le type de famille.
-
-**Intérêt de l’indicateur et interprétation :**
-
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’Enquête annuelle de recensement en 2021)
-
-----
-
 ## **Superficie et densité**
 
 **ID_indicateur :** cont_densite_pop, cont_superficie
@@ -42,7 +10,7 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 **Descriptif :**
 
 - **Numérateur :** Population au 01/01/N+1
-- **Dénominateur :** Superficie
+- **Dénominateur :** Superficie en km2
 
 **Objectif :**
 
@@ -59,18 +27,6 @@ L'objectif stratégique des indicateurs de contexte est de caractériser le terr
 **Descriptif :**
 
 Population selon le Recensement de la Population et part de la population immigrée.
-
-----
-
-## **Familles monoparentales**
-
-**ID_indicateur :** fam_part_fam_mono
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :**
-
-Part des familles monoparentales.
 
 ----
 
@@ -122,6 +78,56 @@ Taux de croissance annuel moyen et taux dû au solde migratoire entre 2016 et 20
 
 ----
 
+## **Logement sur et sous-occupés**
+
+**ID_indicateur :** lgmt_part_residences_princ_sur_occ, lgmt_part_residences_princ_sous_occ, lgmt_part_residences_princ_occ_normal, lgmt_part_residences_princ_sous_occ_h_studio_1p, lgmt_part_residences_princ_sur_occ_h_studio_1p, lgmt_part_residences_princ_occ_normal_h_studio_1p, lgmt_part_residences_princ_sous_occ_h_studio_1_2p, lgmt_part_residences_princ_sur_occ_h_studio_1_2p, lgmt_part_residences_princ_occ_normal_h_studio_1_2p
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+Le concept de suroccupation repose sur la composition du ménage et le nombre de pièces du logement. 
+
+Un logement est ici considéré comme suroccupé quand il lui manque au moins une pièce par rapport à la norme d' « occupation normale », fondée sur :
+
+- une pièce de séjour pour le ménage,
+- une pièce pour la personne de référence de chaque famille occupant le logement,
+- une pièce pour les personnes hors famille non célibataires ou les célibataires de 19 ans et plus, et, pour les célibataires de moins de 19 ans :
+- une pièce pour deux enfants s'ils sont de même sexe ou ont moins de 7 ans,
+- sinon, une pièce par enfant.
+
+A l'inverse, un logement est considéré en sous-occupation lorsqu'il y a au moins une pièce en plus par rapport à la norme d'occupation définie ci-dessus.
+
+Par construction, les logements d'une pièce sont considérés comme suroccupés.
+
+- **Numérateur :** Nombre de logements : en suroccupation, en occupation normale, en sous-occupation
+- **Dénominateur :** Nombre de logements des résidences principales. 
+
+Indicateurs exprimés en %.
+
+NB : cette approche diffère de l'indice de peuplement des logements
+
+Remarque : à partir des résultats du recensement de la population 2016, le concept de personne de référence du ménage et de la famille est modifié. Les règles de détermination de la personne de référence ont changé de manière à privilégier désormais l'activité au lieu du genre. Ainsi, l'homme n'est plus automatiquement la personne de référence dans un couple de sexe différent.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
+
+Cet indicateur y contribue en estimant la part de logements de taille non adaptée à la composition du ménage l'occupant. Il s'agit un taux de suroccupation du logement, calculé à partir du nombre de pièces du logement et de la composition du ménage.
+
+**Intérêt de l’indicateur et interprétation :**
+
+Estimer un aspect du mal-logement : logement trop petit par rapport aux besoins du ménage occupant (comparaison dans le temps et entre départements)
+
+**Qualité et limites :**
+
+Cette définition ne prend pas en compte la surface des logements. 
+Par définition, les logements d'une pièce sont considérés comme suroccupés (phénomène particulièrement visible à Paris).
+C’est pourquoi des indicateurs hors studios occupés par une personne, et hors studios occupés par une ou deux personnes, sont fournis en complément.
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
+
+----
+
 ## **Population urbaine/rurale**
 
 **ID_indicateur :** cont_part_pop_pole_urbain, cont_part_pop_pole_urbain_com_centre, cont_part_pop_pole_urbain_autre_com, cont_part_pop_no_pole_urbain_com_couronnes, cont_part_pop_no_pole_urbain_hors_attraction, cont_part_pop_no_pole_urbain
@@ -135,7 +141,7 @@ Taux de croissance annuel moyen et taux dû au solde migratoire entre 2016 et 20
 
 L'indicateur est exprimé en %.
 
-**Définition :**
+**Définitions :**
 
 L’aire d’attraction d’une ville définit l’étendue de son influence sur les communes environnantes. Une aire est composée d’un pôle, défini à partir de critères de population et d’emploi, et d’une couronne, constituée des communes dont au moins 15 % des actifs travaillent dans le pôle. Au sein du pôle, la commune la plus peuplée est appelée commune-centre. Dans certains cas, dont Paris, l’aire peut comprendre plusieurs pôles. Cette approche fonctionnelle de la ville permet d’étudier les disparités territoriales selon deux dimensions : la taille de l’aire et la distinction entre centre et périphérie.
 
@@ -328,42 +334,6 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 ----
 
-## **Étudiants**
-
-**ID_indicateur :** cont_part_f_15_19_eleves, cont_part_f_15_19_emploi, cont_part_f_20_24_eleves, cont_part_f_20_24_emploi, cont_part_h_15_19_eleves, cont_part_h_15_19_emploi, cont_part_h_20_24_eleves, cont_part_h_20_24_emploi
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :**
-
-Part des filles et des garçons de 15 à 19 ans et de 20 à 24 ans élèves, étudiants ou stagiaires et en emploi, y compris en apprentissage
-
-**Qualité et limites :**
-
-Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
-Limite : les chômeurs découragés ne sont pas pris en compte.
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-
-----
-
-## **NEET**
-
-**ID_indicateur :** cont_nb_neet_16_25, cont_nb_neet_16_25_chom, cont_nb_neet_26_29, cont_nb_neet_26_29_chom, cont_repart_neet_16_25_bac, cont_repart_neet_16_25_bac_p2, cont_repart_neet_16_25_bac_p3_4, cont_repart_neet_16_25_bac_p5p, cont_repart_neet_16_25_brevet, cont_repart_neet_16_25_cap_bep, cont_repart_neet_16_25_f, cont_repart_neet_16_25_h, cont_repart_neet_16_25_no_dipl, cont_repart_neet_26_29_bac, cont_repart_neet_26_29_bac_p2, cont_repart_neet_26_29_bac_p3_4, cont_repart_neet_26_29_bac_p5p, cont_repart_neet_26_29_brevet, cont_repart_neet_26_29_cap_bep, cont_repart_neet_26_29_f, cont_repart_neet_26_29_h, cont_repart_neet_26_29_no_dipl
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :**
-
-Nombre de NEET de 16 à 25 ans et de 26 à 29 ans et répartition selon le sexe, le diplome et le statut professionnel.
-
-**Qualité et limites :**
-
-Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
-Limite : les chômeurs découragés ne sont pas pris en compte.
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-
-----
-
 ## **Retraités et pré-retraités**
 
 **ID_indicateur :** cont_nb_retraites_pre_retraites, cont_nb_retraites_pre_retraites_empl, cont_part_h_retraites_pre_retraites_m65_empl, cont_part_retraites_pre_retraites_empl, cont_part_retraites_pre_retraites_m65, cont_part_retraites_pre_retraites_m65_empl, cont_repart_cumul_empl_retraite_agri, cont_repart_cumul_empl_retraite_arti_com_chefs, cont_repart_cumul_empl_retraite_cadres, cont_repart_cumul_empl_retraite_employes, cont_repart_cumul_empl_retraite_ouvriers, cont_repart_cumul_empl_retraite_prof_int, cont_repart_retraites_pre_retraites_60_64, cont_repart_retraites_pre_retraites_65_69, cont_repart_retraites_pre_retraites_70_74, cont_repart_retraites_pre_retraites_75p, cont_repart_retraites_pre_retraites_dipl_supp, cont_repart_retraites_pre_retraites_m60, cont_repart_retraites_pre_retraites_non_sal, cont_repart_retraites_pre_retraites_tps_part
@@ -439,92 +409,7 @@ Comparaison dans le temps (intervalle de 5 ans, passé à 6 ans du fait de l’a
 
 ----
 
-## **Diplômés du supérieur**
-
-**ID_indicateur :** cont_part_dipl_enseign_sup_25_34
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :**
-
-- **Numérateur :** Nombre de jeunes âgés de 25 à 34 ans diplômés du supérieur et non inscrits dans un établissement d’enseignement.
-
-- **Dénominateur :** Nombre de jeunes âgés de 25 à 34 ans non inscrits dans un établissement d’enseignement (le dénominateur choisi ici n’est pas le total de la classe d’âge résidant dans le département, afin de s'affranchir de la mobilité résidentielle élevée des étudiants).
-
-« Diplômes de l’enseignement supérieur » : diplômes délivrés par les établissements d’enseignement supérieur (DUT, BTS, licence...), correspondant aux niveaux 5 à 8 définis par la nomenclature internationale CITE 2011 à partir des données 2014, et aux niveaux 5 et 6 de la CITE 1997 pour les données des années antérieures.
-
-Jeunes : 25-34 ans.
-
-L'indicateur est exprimé en pourcentage.
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
-
-Cet indicateur y contribue en quantifiant l'attractivité du département pour les jeunes diplômés, par la mesure de part des diplômés de l'enseignement supérieur parmi les jeunes de 25 à 34 ans qui ne sont pas en formation.
-
-**Intérêt de l’indicateur et interprétation :**
-
-La présence de jeunes diplômés est un atout pour le territoire.
-
-**Qualité et limites :**
-
-On sait que si les jeunes ne sont pas en formation à la date d’interrogation, cela ne garantit pas qu’ils ont achevé leurs études. 
-Comparaison dans le temps Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-
-----
-
-## **Logement sur et sous-occupés**
-
-**ID_indicateur :** lgmt_part_residences_princ_sur_occ, lgmt_part_residences_princ_sous_occ, lgmt_part_residences_princ_occ_normal, lgmt_part_residences_princ_sous_occ_h_studio_1p, lgmt_part_residences_princ_sur_occ_h_studio_1p, lgmt_part_residences_princ_occ_normal_h_studio_1p, lgmt_part_residences_princ_sous_occ_h_studio_1_2p, lgmt_part_residences_princ_sur_occ_h_studio_1_2p, lgmt_part_residences_princ_occ_normal_h_studio_1_2p
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :**
-
-Le concept de suroccupation repose sur la composition du ménage et le nombre de pièces du logement. 
-
-Un logement est ici considéré comme suroccupé quand il lui manque au moins une pièce par rapport à la norme d' « occupation normale », fondée sur :
-
-- une pièce de séjour pour le ménage,
-- une pièce pour la personne de référence de chaque famille occupant le logement,
-- une pièce pour les personnes hors famille non célibataires ou les célibataires de 19 ans et plus, et, pour les célibataires de moins de 19 ans :
-- une pièce pour deux enfants s'ils sont de même sexe ou ont moins de 7 ans,
-- sinon, une pièce par enfant.
-
-A l'inverse, un logement est considéré en sous-occupation lorsqu'il y a au moins une pièce en plus par rapport à la norme d'occupation définie ci-dessus.
-
-Par construction, les logements d'une pièce sont considérés comme suroccupés.
-
-- **Numérateur :** Nombre de logements : en suroccupation, en occupation normale, en sous-occupation
-- **Dénominateur :** Nombre de logements des résidences principales. 
-
-Indicateurs exprimés en %.
-
-NB : cette approche diffère de l'indice de peuplement des logements
-
-Remarque : à partir des résultats du recensement de la population 2016, le concept de personne de référence du ménage et de la famille est modifié. Les règles de détermination de la personne de référence ont changé de manière à privilégier désormais l'activité au lieu du genre. Ainsi, l'homme n'est plus automatiquement la personne de référence dans un couple de sexe différent.
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
-
-Cet indicateur y contribue en estimant la part de logements de taille non adaptée à la composition du ménage l'occupant. Il s'agit un taux de suroccupation du logement, calculé à partir du nombre de pièces du logement et de la composition du ménage.
-
-**Intérêt de l’indicateur et interprétation :**
-
-Estimer un aspect du mal-logement : logement trop petit par rapport aux besoins du ménage occupant (comparaison dans le temps et entre départements)
-
-**Qualité et limites :**
-
-Cette définition ne prend pas en compte la surface des logements. 
-Par définition, les logements d'une pièce sont considérés comme suroccupés (phénomène particulièrement visible à Paris).
-C’est pourquoi des indicateurs hors studios occupés par une personne, et hors studios occupés par une ou deux personnes, sont fournis en complément.
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-
-----
-
-## **Secteur d'activité**
+## **Fonction**
 
 **ID_indicateur :** cont_part_cadres_pop_active, cont_empl_fonction_agri, cont_empl_fonction_btp, cont_empl_fonction_fab, cont_empl_fonction_entr, cont_empl_fonction_distrib, cont_empl_fonction_trans, cont_empl_fonction_serv, cont_empl_fonction_commerce, cont_empl_fonction_culture, cont_empl_fonction_gestion, cont_empl_fonction_sante, cont_empl_fonction_presta, cont_empl_fonction_admin, cont_empl_fonction_educ, cont_empl_fonction_concept
 
@@ -612,6 +497,42 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 ----
 
+## **Étudiants**
+
+**ID_indicateur :** cont_part_f_15_19_eleves, cont_part_f_15_19_emploi, cont_part_f_20_24_eleves, cont_part_f_20_24_emploi, cont_part_h_15_19_eleves, cont_part_h_15_19_emploi, cont_part_h_20_24_eleves, cont_part_h_20_24_emploi
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+Part des filles et des garçons de 15 à 19 ans et de 20 à 24 ans élèves, étudiants ou stagiaires et en emploi, y compris en apprentissage
+
+**Qualité et limites :**
+
+Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
+Limite : les chômeurs découragés ne sont pas pris en compte.
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
+
+----
+
+## **NEET**
+
+**ID_indicateur :** cont_nb_neet_16_25, cont_nb_neet_16_25_chom, cont_nb_neet_26_29, cont_nb_neet_26_29_chom, cont_repart_neet_16_25_bac, cont_repart_neet_16_25_bac_p2, cont_repart_neet_16_25_bac_p3_4, cont_repart_neet_16_25_bac_p5p, cont_repart_neet_16_25_brevet, cont_repart_neet_16_25_cap_bep, cont_repart_neet_16_25_f, cont_repart_neet_16_25_h, cont_repart_neet_16_25_no_dipl, cont_repart_neet_26_29_bac, cont_repart_neet_26_29_bac_p2, cont_repart_neet_26_29_bac_p3_4, cont_repart_neet_26_29_bac_p5p, cont_repart_neet_26_29_brevet, cont_repart_neet_26_29_cap_bep, cont_repart_neet_26_29_f, cont_repart_neet_26_29_h, cont_repart_neet_26_29_no_dipl
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+Nombre de NEET de 16 à 25 ans et de 26 à 29 ans et répartition selon le sexe, le diplome et le statut professionnel.
+
+**Qualité et limites :**
+
+Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
+Limite : les chômeurs découragés ne sont pas pris en compte.
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
+
+----
+
 ## **Situation familiale**
 
 **ID_indicateur :** pa_repart_60p_couple_enf, pa_repart_60p_institution, pa_repart_60p_autres_non_seules, pa_repart_60p_seules, pa_repart_75p_couple_enf, pa_repart_75p_institution, pa_repart_75p_autres_non_seules, pa_repart_75p_seules
@@ -621,10 +542,10 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 **Descriptif :**
 
 - **Numérateur :** Nombre de personnes 
- - vivant en couple avec ou sans leurs enfants ou seules avec leurs enfants,
- - vivant en institution,
- - autres cas de personnes ne vivant pas seules (fratries, amis…),
- - vivant seules dans leur logement
+  - vivant en couple avec ou sans leurs enfants ou seules avec leurs enfants,
+  - vivant en institution,
+  - autres cas de personnes ne vivant pas seules (fratries, amis…),
+  - vivant seules dans leur logement
 
 - **Dénominateur :** Population de 60 ans et plus ; population de 75 ans et plus
 
@@ -641,6 +562,50 @@ Cet indicateur y contribue en appréciant le risque d'isolement des personnes â
 Comparaison dans le temps (intervalle de 6 ans pour tenir compte de l’absence d’enquête annuelle de recensement en 2021)
 
 ----
+
+## **Familles monoparentales**
+
+**ID_indicateur :** fam_part_fam_mono
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+Part des familles monoparentales.
+
+----
+
+## **Parents sans emplois**
+
+**ID_indicateur :** fam_part_enf_ss_act_occ_mono, fam_part_enf_ss_act_occ_couple, fam_part_enf_ss_act_occ, fam_part_enf_mono_parmi_ss_act_occ, fam_part_enf_mono
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+- **Numérateur :** Nombre d'enfants de moins de 18 ans vivant dans une famille dont le(s) parent(s) n'a (n’ont) pas d'emploi et n’est (ne sont) ni retraité(s) ni étudiant(s)
+- **Dénominateur :** Nombre d'enfants de moins de 18 ans
+
+Indicateur exprimé en %
+
+L'indicateur est décliné selon le type de famille (monoparentale ou couple).
+
+Sont également diffusées :
+
+- la part des enfants vivant dans une famille monoparentale parmi les enfants vivant dans une famille dont le(s) parent(s) n'a (n’ont) pas d'emploi et n’est (ne sont) ni retraité(s) ni étudiant(s)
+- la part des enfants vivant dans une famille monoparentale parmi l'ensemble des enfants
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs à la protection de l'enfance et de la jeunesse en danger est de mesurer la part de la population des mineurs et jeunes majeurs en risque de danger, ou en danger, ou encore bénéficiaires d'une mesure d'aide sociale à l'enfance ainsi que l'offre d'accueil existant pour ces publics.
+
+Cet indicateur y contribue en évaluant la part des enfants vivant dans un contexte familial fragilisé, au regard de l'emploi et selon le type de famille.
+
+**Intérêt de l’indicateur et interprétation :**
+
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’Enquête annuelle de recensement en 2021)
+
+---- 
 
 ## **Pas ou peu diplômés**
 
@@ -674,4 +639,39 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 Si les jeunes ne sont pas en formation à la date d’interrogation, cela ne garantit pas qu’ils ont achevé leurs études. Or, il y a une zone de flou particulièrement forte entre scolarité classique et apprentissage. Pour ceux qui choisissent cette voie, l’entre-deux peut fréquemment durer plusieurs mois. Il faut donc éviter les âges trop jeunes. 
 D’autre part, le questionnaire est auto-administré et certaines situations d’alternance peuvent ne pas être comptées en formation, ce qui peut majorer l’indicateur. 
 
-------------------
+----
+
+## **Diplômés du supérieur**
+
+**ID_indicateur :** cont_part_dipl_enseign_sup_25_34
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+- **Numérateur :** Nombre de jeunes âgés de 25 à 34 ans diplômés du supérieur et non inscrits dans un établissement d’enseignement.
+
+- **Dénominateur :** Nombre de jeunes âgés de 25 à 34 ans non inscrits dans un établissement d’enseignement (le dénominateur choisi ici n’est pas le total de la classe d’âge résidant dans le département, afin de s'affranchir de la mobilité résidentielle élevée des étudiants).
+
+« Diplômes de l’enseignement supérieur » : diplômes délivrés par les établissements d’enseignement supérieur (DUT, BTS, licence...), correspondant aux niveaux 5 à 8 définis par la nomenclature internationale CITE 2011 à partir des données 2014, et aux niveaux 5 et 6 de la CITE 1997 pour les données des années antérieures.
+
+Jeunes : 25-34 ans.
+
+L'indicateur est exprimé en pourcentage.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
+
+Cet indicateur y contribue en quantifiant l'attractivité du département pour les jeunes diplômés, par la mesure de part des diplômés de l'enseignement supérieur parmi les jeunes de 25 à 34 ans qui ne sont pas en formation.
+
+**Intérêt de l’indicateur et interprétation :**
+
+La présence de jeunes diplômés est un atout pour le territoire.
+
+**Qualité et limites :**
+
+On sait que si les jeunes ne sont pas en formation à la date d’interrogation, cela ne garantit pas qu’ils ont achevé leurs études. 
+Comparaison dans le temps Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
+
+----------

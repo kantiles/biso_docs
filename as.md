@@ -22,7 +22,7 @@ L'objectif stratégique des indicateurs financiers est de fournir quelques élé
 
 Cet indicateur y contribue en estimant le coût global de l'aide sociale, normé par la taille de la population.
 
-**Définition :**
+**Définitions :**
 
 Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
 
@@ -34,24 +34,22 @@ Ces dépenses brutes sont toutefois exprimées après récupérations faites aup
 
 ## **ASE : Dépenses**
 
-**ID_indicateur :** ase_depenses_brutes, ase_depenses_nettes, ase_depenses_brutes_actions_educatives, ase_depenses_brutes_allocations, ase_depenses_brutes_placement, ase_depenses_brutes_prevention_spe, ase_depenses_brutes_placement_benef, ase_depenses_brutes_placement_hab
-
+**ID_indicateur :** ase_depenses_brutes, ase_depenses_nettes, ase_depenses_brutes_actions_educatives, ase_depenses_brutes_allocations, ase_depenses_brutes_placement, ase_depenses_brutes_prevention_spe, ase_depenses_brutes_placement_benef, ase_depenses_brutes_placement_hab 
 
 **Périodicité :** Annuelle
 
 **Descriptif :**
 
 Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
-Indicateurs exprimé en euros
-
+Indicateurs exprimé en euros 
 
 Dépenses brutes de placement d'ASE par habitant ou bénéficiare
 
 - **Numérateur :** Dépenses annuelles brutes de placement, en établissement ou en famille d'accueil, des enfants accueillis à l'aide sociale à l'enfance (ASE), en euros
 
 - **Dénominateur :** 
- - Nombre d'habitants au 01/01/N+1 pour ase_depenses_brutes_placement_hab
- - Moyenne du nombre de bénéficiaires au 31/12 de l'année N-1 et de celui au 31/12 de l'année N pour ase_depenses_brutes_placement_benef
+  - Nombre d'habitants au 01/01/N+1 pour ase_depenses_brutes_placement_hab
+  - Moyenne du nombre de bénéficiaires au 31/12 de l'année N-1 et de celui au 31/12 de l'année N pour ase_depenses_brutes_placement_benef
 
 Indicateurs exprimé en euros par habitant et par bénéficiaire
 
@@ -61,7 +59,7 @@ L'objectif stratégique des indicateurs financiers est de fournir quelques élé
 
 Cet indicateur y contribue en estimant le coût global de la principale dépense du département en matière de protection de l'enfance, normé par la taille de la population du département. Il donne également une estimation du coût moyen de la principale dépense du département en matière de protection de l'enfance par bénéficiaire.
 
-**Définition :**
+**Définitions :**
 
 Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
 
@@ -138,7 +136,7 @@ L'objectif stratégique des indicateurs relatifs à la protection de l'enfance e
 
 Cet indicateur y contribue en évaluant la part des mineurs et jeunes majeurs pris en charge par la protection de l'enfance. 
 
-**Définition :**
+**Définitions :**
 
 Nombre de mineurs et jeunes majeurs concernés par au moins une mesure en fin d’année pour 1000 jeunes de 0 à 20 ans révolus du département.
 
@@ -186,7 +184,7 @@ L'objectif stratégique des indicateurs relatifs à la protection de l'enfance e
 
 Cet indicateur y contribue en évaluant la part des mineurs et jeunes majeurs pris en charge par la protection de l'enfance.
 
-**Définition :**
+**Définitions :**
 
 Nombre de mineurs et jeunes majeurs concernés par au moins une mesure en fin d’année pour 100 jeunes de 0 à 20 ans révolus, part des placements directs dans les mesures de placement, part des mesures judiciaires parmi les enfants confiés et répartition par mode d'hébergement principal des enfants confiés.
 
@@ -355,7 +353,7 @@ L'objectif stratégique des indicateurs financiers est de fournir quelques élé
 
 Cet indicateur y contribue en permettant d'estimer le coût global du [RSA](#rsa), normé par la taille de la population du département. Il donne également une estimation du coût moyen du [RSA](#rsa) par bénéficiaire.
 
-**Définition :**
+**Définitions :**
 
 Le [RSA](#rsa) est en vigueur depuis le 1er juin 2009 en France métropolitaine et depuis le 1er janvier 2011 dans les départements d’outre-mer. Il a remplacé le revenu minimum d’insertion (RMI), l’allocation de parent isolé (API) et les dispositifs associés d’intéressement à la reprise d’activité. 
 
@@ -484,7 +482,7 @@ L'objectif stratégique des indicateurs relatifs aux personnes âgées est de me
 
 Cet indicateur y contribue en donnant une évaluation de la part de personnes âgées hébergées dans le département mais dans l'incapacité de supporter sans aide les frais d'hébergement, par le rapport des bénéficiaires de l'ASH au nombre de places d'hébergement installées dans le département.
 
-**Définition :**
+**Définitions :**
 
 Les départements financent une partie des dépenses d’hébergement des personnes âgées dans le cadre de l’aide sociale à l’hébergement (ASH), si les revenus de la personne âgée et l'aide financière que ses enfants sont susceptibles de lui apporter dans le cadre de l'obligation alimentaire ne lui permettent pas de couvrir en totalité ses frais d'hébergement.
 
@@ -539,7 +537,7 @@ L'objectif stratégique des indicateurs relatifs au personnes âgées est de mes
 
 Cet indicateur y contribue en évaluant la part de la population dépendante et bénéficiaire d'une prestation, par la part des personnes âgées bénéficiaires de l'APA.
 
-**Définition :**
+**Définitions :**
 
 Mise en place en 2002, l’allocation personnalisée d’autonomie ([APA](#apa)) est versée par les conseils départementaux aux personnes âgées de 60 ans ou plus qui sont évaluées comme dépendantes d’après la grille AGGIR, qu’elles vivent à leur domicile ou qu’elles résident en établissement. Cette prestation permet de financer en partie les différentes aides (humaines et techniques) auxquelles ces personnes ont recours pour compenser leurs difficultés dans la réalisation des actes de la vie quotidienne.
 
@@ -578,7 +576,7 @@ L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la p
 
 Cet indicateur y contribue en mesurant la part de la population reconnue en situation de handicap et bénéficiaire de la PCH ou de l'ACTP parmi l'ensemble de la population.
 
-**Définition :**
+**Définitions :**
 
 Mise en place en 2006, la prestation de compensation (PCH) est versée par les conseils départementaux aux personnes handicapées, qu’elles vivent à leur domicile ou qu’elles résident en établissement. C’est une aide personnalisée, visant à financer les besoins de compensation des personnes au regard de leur projet de vie. Elle concerne les aides humaines, les aides techniques et matérielles (par exemple : aménagement du logement et du véhicule), les aides animalières. Peuvent en bénéficier les personnes reconnues éligibles à la PCH par les commissions des droits et de l’autonomie des personnes handicapées (CDAPH).
 
