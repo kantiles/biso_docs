@@ -1,58 +1,59 @@
 
 # Indicateurs provenant de l'[Enquête Aide sociale](#as)
 
-## **ID_indicateur :** ase_depenses_brutes, ase_depenses_brutes_actions_educatives, ase_depenses_brutes_allocations, ase_depenses_brutes_placement, ase_depenses_brutes_prevention_spe
+## **Dépense aides sociales**
+
+**ID_indicateur :** cont_depenses_brutes_aide_sociale_hab
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
-- **Numérateur :** Nombre de places installées en établissement d'aide sociale à l'enfance au 31 décembre
-- **Dénominateur :** Nombre de mineurs et jeunes majeurs de moins de 21 ans vivant dans le département au 01/01/N+1
+Dépenses brutes totales d'aide sociale par habitant
 
-Indicateur exprimé en pour 1000
+**Numérateur :** Dépenses annuelles brutes totales d'aide sociale, y compris les frais communs et les dépenses de personnel
+**Dénominateur :** Nombre d'habitants au 01/01/N+1
+
+Indicateur exprimé en euros par habitant
 
 **Objectif :**
 
 L'objectif stratégique des indicateurs financiers est de fournir quelques éléments élémentaires de comparaison de coût et de dépenses, afin de compléter l'analyse des indicateurs thématiques. Ils ne peuvent permettre une analyse d’efficience rapportant les résultats aux moyens engagés.
 
-Cet indicateur y contribue en estimant le coût global de la principale dépense du département en matière de protection de l'enfance, normé par la taille de la population du département. Il donne également une estimation du coût moyen de la principale dépense du département en matière de protection de l'enfance par bénéficiaire.
+Cet indicateur y contribue en estimant le coût global de l'aide sociale, normé par la taille de la population.
 
-**Définition :** 
+**Définition :**
 
 Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
 
-**Intérêt de l’indicateur et interprétation :**
+Ces dépenses brutes sont toutefois exprimées après récupérations faites auprès des bénéficiaires, des obligés alimentaires et sur successions dans le cadre de l’aide sociale à l’hébergement (ASH) aux personnes âgées, afin de rendre plus robustes les comparaisons départementales. En effet, les pratiques départementales de récupérations de l'ASH sont très variables selon les collectivités et rendent impossible toute comparaison pertinente des dépenses brutes sur le sujet.
 
-Comparaisons spatiales et temporelles
-
-**Qualité et limites :**
-
-Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'étant pas disponibles à ce niveau de détail. 
+**Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles
 
 ----
 
-## **ID_indicateur :** ase_depenses_brutes_placement_benef, ase_depenses_brutes_placement_hab
+## **ASE : Dépenses**
+
+**ID_indicateur :** ase_depenses_brutes, ase_depenses_nettes, ase_depenses_brutes_actions_educatives, ase_depenses_brutes_allocations, ase_depenses_brutes_placement, ase_depenses_brutes_prevention_spe, ase_depenses_brutes_placement_benef, ase_depenses_brutes_placement_hab
+
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
-Dépenses brutes de placement d'ASE par habitant
+Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
+Indicateurs exprimé en euros
+
+
+Dépenses brutes de placement d'ASE par habitant ou bénéficiare
 
 - **Numérateur :** Dépenses annuelles brutes de placement, en établissement ou en famille d'accueil, des enfants accueillis à l'aide sociale à l'enfance (ASE), en euros
-- **Dénominateur :** Nombre d'habitants au 01/01/N+1
 
-Dates : de 1999 à 2023
+- **Dénominateur :** 
+ - Nombre d'habitants au 01/01/N+1 pour ase_depenses_brutes_placement_hab
+ - Moyenne du nombre de bénéficiaires au 31/12 de l'année N-1 et de celui au 31/12 de l'année N pour ase_depenses_brutes_placement_benef
 
-Dépenses brutes de placement d'ASE par bénéficiaire
-
-- **Numérateur :** Dépenses annuelles brutes de placement en établissement ou en famille d'accueil de l'année, en euros
-- **Dénominateur :** Moyenne du nombre de bénéficiaires au 31/12 de l'année N-1 et de celui au 31/12 de l'année N
-
-Dates : de 2003 à 2023
-
-Indicateur exprimé en euros par habitant et par bénéficiaire
+Indicateurs exprimé en euros par habitant et par bénéficiaire
 
 **Objectif :**
 
@@ -60,7 +61,7 @@ L'objectif stratégique des indicateurs financiers est de fournir quelques élé
 
 Cet indicateur y contribue en estimant le coût global de la principale dépense du département en matière de protection de l'enfance, normé par la taille de la population du département. Il donne également une estimation du coût moyen de la principale dépense du département en matière de protection de l'enfance par bénéficiaire.
 
-**Définition :** 
+**Définition :**
 
 Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
 
@@ -74,99 +75,53 @@ Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'�
 
 ----
 
-## **ID_indicateur :** ase_depenses_nettes
+## **ASE : Nombre d'enfants confiés**
+
+**ID_indicateur :** ase_nb_enf_confies, ase_nb_enf_confies_ass_fam, ase_nb_enf_confies_placement_direct
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
-
-Dépenses nette de placement d'ASE 
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs financiers est de fournir quelques éléments élémentaires de comparaison de coût et de dépenses, afin de compléter l'analyse des indicateurs thématiques. Ils ne peuvent permettre une analyse d’efficience rapportant les résultats aux moyens engagés.
-
-Cet indicateur y contribue en estimant le coût global de la principale dépense du département en matière de protection de l'enfance, normé par la taille de la population du département. Il donne également une estimation du coût moyen de la principale dépense du département en matière de protection de l'enfance par bénéficiaire.
-
-**Définition :** 
-
-Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
-
-**Intérêt de l’indicateur et interprétation :**
-
-Comparaisons spatiales et temporelles
-
-**Qualité et limites :**
-
-Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'étant pas disponibles à ce niveau de détail. 
-
-----
-
-## **ID_indicateur :** ase_nb_actions_educ_aed, ase_nb_actions_educ_aemo, ase_nb_actions_educ_tot
-
-**Périodicité :** Annuelle
-
-**Descriptif :** 
-
-Nombre d'actions éducatives à domicile (AED), en milieu ouvert (AEMO) ou au total
-
-----
-
-## **ID_indicateur :** ase_nb_enf_confies, ase_nb_enf_confies_ass_fam, ase_nb_enf_confies_placement_direct
-
-**Périodicité :** Annuelle
-
-**Descriptif :** 
+**Descriptif :**
 
 Nombre d'enfants confiés à l'ASE, placés en famille d'accueil, ou au total
 
 ----
 
-## **ID_indicateur :** ase_nb_mesures_judi_accueil, ase_nb_placement_direct
+## **ASE : Nombre de mesures**
+
+**ID_indicateur :** ase_nb_mesures_judi_accueil, ase_nb_placement_direct
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
 Nombre d'enfants confiés à l'ASE par une mesure judiciaire de placement et nombre de placements directs par un juge
 
 ----
 
-## **ID_indicateur :** ase_part_aed_actions_educatives, ase_tx_actions_educ_0_20
+## **ASE : Part et taux de mesure**
+
+**ID_indicateur :** ase_part_aed_actions_educatives, ase_part_aed_mesures, ase_tx_actions_educ_0_20, ase_tx_mesures_0_20
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
+
+ase_part_aed_actions_educatives :
 
 Part des actions éducatives à domicile (AED) dans l'ensemble des actions éducatives et dans l'ensemble des mesure d'ASE
 
 -**Numérateur :** Nombre d'actions éducatives à domicile au 31 décembre
 -**Dénominateur :** Nombre d'actions éducatives au 31 Décembre
 
-**Objectif :**
+ase_tx_actions_educ_0_20 :
 
-L'objectif stratégique des indicateurs relatifs à la protection de l'enfance et de la jeunesse en danger est de mesurer la part de la population des mineurs et jeunes majeurs en risque de danger, ou en danger, ou encore bénéficiaires d'une mesure d'aide sociale à l'enfance ainsi que l'offre d'accueil existant pour ces publics.
+Taux d'actions éducatives (AED et AEMO) dans la population des 0-20 ans
 
-Cet indicateur y contribue en évaluant la part des mineurs et jeunes majeurs pris en charge par la protection de l'enfance. 
+-**Numérateur :** Nombre d'actions éducatives au 31 décembre
+-**Dénominateur :** Population du département, au 01/01/N+1
 
-**Définition :**
-
-Nombre de mineurs et jeunes majeurs concernés par au moins une mesure en fin d’année pour 1000 jeunes de 0 à 20 ans révolus du département.
-
-En dehors des aides financières (allocations mensuelles et de secours), l’aide sociale à l’enfance (ASE) recouvre deux prestations principales : les actions éducatives et les mesures de placement. Ces prestations sont accordées lorsque la santé de l’enfant, sa sécurité, son entretien ou son éducation l’exigent.
-
-L’action éducative à domicile (AED) est une décision administrative prise par le président du conseil départemental à la demande des parents ou avec leur accord. Elle est exercée en milieu familial, pour :
-
-- apporter un soutien éducatif, psychologique aux mineurs, à leur famille, aux mineurs émancipés et aux jeunes majeurs âgés de moins de vingt et un ans. Ce soutien est exercé par des travailleurs sociaux (notamment éducateurs spécialisés et psychologues) appartenant aux services départementaux de l’ASE ou à un service habilité. Ils aident les parents dans l’exercice de leur autorité, ou permettent des liens avec les institutions, dont l’école ;
-- éviter le placement hors du milieu familial, préparer un placement ou, à l’issue de celui-ci, préparer le retour dans la famille.
-
-----
-
-## **ID_indicateur :** ase_part_aed_mesures, ase_tx_mesures_0_20
-
-**Périodicité :** Annuelle
-
-**Descriptif :** 
+ase_tx_mesures_0_20 :
 
 Taux de mesures d'aide sociale à l'enfance pour 100 jeunes de 0 à 20 ans, au 31 décembre
 
@@ -185,12 +140,15 @@ Cet indicateur y contribue en évaluant la part des mineurs et jeunes majeurs pr
 
 **Définition :**
 
+Nombre de mineurs et jeunes majeurs concernés par au moins une mesure en fin d’année pour 1000 jeunes de 0 à 20 ans révolus du département.
+
 En dehors des aides financières (allocations mensuelles et de secours), l’aide sociale à l’enfance (ASE) recouvre deux prestations principales : les actions éducatives et les mesures de placement. Ces prestations sont accordées lorsque la santé de l’enfant, sa sécurité, son entretien ou son éducation l’exigent.
 
 L’action éducative à domicile (AED) est une décision administrative prise par le président du conseil départemental à la demande des parents ou avec leur accord. Elle est exercée en milieu familial, pour :
 
 - apporter un soutien éducatif, psychologique aux mineurs, à leur famille, aux mineurs émancipés et aux jeunes majeurs âgés de moins de vingt et un ans. Ce soutien est exercé par des travailleurs sociaux (notamment éducateurs spécialisés et psychologues) appartenant aux services départementaux de l’ASE ou à un service habilité. Ils aident les parents dans l’exercice de leur autorité, ou permettent des liens avec les institutions, dont l’école ;
 - éviter le placement hors du milieu familial, préparer un placement ou, à l’issue de celui-ci, préparer le retour dans la famille.
+
 L’action éducative en milieu ouvert (AEMO), exercée en vertu d’un mandat judiciaire, poursuit le même but que l’AED, mais contrairement à cette dernière, elle est contraignante à l’égard des familles, puisqu'elle s'impose à elles (ces dernières peuvent faire appel de la décision).
 
 Les mesures de placement à l’ASE sont de trois types :
@@ -209,18 +167,20 @@ Le nombre de mesures diffère du nombre de jeunes, certains d'entre eux pouvant 
 
 ----
 
-## **ID_indicateur :** ase_part_benef_autonome, ase_part_benef_autres, ase_part_enf_confies_etab, ase_part_enf_confies_assfam, ase_part_placements_directs, ase_part_mesures_judiciaires, ase_tx_mesures_placement_0_20, ase_part_jeunes_majeurs
+## **ASE : Enfants par mode d'hébergement**
+
+**ID_indicateur :** ase_part_benef_autonome, ase_part_benef_autres, ase_part_enf_confies_etab, ase_part_enf_confies_assfam, ase_part_placements_directs, ase_part_mesures_judiciaires, ase_tx_mesures_placement_0_20, ase_part_jeunes_majeurs
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
 **Numérateur :** Nombre d'enfants confiés par mode d'hébergement principal
 **Dénominateur :** Population de moins de 21 ans du département au 01/01/N+1
 
 Sont pris en compte les actions éducatives à domicile (AED), les actions éducatives en milieu ouvert (AEMO), et l'ensemble des mesures de placements (placements directs par le juge en établissement et chez un tiers digne de confiance et placements ASE).
 
-**Objectif :** 
+**Objectif :**
 
 L'objectif stratégique des indicateurs relatifs à la protection de l'enfance et de la jeunesse en danger est de mesurer la part de la population des mineurs et jeunes majeurs en risque de danger, ou en danger, ou encore bénéficiaires d'une mesure d'aide sociale à l'enfance ainsi que l'offre d'accueil existant pour ces publics.
 
@@ -248,158 +208,131 @@ Les mesures de placement à l’ASE sont de trois types :
 
 ----
 
-## **ID_indicateur :** cont_depenses_brutes_aide_sociale_hab
+## **ASE : Actions éducatives**
+
+**ID_indicateur :** ase_nb_actions_educ_aed, ase_nb_actions_educ_aemo, ase_nb_actions_educ_tot
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
-Dépenses brutes totales d'aide sociale par habitant
-
-**Numérateur :** Dépenses annuelles brutes totales d'aide sociale, y compris les frais communs et les dépenses de personnel
-**Dénominateur :** Nombre d'habitants au 01/01/N+1
-
-Indicateur exprimé en euros par habitant
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs financiers est de fournir quelques éléments élémentaires de comparaison de coût et de dépenses, afin de compléter l'analyse des indicateurs thématiques. Ils ne peuvent permettre une analyse d’efficience rapportant les résultats aux moyens engagés.
-
-Cet indicateur y contribue en estimant le coût global de l'aide sociale, normé par la taille de la population.
-
-**Définition :**
-
-Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
-
-Ces dépenses brutes sont toutefois exprimées après récupérations faites auprès des bénéficiaires, des obligés alimentaires et sur successions dans le cadre de l’aide sociale à l’hébergement (ASH) aux personnes âgées, afin de rendre plus robustes les comparaisons départementales. En effet, les pratiques départementales de récupérations de l'ASH sont très variables selon les collectivités et rendent impossible toute comparaison pertinente des dépenses brutes sur le sujet.
-
-**Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles
+Nombre d'actions éducatives à domicile (AED), en milieu ouvert (AEMO) ou au total
 
 ----
 
-## **ID_indicateur :** fam_consult_1000_enf_m6, fam_consult_1000_f_accouch
+## **Accompagnement post-accouchement**
+
+**ID_indicateur :** fam_consult_1000_enf_m6, fam_vad_1000_enf_m6, fam_consult_sante_sex_1000_f_15_49, fam_entretien_sante_sex_1000_f_15_49, fam_vad_1000_f_accouch, fam_consult_1000_f_accouch
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
-Nombre de consultations infantiles pour 1 000 enfants âgés de moins de 6 ans
+Nombre de consultations et visite à domicile infantiles pour 1 000 enfants âgés de moins de 6 ans
 
-**Numérateur :** Nombre de consultations infantiles dans le département dans l'année N
+**Numérateur :** Nombre de consultations ou visite à domicile infantiles dans le département dans l'année N
 **Dénominateur :** Population de moins de 6 ans du département au 01/01/N+1
 
-Nombre de consultations pour 1 000 femmes ayant accouché au cours de l'année
-
-**Numérateur :** Nombre de consultations dans le département dans l'année N
-**Dénominateur :** Nombre de naissance dans le département dans l'année N
-
-----
-
-## **ID_indicateur :** fam_consult_sante_sex_1000_f_15_49, fam_entretien_sante_sex_1000_f_15_49
-
-**Périodicité :** Annuelle
-
-**Descriptif :** 
-
-Nombre de consultations/entretiens en santé sexuelle pour 1 000 femmes âgées de 15 à 49 ans
+Nombre de consultations et entretiens en santé sexuelle pour 1 000 femmes âgées de 15 à 49 ans.
 
 **Numérateur :** Nombre de consultations/entretiens dans le département dans l'année N
 **Dénominateur :** Population de femmes agées de 15 à 49 ans du département au 01/01/N+1
 
-Indicateur exprimé en pour 1000
+Nombre de consultations et Visite A Domicile (VAD) pour 1 000 femmes ayant accouché au cours de l'année
 
-----
-
-## **ID_indicateur :** fam_vad_1000_enf_m6, fam_vad_1000_f_accouch
-
-**Périodicité :** Annuelle
-
-**Descriptif :** 
-
-Nombre de Visite A Domicile (VAD) infantiles pour 1 000 enfants âgés de moins de 6 ans
-
-**Numérateur :** Nombre de VAD infantiles dans le département dans l'année N
-**Dénominateur :** Population de moins de 6 ans du département au 01/01/N+1
-
-Nombre de Visite A Domicile (VAD) pour 1 000 femmes ayant accouché au cours de l'année
-
-**Numérateur :** Nombre de VAD dans le département dans l'année N
+**Numérateur :** Nombre de consultations ou de Visite A Domicile (VAD) dans le département dans l'année N
 **Dénominateur :** Nombre de naissance dans le département dans l'année N
 
+Indicateurs exprimé en pour 1000
+
 ----
 
-## **ID_indicateur :** fam_nb_ass_mat_agrement_valide
+## **Agréments d'assistantes maternelles**
+
+**ID_indicateur :** fam_nb_ass_mat_agrement_valide
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
 Nombre d'agréments d'assistantes maternelles en cours de validité au 31 décembre
 
 ----
 
-## **ID_indicateur :** fam_nb_etp_pmi
+## **PMI : Nombre de points**
+
+**ID_indicateur :** fam_points_pmi
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
-
-Nombre d'ETP des personnels de PMI
-
-----
-
-## **ID_indicateur :** fam_nb_places_acc_coll_m3
-
-**Périodicité :** Annuelle
-
-**Descriptif :** 
-
-Nombre total de places en accueil collectif au 31 décembre
-
-Du fait  de la réforme des modes d'accueil de 2021, une nouvelle nomenclature des établissements d'accueil des jeunes enfants a repris les spécifications inscrites dans le code de la Santé Publique (Article R2324-17). Les données ne sont donc pas comparables avec celles présentées dans les panoramas précédents.
-
-----
-
-## **ID_indicateur :** fam_places_creches_coll, fam_places_creches_coll_fam, fam_places_creches_fam, fam_places_etab_parent, fam_places_jard_enf
-
-**Périodicité :** Annuelle
-
-**Descriptif :** 
-
-Nombre de places dans les différentes structures d'accueil collectif au 31 décembre
-
-Du fait  de la réforme des modes d'accueil de 2021, une nouvelle nomenclature des établissements d'accueil des jeunes enfants a repris les spécifications inscrites dans le code de la Santé Publique (Article R2324-17). Les données ne sont donc pas comparables avec celles présentées dans les panoramas précédents.
-
-----
-
-## **ID_indicateur :** fam_points_pmi
-
-**Périodicité :** Annuelle
-
-**Descriptif :** 
+**Descriptif :**
 
 Nombre de points de consultation de PMI
 
 ----
 
-## **ID_indicateur :** fam_repart_places_creches_coll, fam_repart_places_creches_coll_fam, fam_repart_places_creches_fam, fam_repart_places_etab_parent, fam_repart_places_jard_enf
+## **PMI : ETP des personnels**
+
+**ID_indicateur :** fam_nb_etp_pmi
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
-Répartition des places dans les différentes structures d'accueil collectif au 31 décembre
-
-**Numérateur :** Nombre de places dans les établissements concernés dans le département au 31/12/N
-**Dénominateur :** Nombre total de places dans les structures d'accueil collectif dans le département au 31/12/N
+Nombre d'ETP des personnels de PMI
 
 ----
 
-## **ID_indicateur :** ms_depenses_brutes_rsa_benef_new, ms_depenses_brutes_rsa_benef_old, ms_depenses_brutes_rsa_hab
+## **PMI : Effectifs des personnels par métier**
+
+**ID_indicateur :** pmi_eff_auxpuer, pmi_eff_cconj, pmi_eff_eje, pmi_eff_ide, pmi_eff_med, pmi_eff_psy, pmi_eff_puer, pmi_eff_sagefemme
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
+
+Effectifs des personnels de PMI par métier
+
+----
+
+## **PMI : ETP des personnels par métier**
+
+**ID_indicateur :** pmi_etp_auxpuer, pmi_etp_cconj, pmi_etp_eje, pmi_etp_ide, pmi_etp_med, pmi_etp_psy, pmi_etp_puer, pmi_etp_sagefemme
+
+**Périodicité :** Annuelle
+
+**Descriptif :**
+
+ETP des personnels de PMI par métier
+
+----
+
+## **Accueil des jeunes enfants**
+
+**ID_indicateur :** fam_places_creches_coll, fam_places_creches_coll_fam, fam_places_creches_fam, fam_places_etab_parent, fam_places_jard_enf, fam_nb_places_acc_coll_m3, fam_repart_places_creches_coll, fam_repart_places_creches_coll_fam, fam_repart_places_creches_fam, fam_repart_places_etab_parent, fam_repart_places_jard_enf
+
+**Périodicité :** Annuelle
+
+**Descriptif :**
+
+Nombre de places dans les différentes structures d'accueil collectif au 31 décembre et répartition.
+
+Pour les indicateurs de répartitions : 
+
+**Numérateur :** Nombre de places dans les différentes structures d'accueil collectif au 31/12/N
+**Dénominateur :** Nombre total de places en accueil collectif au 31/12/N (fam_nb_places_acc_coll_m3)
+
+Du fait de la réforme des modes d'accueil de 2021, une nouvelle nomenclature des établissements d'accueil des jeunes enfants a repris les spécifications inscrites dans le code de la Santé Publique (Article R2324-17). Les données ne sont donc pas comparables avec celles présentées dans les panoramas précédents.
+
+----
+
+## **RSA : Dépenses par bénéficiaire et habitant**
+
+**ID_indicateur :** ms_depenses_brutes_rsa_benef_new, ms_depenses_brutes_rsa_benef_old, ms_depenses_brutes_rsa_hab
+
+**Périodicité :** Annuelle
+
+**Descriptif :**
 
 Dépenses d'insertion et d'allocation liées au [RSA](#rsa) par habitant
 
@@ -412,7 +345,7 @@ Dépenses d'insertion et d'allocation liées au [RSA](#rsa) par bénéficiaire
 - **Dénominateur :** Moyenne du nombre de bénéficiaires au 31/12 de l'année N-1 et de celui au 31/12 de l'année N
 
 On entend par bénéficiaire ici les allocataires, leurs conjoints et les personnes à charge des allocataires (population couverte).
-Ne sont pas pris en compte les bénéficiaires du ""RSA jeune"", cette prestation étant à la charge de l’État. Ils représentent moins de 1 % de l'ensemble de la population couverte par le [RSA](#rsa) total.
+Ne sont pas pris en compte les bénéficiaires du "RSA jeune", cette prestation étant à la charge de l’État. Ils représentent moins de 1 % de l'ensemble de la population couverte par le [RSA](#rsa) total.
 
 Indicateur exprimé en euros par habitant et en euros par bénéficiaire
 
@@ -438,21 +371,25 @@ Dépenses brutes : dépenses de l'année avant déduction des recouvrements, rem
 
 ----
 
-## **ID_indicateur :** ms_oarsa_delai_moy_rsa_primo_orientation
+## **RSA : Délai de primo-orientation**
+
+**ID_indicateur :** ms_oarsa_delai_moy_rsa_primo_orientation
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
 Délai moyen entre la date d'entrée dans le [RSA](#rsa) et la date de primo-orientation (en jours)
 
 ----
 
-## **ID_indicateur :** ms_oarsa_part_soumises_droits_devoirs_orientees, ms_oarsa_part_soumises_droits_devoirs_orientees_autres_ft_cer, ms_oarsa_part_soumises_droits_devoirs_orientees_cd, ms_oarsa_part_soumises_droits_devoirs_orientees_ft
+## **RSA : Orientation**
+
+**ID_indicateur :** ms_oarsa_part_soumises_droits_devoirs_orientees, ms_oarsa_part_soumises_droits_devoirs_orientees_autres_ft_cer, ms_oarsa_part_soumises_droits_devoirs_orientees_cd, ms_oarsa_part_soumises_droits_devoirs_orientees_ft
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
 Part des bénéficiaires du [RSA](#rsa) orientés parmi les personnes soumises aux droits et devoirs dont :
 
@@ -462,11 +399,13 @@ Part des bénéficiaires du [RSA](#rsa) orientés parmi les personnes soumises a
 
 ----
 
-## **ID_indicateur :** pa_depenses_brutes, pa_depenses_brutes_aide_dom, pa_depenses_brutes_apa, pa_depenses_nettes
+## **Aides aux personnes agées : Dépenses**
+
+**ID_indicateur :** pa_depenses_brutes, pa_depenses_brutes_aide_dom, pa_depenses_brutes_apa, pa_depenses_nettes
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
 Dépenses nettes et brutes d'aides aux personnes âgées dont :
 
@@ -477,11 +416,13 @@ Dépenses brutes : dépenses de l'année avant déduction des recouvrements, rem
 
 ----
 
-## **ID_indicateur :** pa_depenses_brutes_apa_benef, pa_depenses_brutes_apa_hab
+## **Aides aux personnes agées : Dépenses par bénéficiaire et habitant**
+
+**ID_indicateur :** pa_depenses_brutes_apa_benef, pa_depenses_brutes_apa_hab
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
 Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
 
@@ -507,11 +448,13 @@ Sont retenues pour cet indicateur les dépenses brutes, par souci de cohérence 
 
 ----
 
-## **ID_indicateur :** pa_nb_benef_aide_menagere, pa_nb_benef_aide_sociale, pa_nb_benef_aide_sociale_accueil, pa_nb_benef_aide_sociale_dom, pa_nb_benef_aide_sociale_tot, pa_nb_benef_apa_tot
+## **Aides aux personnes agées : Type d'aide**
+
+**ID_indicateur :** pa_nb_benef_aide_menagere, pa_nb_benef_aide_sociale, pa_nb_benef_aide_sociale_accueil, pa_nb_benef_aide_sociale_dom, pa_nb_benef_aide_sociale_tot, pa_nb_benef_apa_tot
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
 Nombre de personnes âgées bénéficiaires (droits ouverts) d'une aide ménagère, de l'aide sociale aux personnes âgées à l'accueil, de l'aide sociale aux personnes âgées à domicile, d'une aide sociale aux personnes âgées ou de l'[APA](#apa) payés au titre du mois de décembre, à domicile et en établissement
 
@@ -520,51 +463,13 @@ Totalise des mesures d'aides et non des individus : une même personne peut êtr
 
 ----
 
-## **ID_indicateur :** pa_part_benef_apa_dom_60p, pa_part_benef_apa_dom_75p, pa_part_benef_apa_dom_gir1_2, pa_part_benef_apa_etab_60p, pa_part_benef_apa_etab_75p, pa_part_benef_apa_tot_60p, pa_part_benef_apa_tot_75p
+## **Aides aux personnes agées : ASH**
+
+**ID_indicateur :** pa_part_benef_ash_places_heberg
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
-
-Part des bénéficiaires de l'[APA](#apa) parmi la population de 60 ans et plus, à domicile
-
-- **Numérateur :** Nombre de bénéficiaires de l'APA de la classe d'âge considérée, à domicile ou en établissement durant l'année N
-- **Dénominateur :** Nombre de personne de la classe d'âge considérée
-
-Déclinaison par sous-population : Bénéficiaires à domicile / Bénéficiaires en établissement (sous dotation globale ou non)
-Nombre d'habitants de 60 ans et plus; Nombre d'habitants de 75 ans et plus
-
-Indicateur exprimé en %.
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs au personnes âgées est de mesurer la part des personnes âgées dépendantes ou en risque de dépendance et des aides qui leur sont attribuées, selon différentes dimensions : aide à domicile, y compris pour les personnes âgées en grande perte d'autonomie, aide en établissement, isolement et risque d'isolement des personnes âgées, offre de soins à domicile et d'hébergement, coordination gérontologique à l'échelle du département.
-
-Cet indicateur y contribue en évaluant la part de la population dépendante et bénéficiaire d'une prestation, par la part des personnes âgées bénéficiaires de l'APA.
-
-**Définition :**
-
-Mise en place en 2002, l’allocation personnalisée d’autonomie ([APA](#apa)) est versée par les conseils départementaux aux personnes âgées de 60 ans ou plus qui sont évaluées comme dépendantes d’après la grille AGGIR, qu’elles vivent à leur domicile ou qu’elles résident en établissement. Cette prestation permet de financer en partie les différentes aides (humaines et techniques) auxquelles ces personnes ont recours pour compenser leurs difficultés dans la réalisation des actes de la vie quotidienne.
-
-Bénéficiaires de l'APA = personnes payées au titre du mois de décembre, y compris personnes bénéficiaires en établissement sous dotation globale.
-Les bénéficiaires de l'APA vivant dans un établissement d'une capacité inférieure à 25 places ou ayant un GIR moyen pondéré inférieur à 300 et qui a opté pour un budget n'intégrant pas de section de soins, sont considérés comme des bénéficiaires de l'APA à domicile, de même que les bénéficiaires hébergés en famille d'accueil à titre onéreux.
-Lorsqu'un bénéficiaire est hébergé en établissement hors de son département d'origine, il est bénéficiaire de l'APA dans son département d'origine et non dans le département d'accueil.
-
-**Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles
-
-**Qualité et limites :**
-
-- La description de la population hébergée dans les établissements sous dotation globale difficile, hormis leur nombre.
-
-- Fin 2017, 86% des bénéficiaires de l'APA à domicile et 91% des bénéficiaires de l'APA en établissement (hors dotation gloable) ont 75 ans ou plus. Pour cette raison, la tranche d'âge ""75 ans et plus"" a également été retenue pour cet indicateur, alors que l'APA est accessible dès 60 ans, afin de permettre de meilleures comparaisons départementales.
-
-----
-
-## **ID_indicateur :** pa_part_benef_ash_places_heberg
-
-**Périodicité :** Annuelle
-
-**Descriptif :** 
+**Descriptif :**
 
 Bénéficiaires de l'ASH aux personnes âgées, en % du nombre de places d'hébergement pour personnes âgées
 
@@ -610,11 +515,98 @@ L'enquête de la Drees auprès des établissements d'hébergement pour personnes
 
 ----
 
-## **ID_indicateur :** ph_depenses_brutes_aide_accueil, ph_depenses_brutes_aide_accueil_benef, ph_depenses_brutes_aide_accueil_hab, ph_depenses_brutes_aide_accueil_jour_heberg, ph_depenses_brutes_aide_domicile
+## **Aides aux personnes agées : APA**
+
+**ID_indicateur :** pa_part_benef_apa_dom_60p, pa_part_benef_apa_dom_75p, pa_part_benef_apa_dom_gir1_2, pa_part_benef_apa_etab_60p, pa_part_benef_apa_etab_75p, pa_part_benef_apa_tot_60p, pa_part_benef_apa_tot_75p
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
+
+Part des bénéficiaires de l'[APA](#apa) parmi la population de 60 ans et plus, à domicile
+
+- **Numérateur :** Nombre de bénéficiaires de l'APA de la classe d'âge considérée, à domicile ou en établissement durant l'année N
+- **Dénominateur :** Nombre de personne de la classe d'âge considérée
+
+Déclinaison par sous-population : Bénéficiaires à domicile / Bénéficiaires en établissement (sous dotation globale ou non)
+Nombre d'habitants de 60 ans et plus; Nombre d'habitants de 75 ans et plus
+
+Indicateur exprimé en %.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs au personnes âgées est de mesurer la part des personnes âgées dépendantes ou en risque de dépendance et des aides qui leur sont attribuées, selon différentes dimensions : aide à domicile, y compris pour les personnes âgées en grande perte d'autonomie, aide en établissement, isolement et risque d'isolement des personnes âgées, offre de soins à domicile et d'hébergement, coordination gérontologique à l'échelle du département.
+
+Cet indicateur y contribue en évaluant la part de la population dépendante et bénéficiaire d'une prestation, par la part des personnes âgées bénéficiaires de l'APA.
+
+**Définition :**
+
+Mise en place en 2002, l’allocation personnalisée d’autonomie ([APA](#apa)) est versée par les conseils départementaux aux personnes âgées de 60 ans ou plus qui sont évaluées comme dépendantes d’après la grille AGGIR, qu’elles vivent à leur domicile ou qu’elles résident en établissement. Cette prestation permet de financer en partie les différentes aides (humaines et techniques) auxquelles ces personnes ont recours pour compenser leurs difficultés dans la réalisation des actes de la vie quotidienne.
+
+Bénéficiaires de l'APA = personnes payées au titre du mois de décembre, y compris personnes bénéficiaires en établissement sous dotation globale.
+Les bénéficiaires de l'APA vivant dans un établissement d'une capacité inférieure à 25 places ou ayant un GIR moyen pondéré inférieur à 300 et qui a opté pour un budget n'intégrant pas de section de soins, sont considérés comme des bénéficiaires de l'APA à domicile, de même que les bénéficiaires hébergés en famille d'accueil à titre onéreux.
+Lorsqu'un bénéficiaire est hébergé en établissement hors de son département d'origine, il est bénéficiaire de l'APA dans son département d'origine et non dans le département d'accueil.
+
+**Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles
+
+**Qualité et limites :**
+
+- La description de la population hébergée dans les établissements sous dotation globale difficile, hormis leur nombre.
+
+- Fin 2017, 86% des bénéficiaires de l'APA à domicile et 91% des bénéficiaires de l'APA en établissement (hors dotation gloable) ont 75 ans ou plus. Pour cette raison, la tranche d'âge ""75 ans et plus"" a également été retenue pour cet indicateur, alors que l'APA est accessible dès 60 ans, afin de permettre de meilleures comparaisons départementales.
+
+----
+
+## **Taux de bénéficiaires de l'ACTP/PCH**
+
+**ID_indicateur :** ph_tx_benef_actp_1000hab, ph_tx_benef_actp_1000hab_60p, ph_tx_benef_actp_1000hab_m60, ph_tx_benef_pch_1000hab, ph_tx_benef_pch_1000hab_60p, ph_tx_benef_pch_1000hab_m60, ph_tx_benef_pch_actp_1000hab, ph_tx_benef_pch_actp_1000hab_60p, ph_tx_benef_pch_actp_1000hab_m60
+
+**Périodicité :** Annuelle
+
+**Descriptif :**
+
+- **Numérateur :** Nombre de bénéficiaires de la PCH ou de l’ACTP, à domicile ou en établissement
+- **Dénominateur :** Nombre d'habitants au 01/01/N+1
+
+Déclinaison par sous-population : Tous âges ; 60 ans et plus ; Par type de prestation (ACTP ou PCH)
+
+Indicateur exprimé en pour 1000.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la part de la population en situation de handicap et des aides qui leur sont attribuées, selon différentes dimensions : risque de handicap, handicap ressenti, handicap reconnu, aides ou prestations attribuées, offre d'accueil et d'accompagnement. 
+
+Cet indicateur y contribue en mesurant la part de la population reconnue en situation de handicap et bénéficiaire de la PCH ou de l'ACTP parmi l'ensemble de la population.
+
+**Définition :**
+
+Mise en place en 2006, la prestation de compensation (PCH) est versée par les conseils départementaux aux personnes handicapées, qu’elles vivent à leur domicile ou qu’elles résident en établissement. C’est une aide personnalisée, visant à financer les besoins de compensation des personnes au regard de leur projet de vie. Elle concerne les aides humaines, les aides techniques et matérielles (par exemple : aménagement du logement et du véhicule), les aides animalières. Peuvent en bénéficier les personnes reconnues éligibles à la PCH par les commissions des droits et de l’autonomie des personnes handicapées (CDAPH).
+
+Le dispositif de l’ACTP (allocation compensatrice pour tierce personne) est remplacé par celui de la PCH, en vigueur au 1er janvier 2006. Cependant, les personnes admises au bénéfice de l’ACTP avant cette date peuvent continuer à la percevoir, tant qu’elles en remplissent les conditions d’attribution et qu’elles en expriment le choix, à chaque renouvellement des droits.
+
+Les bénéficiaires sont les personnes ayant des droits ouverts au 31/12 par la CDAPH ou bénéficiant d'une procédure d'urgence. Sont exclues les personnes dont les droits sont interrompus avant le 31/12, suite à décès, déménagement hors du département ou choix de l'[APA](#apa).
+Pour la PCH, le droit peut avoir donné lieu à paiement ou non.
+Sont inclus les enfants bénéficiaires de la PCH.
+
+**Intérêt de l’indicateur et interprétation :**
+
+Comparaisons dans le temps
+Comparaisons entre les départements
+
+**Qualité et limites :**
+
+Les délais d'attribution de la PCH peuvent être assez longs et les décisions sont rétroactives à la date de dépôt de la demande; ainsi certaines données départementales peuvent être provisoires.
+Il est difficile de distinguer les bénéficiaires de la PCH enfant autrement qu'en retenant un critère d'âge du bénéficiaire à la date du décompte.
+
+----
+
+## **Aides aux personnes handicapées : Dépenses**
+
+**ID_indicateur :** ph_depenses_brutes, ph_depenses_nettes, ph_depenses_brutes_aide_accueil, ph_depenses_brutes_aide_accueil_jour_heberg, ph_depenses_brutes_aide_domicile
+
+**Périodicité :** Annuelle
+
+**Descriptif :**
 
 Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
 
@@ -644,31 +636,13 @@ Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'�
 
 ----
 
-## **ID_indicateur :** ph_depenses_brutes, ph_depenses_nettes
+## **Aides aux personnes handicapées : Dépenses par bénéficiaire et habitant**
+
+**ID_indicateur :** ph_depenses_brutes_pch_actp_benef, ph_depenses_brutes_pch_actp_hab, ph_depenses_brutes_aide_accueil_benef, ph_depenses_brutes_aide_accueil_hab
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
-
-Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
-
-Dépenses brutes et nettes totales d'aides sociales aux personnes handicapées
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs financiers est de fournir quelques éléments élémentaires de comparaison de coût et de dépenses, afin de compléter l'analyse des indicateurs thématiques. Ils ne peuvent permettre une analyse d’efficience rapportant les résultats aux moyens engagés.
-
-Cet indicateur y contribue en estimant le coût moyen de la principale dépense du département à destination des personnes handicapées et en évaluant son coût global normé par la taille de la population du département.
-
-**Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles, les variations spatiales sont en partie liées au contexte départemental.
-
-----
-
-## **ID_indicateur :** ph_depenses_brutes_pch_actp_benef, ph_depenses_brutes_pch_actp_hab
-
-**Périodicité :** Annuelle
-
-**Descriptif :** 
+**Descriptif :**
 
 Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
 
@@ -699,13 +673,15 @@ Sont retenues pour cet indicateur les dépenses brutes, les dépenses nettes n'�
 
 ----
 
-## **ID_indicateur :** ph_nb_benef_aide_menagere, ph_nb_benef_aide_sociale, ph_nb_benef_aide_sociale_acc, ph_nb_benef_aide_sociale_dom
+## **Aides aux personnes handicapées : Type d'aide**
+
+**ID_indicateur :** ph_nb_benef_aide_menagere, ph_nb_benef_aide_sociale, ph_nb_benef_aide_sociale_acc, ph_nb_benef_aide_sociale_dom, ph_nb_mesures_aide_sociale, ph_nb_mesures_aide_sociale_accueil
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
-Nombre d'aides sociales aux personnes handicapées.
+Nombre de bénéficiaires et de mesures d'aides sociales aux personnes handicapées.
 Il s'agit d'un nombre d'aides sociales et non d'individus : une même personne peut être comptabilisée plusieurs fois si elle bénéficie de plusieurs types d'aide.
 
 **Objectif :**
@@ -718,11 +694,13 @@ Cet indicateur y contribue en mesurant la part de la population reconnue en situ
 
 ----
 
-## **ID_indicateur :** ph_nb_benef_actp_60p, ph_nb_benef_actp_m60, ph_nb_benef_pch_60p, ph_nb_benef_pch_actp, ph_nb_benef_pch_m60
+## **Aides aux personnes handicapées : Répartition des bénéficiaires**
+
+**ID_indicateur :** ph_nb_benef_actp_60p, ph_nb_benef_actp_m60, ph_nb_benef_pch_60p, ph_nb_benef_pch_actp, ph_nb_benef_pch_m60
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
 Nombre de bénéficiaires de la PCH et/ou de l'ACTP de plus ou moins de 60 ans.
 Un bénéficiaire de la PCH ou de l'ACTP est une personne ayant un droit ouvert à la prestation au 31 décembre de l'année considérée, que ce droit ait donné lieu à un paiement ou non.
@@ -736,81 +714,4 @@ Cet indicateur y contribue en mesurant la part de la population reconnue en situ
 
 **Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles, les variations spatiales sont en partie liées au contexte départemental.
 
-----
-
-## **ID_indicateur :** ph_nb_mesures_aide_sociale, ph_nb_mesures_aide_sociale_accueil
-
-**Périodicité :** Annuelle
-
-**Descriptif :** 
-
-Nombre de mesures d'aides sociales total et nombre de mesures d'aides sociales à l'accueil des personnes handicapées
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la part de la population en situation de handicap et des aides qui leur sont attribuées, selon différentes dimensions : risque de handicap, handicap ressenti, handicap reconnu, aides ou prestations attribuées, offre d'accueil et d'accompagnement. 
-
-Cet indicateur y contribue en mesurant la part de la population reconnue en situation de handicap et bénéficiaire de la PCH ou de l'ACTP parmi l'ensemble de la population.
-
-----
-
-## **ID_indicateur :** ph_tx_benef_actp_1000hab, ph_tx_benef_actp_1000hab_60p, ph_tx_benef_actp_1000hab_m60, ph_tx_benef_pch_1000hab, ph_tx_benef_pch_1000hab_60p, ph_tx_benef_pch_1000hab_m60, ph_tx_benef_pch_actp_1000hab, ph_tx_benef_pch_actp_1000hab_60p, ph_tx_benef_pch_actp_1000hab_m60
-
-**Périodicité :** Annuelle
-
-**Descriptif :** 
-
-- **Numérateur :** Nombre de bénéficiaires de la PCH ou de l’ACTP, à domicile ou en établissement
-- **Dénominateur :** Nombre d'habitants au 01/01/N+1
-
-Déclinaison par sous-population : Tous âges ; 60 ans et plus ; Par type de prestation (ACTP ou PCH)
-
-Indicateur exprimé en pour 1000.
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la part de la population en situation de handicap et des aides qui leur sont attribuées, selon différentes dimensions : risque de handicap, handicap ressenti, handicap reconnu, aides ou prestations attribuées, offre d'accueil et d'accompagnement. 
-
-Cet indicateur y contribue en mesurant la part de la population reconnue en situation de handicap et bénéficiaire de la PCH ou de l'ACTP parmi l'ensemble de la population.
-
-**Définition :**
-
-Mise en place en 2006, la prestation de compensation (PCH) est versée par les conseils départementaux aux personnes handicapées, qu’elles vivent à leur domicile ou qu’elles résident en établissement. C’est une aide personnalisée, visant à financer les besoins de compensation des personnes au regard de leur projet de vie. Elle concerne les aides humaines, les aides techniques et matérielles (par exemple : aménagement du logement et du véhicule), les aides animalières. Peuvent en bénéficier les personnes reconnues éligibles à la PCH par les commissions des droits et de l’autonomie des personnes handicapées (CDAPH).
-
-Le dispositif de l’ACTP (allocation compensatrice pour tierce personne) est remplacé par celui de la PCH, en vigueur au 1er janvier 2006. Cependant, les personnes admises au bénéfice de l’ACTP avant cette date peuvent continuer à la percevoir, tant qu’elles en remplissent les conditions d’attribution et qu’elles en expriment le choix, à chaque renouvellement des droits.
-
-Les bénéficiaires sont les personnes ayant des droits ouverts au 31/12 par la CDAPH ou bénéficiant d'une procédure d'urgence. Sont exclues les personnes dont les droits sont interrompus avant le 31/12, suite à décès, déménagement hors du département ou choix de l'[APA](#apa).
-Pour la PCH, le droit peut avoir donné lieu à paiement ou non.
-Sont inclus les enfants bénéficiaires de la PCH.
-
-**Intérêt de l’indicateur et interprétation :** 
-
-Comparaisons dans le temps
-Comparaisons entre les départements
-
-**Qualité et limites :**
-
-Les délais d'attribution de la PCH peuvent être assez longs et les décisions sont rétroactives à la date de dépôt de la demande; ainsi certaines données départementales peuvent être provisoires.
-Il est difficile de distinguer les bénéficiaires de la PCH enfant autrement qu'en retenant un critère d'âge du bénéficiaire à la date du décompte.
-
-----
-
-## **ID_indicateur :** pmi_eff_auxpuer, pmi_eff_cconj, pmi_eff_eje, pmi_eff_ide, pmi_eff_med, pmi_eff_psy, pmi_eff_puer, pmi_eff_sagefemme
-
-**Périodicité :** Annuelle
-
-**Descriptif :** 
-
-Effectifs des personnels de PMI par métier
-
-----
-
-## **ID_indicateur :** pmi_etp_auxpuer, pmi_etp_cconj, pmi_etp_eje, pmi_etp_ide, pmi_etp_med, pmi_etp_psy, pmi_etp_puer, pmi_etp_sagefemme
-
-**Périodicité :** Annuelle
-
-**Descriptif :** 
-
-ETP des personnels de PMI par métier
-
-------------------
+--------

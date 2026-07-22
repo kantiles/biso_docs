@@ -7,7 +7,7 @@
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
 Population estimée en nombre et en proportion par classe d'[âge](#age).
 
@@ -20,7 +20,7 @@ L'objectif stratégique des indicateurs de contexte est de caractériser le terr
 
 Cet indicateur y contribue en définissant l’équilibre des âges sur le territoire.
 
-**Définition :** 
+**Définition :**
 
 Classes d'âge utilisées :
 
@@ -49,7 +49,7 @@ Les résultats sont provisoires ; ils deviennent définitifs avec le recensement
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
 Chaque année, les Tribunaux de Grande Instance produisent un Tableau de Bord concernant l’activité du [Juge des enfants](#jde) en matière civile. Ce Tableau de Bord s’intéresse à l’activité de leur juridiction en matière d’assistance éducative.
 
@@ -115,7 +115,7 @@ La part des saisines du parquet et des saisines d’office dont l’origine est 
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 [Catégories de demandes d'emploi](#insc_ft) établies par arrêté
 
@@ -170,7 +170,7 @@ Autres indicateurs :
 - **Numérateur :** Sous-population ciblée 
 - **Dénominateur :** nombre de demandeurs d’emploi (catégories A, B, C, c’est-à-dire tenus de faire des actes positifs de recherche d'emploi, mais pouvant exercer une activité réduite) inscrits à Pôle emploi depuis plus d’un an (longue durée)
 
-**Définition :** 
+**Définition :**
 
 [Catégories de demandes d'emploi](#insc_ft) établies par arrêté
 
@@ -235,7 +235,7 @@ Ces données ne sont disponibles qu'au niveau régionnal.
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 L'[Espérance de vie](#esp_vie) à l'[âge](#age) x représente, pour une année donnée, l'âge moyen au décès des individus d'une génération fictive d'âge x qui auraient, à chaque âge, la probabilité de décéder observée cette année-là au même âge.
 Autrement dit, elle est le nombre moyen d'années restant à vivre au-delà de cet âge x (ou durée de survie moyenne à l'âge x), dans les conditions de mortalité par âge de l'année considérée.
@@ -266,7 +266,7 @@ Les résultats ([Estimations de population](#estim_pop)) sont provisoires ; ils 
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 Nombre de décés domiciliés et de naissance dans l'année.
 
@@ -296,7 +296,7 @@ Attention aux faibles effectifs concernés dans certains départements.
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 Nombre d'entrées de jeunes de 30 ans ou moins en contrat d'apprentissage, de jeunes de moins de 26 ans en Parcours Emplois Compétences (PEC) et en contrat de professionnalisation, de jeunes en emploi franc et de jeunes de 16 à 25 ans dans le dispositif du Service Civique.
 La série sur les emplois francs présente une rupture avec celle présentée avant 2023 dans le panorama. Les données présentées portent sur la période janvier-novembre.
@@ -305,15 +305,17 @@ Le contrat de professionnalisation s'adresse à tous les jeunes âgés de 16 à 
 
 ----
 
-## **ID_indicateur :** cont_nb_jeunes_primo_acc_paio_miss_loc, cont_part_jeunes_non_dipl_primo_acc_paio_miss_loc_16_25, cont_part_jeunes_primo_acc_paio_miss_loc_16_25
+## **Jeunes en mission locale**
+
+**ID_indicateur :** cont_nb_jeunes_primo_acc_paio_miss_loc, cont_part_jeunes_non_dipl_primo_acc_paio_miss_loc_16_25, cont_part_jeunes_primo_acc_paio_miss_loc_16_25
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 Le réseau des missions locales a pour mission d’aider les jeunes de 16 à 25 ans dans leur insertion sociale et professionnelle. Il les informe, les conseille et, au besoin, les accompagne afin de faciliter leur accès à l’emploi. Depuis mars 2022, les missions locales mettent notamment en œuvre le contrat d'engagement jeune (CEJ), dispositif visant à accompagner les jeunes en difficulté d’insertion vers l’emploi durable.
 
-Les missions locales sont équipées de l’application I-Milo pour gérer les dossiers des jeunes accueillis . Cette application est utilisée quotidiennement pour la saisie des dossiers des jeunes par l’ensemble des conseillers des missions locales. Elle permet de décrire précisément les caractéristiques individuelles des jeunes, les situations qu’ils occupent sur le marché du travail, les services et les dispositifs dont ils bénéficient, tels que le CIVIS, la Garantie jeunes, les Emplois d'avenir ou le Contrat d'Engagement Jeune (CEJ).
+Les missions locales sont équipées de l’application I-Milo pour gérer les dossiers des jeunes accueillis. Cette application est utilisée quotidiennement pour la saisie des dossiers des jeunes par l’ensemble des conseillers des missions locales. Elle permet de décrire précisément les caractéristiques individuelles des jeunes, les situations qu’ils occupent sur le marché du travail, les services et les dispositifs dont ils bénéficient, tels que le CIVIS, la Garantie jeunes, les Emplois d'avenir ou le Contrat d'Engagement Jeune (CEJ).
 Localement, I-Milo est un outil de pilotage pour chaque mission locale. Les remontées mensuelles d’information au niveau régional et au niveau national permettent des études à un niveau plus agrégé. Pour s’assurer de la qualité des données, des contrôles de cohérence et une charte de saisie ont été conçus pour corriger et homogénéiser les comportements de saisie sur l’ensemble du territoire.
 
 Les jeunes sont dits « accueillis pour la première fois » ou « reçus en premier accueil » ou simplement « en premier accueil » lorsqu’ils ont bénéficié pour la première fois d’un entretien individuel avec un conseiller du réseau des missions locales et PAIO. 
@@ -353,75 +355,18 @@ Données sur le diplôme déclaratives (sous-estimation probable du nombre de je
 
 ----
 
-## **ID_indicateur :** cont_nb_menages_pauv_revenus_act
+
+## **Prématurité et faibles poids à la naissance**
+
+**ID_indicateur :** cont_part_accouch_gde_prema, cont_part_accouch_prema, cont_part_accouch_tres_gde_prema, cont_part_accouch_faible_poids_2500g, cont_part_accouch_tres_faible_poids_1500g
 
 **Périodicité :** Annuelle
 
-**Définition :** 
-
-Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
-
-L’origine principale des revenus disponibles déclarés : elle correspond au type de revenu qui représente la part la plus importante du revenu total déclaré par le ménage. On distingue 6 catégories de revenus :
-
-- salaires et traitements hors indemnités de chômage
-- indemnités de chômage
-- revenus des activités non salariées
-- pensions, retraites et rentes
-- autres revenus
-- revenus déclarés nuls sur le champ des revenus déclarés ou revenus déclarés négatifs ou nuls sur le champ des revenus disponibles
-
-Les revenus d’activité comprennent les salaires et traitements hors indemnités de chômage, et les revenus des activités non salariées.
-
-Le « ménage fiscal » est un ménage constitué par le regroupement des foyers fiscaux répertoriés dans un même logement. Son existence, une année donnée, tient au fait que coïncident au moins une déclaration indépendante de revenus et l’occupation d’un logement connu à la Taxe d’Habitation. Les ménages constitués de personnes ne disposant pas de leur indépendance fiscale (essentiellement des étudiants) sont comptés dans les ménages où ils déclarent leurs revenus même s'ils occupent un logement indépendant.
-
-Ménage pauvre : ménage dont le [Revenu disponible](#rev_disp) par [Unité de consommation](#uc) (UC) est inférieur au seuil de [pauvreté](#pauv) à 60 %.
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs aux minima sociaux et à l'insertion est de quantifier et décrire la population en situation de précarité, la population en risque ou en difficulté d'insertion, et en particulier les jeunes.
-
-Cet indicateur y contribue en mesurant la part des ménages pauvres parmi ceux dont l’origine principale des revenus déclarés est constituée de revenus d’activité (salariée ou non), ce qui constitue un proxy du taux de pauvreté des travailleurs (ce n’est pas un taux de pauvreté à proprement parler car il est calculé au niveau du ménage).
-
-**Intérêt de l’indicateur et interprétation :**
-
-Comparaisons spatiales : situer les territoires par rapport au niveau national et aux autres départements
-
-**Qualité et limites :**
-
-L'indicateur proposé ne correspond pas à l’indicateur européen “in-work poverty risk” [voir Bardone et Guio, 2005] pour lequel la définition des travailleurs est la suivante : il s’agit des personnes en [âge](#age) de travailler (18-64 ans) ayant occupé un emploi (effectivement travaillé) plus de 6 mois au cours d’une période de référence de 12 mois. Du fait de l'impossibilité de cerner dans [FiLoSoFi](#filosofi) les personnes ayant effectivement travaillé plus de 6 mois, le critère d'origine principale des revenus déclarés est utilisé dans ce proxy.
-
-Il est conseillé d’interpréter avec prudence les évolutions de revenus ou de [pauvreté](#pauv) entre deux années consécutives à l’échelon local du fait de changements méthodologiques et / ou de législation. 
-
-Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste la source de référence pour les indicateurs d’inégalité des niveaux de vie et de pauvreté. 
-
-Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
-
-Jusqu’au millésime 2019, l’indicateur désigne la part des ménages pauvres parmi ceux dont l’origine principale des revenus déclarés est constituée de revenus d’activité. À partir du millésime 2020, il s’agit des revenus disponibles.
-NE PAS FAIRE DE COMPARAISON ENTRE LES SÉRIES AVANT ET APRÈS 2020
-
-Les données issues de ce fichier proviennent du rapprochement : 
-
-- des données fiscales (déclarations de revenus des personnes physiques, taxe d'habitation et fichier d’imposition des personnes physiques) fournies à l'Insee par la Direction générale des finances publiques
-- et des données sur les prestations sociales émanant des principaux organismes gestionnaires de ces prestations : Caisse Nationale des Allocations Familiales (CNAF), Caisse Nationale d'Assurance Vieillesse (CNAV), Mutualité Sociale Agricole (MSA).
-
-Ces données fournissent de l'information sur le revenu déclaré des ménages fiscaux et permettent de reconstituer leur [Revenu disponible](#rev_disp) (c'est-à-dire après la prise en compte des impôts ainsi que des prestations sociales et des revenus financiers non déclarés) aux niveaux infra-communaux, communaux et supra-communaux. 
-
-A partir des données 2012, le dispositif [FiLoSoFi](#filosofi) remplace les anciens dispositifs Revenus fiscaux localisés (RFL) et Revenus disponibles localisés (RDL).
-
-Le champ couvert est celui de l'ensemble des ménages fiscaux ordinaires : il exclut les personnes sans domicile ou vivant en institution (prison, foyer, maison de retraite…).
-Les résultats sont fournis pour la France métropolitaine, la Martinique et la Réunion. Aucun résultat n'est donc proposé au niveau France Entière. 
-
-----
-
-## **ID_indicateur :** cont_part_accouch_faible_poids_2500g, cont_part_accouch_tres_faible_poids_1500g
-
-**Périodicité :** Annuelle
-
-**Définition :** 
+**Définition :**
 
 Les données présentées ici sont issues du Programme de Médicalisation des Systèmes d’Information - Médecine, chirurgie, obstétrique et odontologie (PMSI-MCO) et recueillies selon les règles définies par l’Agence technique de l’information sur l’hospitalisation (ATIH). Les exploitations ont été réalisées par la Drees.
 
-Les naissances concernent toutes les naissances vivantes, non compris les entrées par transfert, selon le département de résidence de la mère.
+Les naissances concernent toutes les naissances vivantes, non compris les entrées par transfert, selon le département de résidence de la mère. 
 
 Part des faibles poids de naissance
 
@@ -432,36 +377,6 @@ Part des très faibles poids de naissance
 
 - **Numérateur :** Nombre d'enfants nés vivant et pesant moins de 1500 g
 - **Dénominateur :** Nombre total de naissances vivantes
-
-Exprimé en %
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
-
-Cet indicateur y contribue en caractérisant le département au regard de la part des naissances d'enfants avec un poids inférieur à 2500 grammes, facteur de risque de santé et de vulnérabilité des familles.
-
-**Intérêt de l’indicateur et interprétation :**
-
-Le faible poids de naissance, souvent en relation avec un retard de croissance intra-utérin, est un facteur de risque de problèmes de santé durant l'enfance et l'âge adulte.
-
-Comparaison dans le temps et entre départements
-
-**Qualité et limites :**
-
-Dans le PMSI-MCO, il subsiste un risque de surestimation des enfants nés avec un petit poids lié à un mauvais codage possible du mode d'entrée en établissement de santé en cas de transfert, avec un mode d'entrée codé "domicile" au lieu de "transfert", ce qui introduit des doubles comptes. Le numéro anonyme de patient n'est pas alors de qualité suffisante pour permettre d'éliminer ces doublons.
-
-----
-
-## **ID_indicateur :** cont_part_accouch_gde_prema, cont_part_accouch_prema, cont_part_accouch_tres_gde_prema
-
-**Périodicité :** Annuelle
-
-**Définition :** 
-
-Les données présentées ici sont issues du Programme de Médicalisation des Systèmes d’Information - Médecine, chirurgie, obstétrique et odontologie (PMSI-MCO) et recueillies selon les règles définies par l’Agence technique de l’information sur l’hospitalisation (ATIH). Les exploitations ont été réalisées par la Drees.
-
-Les naissances concernent toutes les naissances vivantes, non compris les entrées par transfert, selon le département de résidence de la mère. 
 
 Taux de prématurité 
 
@@ -484,25 +399,29 @@ Exprimé en %
 
 L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
 
-Cet indicateur y contribue en caractérisant le département au regard du poids des naissances prématurées, indicateur de vulnérabilité des familles.
+Cet indicateur y contribue en caractérisant le département au regard du poids des naissances prématurées et de la part des naissances d'enfants avec un poids inférieur à 2500 grammes, indicateurs de vulnérabilité des familles.
 
 **Intérêt de l’indicateur et interprétation :**
 
 La prématurité, qui caractérise les enfants nés à moins de 37 semaines d'aménorrhée, et ses complications (cérébrales, respiratoires, sensorielles, etc…) constituent une part importante des situations périnatales responsables de handicaps à long terme, particulièrement la grande prématurité.
 
+Le faible poids de naissance, souvent en relation avec un retard de croissance intra-utérin, est un facteur de risque de problèmes de santé durant l'enfance et l'âge adulte.
+
 Comparaison dans le temps et entre les départements
 
 **Qualité et limites :**
 
-Dans le PMSI-MCO, il subsiste un risque de surestimation des enfants prématurés lié à un mauvais codage possible du mode d'entrée en établissement de santé en cas de transfert, avec un mode d'entrée codé "domicile" au lieu de "transfert", ce qui introduit des doubles comptes. Le numéro anonyme de patient n'est pas alors de qualité suffisante pour permettre d'éliminer ces doublons.
+Dans le PMSI-MCO, il subsiste un risque de surestimation des enfants prématurés et des enfants nés avec un petit poids lié à un mauvais codage possible du mode d'entrée en établissement de santé en cas de transfert, avec un mode d'entrée codé "domicile" au lieu de "transfert", ce qui introduit des doubles comptes. Le numéro anonyme de patient n'est pas alors de qualité suffisante pour permettre d'éliminer ces doublons.
 
 ----
 
-## **ID_indicateur :** cont_part_accouch_mere_20_24, cont_part_accouch_mere_25_29, cont_part_accouch_mere_30_34, cont_part_accouch_mere_35_39, cont_part_accouch_mere_40p, cont_part_accouch_mere_m20
+## **Accouchements selon l'âge de la mère**
+
+**ID_indicateur :** cont_part_accouch_mere_20_24, cont_part_accouch_mere_25_29, cont_part_accouch_mere_30_34, cont_part_accouch_mere_35_39, cont_part_accouch_mere_40p, cont_part_accouch_mere_m20
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 Les données présentées ici sont issues du Programme de Médicalisation des Systèmes d’Information - Médecine, chirurgie, obstétrique et odontologie (PMSI-MCO) et recueillies selon les règles définies par l’Agence technique de l’information sur l’hospitalisation (ATIH). Les exploitations ont été réalisées par la Drees.
 
@@ -531,11 +450,13 @@ Le nombre de naissances peut être légèrement sous estimé, du fait de l’abs
 
 ----
 
-## **ID_indicateur :** cont_part_eleves_2d_demi_pens_internes, cont_part_eleves_2d_demi_pens_internes_prive, cont_part_eleves_2d_demi_pens_internes_public, cont_part_eleves_2d_demi_pens_internes_public_hors_ep, cont_part_eleves_2d_demi_pens_internes_public_rep, cont_part_eleves_2d_demi_pens_internes_public_rep_plus
+## **Pourcentage d'élèves demi-pensionnaires ou internes dans le second degré**
+
+**ID_indicateur :** cont_part_eleves_2d_demi_pens_internes, cont_part_eleves_2d_demi_pens_internes_prive, cont_part_eleves_2d_demi_pens_internes_public, cont_part_eleves_2d_demi_pens_internes_public_hors_ep, cont_part_eleves_2d_demi_pens_internes_public_rep, cont_part_eleves_2d_demi_pens_internes_public_rep_plus
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 Pourcentage d'élèves demi-pensionnaires ou internes dans le second degré 
 
@@ -551,11 +472,13 @@ Déclinaison par :
 
 ----
 
-## **ID_indicateur :** cont_part_eleves_3e_retard_2ans, cont_part_eleves_6e_retard
+## **Retard scolaire**
+
+**ID_indicateur :** cont_part_eleves_3e_retard_2ans, cont_part_eleves_6e_retard
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 On considère qu'un élève présente un retard scolaire lorsqu'il a au moins une année de retard par rapport à un cursus normal, c'est-à-dire une scolarité sans interruption ni redoublement ni saut de classe.
 Autrement dit, les élèves en retard en 6e sont ceux qui ont 12 ans ou plus au 01 janvier de l'année scolaire considérée.
@@ -586,11 +509,13 @@ Les comparaisons dans le temps sont donc délicates pour cette raison.
 
 ----
 
-## **ID_indicateur :** cont_part_jeunes_diff_lecture, cont_part_jeunes_grave_diff_lecture
+## **Difficultés de lecture**
+
+**ID_indicateur :** cont_part_jeunes_diff_lecture, cont_part_jeunes_grave_diff_lecture
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 A partir de 2009, les épreuves de lecture de la Journée Défense et Citoyenneté (JDC, ex. JAPD) ont été adaptées à un nouveau mode de passation afin d’améliorer la standardisation des procédures et de réduire sensiblement les contraintes logistiques.
 Les jeunes doivent répondre, grâce à un boîtier électronique, aux questions qui défilent sur un grand écran. Leurs réponses, et dans certains cas leurs temps de réaction, sont enregistrés. A la fin de la session d’évaluation, les différents scores sont calculés de manière automatique et les profils de lecteurs sont édités, afin de faciliter l’organisation des entretiens avec les jeunes repérés en difficulté.
@@ -627,83 +552,45 @@ Les jeunes non recensés à temps passent les tests à 18, 19 ou 20 ans et non �
 
 ----
 
-## **ID_indicateur :** cont_part_menages_pauv_parmi_revenus_act
+## **Projection de population en 2070**
 
-**Périodicité :** Annuelle
-
-**Définition :** 
-
-Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
-
-ATTENTION : rupture de série à partir du millésime 2020 de [FiLoSoFi](#filosofi)
-
-Jusqu’au millésime 2019, l’indicateur INS01 désigne la part des ménages pauvres parmi ceux dont l’origine principale des revenus déclarés est constituée de revenus d’activité. À partir du millésime 2020, il s’agit des revenus disponibles.
-NE PAS FAIRE DE COMPARAISON ENTRE LES SÉRIES AVANT ET APRÈS 2020
-
-Le « ménage fiscal » est un ménage constitué par le regroupement des foyers fiscaux répertoriés dans un même logement. Son existence, une année donnée, tient au fait que coïncident au moins une déclaration indépendante de revenus et l’occupation d’un logement connu à la Taxe d’Habitation. Les ménages constitués de personnes ne disposant pas de leur indépendance fiscale (essentiellement des étudiants) sont comptés dans les ménages où ils déclarent leurs revenus même s'ils occupent un logement indépendant.
-
-Ménage pauvre : ménage dont le [Revenu disponible](#rev_disp) par [Unité de consommation](#uc) (UC) est inférieur au seuil de [pauvreté](#pauv) à 60 %.
-
-L’origine principale des revenus déclarés : elle correspond au type de revenu qui représente la part la plus importante du revenu total déclaré par le ménage. 
-
-On distingue 6 catégories de revenus :
-
-- salaires et traitements hors indemnités de chômage
-- indemnités de chômage
-- revenus des activités non salariées
-- pensions, retraites et rentes
-- autres revenus
-- revenus déclarés nuls sur le champ des revenus déclarés ou revenus déclarés négatifs ou nuls sur le champ des revenus disponibles
-
-Les revenus d’activité comprennent les salaires et traitements hors indemnités de chômage, et les revenus des activités non salariées.
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs aux minima sociaux et à l'insertion est de quantifier et décrire la population en situation de précarité, la population en risque ou en difficulté d'insertion, et en particulier les jeunes.
-
-Cet indicateur y contribue en mesurant la part des ménages pauvres parmi ceux dont l’origine principale des revenus déclarés est constituée de revenus d’activité (salariée ou non), ce qui constitue un proxy du taux de pauvreté des travailleurs (ce n’est pas un taux de pauvreté à proprement parler car il est calculé au niveau du ménage).
-
-**Intérêt de l’indicateur et interprétation :**
-
-Comparaisons spatiales : situer les territoires par rapport au niveau national et aux autres départements
-
-**Qualité et limites :**
-
-L'indicateur proposé ne correspond pas à l’indicateur européen “in-work poverty risk” [voir Bardone et Guio, 2005] pour lequel la définition des travailleurs est la suivante : il s’agit des personnes en [âge](#age) de travailler (18-64 ans) ayant occupé un emploi (effectivement travaillé) plus de 6 mois au cours d’une période de référence de 12 mois. Du fait de l'impossibilité de cerner dans [FiLoSoFi](#filosofi) les personnes ayant effectivement travaillé plus de 6 mois, le critère d'origine principale des revenus déclarés est utilisé dans ce proxy.
-
-Il est conseillé d’interpréter avec prudence les évolutions de revenus ou de pauvreté entre deux années consécutives à l’échelon local du fait de changements méthodologiques et / ou de législation. 
-
-Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste la source de référence pour les indicateurs d’inégalité des niveaux de vie et de pauvreté. 
-
-Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
-
-----
-
-## **ID_indicateur :** cont_proj_pop_2070
+**ID_indicateur :** cont_proj_pop_2070
 
 **Périodicité :** Ponctuelle
 
-**Définition :** 
+**Définition :**
 
-Projection de population en 2070
+Projection de population en 2070 selon le scénario central de l'Insee.
+
+Le modèle repose sur trois composantes démographiques :
+
+Fécondité : L’hypothèse centrale vise un indice conjoncturel de 1,80 enfant par femme à partir de 2022. 
+Mortalité : L’espérance de vie à la naissance est projetée à 90,0 ans pour les femmes et 87,5 ans pour les hommes en 2070 (scénario central).
+Migrations : Le solde migratoire central est maintenu à +70 000 personnes par an.
+
+Le dernier exercice de projection de population au niveau départemental a été publié en janvier 2024. Les données de ce chiffre clé ne sont pas mises à jour tous les ans.
 
 ----
 
-## **ID_indicateur :** pa_nb_benef_apa_f_60_74_proj, pa_nb_benef_apa_f_60p_proj, pa_nb_benef_apa_f_75_84_proj, pa_nb_benef_apa_f_85p_proj, pa_nb_benef_apa_h_60_74_proj, pa_nb_benef_apa_h_60p_proj, pa_nb_benef_apa_h_75_84_proj, pa_nb_benef_apa_h_85p_proj
+## **Projection du nombre de bénéficiaires de l'APA**
+
+**ID_indicateur :** pa_nb_benef_apa_f_60_74_proj, pa_nb_benef_apa_f_60p_proj, pa_nb_benef_apa_f_75_84_proj, pa_nb_benef_apa_f_85p_proj, pa_nb_benef_apa_h_60_74_proj, pa_nb_benef_apa_h_60p_proj, pa_nb_benef_apa_h_75_84_proj, pa_nb_benef_apa_h_85p_proj
 
 **Périodicité :** Ponctuelle
 
-**Définition :** 
+**Définition :**
 
 Projection 2015-2050 du nombre de bénéficiaires de l'[APA](#apa) par sexe et tranche d'[âge](#age).
 
 ----
 
-## **ID_indicateur :** cont_tx_chom_loc
+## **Taux de chômage**
+
+**ID_indicateur :** cont_tx_chom_loc
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 Le taux de chômage localisé est le rapport entre le nombre de chômeurs et la population active résidente dans une zone donnée. 
 
@@ -735,11 +622,13 @@ Par construction (référence aux DEFM, demandeurs d'emploi en fin de mois), le 
 
 ----
 
-## **ID_indicateur :** cont_tx_mortalite_brut_1000, cont_tx_mortalite_brut_femmes_1000, cont_tx_mortalite_brut_hommes_1000, cont_tx_mortalite_infantile_1000, cont_tx_mortalite_standard_0_64_1000, cont_tx_mortalite_standard_65p_1000
+## **Taux de mortalité**
+
+**ID_indicateur :** cont_tx_mortalite_brut_1000, cont_tx_mortalite_brut_femmes_1000, cont_tx_mortalite_brut_hommes_1000, cont_tx_mortalite_infantile_1000, cont_tx_mortalite_standard_0_64_1000, cont_tx_mortalite_standard_65p_1000
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 Le taux brut de mortalité est le rapport du nombre de décès de l'année à la population totale moyenne de l'année. Une zone comptant une population plus âgée qu'une autre a en général un taux brut de mortalité plus élevé. 
 
@@ -775,11 +664,13 @@ Attention aux faibles effectifs concernés dans certains départements.
 
 ----
 
-## **ID_indicateur :** cont_tx_scol_2ans
+## **Taux de scolarisation à 2 ans**
+
+**ID_indicateur :** cont_tx_scol_2ans
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
 
@@ -801,59 +692,36 @@ Cet indicateur y contribue en mesurant le taux de scolarisation des enfants de d
 
 ----
 
-## **ID_indicateur :** dalo_heberg_benef_accueillis, dalo_heberg_benef_accueillis_et_refus, dalo_heberg_decisions, dalo_heberg_decisions_favorables, dalo_heberg_recours, dalo_heberg_refus_proposition
+## **Droit au Logement Opposable**
+
+**ID_indicateur :** dalo_heberg_benef_accueillis, dalo_heberg_benef_accueillis_et_refus, dalo_heberg_decisions, dalo_heberg_decisions_favorables, dalo_heberg_recours, dalo_heberg_refus_proposition, dalo_lgmt_benef_reloges, dalo_lgmt_decisions, dalo_lgmt_decisions_favorables, dalo_lgmt_recours, dalo_lgmt_refus_offre, dalo_lgmt_total_reloges_et_refus, dalo_tot_benef_reloges_accueillis, dalo_tot_benef_reloges_accueillis_et_refus, dalo_tot_decisions, dalo_tot_decisions_favorables, dalo_tot_recours, dalo_tot_refus_offre_proposition
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
-dalo_heberg_benef_accueillis : Nombre de bénéficiaires accueillis suite proposition
-dalo_heberg_benef_accueillis_et_refus : Total de bénéficiaires accueillis ou ayant refusé ou n’étant plus à accueillir
-dalo_heberg_decisions : Nombre de décisions "hébergement" prises
-alo_heberg_decisions_favorables : Nombre de décisions favorables "hébergement" prises
-dalo_heberg_recours : Nombre de recours "hébergement" reçus
-dalo_heberg_refus_proposition : Nombre de refus de proposition adaptée
+La loi DALO (Droit au logement opposable), promulguée le 5 mars 2007 et entrée en vigueur en 2008, reconnaît l'État comme garant du droit au logement.
 
-----
+Les demandeurs de logement social peuvent déposer un recours auprès d'une commission départementale (Comed), chargée d'évaluer le caractère prioritaire et urgent de leur demande au regard des critères fixés par la loi.
 
-## **ID_indicateur :** dalo_lgmt_benef_reloges, dalo_lgmt_decisions, dalo_lgmt_decisions_favorables, dalo_lgmt_recours, dalo_lgmt_refus_offre, dalo_lgmt_total_reloges_et_refus
+* **En cas de décision favorable** (reconnaissance du caractère prioritaire et urgent), conformément à l'article L441-2-3-1 et à l'article R441-16-1 du Code de la construction et de l'habitation (CCH), l'État est tenu de proposer un relogement dans un délai de 3 ou 6 mois, selon le délai fixé par arrêté préfectoral dans chaque département. Le logement proposé doit être adapté à la situation du demandeur, notamment à sa composition familiale, à ses ressources et à ses capacités. Si l'État ne procède pas au relogement dans le délai imparti, le demandeur peut saisir le tribunal administratif.
 
-**Périodicité :** Annuelle
+* **En cas de décision défavorable**, d'absence de réponse de la Comed dans les délais prévus, d'absence de proposition de relogement dans les délais impartis malgré la reconnaissance du caractère prioritaire et urgent, ou encore lorsque la Comed oriente le demandeur vers un hébergement plutôt que vers un logement, différents recours peuvent être exercés selon la situation.
 
-**Définition :** 
+Les indicateurs décrivent les différents états des dossiers, selon la proposition d'un hebergement ou d'un logement. 
 
-dalo_lgmt_benef_reloges : Nombre de bénéficiaires relogés suite offre
-dalo_lgmt_decisions : Nombre de décisions "logement" prises
-dalo_lgmt_decisions_favorables : Nombre de décisions favorables "logement" prises
-dalo_lgmt_recours : Nombre de recours "logement" reçus
-dalo_lgmt_refus_offre : Nombre de refus d’offre adaptée
-dalo_lgmt_total_reloges_et_refus : Total de bénéficiaires logés ou ayant refusé ou n’étant plus à reloger
-
-Dans la synthèse, les décisions favorables correspondent à la somme des décisions favorables logement, des décisions favorables hébergement et des réorientations des recours logement vers l'hébergement.
+Dans les indicateurs totaux, les décisions favorables correspondent à la somme des décisions favorables logement, des décisions favorables hébergement et des réorientations des recours logement vers l'hébergement.
 Le nombre de décisions prises peut excéder le nombre de demandes reçues en raison du traitement des demandes de l'année précédente.
 
 ----
 
-## **ID_indicateur :** dalo_tot_benef_reloges_accueillis, dalo_tot_benef_reloges_accueillis_et_refus, dalo_tot_decisions, dalo_tot_decisions_favorables, dalo_tot_recours, dalo_tot_refus_offre_proposition
+## **Employés pour la garde d'enfants**
+
+**ID_indicateur :** fam_nb_ass_mat, fam_nb_garde_dom
 
 **Périodicité :** Annuelle
 
-**Définition :** 
-
-dalo_tot_benef_reloges_accueillis : Nombre de bénéficiaires logés/ accueillis suite offre/ proposition
-dalo_tot_benef_reloges_accueillis_et_refus : Total de bénéficiaires logés/ accueillis ou ayant refusé ou n’étant plus à loger/accueillir
-dalo_tot_decisions : Nombre de décisions prises
-dalo_tot_decisions_favorables : Nombre de décisions favorables prises
-dalo_tot_recours : Nombre de recours reçus
-dalo_tot_refus_offre_proposition : Nombre de refus d’offre/proposition adaptée
-
-----
-
-## **ID_indicateur :** fam_nb_ass_mat, fam_nb_garde_dom
-
-**Périodicité :** Annuelle
-
-**Définition :** 
+**Définition :**
 
 Nombres de :
 
@@ -862,21 +730,25 @@ Nombres de :
 
 ----
 
-## **ID_indicateur :** fam_tx_equip_places_100_m3
+## **Place d'accueil des enfants**
+
+**ID_indicateur :** fam_tx_equip_places_100_m3
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 Taux d'équipement places d'accueil pour 100 enfants de moins de 3 ans
 
 ----
 
-## **ID_indicateur :** lgmt_nb_expulsions_locatives, lgmt_nb_expulsions_locatives_conditionnelles, lgmt_nb_expulsions_locatives_fermes, lgmt_tx_expulsions_locatives_1000men
+## **Explusions locatives**
+
+**ID_indicateur :** lgmt_nb_expulsions_locatives, lgmt_nb_expulsions_locatives_conditionnelles, lgmt_nb_expulsions_locatives_fermes, lgmt_tx_expulsions_locatives_1000men
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
 
@@ -906,11 +778,13 @@ Cet indicateur y contribue en mesurant l’expulsion pour impayé, qui traduit u
 
 ----
 
-## **ID_indicateur :** lgmt_nb_dossiers_surendet_energie, lgmt_part_dettes_surendet_energie, lgmt_part_dossiers_surendet_energie
+## **Surendettement**
+
+**ID_indicateur :** lgmt_nb_dossiers_surendet_energie, lgmt_part_dettes_surendet_energie, lgmt_part_dossiers_surendet_energie
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
 
@@ -953,11 +827,13 @@ Attention aux faibles effectifs concernés dans certains départements.
 
 ----
 
-## **ID_indicateur :** lgmt_tx_effort_net_median_allocataires_aide
+## **Taux d'effort net**
+
+**ID_indicateur :** lgmt_tx_effort_net_median_allocataires_aide
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 Le taux d’effort net est appréhendé par le ratio entre le coût du logement, déduction faite des allocations logement, et les revenus. Il représente donc la part du revenu des allocataires effectivement consacrée au loyer une fois prises en compte les allocations logement.
 
@@ -1006,21 +882,25 @@ Attention, l'indicateur ne porte actuellement que sur le champ des allocataires 
 
 ----
 
-## **ID_indicateur :** ms_depenses_brutes_rsa_rso_rmi_cui_cont_avenir, ms_depenses_nettes_rsa_rso_rmi_cui_cont_avenir
+## **RSA : Dépenses**
+
+**ID_indicateur :** ms_depenses_brutes_rsa_rso_rmi_cui_cont_avenir, ms_depenses_nettes_rsa_rso_rmi_cui_cont_avenir
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 Dépenses totales brutes et nettes liées au [RSA](#rsa), RSO, RMI, CUI et contrat d'avenir
 
 ----
 
-## **ID_indicateur :** ms_nb_alloc_ass, ms_nb_alloc_asv_aspa, ms_nb_alloc_pa, ms_nb_alloc_pa_maj, ms_nb_alloc_pa_non_maj, ms_nb_alloc_rsa_maj_new, ms_nb_alloc_rsa_maj_old, ms_nb_alloc_rsa_new, ms_nb_alloc_rsa_old, ms_nb_alloc_rsa_non_maj_new, ms_nb_alloc_rsa_non_maj_old, ms_nb_benef_css_ac_ss_part
+## **Allocataires des minimas sociaux**
+
+**ID_indicateur :** ms_nb_alloc_ass, ms_nb_alloc_asv_aspa, ms_nb_alloc_pa, ms_nb_alloc_pa_maj, ms_nb_alloc_pa_non_maj, ms_nb_alloc_rsa_maj_new, ms_nb_alloc_rsa_maj_old, ms_nb_alloc_rsa_new, ms_nb_alloc_rsa_old, ms_nb_alloc_rsa_non_maj_new, ms_nb_alloc_rsa_non_maj_old, ms_nb_benef_css_ac_ss_part
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 Nombres d'allocataires des minimas : 
 
@@ -1052,16 +932,13 @@ correspondent au nombre d'allocataires au niveau régional divisé par 2.
 
 ----
 
-## **ID_indicateur :** ms_part_pop_couv_rsa_new, ms_part_pop_couv_rsa_old
+## **RSA : Population couverte**
+
+**ID_indicateur :** ms_part_pop_couv_rsa_new, ms_part_pop_couv_rsa_old
 
 **Périodicité :** Annuelle
 
-**Définition :** 
-
-Le revenu de solidarité active ([RSA](#rsa)) est en vigueur depuis le 1er juin 2009 en France métropolitaine et depuis le 1er janvier 2011 dans les départements d’outre-mer. Il a remplacé le revenu minimum d’insertion (RMI), l’allocation de parent isolé (API) et les dispositifs associés d’intéressement à la reprise d’activité. 
-Il est à la fois une allocation visant à garantir un revenu minimum de ressources aux bénéficiaires et un dispositif d’accompagnement social et professionnel pour faciliter l’accès à l’emploi ou consolider les capacités professionnelles de ceux qui sont sans activité ou qui ne tirent de leur activité que des ressources limitées. Financé par les départements, il est un revenu minimum s'adressant aux personnes dont l'ensemble des ressources est inférieur à un montant forfaitaire dépendant de la composition du ménage. Ce montant est revu chaque année. Le RSA peut être majoré pour les personnes élevant seules de jeunes enfants.
-Depuis le 1er septembre 2010, le RSA est étendu au moins de 25 ans (RSA jeunes) sous condition de justifier de deux ans d’activité en équivalent temps plein, au cours des trois dernières années. Dans ce cas, il est financé par l'Etat.
-Jusqu’en 2015, le RSA « activité », financé par l’État, s’adressait aux foyers ayant des revenus compris entre le montant forfaitaire et un revenu garanti. Depuis le 1er janvier 2016, le RSA activité a fusionné avec la prime pour l’emploi pour devenir la prime d’activité.
+**Définition :**
 
 Les personnes couvertes sont les allocataires, leurs conjoints et les personnes à charge des allocataires. Hors "RSA jeunes" (à la charge de l'État).
 
@@ -1088,16 +965,15 @@ Comparaisons spatiales
 
 ----
 
-## **ID_indicateur :** ms_tx_alloc_ass_15_64, ms_tx_alloc_asv_aspa_60p, ms_tx_alloc_minima_15_64_new, ms_tx_alloc_minima_15_64_old, ms_tx_alloc_rsa_15_64_new, ms_tx_alloc_rsa_15_64_old
+## **Taux d'allocataires des minimas sociaux**
+
+**ID_indicateur :** ms_tx_alloc_ass_15_64, ms_tx_alloc_asv_aspa_60p, ms_tx_alloc_minima_15_64_new, ms_tx_alloc_minima_15_64_old, ms_tx_alloc_rsa_15_64_new, ms_tx_alloc_rsa_15_64_old
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
-Le revenu de solidarité active ([RSA](#rsa)) est en vigueur depuis le 1er juin 2009 en France métropolitaine et depuis le 1er janvier 2011 dans les départements d’outre-mer. Il a remplacé le revenu minimum d’insertion (RMI), l’allocation de parent isolé (API) et les dispositifs associés d’intéressement à la reprise d’activité. 
-Il est à la fois une allocation visant à garantir un revenu minimum de ressources aux bénéficiaires et un dispositif d’accompagnement social et professionnel pour faciliter l’accès à l’emploi ou consolider les capacités professionnelles de ceux qui sont sans activité ou qui ne tirent de leur activité que des ressources limitées. Financé par les départements, il est un revenu minimum s'adressant aux personnes dont l'ensemble des ressources est inférieur à un montant forfaitaire dépendant de la composition du ménage. Ce montant est revu chaque année. Le RSA peut être majoré pour les personnes élevant seules de jeunes enfants.
-Depuis le 1er septembre 2010, le RSA est étendu au moins de 25 ans (RSA jeunes) sous condition de justifier de deux ans d’activité en équivalent temps plein, au cours des trois dernières années. Dans ce cas, il est financé par l'Etat.
-Jusqu’en 2015, le RSA « activité », financé par l’État, s’adressait aux foyers ayant des revenus compris entre le montant forfaitaire et un revenu garanti. Depuis le 1er janvier 2016, le RSA activité a fusionné avec la prime pour l’emploi pour devenir la prime d’activité.
+Le [revenu de solidarité active](#rsa) est une allocation qui complète les ressources initiales du foyer pour qu'elles atteignent le niveau d'un revenu garanti.
 
 L’allocation de solidarité spécifique (ASS), instituée en 1984, est une allocation chômage s’adressant aux chômeurs ayant épuisé leurs droits à l’assurance chômage, et qui justifient d’au moins cinq années d’activité salariée au cours des dix dernières années précédant la rupture de leur contrat de travail.
 
@@ -1141,11 +1017,13 @@ Certaines données départementales sont estimées
 
 ----
 
-## **ID_indicateur :** ms_tx_benef_cmuc_css, ms_tx_benef_css_ac_ss_part
+## **Taux de bénéficiares de la CSS**
+
+**ID_indicateur :** ms_tx_benef_cmuc_css, ms_tx_benef_css_ac_ss_part
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 La Complémentaire santé solidaire sans participation financière (ex-CMU-C) permet à toute personne en situation régulière et résidant en France depuis plus de trois mois, dont le revenu mensuel du foyer ne dépasse pas un montant maximum, d'accéder à une complémentaire de santé gratuite. La CSS n'est pas applicable à Mayotte.
 
@@ -1166,51 +1044,62 @@ Cet indicateur y contribue en mesurant la part de population bénéficiant de la
 
 ----
 
-## **ID_indicateur :** pa_part_benef_apa_60_74_f, pa_part_benef_apa_60_74_h, pa_part_benef_apa_75_89_f, pa_part_benef_apa_75_89_h, pa_part_benef_apa_90p_f, pa_part_benef_apa_90p_h, pa_part_benef_apa_couple_f, pa_part_benef_apa_couple_h, pa_part_benef_apa_gir1_60_74, pa_part_benef_apa_gir1_75_89, pa_part_benef_apa_gir1_90p, pa_part_benef_apa_gir1_f, pa_part_benef_apa_gir1_h, pa_part_benef_apa_gir2_60_74, pa_part_benef_apa_gir2_75_89, pa_part_benef_apa_gir2_90p, pa_part_benef_apa_gir2_f, pa_part_benef_apa_gir2_h, pa_part_benef_apa_gir3_60_74, pa_part_benef_apa_gir3_75_89, pa_part_benef_apa_gir3_90p, pa_part_benef_apa_gir3_f, pa_part_benef_apa_gir3_h, pa_part_benef_apa_gir4_60_74, pa_part_benef_apa_gir4_75_89, pa_part_benef_apa_gir4_90p, pa_part_benef_apa_gir4_f, pa_part_benef_apa_gir4_h, pa_part_benef_apa_gir56_60_74, pa_part_benef_apa_gir56_75_89, pa_part_benef_apa_gir56_90p, pa_part_benef_apa_gir56_f, pa_part_benef_apa_gir56_h, pa_part_benef_apa_seul_f, pa_part_benef_apa_seul_h
+## **Répartition des bénéficiaires de l'APA**
+
+**ID_indicateur :** pa_part_benef_apa_60_74_f, pa_part_benef_apa_60_74_h, pa_part_benef_apa_75_89_f, pa_part_benef_apa_75_89_h, pa_part_benef_apa_90p_f, pa_part_benef_apa_90p_h, pa_part_benef_apa_couple_f, pa_part_benef_apa_couple_h, pa_part_benef_apa_gir1_60_74, pa_part_benef_apa_gir1_75_89, pa_part_benef_apa_gir1_90p, pa_part_benef_apa_gir1_f, pa_part_benef_apa_gir1_h, pa_part_benef_apa_gir2_60_74, pa_part_benef_apa_gir2_75_89, pa_part_benef_apa_gir2_90p, pa_part_benef_apa_gir2_f, pa_part_benef_apa_gir2_h, pa_part_benef_apa_gir3_60_74, pa_part_benef_apa_gir3_75_89, pa_part_benef_apa_gir3_90p, pa_part_benef_apa_gir3_f, pa_part_benef_apa_gir3_h, pa_part_benef_apa_gir4_60_74, pa_part_benef_apa_gir4_75_89, pa_part_benef_apa_gir4_90p, pa_part_benef_apa_gir4_f, pa_part_benef_apa_gir4_h, pa_part_benef_apa_gir56_60_74, pa_part_benef_apa_gir56_75_89, pa_part_benef_apa_gir56_90p, pa_part_benef_apa_gir56_f, pa_part_benef_apa_gir56_h, pa_part_benef_apa_seul_f, pa_part_benef_apa_seul_h
 
 **Périodicité :** Ponctuelle
 
-**Définition :** 
+**Définition :**
 
 Répartition des bénéficiaires de l'[APA](#apa) par [âge](#age), sexe et gir
+L’[APA](#apa) est une prestation qui permet de financer les dépenses d’aide auxquelles font face les personnes de 60 ans ou plus en perte d’autonomie, qu’elles résident à domicile ou en établissement.
 
 ----
 
-## **ID_indicateur :** pa_part_limitations_importante_comprehension, pa_part_limitations_importante_concentration, pa_part_limitations_importante_lever_bras, pa_part_limitations_importante_main, pa_part_limitations_importante_marche, pa_part_limitations_importante_ouie, pa_part_limitations_importante_sortir, pa_part_limitations_importante_vue
+## **Limitations des personnes âgées**
+
+**ID_indicateur :** pa_part_limitations_importante_comprehension, pa_part_limitations_importante_concentration, pa_part_limitations_importante_lever_bras, pa_part_limitations_importante_main, pa_part_limitations_importante_marche, pa_part_limitations_importante_ouie, pa_part_limitations_importante_sortir, pa_part_limitations_importante_vue
 
 **Périodicité :** Ponctuelle
 
-**Définition :** 
+**Définition :**
 
 Part des personnes âgées déclarant des limitations importantes dans leurs activités quotidiennes.
 
 ----
 
-## **ID_indicateur :** pa_part_plan_satures_apa_dom_96perc
+## **APA : Plans saturés**
+
+**ID_indicateur :** pa_part_plan_satures_apa_dom_96perc
 
 **Périodicité :** Ponctuelle
 
-**Définition :** 
+**Définition :**
 
 Part de plans saturés à 96 % pour les bénéficiaires de l'[APA](#apa) à domicile
 
 ----
 
-## **ID_indicateur :** pa_revenus_benef_apa_1q, pa_revenus_benef_apa_3q, pa_revenus_benef_apa_mediane, pa_revenus_benef_apa_moyenne
+## **APA : Distribution des revenus**
+
+**ID_indicateur :** pa_revenus_benef_apa_1q, pa_revenus_benef_apa_3q, pa_revenus_benef_apa_mediane, pa_revenus_benef_apa_moyenne
 
 **Périodicité :** Ponctuelle
 
-**Définition :** 
+**Définition :**
 
 Distribution des revenus des bénéficiaires de l'[APA](#apa)
 
 ----
 
-## **ID_indicateur :** part_enf_men_pauv_ap_imp_systeme, part_enf_men_pauv_av_imp_systeme, part_pers_ac_enf_men_pauv_ap_imp_systeme, part_pers_ac_enf_men_pauv_av_imp_systeme
+## **Parts des familles pauvres**
+
+**ID_indicateur :** part_enf_men_pauv_ap_imp_systeme, part_enf_men_pauv_av_imp_systeme, part_pers_ac_enf_men_pauv_ap_imp_systeme, part_pers_ac_enf_men_pauv_av_imp_systeme
 
 **Périodicité :** Ponctuelle
 
-**Définition :** 
+**Définition :**
 
 Taux de [pauvreté](#pauv) monétaire : part de la population dont le [Revenu disponible](#rev_disp) du ménage par [Unité de consommation](#uc), dit « niveau de vie », est inférieur à 60 % de la médiane nationale (définition européenne).
 Unité de consommation : échelle d’Oxford révisée.
@@ -1223,7 +1112,7 @@ Le revenu disponible est le revenu à la disposition du ménage pour consommer e
 Les aides locales (prestations versées par les mairies, association, etc...) ne sont pas prises en compte pour le calcul du revenu disponible.
 
 Le « ménage fiscal » est un ménage constitué par le regroupement des foyers fiscaux répertoriés dans un même logement. Son existence, une année donnée, tient au fait que coïncident au moins une déclaration indépendante de revenus et l’occupation d’un logement connu à la Taxe d’Habitation. Les ménages constitués de personnes ne disposant pas de leur indépendance fiscale (essentiellement des étudiants) sont comptés dans les ménages où ils déclarent leurs revenus même s'ils occupent un logement indépendant.
-[Nombre de personnes du ménage fiscal](#nb_pers_men_fisc)
+[Nombre de personnes du ménage fiscal](#men_fisc)
 
 Impact du système socio-fiscal :
 
@@ -1260,11 +1149,13 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 ----
 
-## **ID_indicateur :** pauv_intensite, pauv_intensite_benef_ms
+## **Intensité de la pauvreté**
+
+**ID_indicateur :** pauv_intensite, pauv_intensite_benef_ms
 
 **Périodicité :** Ponctuelle
 
-**Définition :** 
+**Définition :**
 
 Ecart relatif, en pourcentage du seuil de [pauvreté](#pauv) à 60%, entre le [Niveau de vie](#niv_vie) médian des personnes pauvres et ce seuil (définition européenne).
 A partir de la deuxième vague de mise à jour de 2018, cet indicateur est complété par l’intensité de la pauvreté des bénéficiaires de minima sociaux, qui était un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017). 
@@ -1279,7 +1170,7 @@ Le revenu disponible est le revenu à la disposition du ménage pour consommer e
 Les aides locales (prestations versées par les mairies, association, etc...) ne sont pas prises en compte pour le calcul du revenu disponible.
 
 Le « ménage fiscal » est un ménage constitué par le regroupement des foyers fiscaux répertoriés dans un même logement. Son existence, une année donnée, tient au fait que coïncident au moins une déclaration indépendante de revenus et l’occupation d’un logement connu à la Taxe d’Habitation. Les ménages constitués de personnes ne disposant pas de leur indépendance fiscale (essentiellement des étudiants) sont comptés dans les ménages où ils déclarent leurs revenus même s'ils occupent un logement indépendant.
-[Nombre de personnes du ménage fiscal](#nb_pers_men_fisc)
+[Nombre de personnes du ménage fiscal](#men_fisc)
 
 **Objectif :**
 
@@ -1302,11 +1193,69 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 ----
 
-## **ID_indicateur :** pauv_nb_menages_revenus_act
+## **Ménages pauvres selon l'origine du revenu**
+
+**ID_indicateur :** cont_nb_menages_pauv_revenus_act, cont_part_menages_pauv_parmi_revenus_act
+
+**Périodicité :** Annuelle
+
+**Définition :**
+
+Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
+
+L’origine principale des revenus disponibles déclarés : elle correspond au type de revenu qui représente la part la plus importante du revenu total déclaré par le ménage. 
+
+On distingue 6 catégories de revenus :
+
+- salaires et traitements hors indemnités de chômage
+- indemnités de chômage
+- revenus des activités non salariées
+- pensions, retraites et rentes
+- autres revenus
+- revenus déclarés nuls sur le champ des revenus déclarés ou revenus déclarés négatifs ou nuls sur le champ des revenus disponibles
+
+Les revenus d’activité comprennent les salaires et traitements hors indemnités de chômage, et les revenus des activités non salariées.
+
+Le « ménage fiscal » est un ménage constitué par le regroupement des foyers fiscaux répertoriés dans un même logement. Son existence, une année donnée, tient au fait que coïncident au moins une déclaration indépendante de revenus et l’occupation d’un logement connu à la Taxe d’Habitation. Les ménages constitués de personnes ne disposant pas de leur indépendance fiscale (essentiellement des étudiants) sont comptés dans les ménages où ils déclarent leurs revenus même s'ils occupent un logement indépendant.
+
+Ménage pauvre : ménage dont le [Revenu disponible](#rev_disp) par [Unité de consommation](#uc) (UC) est inférieur au seuil de [pauvreté](#pauv) à 60 %.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs aux minima sociaux et à l'insertion est de quantifier et décrire la population en situation de précarité, la population en risque ou en difficulté d'insertion, et en particulier les jeunes.
+
+Cet indicateur y contribue en mesurant la part des ménages pauvres parmi ceux dont l’origine principale des revenus déclarés est constituée de revenus d’activité (salariée ou non), ce qui constitue un proxy du taux de pauvreté des travailleurs (ce n’est pas un taux de pauvreté à proprement parler car il est calculé au niveau du ménage).
+
+**Intérêt de l’indicateur et interprétation :**
+
+Comparaisons spatiales : situer les territoires par rapport au niveau national et aux autres départements
+
+**Qualité et limites :**
+
+L'indicateur proposé ne correspond pas à l’indicateur européen “in-work poverty risk” [voir Bardone et Guio, 2005] pour lequel la définition des travailleurs est la suivante : il s’agit des personnes en [âge](#age) de travailler (18-64 ans) ayant occupé un emploi (effectivement travaillé) plus de 6 mois au cours d’une période de référence de 12 mois. Du fait de l'impossibilité de cerner dans [FiLoSoFi](#filosofi) les personnes ayant effectivement travaillé plus de 6 mois, le critère d'origine principale des revenus déclarés est utilisé dans ce proxy.
+
+Il est conseillé d’interpréter avec prudence les évolutions de revenus ou de [pauvreté](#pauv) entre deux années consécutives à l’échelon local du fait de changements méthodologiques et / ou de législation. 
+
+Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste la source de référence pour les indicateurs d’inégalité des niveaux de vie et de pauvreté. 
+
+Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
+
+Jusqu’au millésime 2019, l’indicateur désigne la part des ménages pauvres parmi ceux dont l’origine principale des revenus déclarés est constituée de revenus d’activité. À partir du millésime 2020, il s’agit des revenus disponibles.
+NE PAS FAIRE DE COMPARAISON ENTRE LES SÉRIES AVANT ET APRÈS 2020
+
+Avec le millésime 2023, le dispositif FiLoSoFi connaît une refonte majeure et devient FiLoSoFi 2. [Plus d'informations ici](https://www.insee.fr/fr/metadonnees/source/operation/s2286/presentation)
+
+Compte tenu des changements méthodologiques importants entre les deux dispositifs, **toute analyse sur les évolutions de revenus cherchant à comparer les données de FiLoSoFi et celles de FiLoSoFi 2 est à proscrire**.
+
+----
+
+## **Ménages selon l'origine du revenu**
+
+**ID_indicateur :** pauv_nb_menages_revenus_act
 
 **Périodicité :** Ponctuelle
 
-**Définition :** 
+**Définition :**
 
 Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
 
@@ -1352,14 +1301,23 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 ----
 
-## **ID_indicateur :** pauv_niv_vie_median
+## **Niveau de vie**
+
+**ID_indicateur :** pauv_niv_vie_median, pauv_rapport_interdecile_niv_vie
 
 **Périodicité :** Ponctuelle
 
-**Définition :** 
+**Définition :**
 
 Le [Niveau de vie](#niv_vie) est le rapport du [Revenu disponible](#rev_disp) du ménage auquel appartient l'individu au nombre d’unités de consommation (UC) du ménage. Par convention, tous les individus d’un même ménage ont le même niveau de vie. L’échelle utilisée pour calculer le nombre d’UC d’un ménage est l’échelle de l’OCDE modifiée (1 pour le premier adulte, 0,5 pour les autres personnes de 14 ans ou plus, 0,3 pour les moins de 14 ans). 
 Il est calculé en euros. 
+
+Le niveau de vie médian est le niveau de vie tel que 50% de la population se trouve en dessous et 50% au dessus.
+
+[Rapports interdéciles](#rapp_inter_dec) D9/D1 des niveaux de vie : revenu équivalent (ou [Niveau de vie](#niv_vie)) minimal des 10 % de ménages les plus riches rapporté au revenu équivalent maximal des 10 % les plus pauvres.
+Remarque : la définition européenne utilise D8/D2
+
+Les données 2021 sont proposées dans la géographie en vigueur au 1er janvier 2024.
 
 L'indicateur fourni concerne le niveau de vie médian annuel. Les données sont arrondies à la dizaine.
 Les données 2021 sont proposées dans la géographie en vigueur au 1er janvier 2024.
@@ -1370,7 +1328,7 @@ Le revenu disponible est le revenu à la disposition du ménage pour consommer e
 Les aides locales (prestations versées par les mairies, association, etc...) ne sont pas prises en compte pour le calcul du revenu disponible.
 
 Le « ménage fiscal » est un ménage constitué par le regroupement des foyers fiscaux répertoriés dans un même logement. Son existence, une année donnée, tient au fait que coïncident au moins une déclaration indépendante de revenus et l’occupation d’un logement connu à la Taxe d’Habitation. Les ménages constitués de personnes ne disposant pas de leur indépendance fiscale (essentiellement des étudiants) sont comptés dans les ménages où ils déclarent leurs revenus même s'ils occupent un logement indépendant.
-[Nombre de personnes du ménage fiscal](#nb_pers_men_fisc)
+[Nombre de personnes du ménage fiscal](#men_fisc)
 
 **Objectif :**
 
@@ -1393,11 +1351,13 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 ----
 
-## **ID_indicateur :** pauv_part_enf_m3_men_pauv_ac_frais_garde
+## **Enfants de moins de 3 ans vivant dans un ménage pauvre**
+
+**ID_indicateur :** pauv_part_enf_m3_men_pauv_ac_frais_garde
 
 **Périodicité :** Ponctuelle
 
-**Définition :** 
+**Définition :**
 
 Part des enfants de moins de 3 ans vivant dans un ménage pauvre et déclarant des frais de garde parmi les enfants de moins de 3 ans vivant dans un ménage pauvre :
 part des enfants de moins de 3 ans vivant dans des ménages pauvres (dont le [Revenu disponible](#rev_disp) par UC est en-dessous du seuil de [pauvreté](#pauv) à 60 %) et qui déclarent une déduction fiscale relative au mode de garde parmi les enfants de moins de 3 ans vivant dans les ménages pauvres.
@@ -1417,7 +1377,7 @@ Le revenu disponible est le revenu à la disposition du ménage pour consommer e
 Les aides locales (prestations versées par les mairies, association, etc...) ne sont pas prises en compte pour le calcul du revenu disponible.
 
 Le « ménage fiscal » est un ménage constitué par le regroupement des foyers fiscaux répertoriés dans un même logement. Son existence, une année donnée, tient au fait que coïncident au moins une déclaration indépendante de revenus et l’occupation d’un logement connu à la Taxe d’Habitation. Les ménages constitués de personnes ne disposant pas de leur indépendance fiscale (essentiellement des étudiants) sont comptés dans les ménages où ils déclarent leurs revenus même s'ils occupent un logement indépendant.
-[Nombre de personnes du ménage fiscal](#nb_pers_men_fisc)
+[Nombre de personnes du ménage fiscal](#men_fisc)
 
 **Objectif :**
 
@@ -1439,65 +1399,24 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 ----
 
-## **ID_indicateur :** pauv_rapport_interdecile_niv_vie
+## **Taux de pauvreté monétaire**
 
-**Périodicité :** Ponctuelle
-
-**Définition :** 
-
-[Rapports interdéciles](#rapp_inter_dec) D9/D1 des niveaux de vie : revenu équivalent (ou [Niveau de vie](#niv_vie)) minimal des 10 % de ménages les plus riches rapporté au revenu équivalent maximal des 10 % les plus pauvres.
-Remarque : la définition européenne utilise D8/D2
-
-Les données 2021 sont proposées dans la géographie en vigueur au 1er janvier 2024.
-
-Le [Revenu disponible](#rev_disp) par [Unité de consommation](#uc) (UC), également appelé "niveau de vie", est le revenu disponible par "équivalent adulte". Il est calculé en rapportant le revenu disponible du ménage au nombre d'unités de consommation qui le composent. Toutes les personnes rattachées au même ménage fiscal ont le même revenu disponible par UC (ou niveau de vie).
-
-Le revenu disponible est le revenu à la disposition du ménage pour consommer et épargner. Il comprend les revenus d'activité, indemnités de chômage, retraites et pensions, revenus fonciers, les revenus financiers (imputés pour ceux qui ne sont pas soumis à déclaration : livrets exonérés, PEA, LEP, CEL, PEL, produits d'assurance vie) et les prestations sociales reçues (prestations familiales, minima sociaux et prestations logements). Au total de ces ressources, on déduit les impôts directs (impôt sur le revenu, taxe d'habitation) et les prélèvements sociaux : Contribution Sociale Généralisée (CSG), Contribution au Remboursement de la Dette Sociale (CRDS).
-Les aides locales (prestations versées par les mairies, association, etc...) ne sont pas prises en compte pour le calcul du revenu disponible.
-
-Le « ménage fiscal » est un ménage constitué par le regroupement des foyers fiscaux répertoriés dans un même logement. Son existence, une année donnée, tient au fait que coïncident au moins une déclaration indépendante de revenus et l’occupation d’un logement connu à la Taxe d’Habitation. Les ménages constitués de personnes ne disposant pas de leur indépendance fiscale (essentiellement des étudiants) sont comptés dans les ménages où ils déclarent leurs revenus même s'ils occupent un logement indépendant.
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
-
-L'indicateur y contribue en qualifiant l'ampleur des disparités de niveau de vie dans le département, après neutralisation de la composition du ménage.
-
-**Intérêt de l’indicateur et interprétation :**
-
-Définit la dispersion des niveaux de vie dans le département (indicateur d’inégalités). Attention, ce n'est pas le rapport du revenu médian des 10 % les plus riches à celui des 10 % les plus pauvres.
-Comparaisons spatiales : situer les territoires par rapport au niveau national, régional, aux autres départements.
-
-**Qualité et limites :**
-
-Il est conseillé d’interpréter avec prudence les évolutions de revenus ou de pauvreté entre deux années consécutives à l’échelon local du fait de changements méthodologiques et / ou de législation. 
-
-Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste la source de référence pour les indicateurs d’inégalité des niveaux de vie et de pauvreté. 
-
-Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
-
-----
-
-## **ID_indicateur :** pauv_tx_pauv_mon, pauv_tx_pauv_mon_1pers, pauv_tx_pauv_mon_2pers, pauv_tx_pauv_mon_3pers, pauv_tx_pauv_mon_4pers, pauv_tx_pauv_mon_5pers, pauv_tx_pauv_mon_30_39,  pauv_tx_pauv_mon_40_49, pauv_tx_pauv_mon_50_59, pauv_tx_pauv_mon_60_74, pauv_tx_pauv_mon_75p, pauv_tx_pauv_mon_couple_ac_enf, pauv_tx_pauv_mon_couple_ss_enf, pauv_tx_pauv_mon_fam_monoparentale, pauv_tx_pauv_mon_femme_seule, pauv_tx_pauv_mon_homme_seul, pauv_tx_pauv_mon_m30, pauv_tx_pauv_mon_men_complexe, pauv_taux_pauv_menage_ac_rev_act
+**ID_indicateur :** pauv_tx_pauv_mon, pauv_tx_pauv_mon_1pers, pauv_tx_pauv_mon_2pers, pauv_tx_pauv_mon_3pers, pauv_tx_pauv_mon_4pers, pauv_tx_pauv_mon_5pers, pauv_tx_pauv_mon_m30, pauv_tx_pauv_mon_30_39, pauv_tx_pauv_mon_40_49, pauv_tx_pauv_mon_50_59, pauv_tx_pauv_mon_60_74, pauv_tx_pauv_mon_75p, pauv_tx_pauv_mon_couple_ac_enf, pauv_tx_pauv_mon_couple_ss_enf, pauv_tx_pauv_mon_fam_monoparentale, pauv_tx_pauv_mon_femme_seule, pauv_tx_pauv_mon_homme_seul, pauv_tx_pauv_mon_men_complexe, pauv_taux_pauv_menage_ac_rev_act
 
 **Périodicité :** Ponctuelle
 
 Le taux de [pauvreté](#pauv) monétaire et certains découpages selon l'[âge](#age) sont disponibles pour 2023
 
-**Définition :** 
+**Définition :**
 
-Taux de [pauvreté](#pauv) monétaire : part de la population dont le [Revenu disponible](#rev_disp) du ménage par [Unité de consommation](#uc), dit « niveau de vie », est inférieur à 60 % de la médiane nationale (définition européenne).
+Taux de [pauvreté](#pauv) monétaire : part de la population dont le [revenu disponible](#rev_disp) du ménage par [unité de consommation](#uc), dit « niveau de vie », est inférieur à 60 % de la médiane nationale (définition européenne).
 Unité de consommation : échelle d’Oxford révisée.
 
 Indicateur exprimé en %.
 
-Le revenu disponible par unité de consommation (UC), également appelé "[Niveau de vie](#niv_vie)", est le revenu disponible par "équivalent adulte". Il est calculé en rapportant le revenu disponible du ménage au nombre d'unités de consommation qui le composent. Toutes les personnes rattachées au même ménage fiscal ont le même revenu disponible par UC (ou niveau de vie).
+Le [niveau de vie](#niv_vie), est le revenu disponible par "équivalent adulte". Il est calculé en rapportant le revenu disponible du ménage au nombre d'unités de consommation qui le composent.
 
-Le revenu disponible est le revenu à la disposition du ménage pour consommer et épargner. Il comprend les revenus d'activité, indemnités de chômage, retraites et pensions, revenus fonciers, les revenus financiers (imputés pour ceux qui ne sont pas soumis à déclaration : livrets exonérés, PEA, LEP, CEL, PEL, produits d'assurance vie) et les prestations sociales reçues (prestations familiales, minima sociaux et prestations logements). Au total de ces ressources, on déduit les impôts directs (impôt sur le revenu, taxe d'habitation) et les prélèvements sociaux : Contribution Sociale Généralisée (CSG), Contribution au Remboursement de la Dette Sociale (CRDS).
-Les aides locales (prestations versées par les mairies, association, etc...) ne sont pas prises en compte pour le calcul du revenu disponible.
-
-Le « ménage fiscal » est un ménage constitué par le regroupement des foyers fiscaux répertoriés dans un même logement. Son existence, une année donnée, tient au fait que coïncident au moins une déclaration indépendante de revenus et l’occupation d’un logement connu à la Taxe d’Habitation. Les ménages constitués de personnes ne disposant pas de leur indépendance fiscale (essentiellement des étudiants) sont comptés dans les ménages où ils déclarent leurs revenus même s'ils occupent un logement indépendant.
-[Nombre de personnes du ménage fiscal](#nb_pers_men_fisc)
+Le « [ménage fiscal](#men_fisc) » est un ménage constitué par le regroupement des foyers fiscaux répertoriés dans un même logement. Son existence, une année donnée, tient au fait que coïncident au moins une déclaration indépendante de revenus et l’occupation d’un logement connu à la Taxe d’Habitation. Les ménages constitués de personnes ne disposant pas de leur indépendance fiscale (essentiellement des étudiants) sont comptés dans les ménages où ils déclarent leurs revenus même s'ils occupent un logement indépendant.
 
 Impact du système socio-fiscal :
 
@@ -1544,24 +1463,31 @@ Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste
 
 Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
 
+A partir de 2023, la refonte du dispositif FiLoSoFi rend impossible le calcul des indicateurs de taux de pauvreté selon les types de famille.
+Compte tenu des changements méthodologiques importants entre les deux dispositifs, **toute analyse sur les évolutions de revenus cherchant à comparer les données de Filosofi et celles de Filosofi 2 est à proscrire**.
+
 ----
 
-## **ID_indicateur :** ph_benef_aah
+## **AAH : Nombre d'allocataires**
+
+**ID_indicateur :** ph_benef_aah
 
 **Périodicité :** Ponctuelle
 
-**Définition :** 
+**Définition :**
 
-Nombre d'allocataires de l'AAH
+Nombre d'allocataires de l'[AAH](aah)
 Pour les données Cnaf la répartition est faite selon le département de la caisse de gestion
 
 ----
 
-## **ID_indicateur :** ph_enfants_part_eleves_handicap_1_2_deg_1000, ph_enfants_part_eleves_handicap_1_deg_1000, ph_enfants_part_eleves_handicap_2_deg_1000
+## **Scolarité des enfants handicapés**
+
+**ID_indicateur :** ph_enfants_part_eleves_handicap_1_2_deg_1000, ph_enfants_part_eleves_handicap_1_deg_1000, ph_enfants_part_eleves_handicap_2_deg_1000
 
 **Périodicité :** Ponctuelle
 
-**Définition :** 
+**Définition :**
 
 Les modalités de scolarisation d'un jeune en situation de handicap sont diverses : scolarisation à temps complet ou partiel, en milieu ordinaire (i.e. dans une école ou un établissement scolaire de second degré) ou dans un établissement spécialisé (sanitaire ou médico-social), à domicile avec l'aide d'une association ou du CNED, etc... Ces différents modes de scolarisation peuvent se succéder ou se combiner.
 
@@ -1597,21 +1523,25 @@ Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'es
 
 ----
 
-## **ID_indicateur :** ph_nb_pers_mandataires_indiv, ph_nb_pers_mandataires_indiv_services, ph_nb_pers_mandataires_services
+## **Mandataires**
+
+**ID_indicateur :** ph_nb_pers_mandataires_indiv, ph_nb_pers_mandataires_indiv_services, ph_nb_pers_mandataires_services
 
 **Périodicité :** Ponctuelle
 
-**Définition :** 
+**Définition :**
 
 Nombre de personnes prises en charge par des mandataires individuels, par des services mandataires et total
 
 ----
 
-## **ID_indicateur :** ph_part_benef_aah_15_64_new, ph_part_benef_aah_15_64_old, ph_part_benef_aah_20_64_new, ph_part_benef_aah_20_64_old
+## **AAH : Parts de bénéficiaires**
+
+**ID_indicateur :** ph_part_benef_aah_15_64_new, ph_part_benef_aah_15_64_old, ph_part_benef_aah_20_64_new, ph_part_benef_aah_20_64_old
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
 
 L’allocation aux adultes handicapés (AAH), instituée en 1975, s’adresse aux personnes handicapées ne pouvant prétendre ni à un avantage vieillesse ni à une rente d’accident du travail. Le titulaire doit justifier d’un taux d’incapacité d’au moins 80%, ou d’au moins 50% si la CDAPH (commission des droits et de l’autonomie des personnes handicapées) reconnaît qu’il lui est impossible de travailler en raison de son handicap.
 
@@ -1639,11 +1569,14 @@ Comparaisons entre les départements
 
 ----
 
-## **ID_indicateur :** ph_part_limitations_act_quo_25_59, ph_part_limitations_act_quo_60p, ph_part_limitations_act_quo_m25
+## **Limitations dans les activités quotidiennes**
+
+**ID_indicateur :** ph_part_limitations_act_quo_25_59, ph_part_limitations_act_quo_60p, ph_part_limitations_act_quo_m25
 
 **Périodicité :** Annuelle
 
-**Définition :** 
+**Définition :**
+
 Part de la population déclarant des limitations dans leurs activités quotidiennes
 
 ------------------
