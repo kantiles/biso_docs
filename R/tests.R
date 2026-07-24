@@ -7,7 +7,6 @@ library(glue)
 library(httr2)
 library(readr)
 
-
 # Sommaire ---
 
 # Les tests à créer sont :

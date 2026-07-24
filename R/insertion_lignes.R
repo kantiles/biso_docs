@@ -296,7 +296,7 @@ resultat_liens <- str_replace_all(
 
 write_lines(
   resultat_liens,
-  "documentation_biso2.qmd"
+  "documentation_biso.qmd"
 )
 
 quarto::quarto_render("documentation_biso.qmd")
