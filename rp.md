@@ -1,50 +1,16 @@
-# Indicateurs provenant du Recensement de la Population (RP)
 
-## **ID_indicateur :** fam_part_enf_ss_act_occ_mono, fam_part_enf_ss_act_occ_couple, fam_part_enf_ss_act_occ, fam_part_enf_mono_parmi_ss_act_occ, fam_part_enf_mono
+# Indicateurs provenant du [Recensement de la Population (RP)](#rp)
 
-**Source :** Insee, RP, exploitation complémentaire
+## **Superficie et densité**
 
-**Dates :** 2022
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :** 
-
-- **Numérateur :** Nombre d'enfants de moins de 18 ans vivant dans une famille dont le(s) parent(s) n'a (n’ont) pas d'emploi et n’est (ne sont) ni retraité(s) ni étudiant(s)
-- **Dénominateur :** Nombre d'enfants de moins de 18 ans
-
-Indicateur exprimé en %
-
-L'indicateur est décliné selon le type de famille (monoparentale ou couple).
-
-Sont également diffusées :
-- la part des enfants vivant dans une famille monoparentale parmi les enfants vivant dans une famille dont le(s) parent(s) n'a (n’ont) pas d'emploi et n’est (ne sont) ni retraité(s) ni étudiant(s)
-- la part des enfants vivant dans une famille monoparentale parmi l'ensemble des enfants
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs à la protection de l'enfance et de la jeunesse en danger est de mesurer la part de la population des mineurs et jeunes majeurs en risque de danger, ou en danger, ou encore bénéficiaires d'une mesure d'aide sociale à l'enfance ainsi que l'offre d'accueil existant pour ces publics.
-
-Cet indicateur y contribue en évaluant la part des enfants vivant dans un contexte familial fragilisé, au regard de l'emploi et selon le type de famille.
-
-**Intérêt de l’indicateur et interprétation :**
-
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’Enquête annuelle de recensement en 2021)
-
-----
-
-## **ID_indicateur :** cont_densite_pop, cont_superficie
-
-**Source :** Insee, estimation de la population
-
-**Dates :** 2016 à 2025
+**ID_indicateur :** cont_densite_pop, cont_superficie
 
 **Périodicité :** Annuelle
 
-**Descriptif :** 
+**Descriptif :**
 
 - **Numérateur :** Population au 01/01/N+1
-- **Dénominateur :** Superficie
+- **Dénominateur :** Superficie en km2
 
 **Objectif :**
 
@@ -52,43 +18,26 @@ L'objectif stratégique des indicateurs de contexte est de caractériser le terr
 
 ----
 
-## **ID_indicateur :** pop_rp_tot, cont_part_pop_immig
+## **Population définitives et part d'immigrés**
 
-**Source :** Insee, RP
-
-**Dates :** 2022
+**ID_indicateur :** pop_rp_tot, cont_part_pop_immig
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
-**Descriptif :** 
+**Descriptif :**
 
 Population selon le Recensement de la Population et part de la population immigrée.
 
 ----
 
-## **ID_indicateur :** fam_part_fam_mono
+## **Indice de vieillissement**
 
-**Source :** Insee, RP
-
-**Dates :** 2022
+**ID_indicateur :** cont_ind_vieillisement_pop
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
-**Descriptif :** 
+**Descriptif :**
 
-Part des familles monoparentales.
-
-----
-
-## **ID_indicateur :** cont_ind_vieillisement_pop
-
-**Source :** Insee, RP, estimations de population et populations définitives
-
-**Dates :** 2022
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :** 
 Définition européenne.
 
 C’est le nombre de personnes de 65 ans ou plus pour 100 personnes de moins de 20 ans.
@@ -98,7 +47,7 @@ C’est le nombre de personnes de 65 ans ou plus pour 100 personnes de moins de 
 
 Indicateur exprimé en %.
 
-L'âge s'entend comme l'âge atteint au 1er janvier de l'année considérée.
+L'[âge](#age) s'entend comme l'âge atteint au 1er janvier de l'année considérée.
 
 **Objectif :**
 
@@ -117,36 +66,82 @@ Les résultats sont provisoires ; ils deviennent définitifs avec le recensement
 
 ----
 
-## **ID_indicateur :** cont_tx_croissance_annuel_moyen, cont_tx_croissance_annuel_moyen_solde_mig
+## **Taux de croissance**
 
-**Source :** Insee, RP
-
-**Dates :** 2022
+**ID_indicateur :** cont_tx_croissance_annuel_moyen, cont_tx_croissance_annuel_moyen_solde_mig
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
-**Descriptif :** 
+**Descriptif :**
 
-Taux de croissance annuel moyen et taux dû au solde migratoire
+Taux de croissance annuel moyen et taux dû au solde migratoire entre 2016 et 2022 (2012 à 2017 pour Mayotte).
 
 ----
 
-## **ID_indicateur :** cont_part_pop_pole_urbain, cont_part_pop_pole_urbain_com_centre, cont_part_pop_pole_urbain_autre_com, cont_part_pop_no_pole_urbain_com_couronnes, cont_part_pop_no_pole_urbain_hors_attraction, cont_part_pop_no_pole_urbain
+## **Logement sur et sous-occupés**
 
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2022
+**ID_indicateur :** lgmt_part_residences_princ_sur_occ, lgmt_part_residences_princ_sous_occ, lgmt_part_residences_princ_occ_normal, lgmt_part_residences_princ_sous_occ_h_studio_1p, lgmt_part_residences_princ_sur_occ_h_studio_1p, lgmt_part_residences_princ_occ_normal_h_studio_1p, lgmt_part_residences_princ_sous_occ_h_studio_1_2p, lgmt_part_residences_princ_sur_occ_h_studio_1_2p, lgmt_part_residences_princ_occ_normal_h_studio_1_2p
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
-**Descriptif :** 
+**Descriptif :**
+
+Le concept de suroccupation repose sur la composition du ménage et le nombre de pièces du logement. 
+
+Un logement est ici considéré comme suroccupé quand il lui manque au moins une pièce par rapport à la norme d' « occupation normale », fondée sur :
+
+- une pièce de séjour pour le ménage,
+- une pièce pour la personne de référence de chaque famille occupant le logement,
+- une pièce pour les personnes hors famille non célibataires ou les célibataires de 19 ans et plus, et, pour les célibataires de moins de 19 ans :
+- une pièce pour deux enfants s'ils sont de même sexe ou ont moins de 7 ans,
+- sinon, une pièce par enfant.
+
+A l'inverse, un logement est considéré en sous-occupation lorsqu'il y a au moins une pièce en plus par rapport à la norme d'occupation définie ci-dessus.
+
+Par construction, les logements d'une pièce sont considérés comme suroccupés.
+
+- **Numérateur :** Nombre de logements : en suroccupation, en occupation normale, en sous-occupation
+- **Dénominateur :** Nombre de logements des résidences principales. 
+
+Indicateurs exprimés en %.
+
+NB : cette approche diffère de l'indice de peuplement des logements
+
+Remarque : à partir des résultats du recensement de la population 2016, le concept de personne de référence du ménage et de la famille est modifié. Les règles de détermination de la personne de référence ont changé de manière à privilégier désormais l'activité au lieu du genre. Ainsi, l'homme n'est plus automatiquement la personne de référence dans un couple de sexe différent.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
+
+Cet indicateur y contribue en estimant la part de logements de taille non adaptée à la composition du ménage l'occupant. Il s'agit un taux de suroccupation du logement, calculé à partir du nombre de pièces du logement et de la composition du ménage.
+
+**Intérêt de l’indicateur et interprétation :**
+
+Estimer un aspect du mal-logement : logement trop petit par rapport aux besoins du ménage occupant (comparaison dans le temps et entre départements)
+
+**Qualité et limites :**
+
+Cette définition ne prend pas en compte la surface des logements. 
+Par définition, les logements d'une pièce sont considérés comme suroccupés (phénomène particulièrement visible à Paris).
+C’est pourquoi des indicateurs hors studios occupés par une personne, et hors studios occupés par une ou deux personnes, sont fournis en complément.
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
+
+----
+
+## **Population urbaine/rurale**
+
+**ID_indicateur :** cont_part_pop_pole_urbain, cont_part_pop_pole_urbain_com_centre, cont_part_pop_pole_urbain_autre_com, cont_part_pop_no_pole_urbain_com_couronnes, cont_part_pop_no_pole_urbain_hors_attraction, cont_part_pop_no_pole_urbain
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
 
 - **Numérateur :** Nombre d'habitants dans la population vivant dans les pôles, les communes-centres, les autres communes en pôle, les communes des couronnes ou les communes hors attraction des villes
 - **Dénominateur :** Population totale du département
 
 L'indicateur est exprimé en %.
 
-**Définition :**
+**Définitions :**
 
 L’aire d’attraction d’une ville définit l’étendue de son influence sur les communes environnantes. Une aire est composée d’un pôle, défini à partir de critères de population et d’emploi, et d’une couronne, constituée des communes dont au moins 15 % des actifs travaillent dans le pôle. Au sein du pôle, la commune la plus peuplée est appelée commune-centre. Dans certains cas, dont Paris, l’aire peut comprendre plusieurs pôles. Cette approche fonctionnelle de la ville permet d’étudier les disparités territoriales selon deux dimensions : la taille de l’aire et la distinction entre centre et périphérie.
 
@@ -170,18 +165,17 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 ----
 
-## **ID_indicateur :** cont_mobilite_resid_m18, cont_mobilite_resid_18_24, cont_mobilite_resid_25_39, cont_mobilite_resid_40_59, cont_mobilite_resid_60p, cont_mobilite_resid_interdp_18_39, cont_mobilite_resid_interdp_20_34
+## **Mobilité résidentielle**
 
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
+**ID_indicateur :** cont_mobilite_resid_m18, cont_mobilite_resid_18_24, cont_mobilite_resid_25_39, cont_mobilite_resid_40_59, cont_mobilite_resid_60p, cont_mobilite_resid_interdp_18_39, cont_mobilite_resid_interdp_20_34
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. Comparaison dans le temps (intervalle passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
 Depuis le recensement de 2013, les migrations résidentielles sont mesurées sur un an, alors qu’elles étaient mesurées sur cinq ans depuis 2004. De ce fait, les comparaisons des volumes de migrations ne peuvent se faire directement avec les recensements antérieurs.
 
-**Descriptif :** 
+**Descriptif :**
 
 Au sein du territoire national, deux types de mouvements migratoires sont susceptibles d'affecter l'évolution de la population d'une zone géographique donnée :
+
 - d'une part, des mouvements en provenance ou à destination de l'étranger, qui affectent à la fois le solde migratoire de la zone et le solde migratoire national
 - d'autre part, des mouvements internes au territoire national, entre la zone considérée et les autres parties du territoire, qui affectent le solde migratoire de la zone sans affecter le solde migratoire national.
 
@@ -230,22 +224,20 @@ Par ailleurs, comme pour toutes les autres données du recensement rénové, le 
 
 ----
 
-## **ID_indicateur :** cont_tx_act, cont_tx_act_h, cont_tx_act_f, cont_tx_act_f_15_24, cont_tx_act_f_25_49, cont_tx_act_f_50_64, cont_tx_act_h_15_24, cont_tx_act_h_25_49, cont_tx_act_h_50_64, cont_tx_act_50_64, cont_tx_act_50_64_chom, cont_tx_act_50_64_empl, cont_tx_act_50_64_f_chom, cont_tx_act_50_64_f_empl, cont_tx_act_50_64_h_chom, cont_tx_act_50_64_h_empl
+## **Taux d'activité**
 
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
+**ID_indicateur :** cont_tx_act, cont_tx_act_h, cont_tx_act_f, cont_tx_act_f_15_24, cont_tx_act_f_25_49, cont_tx_act_f_50_64, cont_tx_act_h_15_24, cont_tx_act_h_25_49, cont_tx_act_h_50_64, cont_tx_act_50_64, cont_tx_act_50_64_chom, cont_tx_act_50_64_empl, cont_tx_act_50_64_f_chom, cont_tx_act_50_64_f_empl, cont_tx_act_50_64_h_chom, cont_tx_act_50_64_h_empl
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
-**Descriptif :** 
-L'indicateur est le taux d’activité.
+**Descriptif :**
 
 - **Numérateur :** Nombre d’actifs (actifs occupés et chômeurs, au sens du recensement)
 
 - **Dénominateur :** Population de 15 à 64 ans révolus
 
 La population active au sens du recensement de la population comprend les personnes qui déclarent :
+
 - exercer une profession (salariée ou non) même à temps partiel
 - aider un membre de la famille dans son travail (même sans rémunération)
 - être apprenti, stagiaire rémunéré
@@ -269,7 +261,7 @@ Déclinaison par sous-population :
 
 L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
 
-Cet indicateur y contribue en caractérisant les marchés locaux du travail, par la mesure de la part de main d’œuvre employée et disponible dans la population en âge de travailler, en fonction de l'âge.
+Cet indicateur y contribue en caractérisant les marchés locaux du travail, par la mesure de la part de main d’œuvre employée et disponible dans la population en âge de travailler, en fonction de l'[âge](#age).
 
 **Intérêt de l’indicateur et interprétation :**
 
@@ -284,156 +276,13 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 ----
 
-## **ID_indicateur :** cont_nb_actifs_50_64, cont_part_actifs_50_64_empl_admin_sante, cont_part_actifs_50_64_empl_agri, cont_part_actifs_50_64_empl_agri_sylvi_peche, cont_part_actifs_50_64_empl_arti_com_chefs, cont_part_actifs_50_64_empl_cadres, cont_part_actifs_50_64_empl_commerce_trans, cont_part_actifs_50_64_empl_construction, cont_part_actifs_50_64_empl_employes, cont_part_actifs_50_64_empl_industrie, cont_part_actifs_50_64_empl_ouvriers, cont_part_actifs_50_64_empl_prof_int
+## **CSP de la population**
 
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
+**ID_indicateur :** cont_part_csp_agri, cont_part_csp_aut_sans_act_pro, cont_part_csp_arti_com_ce, cont_part_csp_cadres, cont_part_csp_prof_inter, cont_part_csp_employ, cont_part_csp_ouvr_qual, cont_part_csp_ouvr_non_qual, cont_part_csp_retraites, cont_part_csp_eleves_etu_stag, cont_part_csp_retraites_agri, cont_part_csp_retraites_arti_com_ce, cont_part_csp_retraites_cadre_prof_inter, cont_part_csp_retraites_employ_ouvr
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
-**Descriptif :** 
-Nombre d'actifs agés de 50 à 64 ans et répartition dans les secteurs d'activité 
-
-- **Numérateur :** Nombre d’actifs agés de 50 à 64 ans dans le secteur
-
-- **Dénominateur :** Nombre d'actifs agés de 50 à 64 ans
-
-**Qualité et limites :**
-
-Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
-Limite : les chômeurs découragés ne sont pas pris en compte.
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-
-----
-
-## **ID_indicateur :** cont_part_empl_50_64_non_sal, cont_part_empl_50_64_sal, cont_part_empl_50_64_sal_cdd, cont_part_empl_50_64_sal_cdi, cont_part_empl_50_64_sal_interim, cont_part_empl_50_64_sal_tps_part
-
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :** 
-Répartition des 50-64 ans en emploi selon les caractéristiques de leurs contrats.
-
-**Qualité et limites :**
-
-Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
-Limite : les chômeurs découragés ne sont pas pris en compte.
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-
-----
-
-## **ID_indicateur :** cont_tx_chom_50_64, cont_tx_chom_f_50_64, cont_tx_chom_h_50_64, cont_tx_chom_long_dur_50_64, cont_tx_chom_long_dur_f_50_64, cont_tx_chom_long_dur_h_50_64
-
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :** 
-
-Taux de chômage des 50 à 64 ans selon le sexe et la durée du chômage.
-
-**Qualité et limites :**
-
-Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
-Limite : les chômeurs découragés ne sont pas pris en compte.
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-
-----
-
-## **ID_indicateur :** cont_part_f_15_19_eleves, cont_part_f_15_19_emploi, cont_part_f_20_24_eleves, cont_part_f_20_24_emploi, cont_part_h_15_19_eleves, cont_part_h_15_19_emploi, cont_part_h_20_24_eleves, cont_part_h_20_24_emploi
-
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :** 
-
-Part des filles et des garçons de 15 à 19 ans et de 20 à 24 ans élèves, étudiants ou stagiaires et en emploi, y compris en apprentissage
-
-**Qualité et limites :**
-
-Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
-Limite : les chômeurs découragés ne sont pas pris en compte.
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-
-----
-
-## **ID_indicateur :** cont_nb_neet_16_25, cont_nb_neet_16_25_chom, cont_nb_neet_26_29, cont_nb_neet_26_29_chom, cont_repart_neet_16_25_bac, cont_repart_neet_16_25_bac_p2, cont_repart_neet_16_25_bac_p3_4, cont_repart_neet_16_25_bac_p5p, cont_repart_neet_16_25_brevet, cont_repart_neet_16_25_cap_bep, cont_repart_neet_16_25_f, cont_repart_neet_16_25_h, cont_repart_neet_16_25_no_dipl, cont_repart_neet_26_29_bac, cont_repart_neet_26_29_bac_p2, cont_repart_neet_26_29_bac_p3_4, cont_repart_neet_26_29_bac_p5p, cont_repart_neet_26_29_brevet, cont_repart_neet_26_29_cap_bep, cont_repart_neet_26_29_f, cont_repart_neet_26_29_h, cont_repart_neet_26_29_no_dipl
-
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :** 
-
-Nombre de NEET de 16 à 25 ans et de 26 à 29 ans et répartition selon le sexe, le diplome et le statut professionnel.
-
-**Qualité et limites :**
-
-Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
-Limite : les chômeurs découragés ne sont pas pris en compte.
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-
-----
-
-## **ID_indicateur :** cont_nb_retraites_pre_retraites, cont_nb_retraites_pre_retraites_empl, cont_part_h_retraites_pre_retraites_m65_empl, cont_part_retraites_pre_retraites_empl, cont_part_retraites_pre_retraites_m65, cont_part_retraites_pre_retraites_m65_empl, cont_repart_cumul_empl_retraite_agri, cont_repart_cumul_empl_retraite_arti_com_chefs, cont_repart_cumul_empl_retraite_cadres, cont_repart_cumul_empl_retraite_employes, cont_repart_cumul_empl_retraite_ouvriers, cont_repart_cumul_empl_retraite_prof_int, cont_repart_retraites_pre_retraites_60_64, cont_repart_retraites_pre_retraites_65_69, cont_repart_retraites_pre_retraites_70_74, cont_repart_retraites_pre_retraites_75p, cont_repart_retraites_pre_retraites_dipl_supp, cont_repart_retraites_pre_retraites_m60, cont_repart_retraites_pre_retraites_non_sal, cont_repart_retraites_pre_retraites_tps_part
-
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :** 
-
-Nombre de retraités et de pré-retraités et répartition selon l'âge révolu, le type de contrat, le statut professionnel, la catégorie socio-professionnelle. 
-
-**Qualité et limites :**
-
-Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
-Limite : les chômeurs découragés ne sont pas pris en compte.
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-----
-
-## **ID_indicateur :** cont_repart_actifs_occ_agri, cont_repart_actifs_occ_arti_com_chefs, cont_repart_actifs_occ_cadres, cont_repart_actifs_occ_employes, cont_repart_actifs_occ_ouvriers, cont_repart_actifs_occ_prof_int
-
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :** 
-
-Répartition des retraités et de pré-retraités parmis les actifs occupés de chaque catégorie socio-professionnelle.
-
-**Qualité et limites :**
-
-Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
-Limite : les chômeurs découragés ne sont pas pris en compte.
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-
-----
-
-## **ID_indicateur :** cont_part_csp_agri, cont_part_csp_aut_sans_act_pro, cont_part_csp_arti_com_ce, cont_part_csp_cadres, cont_part_csp_prof_inter, cont_part_csp_employ, cont_part_csp_ouvr_qual, cont_part_csp_ouvr_non_qual, cont_part_csp_retraites, cont_part_csp_eleves_etu_stag, cont_part_csp_retraites_agri, cont_part_csp_retraites_arti_com_ce, cont_part_csp_retraites_cadre_prof_inter, cont_part_csp_retraites_employ_ouvr
-
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :** 
+**Descriptif :**
 
 - **Numérateur :** Population au lieu de résidence par CS (postes du premier niveau de la PCS 2020 ; les postes employés et ouvriers sont ventilés en non qualifiés et autres ; les retraités par ancienne PCS regroupée : anciens cadres et professions intermédiaires, anciens ouvriers employés ; autres).
 
@@ -461,99 +310,27 @@ Comparaison dans le temps (intervalle de 5 ans, passé à 6 ans du fait de l’a
 
 ----
 
-## **ID_indicateur :** cont_part_dipl_enseign_sup_25_34
+## **CSP des actifs occupés**
 
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2006, 2011, 2016 et 2022
+**ID_indicateur :** cont_repart_actifs_occ_agri, cont_repart_actifs_occ_arti_com_chefs, cont_repart_actifs_occ_cadres, cont_repart_actifs_occ_employes, cont_repart_actifs_occ_ouvriers, cont_repart_actifs_occ_prof_int
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
-**Descriptif :** 
+**Descriptif :**
 
-- **Numérateur :** Nombre de jeunes âgés de 25 à 34 ans diplômés du supérieur et non inscrits dans un établissement d’enseignement.
-
-- **Dénominateur :** Nombre de jeunes âgés de 25 à 34 ans non inscrits dans un établissement d’enseignement (le dénominateur choisi ici n’est pas le total de la classe d’âge résidant dans le département, afin de s'affranchir de la mobilité résidentielle élevée des étudiants).
-
-« Diplômes de l’enseignement supérieur » : diplômes délivrés par les établissements d’enseignement supérieur (DUT, BTS, licence...), correspondant aux niveaux 5 à 8 définis par la nomenclature internationale CITE 2011 à partir des données 2014, et aux niveaux 5 et 6 de la CITE 1997 pour les données des années antérieures.
-
-Jeunes : 25-34 ans.
-
-L'indicateur est exprimé en pourcentage.
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
-
-Cet indicateur y contribue en quantifiant l'attractivité du département pour les jeunes diplômés, par la mesure de part des diplômés de l'enseignement supérieur parmi les jeunes de 25 à 34 ans qui ne sont pas en formation.
-
-**Intérêt de l’indicateur et interprétation :**
-
-La présence de jeunes diplômés est un atout pour le territoire.
+Répartition des catégories socio-professionnelles parmi l'ensemble des actifs occupés.
 
 **Qualité et limites :**
 
-On sait que si les jeunes ne sont pas en formation à la date d’interrogation, cela ne garantit pas qu’ils ont achevé leurs études. 
-Comparaison dans le temps Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-
-----
-
-## **ID_indicateur :** lgmt_part_residences_princ_sur_occ, lgmt_part_residences_princ_sous_occ, lgmt_part_residences_princ_occ_normal, lgmt_part_residences_princ_sous_occ_h_studio_1p, lgmt_part_residences_princ_sur_occ_h_studio_1p, lgmt_part_residences_princ_occ_normal_h_studio_1p, lgmt_part_residences_princ_sous_occ_h_studio_1_2p, lgmt_part_residences_princ_sur_occ_h_studio_1_2p, lgmt_part_residences_princ_occ_normal_h_studio_1_2p
-
-**Source :** Insee, Recensement de la population, exploitation complémentaire
-
-**Dates :** 2016 et 2022
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :** 
-
-Le concept de suroccupation repose sur la composition du ménage et le nombre de pièces du logement. 
-
-Un logement est ici considéré comme suroccupé quand il lui manque au moins une pièce par rapport à la norme d' « occupation normale », fondée sur :
-- une pièce de séjour pour le ménage,
-- une pièce pour la personne de référence de chaque famille occupant le logement,
-- une pièce pour les personnes hors famille non célibataires ou les célibataires de 19 ans et plus, et, pour les célibataires de moins de 19 ans :
-- une pièce pour deux enfants s'ils sont de même sexe ou ont moins de 7 ans,
-- sinon, une pièce par enfant.
-
-A l'inverse, un logement est considéré en sous-occupation lorsqu'il y a au moins une pièce en plus par rapport à la norme d'occupation définie ci-dessus.
-
-Par construction, les logements d'une pièce sont considérés comme suroccupés.
-
-- **Numérateur :** Nombre de logements : en suroccupation, en occupation normale, en sous-occupation
-- **Dénominateur :** Nombre de logements des résidences principales. 
-
-Indicateurs exprimés en %.
-
-NB : cette approche diffère de l'indice de peuplement des logements
-
-Remarque : à partir des résultats du recensement de la population 2016, le concept de personne de référence du ménage et de la famille est modifié. Les règles de détermination de la personne de référence ont changé de manière à privilégier désormais l'activité au lieu du genre. Ainsi, l'homme n'est plus automatiquement la personne de référence dans un couple de sexe différent.
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
-
-Cet indicateur y contribue en estimant la part de logements de taille non adaptée à la composition du ménage l'occupant. Il s'agit un taux de suroccupation du logement, calculé à partir du nombre de pièces du logement et de la composition du ménage.
-
-**Intérêt de l’indicateur et interprétation :**
-
-Estimer un aspect du mal-logement : logement trop petit par rapport aux besoins du ménage occupant (comparaison dans le temps et entre départements)
-
-**Qualité et limites :**
-
-Cette définition ne prend pas en compte la surface des logements. 
-Par définition, les logements d'une pièce sont considérés comme suroccupés (phénomène particulièrement visible à Paris).
-C’est pourquoi des indicateurs hors studios occupés par une personne, et hors studios occupés par une ou deux personnes, sont fournis en complément.
+Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
+Limite : les chômeurs découragés ne sont pas pris en compte.
 Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
 
 ----
 
-## **ID_indicateur :** cont_part_cadres_pop_active, cont_empl_fonction_agri, cont_empl_fonction_btp, cont_empl_fonction_fab, cont_empl_fonction_entr, cont_empl_fonction_distrib, cont_empl_fonction_trans, cont_empl_fonction_serv, cont_empl_fonction_commerce, cont_empl_fonction_culture, cont_empl_fonction_gestion, cont_empl_fonction_sante, cont_empl_fonction_presta, cont_empl_fonction_admin, cont_empl_fonction_educ, cont_empl_fonction_concept
+## **Fonction**
 
-**Source :** Insee, Recensement de la population, exploitation complémentaire au lieu de travail et au lieu de résidence
-
-**Dates :** 2016 et 2022
+**ID_indicateur :** cont_part_cadres_pop_active, cont_empl_fonction_agri, cont_empl_fonction_btp, cont_empl_fonction_fab, cont_empl_fonction_entr, cont_empl_fonction_distrib, cont_empl_fonction_trans, cont_empl_fonction_serv, cont_empl_fonction_commerce, cont_empl_fonction_culture, cont_empl_fonction_gestion, cont_empl_fonction_sante, cont_empl_fonction_presta, cont_empl_fonction_admin, cont_empl_fonction_educ, cont_empl_fonction_concept
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. L’intervalle est passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021.
 
@@ -606,15 +383,13 @@ Le changement de nomenclature, de la PCS 2003 vers la PCS 2020 a eu des effets d
 
 ----
 
-## **ID_indicateur :** cont_part_jeunes_non_inseres_18_25
+## **Jeunes non insérés**
 
-**Source :** Insee, Recensement de la population, exploitation principale
-
-**Dates :** 2016 et 2022
+**ID_indicateur :** cont_part_jeunes_non_inseres_18_25
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte.
 
-**Descriptif :** 
+**Descriptif :**
 
 La part des jeunes non insérés est le rapport des jeunes de 18 à 25 ans qui n’ont pas d’emploi et ne sont ni étudiants, élèves ou stagiaires, à l’ensemble de la population des 18 à 25 ans, au lieu de résidence des individus.
 
@@ -641,21 +416,55 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 ----
 
-## **ID_indicateur :** pa_repart_60p_couple_enf, pa_repart_60p_institution, pa_repart_60p_autres_non_seules, pa_repart_60p_seules, pa_repart_75p_couple_enf, pa_repart_75p_institution, pa_repart_75p_autres_non_seules, pa_repart_75p_seules
+## **Étudiants**
 
-**Source :** Insee, recensement de la population, exploitation complémentaire
+**ID_indicateur :** cont_part_f_15_19_eleves, cont_part_f_15_19_emploi, cont_part_f_20_24_eleves, cont_part_f_20_24_emploi, cont_part_h_15_19_eleves, cont_part_h_15_19_emploi, cont_part_h_20_24_eleves, cont_part_h_20_24_emploi
 
-**Dates :** 2016 et 2022
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+Part des filles et des garçons de 15 à 19 ans et de 20 à 24 ans élèves, étudiants ou stagiaires et en emploi, y compris en apprentissage
+
+**Qualité et limites :**
+
+Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
+Limite : les chômeurs découragés ne sont pas pris en compte.
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
+
+----
+
+## **NEET**
+
+**ID_indicateur :** cont_nb_neet_16_25, cont_nb_neet_16_25_chom, cont_nb_neet_26_29, cont_nb_neet_26_29_chom, cont_repart_neet_16_25_bac, cont_repart_neet_16_25_bac_p2, cont_repart_neet_16_25_bac_p3_4, cont_repart_neet_16_25_bac_p5p, cont_repart_neet_16_25_brevet, cont_repart_neet_16_25_cap_bep, cont_repart_neet_16_25_f, cont_repart_neet_16_25_h, cont_repart_neet_16_25_no_dipl, cont_repart_neet_26_29_bac, cont_repart_neet_26_29_bac_p2, cont_repart_neet_26_29_bac_p3_4, cont_repart_neet_26_29_bac_p5p, cont_repart_neet_26_29_brevet, cont_repart_neet_26_29_cap_bep, cont_repart_neet_26_29_f, cont_repart_neet_26_29_h, cont_repart_neet_26_29_no_dipl
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+Nombre de NEET de 16 à 25 ans et de 26 à 29 ans et répartition selon le sexe, le diplome et le statut professionnel.
+
+**Qualité et limites :**
+
+Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
+Limite : les chômeurs découragés ne sont pas pris en compte.
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
+
+----
+
+## **Situation familiale**
+
+**ID_indicateur :** pa_repart_60p_couple_enf, pa_repart_60p_institution, pa_repart_60p_autres_non_seules, pa_repart_60p_seules, pa_repart_75p_couple_enf, pa_repart_75p_institution, pa_repart_75p_autres_non_seules, pa_repart_75p_seules
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte.
 
-**Descriptif :** 
+**Descriptif :**
 
 - **Numérateur :** Nombre de personnes 
- - vivant en couple avec ou sans leurs enfants ou seules avec leurs enfants,
- - vivant en institution,
- - autres cas de personnes ne vivant pas seules (fratries, amis…),
- - vivant seules dans leur logement
+  - vivant en couple avec ou sans leurs enfants ou seules avec leurs enfants,
+  - vivant en institution,
+  - autres cas de personnes ne vivant pas seules (fratries, amis…),
+  - vivant seules dans leur logement
 
 - **Dénominateur :** Population de 60 ans et plus ; population de 75 ans et plus
 
@@ -673,15 +482,57 @@ Comparaison dans le temps (intervalle de 6 ans pour tenir compte de l’absence 
 
 ----
 
-## **ID_indicateur :** cont_part_no_dipl_no_scol_25_34, cont_part_no_dipl_no_scol_20_24
+## **Familles monoparentales**
 
-**Source :** Insee, recensement de la population, exploitation complémentaire
+**ID_indicateur :** fam_part_fam_mono
 
-**Dates :** 2016 et 2022
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+Part des familles monoparentales.
+
+----
+
+## **Parents sans emplois**
+
+**ID_indicateur :** fam_part_enf_ss_act_occ_mono, fam_part_enf_ss_act_occ_couple, fam_part_enf_ss_act_occ, fam_part_enf_mono_parmi_ss_act_occ, fam_part_enf_mono
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+- **Numérateur :** Nombre d'enfants de moins de 18 ans vivant dans une famille dont le(s) parent(s) n'a (n’ont) pas d'emploi et n’est (ne sont) ni retraité(s) ni étudiant(s)
+- **Dénominateur :** Nombre d'enfants de moins de 18 ans
+
+Indicateur exprimé en %
+
+L'indicateur est décliné selon le type de famille (monoparentale ou couple).
+
+Sont également diffusées :
+
+- la part des enfants vivant dans une famille monoparentale parmi les enfants vivant dans une famille dont le(s) parent(s) n'a (n’ont) pas d'emploi et n’est (ne sont) ni retraité(s) ni étudiant(s)
+- la part des enfants vivant dans une famille monoparentale parmi l'ensemble des enfants
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs à la protection de l'enfance et de la jeunesse en danger est de mesurer la part de la population des mineurs et jeunes majeurs en risque de danger, ou en danger, ou encore bénéficiaires d'une mesure d'aide sociale à l'enfance ainsi que l'offre d'accueil existant pour ces publics.
+
+Cet indicateur y contribue en évaluant la part des enfants vivant dans un contexte familial fragilisé, au regard de l'emploi et selon le type de famille.
+
+**Intérêt de l’indicateur et interprétation :**
+
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’Enquête annuelle de recensement en 2021)
+
+---- 
+
+## **Pas ou peu diplômés**
+
+**ID_indicateur :** cont_part_no_dipl_no_scol_25_34, cont_part_no_dipl_no_scol_20_24
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte.
 
-**Descriptif :** 
+**Descriptif :**
 
 - **Numérateur :** Nombre de jeunes non inscrits dans un établissement d’enseignement et qui ne sont pas ou peu diplômés, c’est-à-dire ne sont pas titulaires d’un CAP, BEP, brevet de compagnon ni d’un diplôme plus élevé.
 Ainsi, sont considérées ici comme sans diplôme les personnes non diplômées ou titulaires au mieux du CFG (certificat de formation générale) ou du CEP (certificat d'études primaires, supprimé en 1989), du DNB (diplôme national du brevet) ou du Brevet des collèges (ex BEPC).
@@ -706,5 +557,121 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 Si les jeunes ne sont pas en formation à la date d’interrogation, cela ne garantit pas qu’ils ont achevé leurs études. Or, il y a une zone de flou particulièrement forte entre scolarité classique et apprentissage. Pour ceux qui choisissent cette voie, l’entre-deux peut fréquemment durer plusieurs mois. Il faut donc éviter les âges trop jeunes. 
 D’autre part, le questionnaire est auto-administré et certaines situations d’alternance peuvent ne pas être comptées en formation, ce qui peut majorer l’indicateur. 
+
+----
+
+## **Diplômés du supérieur**
+
+**ID_indicateur :** cont_part_dipl_enseign_sup_25_34
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+- **Numérateur :** Nombre de jeunes âgés de 25 à 34 ans diplômés du supérieur et non inscrits dans un établissement d’enseignement.
+
+- **Dénominateur :** Nombre de jeunes âgés de 25 à 34 ans non inscrits dans un établissement d’enseignement (le dénominateur choisi ici n’est pas le total de la classe d’âge résidant dans le département, afin de s'affranchir de la mobilité résidentielle élevée des étudiants).
+
+« Diplômes de l’enseignement supérieur » : diplômes délivrés par les établissements d’enseignement supérieur (DUT, BTS, licence...), correspondant aux niveaux 5 à 8 définis par la nomenclature internationale CITE 2011 à partir des données 2014, et aux niveaux 5 et 6 de la CITE 1997 pour les données des années antérieures.
+
+Jeunes : 25-34 ans.
+
+L'indicateur est exprimé en pourcentage.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
+
+Cet indicateur y contribue en quantifiant l'attractivité du département pour les jeunes diplômés, par la mesure de part des diplômés de l'enseignement supérieur parmi les jeunes de 25 à 34 ans qui ne sont pas en formation.
+
+**Intérêt de l’indicateur et interprétation :**
+
+La présence de jeunes diplômés est un atout pour le territoire.
+
+**Qualité et limites :**
+
+On sait que si les jeunes ne sont pas en formation à la date d’interrogation, cela ne garantit pas qu’ils ont achevé leurs études. 
+Comparaison dans le temps Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
+
+----
+
+## **Séniors : Activité**
+
+**ID_indicateur :** cont_nb_actifs_50_64, cont_part_actifs_50_64_empl_admin_sante, cont_part_actifs_50_64_empl_agri_sylvi_peche, cont_part_actifs_50_64_empl_commerce_trans, cont_part_actifs_50_64_empl_industrie, cont_part_actifs_50_64_empl_construction, cont_part_actifs_50_64_empl_agri, cont_part_actifs_50_64_empl_arti_com_chefs, cont_part_actifs_50_64_empl_cadres, cont_part_actifs_50_64_empl_employes,  cont_part_actifs_50_64_empl_ouvriers, cont_part_actifs_50_64_empl_prof_int
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+Nombre d'actifs agés de 50 à 64 ans et répartition dans les secteurs d'activité 
+
+- **Numérateur :** Nombre d’actifs agés de 50 à 64 ans dans le secteur
+
+- **Dénominateur :** Nombre d'actifs agés de 50 à 64 ans
+
+**Qualité et limites :**
+
+Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
+Limite : les chômeurs découragés ne sont pas pris en compte.
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
+
+----
+
+## **Séniors : Type d'emploi**
+
+**ID_indicateur :** cont_part_empl_50_64_non_sal, cont_part_empl_50_64_sal, cont_part_empl_50_64_sal_cdd, cont_part_empl_50_64_sal_cdi, cont_part_empl_50_64_sal_interim, cont_part_empl_50_64_sal_tps_part
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+Répartition des 50-64 ans en emploi selon les caractéristiques de leurs contrats.
+
+**Qualité et limites :**
+
+Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
+Limite : les chômeurs découragés ne sont pas pris en compte.
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
+
+----
+
+## **Séniors : Chômage**
+
+**ID_indicateur :** cont_tx_chom_50_64, cont_tx_chom_f_50_64, cont_tx_chom_h_50_64, cont_tx_chom_long_dur_50_64, cont_tx_chom_long_dur_f_50_64, cont_tx_chom_long_dur_h_50_64
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+Taux de chômage des 50 à 64 ans selon le sexe et la durée du chômage.
+
+**Qualité et limites :**
+
+Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
+Limite : les chômeurs découragés ne sont pas pris en compte.
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
+
+----
+
+## **Retraités et pré-retraités**
+
+**ID_indicateur :** cont_nb_retraites_pre_retraites, cont_nb_retraites_pre_retraites_empl, cont_part_h_retraites_pre_retraites_m65_empl, cont_part_retraites_pre_retraites_empl, cont_part_retraites_pre_retraites_m65, cont_part_retraites_pre_retraites_m65_empl, cont_repart_cumul_empl_retraite_agri, cont_repart_cumul_empl_retraite_arti_com_chefs, cont_repart_cumul_empl_retraite_cadres, cont_repart_cumul_empl_retraite_employes, cont_repart_cumul_empl_retraite_ouvriers, cont_repart_cumul_empl_retraite_prof_int, cont_repart_retraites_pre_retraites_60_64, cont_repart_retraites_pre_retraites_65_69, cont_repart_retraites_pre_retraites_70_74, cont_repart_retraites_pre_retraites_75p, cont_repart_retraites_pre_retraites_dipl_supp, cont_repart_retraites_pre_retraites_m60, cont_repart_retraites_pre_retraites_non_sal, cont_repart_retraites_pre_retraites_tps_part
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+Nombre de retraités et de pré-retraités et répartition selon l'[âge](#age) révolu, le type de contrat, le statut professionnel, la catégorie socio-professionnelle. 
+
+Les données sur le cumul emploi-retraite sont tirées du recensement de la population, seule source disponible à l’échelle départementale. En revanche, à l’échelle nationale, d’autres approches sont utilisées dans les publications de la Drees
+https://drees.solidarites-sante.gouv.fr/sites/default/files/2022-05/22%20-%20Le%20cumul%20emploi-retraite_0.pdf
+Entre ces différentes approches, des différences peuvent exister sur les données nationales. Elles tiennent à la précision des sources mais également aux concepts et définitions retenus, le recensement de la population étant purement déclaratif 
+
+**Qualité et limites :**
+
+Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
+Limite : les chômeurs découragés ne sont pas pris en compte.
+
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
 
 ----
