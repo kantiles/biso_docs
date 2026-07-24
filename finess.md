@@ -1,7 +1,7 @@
 
 # Indicateurs provenant de [Finess](#finess)
 
-## **ASE : Nombre de places**
+## **ASE : Nombre de places** {#ase_places}
 
 **ID_indicateur :** ase_places_cpfse, ase_places_etab_acc_mere_enfant, ase_places_foyer_enfance, ase_places_lieux_vie_accueil, ase_places_mecs, ase_places_pouponniere_social, ase_places_struct_inter_placement_soc, ase_places_village_enfants
 
@@ -10,12 +10,6 @@
 **Descriptif :**
 
 Nombre de places installées en établissement d'aide sociale à l'enfance au 31 décembre
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs à la protection de l'enfance et de la jeunesse en danger est de mesurer la part de la population des mineurs et jeunes majeurs en risque de danger, ou en danger, ou encore bénéficiaires d'une mesure d'aide sociale à l'enfance ainsi que l'offre d'accueil existant pour ces publics.
-
-Cet indicateur y contribue en décrivant l'offre d'accueil en établissement d'aide sociale à l'enfance.
 
 **Définitions :**
 
@@ -28,6 +22,12 @@ Les pouponnières à caractère social accueillent des enfants de la naissance �
 Les foyers de l’enfance accueillent, à tout moment, tout mineur en situation difficile nécessitant une aide d’urgence (parfois sous placement judiciaire). Ils sont des lieux d’observation et d’évaluation qui permettent de préparer une orientation du mineur (retour à la famille, placement en famille d’accueil, placement en établissement, adoption).
 
 Les maisons d’enfants à caractère social (MECS) sont les héritières des orphelinats. Elles accueillent des enfants et adolescents dont les familles ne peuvent assumer la charge et l’éducation à la suite de difficultés momentanées ou durables.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs à la protection de l'enfance et de la jeunesse en danger est de mesurer la part de la population des mineurs et jeunes majeurs en risque de danger, ou en danger, ou encore bénéficiaires d'une mesure d'aide sociale à l'enfance ainsi que l'offre d'accueil existant pour ces publics.
+
+Cet indicateur y contribue en décrivant l'offre d'accueil en établissement d'aide sociale à l'enfance.
 
 **Intérêt de l’indicateur et interprétation :**
 
@@ -60,23 +60,15 @@ L'enquête auprès des établissements et services de la protection de l’enfan
 
 Indicateur exprimé en pour 1000
 
+**Définitions :**
+
+Voir (ASE : Nombre de places)[#ase_places]
+
 **Objectif :**
 
 L'objectif stratégique des indicateurs relatifs à la protection de l'enfance et de la jeunesse en danger est de mesurer la part de la population des mineurs et jeunes majeurs en risque de danger, ou en danger, ou encore bénéficiaires d'une mesure d'aide sociale à l'enfance ainsi que l'offre d'accueil existant pour ces publics.
 
 Cet indicateur y contribue en décrivant l'offre d'accueil en établissement d'aide sociale à l'enfance.
-
-**Définitions :**
-
-Établissements d'aide sociale à l'enfance : établissements d'accueil mère-enfant, pouponnières à caractère social, foyers de l'enfance, maisons d'enfants à caractère social, structures intermédiaires de placement social, lieux de vie et d'accueil, villages d'enfants. Hors établissement exclusivement gérés par la PJJ.
-
-Les établissements d’accueil mère-enfant accueillent des femmes enceintes ou mères isolées en difficulté. La durée de la prise en charge est de 6 mois renouvelable (maximum 3 ans). L'hébergement permet aux mères de bénéficier d'une formation professionnelle adaptée, de rechercher ou d'exercer un emploi.
-
-Les pouponnières à caractère social accueillent des enfants de la naissance à trois ans qui ne peuvent rester au sein de leur famille ou bénéficier d’un placement familial surveillé.
-
-Les foyers de l’enfance accueillent, à tout moment, tout mineur en situation difficile nécessitant une aide d’urgence (parfois sous placement judiciaire). Ils sont des lieux d’observation et d’évaluation qui permettent de préparer une orientation du mineur (retour à la famille, placement en famille d’accueil, placement en établissement, adoption).
-
-Les maisons d’enfants à caractère social (MECS) sont les héritières des orphelinats. Elles accueillent des enfants et adolescents dont les familles ne peuvent assumer la charge et l’éducation à la suite de difficultés momentanées ou durables.
 
 **Intérêt de l’indicateur et interprétation :**
 
@@ -110,7 +102,7 @@ Les nombres de places d'hébergement d'urgences (hs_places_urgences), de stabili
 
 ----
 
-## **Personnes agées : Nombre d'établissements médico-sociaux**
+## **Personnes agées : Nombre d'établissements médico-sociaux** {#pa_etab}
 
 **ID_indicateur :** pa_etab_autres_etab, pa_etab_centre_jour, pa_etab_ehpad, pa_etab_resid_autonomie, pa_etab_ssiad_spasad, pa_etab_usld
 
@@ -127,9 +119,15 @@ Les SSIAD et SPASAD intègrent les services autonomes et services rattachés à 
 
 Les maisons de retraite, lieux d’hébergement collectif, assurent une prise en charge globale de la personne âgée, incluant l’hébergement en chambre (ou en logement), les repas et divers services spécifiques.
 
+Les établissements d’hébergement pour personnes âgées dépendantes (EHPAD), existent depuis 2001. Progressivement, les établissements accueillant des personnes âgées dépendantes signent des conventions tripartites avec leur conseil général et l’assurance maladie, devenant ainsi des EHPAD, et s’engagent sur les conditions de fonctionnement de l’établissement sur le plan financier de même que sur la qualité de la prise en charge des personnes et des soins qui leur sont prodigués. Les EHPAD sont le plus souvent des maisons de retraite, parfois des logements-foyers mais peuvent aussi être issus d’établissements sanitaires ; il s’agit alors de redéfinition de places d’unités de soins de longue durée en longs séjours médico-sociaux.
+
 Les unités de soins de longue durée (USLD) constituent les structures les plus médicalisées, destinées à l’accueil des personnes les plus dépendantes.
 
-Les établissements d’hébergement pour personnes âgées dépendantes (EHPAD), existent depuis 2001. Progressivement, les établissements accueillant des personnes âgées dépendantes signent des conventions tripartites avec leur conseil général et l’assurance maladie, devenant ainsi des EHPAD, et s’engagent sur les conditions de fonctionnement de l’établissement sur le plan financier de même que sur la qualité de la prise en charge des personnes et des soins qui leur sont prodigués. Les EHPAD sont le plus souvent des maisons de retraite, parfois des logements-foyers mais peuvent aussi être issus d’établissements sanitaires ; il s’agit alors de redéfinition de places d’unités de soins de longue durée en longs séjours médico-sociaux.
+Les établissements expérimentaux pour personnes âgées accueillent un nombre limité de résidents, souvent proches du domicile et avec un projet thérapeutique visant à stimuler les capacités d'autonomie des personnes.
+
+Les logements-foyers sont des groupes de logements autonomes (parfois aussi des chambres) assortis d’équipements ou de services collectifs dont l’usage est facultatif.
+
+Plus marginalement, des résidences d’hébergement temporaire permettant à la personne âgée de faire face à des difficultés passagères telles que l’absence momentanée de la famille, l’isolement, la convalescence, ou encore l’inadaptation du logement en hiver.
 
 **Objectif :**
 
@@ -152,6 +150,10 @@ Nombre de places dans des établissements médico-sociaux pour personnes agées 
 Tous les établissements d'accueils sont comptés hors foyers-restaurants.
 
 Pour les Unités de soins de longue durée (USLD), la source est SAE - Activité réalisée : Soins de longue durée (SLD).
+
+**Définitions :**
+
+Voir (Personnes agées : Nombre d'établissements médico-sociaux)[#pa_etab]
 
 **Objectif :**
 
@@ -176,25 +178,15 @@ Les établissement non-ephad contiennent la Guadeloupe y compris Saint-Martin et
 
 Indicateur exprimé en pour 1000
 
+**Définitions :**
+
+Voir (Personnes agées : Nombre d'établissements médico-sociaux)[#pa_etab]
+
 **Objectif :**
 
 L'objectif stratégique des indicateurs relatifs au personnes âgées est de mesurer la part des personnes âgées dépendantes ou en risque de dépendance et des aides qui leur sont attribuées, selon différentes dimensions : aide à domicile, y compris pour les personnes âgées en grande perte d'autonomie, aide en établissement, isolement et risque d'isolement des personnes âgées, offre de soins à domicile et d'hébergement, coordination gérontologique à l'échelle du département.
 
 Cet indicateur y contribue en appréciant l’offre d'équipement en places d’hébergement à destination des personnes âgées.
-
-**Définitions :**
-
-Les maisons de retraite, lieux d’hébergement collectif, assurent une prise en charge globale de la personne âgée, incluant l’hébergement en chambre (ou en logement), les repas et divers services spécifiques.
-
-Établissements expérimentaux pour personnes âgées : établissements qui accueillent un nombre limité de résidents, souvent proches du domicile et avec un projet thérapeutique visant à stimuler les capacités d'autonomie des personnes.
-
-Les unités de soins de longue durée (USLD) constituent les structures les plus médicalisées, destinées à l’accueil des personnes les plus dépendantes.
-
-Plus marginalement, des résidences d’hébergement temporaire permettant à la personne âgée de faire face à des difficultés passagères telles que l’absence momentanée de la famille, l’isolement, la convalescence, ou encore l’inadaptation du logement en hiver.
-
-Les logements-foyers sont des groupes de logements autonomes (parfois aussi des chambres) assortis d’équipements ou de services collectifs dont l’usage est facultatif.
-
-Les établissements d’hébergement pour personnes âgées dépendantes (EHPAD), existent depuis 2001. Progressivement, les établissements accueillant des personnes âgées dépendantes signent des conventions tripartites avec leur conseil général et l’assurance maladie, devenant ainsi des EHPAD, et s’engagent sur les conditions de fonctionnement de l’établissement sur le plan financier de même que sur la qualité de la prise en charge des personnes et des soins qui leur sont prodigués. Les EHPAD sont le plus souvent des maisons de retraite, parfois des logements-foyers mais peuvent aussi être issus d’établissements sanitaires ; il s’agit alors de redéfinition de places d’unités de soins de longue durée en longs séjours médico-sociaux.
 
 **Intérêt de l’indicateur et interprétation :**
 
@@ -211,7 +203,7 @@ L'enquête de la Drees auprès des établissements d'hébergement pour personnes
 
 ----
 
-## **Adultes handicapées : Nombre d'établissements médico-sociaux** {#ph_adulte_etab}
+## **Adultes handicapés : Nombre d'établissements médico-sociaux** {#ph_adulte_etab}
 
 **ID_indicateur :** ph_adultes_etab_crp_cpo_ueros, ph_adultes_etab_eat, ph_adultes_etab_esat, ph_adultes_etab_exp, ph_adultes_etab_fam_eam, ph_adultes_etab_foyers_ph, ph_adultes_etab_mas, ph_adultes_etab_savs_samsah, ph_adultes_etab_ssiad_spasah
 
@@ -262,7 +254,7 @@ Cet indicateur y contribue par la description de l’offre d'accueil et d'accomp
 
 ----
 
-## **Adultes handicapées : Nombre de places en établissements médico-sociaux** 
+## **Adultes handicapés : Nombre de places en établissements médico-sociaux** 
 
 **ID_indicateur :** ph_adultes_places_acc_jour, ph_adultes_places_acc_jour_eat, ph_adultes_places_acc_jour_exp, ph_adultes_places_acc_jour_fam_eam, ph_adultes_places_acc_jour_foyers_ph, ph_adultes_places_acc_jour_mas, ph_adultes_places_acc_medicalise, ph_adultes_places_acc_specialise, ph_adultes_places_acc_temp_eat, ph_adultes_places_acc_temp_exp, ph_adultes_places_acc_temp_fam_eam, ph_adultes_places_acc_temp_foyers_ph, ph_adultes_places_acc_temp_hors_jour, ph_adultes_places_acc_temp_mas, ph_adultes_places_acc_vie, ph_adultes_places_accomp_vie_soc, ph_adultes_places_crp_cpo_ueros, ph_adultes_places_eat, ph_adultes_places_esat, ph_adultes_places_exp, ph_adultes_places_fam_eam, ph_adultes_places_foyers_ph, ph_adultes_places_mas, ph_adultes_places_savs_samsah, ph_adultes_places_ssiad_spasah
 
@@ -290,7 +282,7 @@ Cet indicateur y contribue par la description de l’offre d'accueil et d'accomp
 
 ----
 
-## **Adultes handicapées : Taux d'équipement en établissements médico-sociaux** 
+## **Adultes handicapés : Taux d'équipement en établissements médico-sociaux** 
 
 **ID_indicateur :** ph_adultes_tx_equip_acc_medicalise_1000_20_59, ph_adultes_tx_equip_acc_specialise_1000_20_59, ph_adultes_tx_equip_acc_vie_1000_20_59, ph_adultes_tx_equip_esat_1000_20_59, ph_adultes_tx_equip_etab_acc_non_medic_1000_20_59, ph_adultes_tx_equip_foyers_eam_1000_20_59, ph_adultes_tx_equip_heberg_1000_20_59, ph_adultes_tx_equip_mas_1000_20_59, ph_adultes_tx_equip_savs_samsah_1000_20_59
 
@@ -307,15 +299,15 @@ Le taux d'équipement en places dans les établissements pour enfants handicapé
 
 Le taux d'équipement en places dans les SESSAD (ph_enfants_tx_equip_sessad_1000_m20) est hors places d'accueil temporaire.
 
+**Définitions :**
+
+Voir (Adultes handicapées : Nombre d'établissements médico-sociaux)[#ph_adulte_etab]
+
 **Objectif :**
 
 L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la part de la population en situation de handicap et des aides qui leur sont attribuées, selon différentes dimensions : risque de handicap, handicap ressenti, handicap reconnu, aides ou prestations attribuées, offre d'accueil et d'accompagnement. 
 
 Cet indicateur y contribue par la description de l’offre d'accueil et d'accompagnement des personnes en situation de handicap, enfant ou adulte.
-
-**Définitions :**
-
-Voir (Adultes handicapées : Nombre d'établissements médico-sociaux)[#ph_adulte_etab]
 
 **Intérêt de l’indicateur et interprétation :**
 
@@ -366,7 +358,7 @@ Cet indicateur y contribue par la description de l’offre d'accueil et d'accomp
 
 ----
 
-## **Enfants handicapées : Nombre de places en établissements médico-sociaux** 
+## **Enfants handicapés : Nombre de places en établissements médico-sociaux** 
 
 **ID_indicateur :** ph_enfants_places_acc_ext_semi_int_iem, ph_enfants_places_acc_ext_semi_int_ime, ph_enfants_places_acc_ext_semi_int_itep, ph_enfants_places_acc_ext_semi_int_jeunes_def_sens, ph_enfants_places_acc_ext_semi_int_polyhandicap, ph_enfants_places_acc_jour_jeunes_def_sens, ph_enfants_places_acc_temp_iem, ph_enfants_places_acc_temp_ime, ph_enfants_places_acc_temp_itep, ph_enfants_places_acc_temp_jeunes_def_sens, ph_enfants_places_acc_temp_polyhandicap, ph_enfants_places_etab_acc_temp, ph_enfants_places_exp, ph_enfants_places_foyer_heberg, ph_enfants_places_iem, ph_enfants_places_ime, ph_enfants_places_itep, ph_enfants_places_jardins_acc_ext_semi_int_enf_spe, ph_enfants_places_jardins_acc_jour_enf_spe, ph_enfants_places_jardins_acc_temp_enf_spe, ph_enfants_places_jardins_enf_spe, ph_enfants_places_acc_ext_semi_int_exp, ph_enfants_places_acc_temp_exp, ph_enfants_places_jeunes_def_sens, ph_enfants_places_polyhandicap, ph_enfants_places_sessad
 
@@ -380,8 +372,7 @@ Pour les Centres Médico-Psycho-Pédagogique (CMPP) et les Centres Action Médic
 
 **Définitions :**
 
-Voir (Enfants handicapés : Nombre d'établissements médico-sociaux)
-[#ph_enfant_etab]
+Voir (Enfants handicapés : Nombre d'établissements médico-sociaux)[#ph_enfant_etab]
 
 **Objectif :**
 
@@ -391,7 +382,7 @@ Cet indicateur y contribue par la description de l’offre d'accueil et d'accomp
 
 ----
 
-## **Enfants handicapées : Taux d'équipement en établissements médico-sociaux** 
+## **Enfants handicapés : Taux d'équipement en établissements médico-sociaux** 
 
 **ID_indicateur :** ph_enfants_tx_equip_etab_1000_m20, ph_enfants_tx_equip_sessad_1000_m20
 
@@ -410,8 +401,7 @@ Le taux d'équipement en places dans les SESSAD (ph_enfants_tx_equip_sessad_1000
 
 **Définitions :**
 
-Voir (Enfants handicapés : Nombre d'établissements médico-sociaux)
-[#ph_enfant_etab]
+Voir (Enfants handicapés : Nombre d'établissements médico-sociaux)[#ph_enfant_etab]
 
 **Objectif :**
 
@@ -419,4 +409,4 @@ L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la p
 
 Cet indicateur y contribue par la description de l’offre d'accueil et d'accompagnement des personnes en situation de handicap, enfant ou adulte.
 
-------------------
+----

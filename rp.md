@@ -276,105 +276,6 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 ----
 
-## **Séniors : Activité**
-
-**ID_indicateur :** cont_nb_actifs_50_64, cont_part_actifs_50_64_empl_admin_sante, cont_part_actifs_50_64_empl_agri, cont_part_actifs_50_64_empl_agri_sylvi_peche, cont_part_actifs_50_64_empl_arti_com_chefs, cont_part_actifs_50_64_empl_cadres, cont_part_actifs_50_64_empl_commerce_trans, cont_part_actifs_50_64_empl_construction, cont_part_actifs_50_64_empl_employes, cont_part_actifs_50_64_empl_industrie, cont_part_actifs_50_64_empl_ouvriers, cont_part_actifs_50_64_empl_prof_int
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :**
-
-Nombre d'actifs agés de 50 à 64 ans et répartition dans les secteurs d'activité 
-
-- **Numérateur :** Nombre d’actifs agés de 50 à 64 ans dans le secteur
-
-- **Dénominateur :** Nombre d'actifs agés de 50 à 64 ans
-
-**Qualité et limites :**
-
-Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
-Limite : les chômeurs découragés ne sont pas pris en compte.
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-
-----
-
-## **Séniors : Type d'emploi**
-
-**ID_indicateur :** cont_part_empl_50_64_non_sal, cont_part_empl_50_64_sal, cont_part_empl_50_64_sal_cdd, cont_part_empl_50_64_sal_cdi, cont_part_empl_50_64_sal_interim, cont_part_empl_50_64_sal_tps_part
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :**
-
-Répartition des 50-64 ans en emploi selon les caractéristiques de leurs contrats.
-
-**Qualité et limites :**
-
-Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
-Limite : les chômeurs découragés ne sont pas pris en compte.
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-
-----
-
-## **Séniors : Chômage**
-
-**ID_indicateur :** cont_tx_chom_50_64, cont_tx_chom_f_50_64, cont_tx_chom_h_50_64, cont_tx_chom_long_dur_50_64, cont_tx_chom_long_dur_f_50_64, cont_tx_chom_long_dur_h_50_64
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :**
-
-Taux de chômage des 50 à 64 ans selon le sexe et la durée du chômage.
-
-**Qualité et limites :**
-
-Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
-Limite : les chômeurs découragés ne sont pas pris en compte.
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-
-----
-
-## **Retraités et pré-retraités**
-
-**ID_indicateur :** cont_nb_retraites_pre_retraites, cont_nb_retraites_pre_retraites_empl, cont_part_h_retraites_pre_retraites_m65_empl, cont_part_retraites_pre_retraites_empl, cont_part_retraites_pre_retraites_m65, cont_part_retraites_pre_retraites_m65_empl, cont_repart_cumul_empl_retraite_agri, cont_repart_cumul_empl_retraite_arti_com_chefs, cont_repart_cumul_empl_retraite_cadres, cont_repart_cumul_empl_retraite_employes, cont_repart_cumul_empl_retraite_ouvriers, cont_repart_cumul_empl_retraite_prof_int, cont_repart_retraites_pre_retraites_60_64, cont_repart_retraites_pre_retraites_65_69, cont_repart_retraites_pre_retraites_70_74, cont_repart_retraites_pre_retraites_75p, cont_repart_retraites_pre_retraites_dipl_supp, cont_repart_retraites_pre_retraites_m60, cont_repart_retraites_pre_retraites_non_sal, cont_repart_retraites_pre_retraites_tps_part
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :**
-
-Nombre de retraités et de pré-retraités et répartition selon l'[âge](#age) révolu, le type de contrat, le statut professionnel, la catégorie socio-professionnelle. 
-
-Les données sur le cumul emploi-retraite sont tirées du recensement de la population, seule source disponible à l’échelle départementale. En revanche, à l’échelle nationale, d’autres approches sont utilisées dans les publications de la Drees
-https://drees.solidarites-sante.gouv.fr/sites/default/files/2022-05/22%20-%20Le%20cumul%20emploi-retraite_0.pdf
-Entre ces différentes approches, des différences peuvent exister sur les données nationales. Elles tiennent à la précision des sources mais également aux concepts et définitions retenus, le recensement de la population étant purement déclaratif 
-
-**Qualité et limites :**
-
-Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
-Limite : les chômeurs découragés ne sont pas pris en compte.
-
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-
-----
-
-## **CSP des actifs occupés**
-
-**ID_indicateur :** cont_repart_actifs_occ_agri, cont_repart_actifs_occ_arti_com_chefs, cont_repart_actifs_occ_cadres, cont_repart_actifs_occ_employes, cont_repart_actifs_occ_ouvriers, cont_repart_actifs_occ_prof_int
-
-**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
-
-**Descriptif :**
-
-Répartition des catégories socio-professionnelles parmi l'ensemble des actifs occupés.
-
-**Qualité et limites :**
-
-Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
-Limite : les chômeurs découragés ne sont pas pris en compte.
-Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
-
-----
-
 ## **CSP de la population**
 
 **ID_indicateur :** cont_part_csp_agri, cont_part_csp_aut_sans_act_pro, cont_part_csp_arti_com_ce, cont_part_csp_cadres, cont_part_csp_prof_inter, cont_part_csp_employ, cont_part_csp_ouvr_qual, cont_part_csp_ouvr_non_qual, cont_part_csp_retraites, cont_part_csp_eleves_etu_stag, cont_part_csp_retraites_agri, cont_part_csp_retraites_arti_com_ce, cont_part_csp_retraites_cadre_prof_inter, cont_part_csp_retraites_employ_ouvr
@@ -406,6 +307,24 @@ Pouvoir isoler les employés non qualifiés (emplois à domicile, agents de serv
 
 Des indicateurs partiels peuvent être utilement calculés : actifs par CS ; retraités selon l'ancienne profession.
 Comparaison dans le temps (intervalle de 5 ans, passé à 6 ans du fait de l’absence d’enquête annuelle de recensement en 2021).
+
+----
+
+## **CSP des actifs occupés**
+
+**ID_indicateur :** cont_repart_actifs_occ_agri, cont_repart_actifs_occ_arti_com_chefs, cont_repart_actifs_occ_cadres, cont_repart_actifs_occ_employes, cont_repart_actifs_occ_ouvriers, cont_repart_actifs_occ_prof_int
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+Répartition des catégories socio-professionnelles parmi l'ensemble des actifs occupés.
+
+**Qualité et limites :**
+
+Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
+Limite : les chômeurs découragés ne sont pas pris en compte.
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
 
 ----
 
@@ -674,4 +593,85 @@ La présence de jeunes diplômés est un atout pour le territoire.
 On sait que si les jeunes ne sont pas en formation à la date d’interrogation, cela ne garantit pas qu’ils ont achevé leurs études. 
 Comparaison dans le temps Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
 
-----------
+----
+
+## **Séniors : Activité**
+
+**ID_indicateur :** cont_nb_actifs_50_64, cont_part_actifs_50_64_empl_admin_sante, cont_part_actifs_50_64_empl_agri_sylvi_peche, cont_part_actifs_50_64_empl_commerce_trans, cont_part_actifs_50_64_empl_industrie, cont_part_actifs_50_64_empl_construction, cont_part_actifs_50_64_empl_agri, cont_part_actifs_50_64_empl_arti_com_chefs, cont_part_actifs_50_64_empl_cadres, cont_part_actifs_50_64_empl_employes,  cont_part_actifs_50_64_empl_ouvriers, cont_part_actifs_50_64_empl_prof_int
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+Nombre d'actifs agés de 50 à 64 ans et répartition dans les secteurs d'activité 
+
+- **Numérateur :** Nombre d’actifs agés de 50 à 64 ans dans le secteur
+
+- **Dénominateur :** Nombre d'actifs agés de 50 à 64 ans
+
+**Qualité et limites :**
+
+Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
+Limite : les chômeurs découragés ne sont pas pris en compte.
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
+
+----
+
+## **Séniors : Type d'emploi**
+
+**ID_indicateur :** cont_part_empl_50_64_non_sal, cont_part_empl_50_64_sal, cont_part_empl_50_64_sal_cdd, cont_part_empl_50_64_sal_cdi, cont_part_empl_50_64_sal_interim, cont_part_empl_50_64_sal_tps_part
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+Répartition des 50-64 ans en emploi selon les caractéristiques de leurs contrats.
+
+**Qualité et limites :**
+
+Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
+Limite : les chômeurs découragés ne sont pas pris en compte.
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
+
+----
+
+## **Séniors : Chômage**
+
+**ID_indicateur :** cont_tx_chom_50_64, cont_tx_chom_f_50_64, cont_tx_chom_h_50_64, cont_tx_chom_long_dur_50_64, cont_tx_chom_long_dur_f_50_64, cont_tx_chom_long_dur_h_50_64
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+Taux de chômage des 50 à 64 ans selon le sexe et la durée du chômage.
+
+**Qualité et limites :**
+
+Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
+Limite : les chômeurs découragés ne sont pas pris en compte.
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
+
+----
+
+## **Retraités et pré-retraités**
+
+**ID_indicateur :** cont_nb_retraites_pre_retraites, cont_nb_retraites_pre_retraites_empl, cont_part_h_retraites_pre_retraites_m65_empl, cont_part_retraites_pre_retraites_empl, cont_part_retraites_pre_retraites_m65, cont_part_retraites_pre_retraites_m65_empl, cont_repart_cumul_empl_retraite_agri, cont_repart_cumul_empl_retraite_arti_com_chefs, cont_repart_cumul_empl_retraite_cadres, cont_repart_cumul_empl_retraite_employes, cont_repart_cumul_empl_retraite_ouvriers, cont_repart_cumul_empl_retraite_prof_int, cont_repart_retraites_pre_retraites_60_64, cont_repart_retraites_pre_retraites_65_69, cont_repart_retraites_pre_retraites_70_74, cont_repart_retraites_pre_retraites_75p, cont_repart_retraites_pre_retraites_dipl_supp, cont_repart_retraites_pre_retraites_m60, cont_repart_retraites_pre_retraites_non_sal, cont_repart_retraites_pre_retraites_tps_part
+
+**Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
+
+**Descriptif :**
+
+Nombre de retraités et de pré-retraités et répartition selon l'[âge](#age) révolu, le type de contrat, le statut professionnel, la catégorie socio-professionnelle. 
+
+Les données sur le cumul emploi-retraite sont tirées du recensement de la population, seule source disponible à l’échelle départementale. En revanche, à l’échelle nationale, d’autres approches sont utilisées dans les publications de la Drees
+https://drees.solidarites-sante.gouv.fr/sites/default/files/2022-05/22%20-%20Le%20cumul%20emploi-retraite_0.pdf
+Entre ces différentes approches, des différences peuvent exister sur les données nationales. Elles tiennent à la précision des sources mais également aux concepts et définitions retenus, le recensement de la population étant purement déclaratif 
+
+**Qualité et limites :**
+
+Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
+Limite : les chômeurs découragés ne sont pas pris en compte.
+
+Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé à 6 ans pour compenser l’absence de l’enquête annuelle de recensement en 2021)
+
+----

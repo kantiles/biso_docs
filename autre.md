@@ -14,12 +14,6 @@ Population estimée en nombre et en proportion par classe d'[âge](#age).
 - **Numérateur :** Population de la classe d'âge considérée dans le département
 - **Dénominateur :** Population totale du département
 
-**Objectif :**
-
-L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
-
-Cet indicateur y contribue en définissant l’équilibre des âges sur le territoire.
-
 **Définitions :**
 
 Classes d'âge utilisées :
@@ -32,6 +26,12 @@ L'âge s'entend comme l'âge atteint au 1er janvier de l'année considérée.
 
 Les [Estimations de population](#estim_pop) par sexe et âge pour les années 2024, 2025 et 2026 sont provisoires. Elles seront révisées début 2027 lorsque seront disponibles les résultats définitifs du nouveau recensement daté du 1er janvier 2024.
 
+**Objectif :**
+
+L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
+
+Cet indicateur y contribue en définissant l’équilibre des âges sur le territoire.
+
 **Intérêt de l’indicateur et interprétation :**
 
 Comparaisons spatiales et temporelles.
@@ -43,70 +43,126 @@ Les résultats sont provisoires ; ils deviennent définitifs avec le recensement
 
 ----
 
-## **Activité du Juge des enfants**
+## **Naissances et décés**
 
-**ID_indicateur :** ase_part_mineurs_juge, ase_part_mineurs_juge_signal_ase, ase_part_mineurs_juge_signal_autre_canal, ase_part_mineurs_juge_signal_autres, ase_part_mineurs_juge_signal_famille, ase_part_mineurs_juge_signal_office
+**ID_indicateur :** cont_nb_deces_domicilies, cont_nb_naissances
 
 **Périodicité :** Annuelle
 
-**Descriptif :**
+**Définitions :**
 
-Chaque année, les Tribunaux de Grande Instance produisent un Tableau de Bord concernant l’activité du [Juge des enfants](#jde) en matière civile. Ce Tableau de Bord s’intéresse à l’activité de leur juridiction en matière d’assistance éducative.
+Nombre de décés domiciliés et de naissance dans l'année.
 
-ase_part_mineurs_juge (indicateur exprimé en pour mille) :
-
-- **Numérateur :** nombre de mineurs-affaire dont le juge est saisi au civil dans l’année (y compris délégation de compétence et transfert de dossier).
-On dénombre ici des mineurs-affaire dont le juge est saisi en assistance éducative dans l’année (y compris délégation de compétence et transfert de dossier). Ainsi :
-
-  - si une affaire concerne 2 mineurs (une fratrie par exemple), on compte 2 mineurs-affaire
-  - si un même mineur est concerné par 2 affaires au cours de l'année (placement, puis révision du mode de placement dans la même année, par exemple), on compte 2 mineurs-affaire en assistance éducative.
-
-On additionne l’ensemble des signalements (ceux du service de l’aide sociale à l’enfance et les signalements directs) au procureur de la République donnant lieu à une saisine du [Juge des enfants](#jde), avec les saisines directes du juge par les parents, le gardien ou le mineur (y compris les délégations de compétence et transferts de dossiers) et les saisines d’office du [Juge des enfants](#jde). 
-Les conditions pour émettre un signalement au procureur de la République sont précisées dans l’article L. 226-4 du CASF. 
-
-- **Dénominateur :** moyenne de la population des jeunes de 0 à 17 ans du département au 1er janvier 2021 et au 1er janvier 2022.
-
-**Autres indicateurs :**
-
-*Les signalements par le service d’aide sociale à l’enfance :*
-
-Le président du Conseil départemental avise sans délai le procureur de la République lorsqu’un mineur est en danger au sens de l’article 375 du code civil et 
-- que l’action ou les actions mises en œuvre précédemment n’ont pas permis de remédier à la situation.
-- que les mesures décidées ne peuvent être mises en place en raison du refus de la famille d’accepter l’intervention proposée ou de l’impossibilité dans laquelle elle se trouve de collaborer avec ce service. 
-- qu’il est impossible d’évaluer la situation.
-
-*Les signalements directs :*
-
-Toute personne travaillant au sein de services publics, ainsi que les établissements publics ou privés susceptibles de connaître des situations de mineurs en danger ou qui risquent de l’être, peut aviser directement, du fait de la gravité de la situation, le procureur de la République de la situation d’un mineur en danger.
-
-*Autres modes de saisine :*
-
-- les saisines directes du [Juge des enfants](#jde) sont possibles pour le mineur, ses parents ou ses gardiens.
-- le [Juge des enfants](#jde) peut également se saisir d’office (l’auto-saisine).
-- sont regroupés les délégations de compétences, les dessaisissements et les transferts de dossiers.
-
-La délégation de compétences : l’enfant concerné fait l’objet d’un dossier dans lequel interviennent deux juges appartenant à deux tribunaux différents : le juge délégant qui a la charge du suivi de l’enfant et le juge délégataire qui intervient au titre de la délégation de compétence. 
-Ce dernier intervient généralement pour un acte, par exemple, la désignation d’un service pour exercer une AEMO ou faire une mesure judiciaire d'investigation éducative ordonnée par le premier juge.
-Le dessaisissement consiste à transmettre le dossier à un juge d'un autre tribunal qui devient dès lors compétent pour statuer sur ledit dossier. Il est matérialisé par une ordonnance. Il intervient lorsque le juge ne s’estime plus compétent, par exemple suite au déménagement de la famille.
-Le transfert de dossier de juge à juge intervient au sein d'un même tribunal. Il n'y a pas d'ordonnance de dessaisissement.
-
-- **Dénominateur :** nombre de mineurs-affaire dont le juge est saisi au civil dans l’année.
+Avertissement : le total des décès domiciliés est différent de celui des tableaux nationaux, qui comptabilisent les décès enregistrés. 
+Par ailleurs, le total France comprend les décès de Mayotte. Toutefois, pour ce département, les données sur les décès sont à considérer prudemment car elles sont probablement sous-estimées. 
 
 **Objectif :**
 
-L'objectif stratégique des indicateurs relatifs à la protection de l'enfance et de la jeunesse en danger est de mesurer la part de la population des mineurs et jeunes majeurs en risque de danger, ou en danger, ou encore bénéficiaires d'une mesure d'aide sociale à l'enfance ainsi que l'offre d'accueil existant pour ces publics.
-
-Cet indicateur y contribue en évaluant la part de la population des familles en difficulté au regard de l'éducation de leur enfant, par la part des enfants faisant l'objet d’une saisine du [Juge des enfants](#jde) en assistance éducative.
+L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
 
 **Intérêt de l’indicateur et interprétation :**
 
-Cet indicateur mesure le degré de l’intervention de la justice en protection de l’enfance au sein des départements. Il mesure les saisines du [Juge des enfants](#jde), c'est-à-dire les ouvertures de dossier. C’est une donnée de flux : les enfants déjà pris en charge, ne faisant pas l’objet d’une saisine au cours de l’année, n’y sont pas comptabilisés. 
-La déclinaison entre signalements provenant de l'ASE et signalements directs, illustre les pratiques départementales sur les modalités de transmission de signalement vers la justice.
+Comparaisons spatiales.
+En évolution, indique si la position du département s’améliore.
+Les disparités spatiales sont en partie liées aux différences de composition sociale, dont il faut tenir compte dans l’interprétation.
 
 **Qualité et limites :**
 
-Les pratiques des Conseils départementaux peuvent fortement influer sur le nombre de signalements pour lesquels le juge est saisi.
-La part des saisines du parquet et des saisines d’office dont l’origine est « Autres ou inconnue » peut varier selon la juridiction. En 2020, 11 % de l’ensemble des saisines sont des saisines du parquet ou des saisines d’office dont l’origine est « Autres ou inconnue » (9 % concernent les saisines du parquet et 2 % les saisines d’office).
+Les résultats ([Estimations de population](#estim_pop)) sont provisoires ; ils deviennent définitifs avec le recensement de la population.
+Attention aux faibles effectifs concernés dans certains départements.
+
+----
+
+## **Taux de mortalité**
+
+**ID_indicateur :** cont_tx_mortalite_brut_1000, cont_tx_mortalite_brut_femmes_1000, cont_tx_mortalite_brut_hommes_1000, cont_tx_mortalite_infantile_1000, cont_tx_mortalite_standard_0_64_1000, cont_tx_mortalite_standard_65p_1000
+
+**Périodicité :** Annuelle
+
+**Définitions :**
+
+Le taux brut de mortalité est le rapport du nombre de décès de l'année à la population totale moyenne de l'année. Une zone comptant une population plus âgée qu'une autre a en général un taux brut de mortalité plus élevé. 
+
+Pour corriger des différentes structures par [âge](#age) des zones, on utilise des taux standardisés, où les taux de mortalité par âge du territoire sont appliqués à la structure par âge nationale.
+Les taux de mortalité standardisés selon l'âge permettent de comparer les zones, en supprimant les effets des différences de structure par âge de la population. Les taux proposés pour chaque zone sont calculés en prenant en compte la structure par âge quinquennal de la population.
+
+Le taux de mortalité prématurée est le nombre de décès, au cours de l'année, d'individus âgés de moins de 65 ans, rapporté à la population totale des moins de 65 ans, de la même année. 
+
+Le taux de mortalité infantile est le rapport entre le nombre d'enfants décédés à moins d'un an et l'ensemble des enfants nés vivants. Ce taux est lissé sur 3 ans : il est ici égal au nombre de décès d'enfants de moins d'un an divisé par le nombre d'enfants nés vivants sur les 3 années 2022 – 2023 – 2024.
+
+Ces taux sont exprimés en pour 1000.
+
+Avertissement : le total des décès domiciliés est différent de celui des tableaux nationaux, qui comptabilisent les décès enregistrés. 
+Par ailleurs, le total France comprend les décès de Mayotte. Toutefois, pour ce département, les données sur les décès sont à considérer prudemment car elles sont probablement sous-estimées.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
+
+Cet indicateur y contribue en mesurant des taux de mortalité selon l'[âge](#age). 
+
+**Intérêt de l’indicateur et interprétation :**
+
+Comparaisons spatiales.
+En évolution, indique si la position du département s’améliore.
+Les disparités spatiales sont en partie liées aux différences de composition sociale, dont il faut tenir compte dans l’interprétation.
+
+**Qualité et limites :**
+
+Les résultats ([Estimations de population](#estim_pop)) sont provisoires ; ils deviennent définitifs avec le recensement de la population.
+Limites liées aux définitions : l’indicateur standardisé permet de comparer les départements en neutralisant l’effet de structure par [âge](#age), mais les taux bruts permettent une meilleure interprétation des évolutions dans le temps.
+Attention aux faibles effectifs concernés dans certains départements.
+
+----
+
+## **Espérance de vie **
+
+**ID_indicateur :** cont_esp_vie_60_f, cont_esp_vie_60_h, cont_esp_vie_65_f, cont_esp_vie_65_h, cont_esp_vie_naissance_f, cont_esp_vie_naissance_h
+
+**Périodicité :** Annuelle
+
+**Définitions :**
+
+L'[Espérance de vie](#esp_vie) à l'[âge](#age) x représente, pour une année donnée, l'âge moyen au décès des individus d'une génération fictive d'âge x qui auraient, à chaque âge, la probabilité de décéder observée cette année-là au même âge.
+Autrement dit, elle est le nombre moyen d'années restant à vivre au-delà de cet âge x (ou durée de survie moyenne à l'âge x), dans les conditions de mortalité par âge de l'année considérée.
+
+Déclinaison par sous-population
+
+- Sexe
+- Âge (à la naissance, à 60 ans, à 65 ans)
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
+Cet indicateur y contribue en mesurant des espérances de vie à différents âges.
+
+**Intérêt de l’indicateur et interprétation :**
+
+Comparaisons spatiales utiles : situer les territoires par rapport au niveau national et aux autres départements.
+
+**Qualité et limites :**
+
+Les résultats ([Estimations de population](#estim_pop)) sont provisoires ; ils deviennent définitifs avec le recensement de la population.
+
+----
+
+## **Projection de population en 2070**
+
+**ID_indicateur :** cont_proj_pop_2070
+
+**Périodicité :** Ponctuelle
+
+**Définitions :**
+
+Projection de population en 2070 selon le scénario central de l'Insee.
+
+Le modèle repose sur trois composantes démographiques :
+
+Fécondité : L’hypothèse centrale vise un indice conjoncturel de 1,80 enfant par femme à partir de 2022. 
+Mortalité : L’espérance de vie à la naissance est projetée à 90,0 ans pour les femmes et 87,5 ans pour les hommes en 2070 (scénario central).
+Migrations : Le solde migratoire central est maintenu à +70 000 personnes par an.
+
+Le dernier exercice de projection de population au niveau départemental a été publié en janvier 2024. Les données de ce chiffre clé ne sont pas mises à jour tous les ans.
 
 ----
 
@@ -218,147 +274,43 @@ Ne pas confondre avec un taux de CLD (chômeurs DEFM longue durée parmi les DEF
 
 ----
 
-## **Diplomes délivrés dans les formations aux professions sociales**
+## **Taux de chômage**
 
-**ID_indicateur :** cont_dipl_prof_soc_yc_vae_partielle_aes, cont_dipl_prof_soc_yc_vae_partielle_af, cont_dipl_prof_soc_yc_vae_partielle_amp, cont_dipl_prof_soc_yc_vae_partielle_ass, cont_dipl_prof_soc_yc_vae_partielle_cafdes, cont_dipl_prof_soc_yc_vae_partielle_caferuis, cont_dipl_prof_soc_yc_vae_partielle_cesf, cont_dipl_prof_soc_yc_vae_partielle_deis, cont_dipl_prof_soc_yc_vae_partielle_eje, cont_dipl_prof_soc_yc_vae_partielle_es, cont_dipl_prof_soc_yc_vae_partielle_ets, cont_dipl_prof_soc_yc_vae_partielle_me, cont_dipl_prof_soc_yc_vae_partielle_mf, cont_dipl_prof_soc_yc_vae_partielle_tisf
-
-**Périodicité :** Annuelle
-
-**Descriptif :**
-
-Nombre de diplômes délivrés dans les formations aux professions sociales, y compris Validation des Acquis de l'Expérience partielle
-
-**Qualité et limites :**
-
-Ces données ne sont disponibles qu'au niveau régionnal.
-
-----
-
-## **Espérance de vie **
-
-**ID_indicateur :** cont_esp_vie_60_f, cont_esp_vie_60_h, cont_esp_vie_65_f, cont_esp_vie_65_h, cont_esp_vie_naissance_f, cont_esp_vie_naissance_h
+**ID_indicateur :** cont_tx_chom_loc
 
 **Périodicité :** Annuelle
 
 **Définitions :**
 
-L'[Espérance de vie](#esp_vie) à l'[âge](#age) x représente, pour une année donnée, l'âge moyen au décès des individus d'une génération fictive d'âge x qui auraient, à chaque âge, la probabilité de décéder observée cette année-là au même âge.
-Autrement dit, elle est le nombre moyen d'années restant à vivre au-delà de cet âge x (ou durée de survie moyenne à l'âge x), dans les conditions de mortalité par âge de l'année considérée.
+Le taux de chômage localisé est le rapport entre le nombre de chômeurs et la population active résidente dans une zone donnée. 
 
-Déclinaison par sous-population
+Les [Taux de chômage localisés](https://www.insee.fr/fr/metadonnees/source/serie/s2107) sont issus d’une synthèse de différentes sources : les Estimations d’emploi, les séries de demandeurs d’emploi inscrits en fin de mois à Pôle emploi (DEFM) et les résultats de l’enquête Emploi. Cette dernière source fournit les niveaux nationaux de chômeurs et de population active occupée au sens du Bureau international du travail (BIT).
 
-- Sexe
-- Âge (à la naissance, à 60 ans, à 65 ans)
+Les principales étapes de calcul du taux de chômage localisé sont les suivantes :
+– Estimation de la population active occupée résidente : l’emploi au lieu de travail des Estimations d’emploi est adapté pour calculer l'emploi au lieu de résidence à l’aide d’une matrice de passage. Les travailleurs frontaliers (résidents en France et travaillant à l'étranger) sont alors ajoutés. Les séries obtenues sont passées en moyenne trimestrielle et enfin calées au niveau national sur la population active occupée issue de l’enquête Emploi.
+– Estimation du nombre de chômeurs résidents : le nombre de chômeurs est issu de l’enquête Emploi pour l’échelon national. Il est ventilé par zone géographique à partir de la structure des demandeurs d’emploi inscrits en fin de mois à Pôle emploi (DEFM).
 
-**Objectif :**
+Les notions de chômeur et de population active sont celles de l'INSEE et non celles au sens du BIT (cf. qualités et limites). 
 
-L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
-Cet indicateur y contribue en mesurant des espérances de vie à différents âges.
-
-**Intérêt de l’indicateur et interprétation :**
-
-Comparaisons spatiales utiles : situer les territoires par rapport au niveau national et aux autres départements.
-
-**Qualité et limites :**
-
-Les résultats ([Estimations de population](#estim_pop)) sont provisoires ; ils deviennent définitifs avec le recensement de la population.
-
-----
-
-## **Naissances et décés**
-
-**ID_indicateur :** cont_nb_deces_domicilies, cont_nb_naissances
-
-**Périodicité :** Annuelle
-
-**Définitions :**
-
-Nombre de décés domiciliés et de naissance dans l'année.
-
-Avertissement : le total des décès domiciliés est différent de celui des tableaux nationaux, qui comptabilisent les décès enregistrés. 
-Par ailleurs, le total France comprend les décès de Mayotte. Toutefois, pour ce département, les données sur les décès sont à considérer prudemment car elles sont probablement sous-estimées. 
+Indicateur exprimé en %.
 
 **Objectif :**
 
 L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
 
-**Intérêt de l’indicateur et interprétation :**
-
-Comparaisons spatiales.
-En évolution, indique si la position du département s’améliore.
-Les disparités spatiales sont en partie liées aux différences de composition sociale, dont il faut tenir compte dans l’interprétation.
-
-**Qualité et limites :**
-
-Les résultats ([Estimations de population](#estim_pop)) sont provisoires ; ils deviennent définitifs avec le recensement de la population.
-Attention aux faibles effectifs concernés dans certains départements.
-
-----
-
-## **Entrées en apprentissages, en emploi franc, en Parcours Emplois Compétences, en professionnalisation, et en service civique**
-
-**ID_indicateur :** cont_nb_entrees_apprentissage_30m, cont_nb_entrees_emplois_francs, cont_nb_entrees_parc_empl_comp_m26, cont_nb_entrees_professionnalisation_m26, cont_nb_entrees_service_civique_16_25
-
-**Périodicité :** Annuelle
-
-**Définitions :**
-
-Nombre d'entrées de jeunes de 30 ans ou moins en contrat d'apprentissage, de jeunes de moins de 26 ans en Parcours Emplois Compétences (PEC) et en contrat de professionnalisation, de jeunes en emploi franc et de jeunes de 16 à 25 ans dans le dispositif du Service Civique.
-La série sur les emplois francs présente une rupture avec celle présentée avant 2023 dans le panorama. Les données présentées portent sur la période janvier-novembre.
-Depuis janvier 2018, les contrats aidés sont transormés en parcours emploi compétences (PEC).
-Le contrat de professionnalisation s'adresse à tous les jeunes âgés de 16 à 25 ans révolus, aux demandeurs d'emploi âgés de 26 ans et plus ainsi qu’aux bénéficiaires du revenu de solidarité active ([RSA](#rsa)), de l'allocation spécifique de solidarité (ASS), de l'allocation adulte handicapé (AAH) ou d'un contrat unique d'insertion (CUI)
-
-----
-
-## **Jeunes en mission locale**
-
-**ID_indicateur :** cont_nb_jeunes_primo_acc_paio_miss_loc, cont_part_jeunes_non_dipl_primo_acc_paio_miss_loc_16_25, cont_part_jeunes_primo_acc_paio_miss_loc_16_25
-
-**Périodicité :** Annuelle
-
-**Définitions :**
-
-Le réseau des missions locales a pour mission d’aider les jeunes de 16 à 25 ans dans leur insertion sociale et professionnelle. Il les informe, les conseille et, au besoin, les accompagne afin de faciliter leur accès à l’emploi. Depuis mars 2022, les missions locales mettent notamment en œuvre le contrat d'engagement jeune (CEJ), dispositif visant à accompagner les jeunes en difficulté d’insertion vers l’emploi durable.
-
-Les missions locales sont équipées de l’application I-Milo pour gérer les dossiers des jeunes accueillis. Cette application est utilisée quotidiennement pour la saisie des dossiers des jeunes par l’ensemble des conseillers des missions locales. Elle permet de décrire précisément les caractéristiques individuelles des jeunes, les situations qu’ils occupent sur le marché du travail, les services et les dispositifs dont ils bénéficient, tels que le CIVIS, la Garantie jeunes, les Emplois d'avenir ou le Contrat d'Engagement Jeune (CEJ).
-Localement, I-Milo est un outil de pilotage pour chaque mission locale. Les remontées mensuelles d’information au niveau régional et au niveau national permettent des études à un niveau plus agrégé. Pour s’assurer de la qualité des données, des contrôles de cohérence et une charte de saisie ont été conçus pour corriger et homogénéiser les comportements de saisie sur l’ensemble du territoire.
-
-Les jeunes sont dits « accueillis pour la première fois » ou « reçus en premier accueil » ou simplement « en premier accueil » lorsqu’ils ont bénéficié pour la première fois d’un entretien individuel avec un conseiller du réseau des missions locales et PAIO. 
-Ces jeunes ont normalement entre 16 et 25 ans, mais il arrive que certains n'appartiennent pas à cette tranche d'âge, leur nombre est toutefois extrêmement faible.
-
-Attention rupture de série : à partir de 2016, les données ne sont plus comparables à celles des précédentes années puisque ne sont pris en compte que les jeunes étant allés au bout de leur démarche d’inscription en mission locale.
-
-- **Numérateur :** Nombre de jeunes reçus en premier accueil 
-- **Dénominateur :** Nombre d'habitants du département âgés de 16 ans inclus à 25 ans inclus
-
-- **Numérateur :** Nombre de jeunes sans aucun diplôme parmi les premiers accueils
-- **Dénominateur :** Nombre d'habitants du département âgés de 16 ans inclus à 25 ans inclus
-
-On entend ici par jeunes non diplômés les jeunes des niveaux suivants :
-
-- niveaux VI : sorties du système éducatif avant une classe de troisième générale ou avant une classe de quatrième non générale
-- niveau Vbis : sorties du système éducatif avant la dernière année de CAP ou de BEP, après un classe de troisième générale ou une classe de quatrième ou de troisième d'enseignement non général
-- niveau V sans diplôme : Sorties à l'issue de la dernière année de CAP ou BEP ou d'une classe de seconde ou de première, sans diplôme.
-- niveau IV sans diplôme : sorties de terminale ou d'un niveau équivalent sans baccalauréat
-
-Indicateur exprimé en %
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs aux minima sociaux et à l'insertion est de quantifier et décrire la population en situation de précarité, la population en risque ou en difficulté d'insertion, et en particulier les jeunes.
-
-Cet indicateur y contribue en évaluant la part des jeunes en difficulté d'insertion par la part des jeunes ayant pris au moins un contact auprès d'une mission locale ou d'une PAIO.
+Cet indicateur y contribue en caractérisant les tensions sur les marchés locaux du travail, par la mesure de la part des personnes sans emploi dans la population active.
 
 **Intérêt de l’indicateur et interprétation :**
 
-A rapprocher des indicateurs régionaux concernant les jeunes (source : Céreq)
+Comparaisons spatiales 
+Comparaisons temporelles
+Conjoncture du marché du travail local
 
 **Qualité et limites :**
 
-Tous les jeunes en difficulté ne s’adressent pas au réseau ML-PAIO
-Données sur le diplôme déclaratives (sous-estimation probable du nombre de jeunes accueillis sans diplôme)
+Par construction (référence aux DEFM, demandeurs d'emploi en fin de mois), le taux de chômage localisé n'est pas un taux de chômage au sens du BIT. 
 
----- 
+----
 
 ## **Prématurité et faibles poids à la naissance**
 
@@ -451,6 +403,128 @@ Comparaison dans le temps et entre départements
 **Qualité et limites :**
 
 Le nombre de naissances peut être légèrement sous estimé, du fait de l’absence des accouchements à domicile, sans hospitalisation dans les suites immédiates.
+
+----
+
+## **Employés pour la garde d'enfants**
+
+**ID_indicateur :** fam_nb_ass_mat, fam_nb_garde_dom
+
+**Périodicité :** Annuelle
+
+**Définitions :**
+
+Nombres de :
+
+- Assistantes maternelles employées par des particuliers
+- Garde d'enfants à domicile employées par des particuliers
+
+----
+
+## **Place d'accueil des enfants**
+
+**ID_indicateur :** fam_tx_equip_places_100_m3
+
+**Périodicité :** Annuelle
+
+**Définitions :**
+
+Taux d'équipement places d'accueil pour 100 enfants de moins de 3 ans
+
+----
+
+## **Activité du Juge des enfants**
+
+**ID_indicateur :** ase_part_mineurs_juge, ase_part_mineurs_juge_signal_ase, ase_part_mineurs_juge_signal_autre_canal, ase_part_mineurs_juge_signal_autres, ase_part_mineurs_juge_signal_famille, ase_part_mineurs_juge_signal_office
+
+**Périodicité :** Annuelle
+
+**Descriptif :**
+
+Chaque année, les Tribunaux de Grande Instance produisent un Tableau de Bord concernant l’activité du [Juge des enfants](#jde) en matière civile. Ce Tableau de Bord s’intéresse à l’activité de leur juridiction en matière d’assistance éducative.
+
+ase_part_mineurs_juge (indicateur exprimé en pour mille) :
+
+- **Numérateur :** nombre de mineurs-affaire dont le juge est saisi au civil dans l’année (y compris délégation de compétence et transfert de dossier).
+On dénombre ici des mineurs-affaire dont le juge est saisi en assistance éducative dans l’année (y compris délégation de compétence et transfert de dossier). Ainsi :
+
+  - si une affaire concerne 2 mineurs (une fratrie par exemple), on compte 2 mineurs-affaire
+  - si un même mineur est concerné par 2 affaires au cours de l'année (placement, puis révision du mode de placement dans la même année, par exemple), on compte 2 mineurs-affaire en assistance éducative.
+
+On additionne l’ensemble des signalements (ceux du service de l’aide sociale à l’enfance et les signalements directs) au procureur de la République donnant lieu à une saisine du [Juge des enfants](#jde), avec les saisines directes du juge par les parents, le gardien ou le mineur (y compris les délégations de compétence et transferts de dossiers) et les saisines d’office du [Juge des enfants](#jde). 
+Les conditions pour émettre un signalement au procureur de la République sont précisées dans l’article L. 226-4 du CASF. 
+
+- **Dénominateur :** moyenne de la population des jeunes de 0 à 17 ans du département au 1er janvier 2021 et au 1er janvier 2022.
+
+**Autres indicateurs :**
+
+*Les signalements par le service d’aide sociale à l’enfance :*
+
+Le président du Conseil départemental avise sans délai le procureur de la République lorsqu’un mineur est en danger au sens de l’article 375 du code civil et 
+- que l’action ou les actions mises en œuvre précédemment n’ont pas permis de remédier à la situation.
+- que les mesures décidées ne peuvent être mises en place en raison du refus de la famille d’accepter l’intervention proposée ou de l’impossibilité dans laquelle elle se trouve de collaborer avec ce service. 
+- qu’il est impossible d’évaluer la situation.
+
+*Les signalements directs :*
+
+Toute personne travaillant au sein de services publics, ainsi que les établissements publics ou privés susceptibles de connaître des situations de mineurs en danger ou qui risquent de l’être, peut aviser directement, du fait de la gravité de la situation, le procureur de la République de la situation d’un mineur en danger.
+
+*Autres modes de saisine :*
+
+- les saisines directes du [Juge des enfants](#jde) sont possibles pour le mineur, ses parents ou ses gardiens.
+- le [Juge des enfants](#jde) peut également se saisir d’office (l’auto-saisine).
+- sont regroupés les délégations de compétences, les dessaisissements et les transferts de dossiers.
+
+La délégation de compétences : l’enfant concerné fait l’objet d’un dossier dans lequel interviennent deux juges appartenant à deux tribunaux différents : le juge délégant qui a la charge du suivi de l’enfant et le juge délégataire qui intervient au titre de la délégation de compétence. 
+Ce dernier intervient généralement pour un acte, par exemple, la désignation d’un service pour exercer une AEMO ou faire une mesure judiciaire d'investigation éducative ordonnée par le premier juge.
+Le dessaisissement consiste à transmettre le dossier à un juge d'un autre tribunal qui devient dès lors compétent pour statuer sur ledit dossier. Il est matérialisé par une ordonnance. Il intervient lorsque le juge ne s’estime plus compétent, par exemple suite au déménagement de la famille.
+Le transfert de dossier de juge à juge intervient au sein d'un même tribunal. Il n'y a pas d'ordonnance de dessaisissement.
+
+- **Dénominateur :** nombre de mineurs-affaire dont le juge est saisi au civil dans l’année.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs à la protection de l'enfance et de la jeunesse en danger est de mesurer la part de la population des mineurs et jeunes majeurs en risque de danger, ou en danger, ou encore bénéficiaires d'une mesure d'aide sociale à l'enfance ainsi que l'offre d'accueil existant pour ces publics.
+
+Cet indicateur y contribue en évaluant la part de la population des familles en difficulté au regard de l'éducation de leur enfant, par la part des enfants faisant l'objet d’une saisine du [Juge des enfants](#jde) en assistance éducative.
+
+**Intérêt de l’indicateur et interprétation :**
+
+Cet indicateur mesure le degré de l’intervention de la justice en protection de l’enfance au sein des départements. Il mesure les saisines du [Juge des enfants](#jde), c'est-à-dire les ouvertures de dossier. C’est une donnée de flux : les enfants déjà pris en charge, ne faisant pas l’objet d’une saisine au cours de l’année, n’y sont pas comptabilisés. 
+La déclinaison entre signalements provenant de l'ASE et signalements directs, illustre les pratiques départementales sur les modalités de transmission de signalement vers la justice.
+
+**Qualité et limites :**
+
+Les pratiques des Conseils départementaux peuvent fortement influer sur le nombre de signalements pour lesquels le juge est saisi.
+La part des saisines du parquet et des saisines d’office dont l’origine est « Autres ou inconnue » peut varier selon la juridiction. En 2020, 11 % de l’ensemble des saisines sont des saisines du parquet ou des saisines d’office dont l’origine est « Autres ou inconnue » (9 % concernent les saisines du parquet et 2 % les saisines d’office).
+
+----
+
+## **Taux de scolarisation à 2 ans**
+
+**ID_indicateur :** cont_tx_scol_2ans
+
+**Périodicité :** Annuelle
+
+**Définitions :**
+
+Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
+
+Le taux de scolarisation des enfants de deux ans est le rapport entre le nombre d'élèves de deux ans et le nombre estimé d'enfants du même âge.
+
+Les données relatives à la démographie proviennent du dernier bilan démographique diffusé par l’INSEE en janvier de chaque année. La DEPP redresse les effectifs des enfants en bas âge (les 0-5 ans) à l'aide des données issues de l’état civil et des enquêtes annuelles de recensement (EAR).
+
+La population des deux ans dans un département à la rentrée 2020 est estimée par vieillissement des naissances domiciliées de l'année 2018 et en faisant l'hypothèse que les taux de mortalité par âge et les soldes migratoires départementaux restent constants.
+
+La population des deux ans dans un département à la rentrée 2021 est estimée par vieillissement des naissances domiciliées de l'année 2019 et en faisant l'hypothèse que les taux de mortalité par âge et les soldes migratoires départementaux restent constants.
+
+La population des deux ans dans un département à la rentrée 2022 est estimée par vieillissement des naissances domiciliées de l'année 2020 et en faisant l'hypothèse que les taux de mortalité par âge et les soldes migratoires départementaux restent constants.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
+
+Cet indicateur y contribue en mesurant le taux de scolarisation des enfants de deux ans.
 
 ----
 
@@ -556,345 +630,84 @@ Les jeunes non recensés à temps passent les tests à 18, 19 ou 20 ans et non �
 
 ----
 
-## **Projection de population en 2070**
+## **Entrées en apprentissages, en emploi franc, en Parcours Emplois Compétences, en professionnalisation, et en service civique**
 
-**ID_indicateur :** cont_proj_pop_2070
-
-**Périodicité :** Ponctuelle
-
-**Définitions :**
-
-Projection de population en 2070 selon le scénario central de l'Insee.
-
-Le modèle repose sur trois composantes démographiques :
-
-Fécondité : L’hypothèse centrale vise un indice conjoncturel de 1,80 enfant par femme à partir de 2022. 
-Mortalité : L’espérance de vie à la naissance est projetée à 90,0 ans pour les femmes et 87,5 ans pour les hommes en 2070 (scénario central).
-Migrations : Le solde migratoire central est maintenu à +70 000 personnes par an.
-
-Le dernier exercice de projection de population au niveau départemental a été publié en janvier 2024. Les données de ce chiffre clé ne sont pas mises à jour tous les ans.
-
-----
-
-## **Projection du nombre de bénéficiaires de l'APA**
-
-**ID_indicateur :** pa_nb_benef_apa_f_60_74_proj, pa_nb_benef_apa_f_60p_proj, pa_nb_benef_apa_f_75_84_proj, pa_nb_benef_apa_f_85p_proj, pa_nb_benef_apa_h_60_74_proj, pa_nb_benef_apa_h_60p_proj, pa_nb_benef_apa_h_75_84_proj, pa_nb_benef_apa_h_85p_proj
-
-**Périodicité :** Ponctuelle
-
-**Définitions :**
-
-Projection 2015-2050 du nombre de bénéficiaires de l'[APA](#apa) par sexe et tranche d'[âge](#age).
-
-----
-
-## **Taux de chômage**
-
-**ID_indicateur :** cont_tx_chom_loc
+**ID_indicateur :** cont_nb_entrees_apprentissage_30m, cont_nb_entrees_emplois_francs, cont_nb_entrees_parc_empl_comp_m26, cont_nb_entrees_professionnalisation_m26, cont_nb_entrees_service_civique_16_25
 
 **Périodicité :** Annuelle
 
 **Définitions :**
 
-Le taux de chômage localisé est le rapport entre le nombre de chômeurs et la population active résidente dans une zone donnée. 
-
-Les [Taux de chômage localisés](https://www.insee.fr/fr/metadonnees/source/serie/s2107) sont issus d’une synthèse de différentes sources : les Estimations d’emploi, les séries de demandeurs d’emploi inscrits en fin de mois à Pôle emploi (DEFM) et les résultats de l’enquête Emploi. Cette dernière source fournit les niveaux nationaux de chômeurs et de population active occupée au sens du Bureau international du travail (BIT).
-
-Les principales étapes de calcul du taux de chômage localisé sont les suivantes :
-– Estimation de la population active occupée résidente : l’emploi au lieu de travail des Estimations d’emploi est adapté pour calculer l'emploi au lieu de résidence à l’aide d’une matrice de passage. Les travailleurs frontaliers (résidents en France et travaillant à l'étranger) sont alors ajoutés. Les séries obtenues sont passées en moyenne trimestrielle et enfin calées au niveau national sur la population active occupée issue de l’enquête Emploi.
-– Estimation du nombre de chômeurs résidents : le nombre de chômeurs est issu de l’enquête Emploi pour l’échelon national. Il est ventilé par zone géographique à partir de la structure des demandeurs d’emploi inscrits en fin de mois à Pôle emploi (DEFM).
-
-Les notions de chômeur et de population active sont celles de l'INSEE et non celles au sens du BIT (cf. qualités et limites). 
-
-Indicateur exprimé en %.
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
-
-Cet indicateur y contribue en caractérisant les tensions sur les marchés locaux du travail, par la mesure de la part des personnes sans emploi dans la population active.
-
-**Intérêt de l’indicateur et interprétation :**
-
-Comparaisons spatiales 
-Comparaisons temporelles
-Conjoncture du marché du travail local
-
-**Qualité et limites :**
-
-Par construction (référence aux DEFM, demandeurs d'emploi en fin de mois), le taux de chômage localisé n'est pas un taux de chômage au sens du BIT. 
+Nombre d'entrées de jeunes de 30 ans ou moins en contrat d'apprentissage, de jeunes de moins de 26 ans en Parcours Emplois Compétences (PEC) et en contrat de professionnalisation, de jeunes en emploi franc et de jeunes de 16 à 25 ans dans le dispositif du Service Civique.
+La série sur les emplois francs présente une rupture avec celle présentée avant 2023 dans le panorama. Les données présentées portent sur la période janvier-novembre.
+Depuis janvier 2018, les contrats aidés sont transormés en parcours emploi compétences (PEC).
+Le contrat de professionnalisation s'adresse à tous les jeunes âgés de 16 à 25 ans révolus, aux demandeurs d'emploi âgés de 26 ans et plus ainsi qu’aux bénéficiaires du revenu de solidarité active ([RSA](#rsa)), de l'allocation spécifique de solidarité (ASS), de l'allocation adulte handicapé (AAH) ou d'un contrat unique d'insertion (CUI)
 
 ----
 
-## **Taux de mortalité**
+## **Jeunes en mission locale**
 
-**ID_indicateur :** cont_tx_mortalite_brut_1000, cont_tx_mortalite_brut_femmes_1000, cont_tx_mortalite_brut_hommes_1000, cont_tx_mortalite_infantile_1000, cont_tx_mortalite_standard_0_64_1000, cont_tx_mortalite_standard_65p_1000
+**ID_indicateur :** cont_nb_jeunes_primo_acc_paio_miss_loc, cont_part_jeunes_non_dipl_primo_acc_paio_miss_loc_16_25, cont_part_jeunes_primo_acc_paio_miss_loc_16_25
 
 **Périodicité :** Annuelle
 
 **Définitions :**
 
-Le taux brut de mortalité est le rapport du nombre de décès de l'année à la population totale moyenne de l'année. Une zone comptant une population plus âgée qu'une autre a en général un taux brut de mortalité plus élevé. 
+Le réseau des missions locales a pour mission d’aider les jeunes de 16 à 25 ans dans leur insertion sociale et professionnelle. Il les informe, les conseille et, au besoin, les accompagne afin de faciliter leur accès à l’emploi. Depuis mars 2022, les missions locales mettent notamment en œuvre le contrat d'engagement jeune (CEJ), dispositif visant à accompagner les jeunes en difficulté d’insertion vers l’emploi durable.
 
-Pour corriger des différentes structures par [âge](#age) des zones, on utilise des taux standardisés, où les taux de mortalité par âge du territoire sont appliqués à la structure par âge nationale.
-Les taux de mortalité standardisés selon l'âge permettent de comparer les zones, en supprimant les effets des différences de structure par âge de la population. Les taux proposés pour chaque zone sont calculés en prenant en compte la structure par âge quinquennal de la population.
+Les missions locales sont équipées de l’application I-Milo pour gérer les dossiers des jeunes accueillis. Cette application est utilisée quotidiennement pour la saisie des dossiers des jeunes par l’ensemble des conseillers des missions locales. Elle permet de décrire précisément les caractéristiques individuelles des jeunes, les situations qu’ils occupent sur le marché du travail, les services et les dispositifs dont ils bénéficient, tels que le CIVIS, la Garantie jeunes, les Emplois d'avenir ou le Contrat d'Engagement Jeune (CEJ).
+Localement, I-Milo est un outil de pilotage pour chaque mission locale. Les remontées mensuelles d’information au niveau régional et au niveau national permettent des études à un niveau plus agrégé. Pour s’assurer de la qualité des données, des contrôles de cohérence et une charte de saisie ont été conçus pour corriger et homogénéiser les comportements de saisie sur l’ensemble du territoire.
 
-Le taux de mortalité prématurée est le nombre de décès, au cours de l'année, d'individus âgés de moins de 65 ans, rapporté à la population totale des moins de 65 ans, de la même année. 
+Les jeunes sont dits « accueillis pour la première fois » ou « reçus en premier accueil » ou simplement « en premier accueil » lorsqu’ils ont bénéficié pour la première fois d’un entretien individuel avec un conseiller du réseau des missions locales et PAIO. 
+Ces jeunes ont normalement entre 16 et 25 ans, mais il arrive que certains n'appartiennent pas à cette tranche d'âge, leur nombre est toutefois extrêmement faible.
 
-Le taux de mortalité infantile est le rapport entre le nombre d'enfants décédés à moins d'un an et l'ensemble des enfants nés vivants. Ce taux est lissé sur 3 ans : il est ici égal au nombre de décès d'enfants de moins d'un an divisé par le nombre d'enfants nés vivants sur les 3 années 2022 – 2023 – 2024.
+Attention rupture de série : à partir de 2016, les données ne sont plus comparables à celles des précédentes années puisque ne sont pris en compte que les jeunes étant allés au bout de leur démarche d’inscription en mission locale.
 
-Ces taux sont exprimés en pour 1000.
+- **Numérateur :** Nombre de jeunes reçus en premier accueil 
+- **Dénominateur :** Nombre d'habitants du département âgés de 16 ans inclus à 25 ans inclus
 
-Avertissement : le total des décès domiciliés est différent de celui des tableaux nationaux, qui comptabilisent les décès enregistrés. 
-Par ailleurs, le total France comprend les décès de Mayotte. Toutefois, pour ce département, les données sur les décès sont à considérer prudemment car elles sont probablement sous-estimées.
+- **Numérateur :** Nombre de jeunes sans aucun diplôme parmi les premiers accueils
+- **Dénominateur :** Nombre d'habitants du département âgés de 16 ans inclus à 25 ans inclus
 
-**Objectif :**
+On entend ici par jeunes non diplômés les jeunes des niveaux suivants :
 
-L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
+- niveaux VI : sorties du système éducatif avant une classe de troisième générale ou avant une classe de quatrième non générale
+- niveau Vbis : sorties du système éducatif avant la dernière année de CAP ou de BEP, après un classe de troisième générale ou une classe de quatrième ou de troisième d'enseignement non général
+- niveau V sans diplôme : Sorties à l'issue de la dernière année de CAP ou BEP ou d'une classe de seconde ou de première, sans diplôme.
+- niveau IV sans diplôme : sorties de terminale ou d'un niveau équivalent sans baccalauréat
 
-Cet indicateur y contribue en mesurant des taux de mortalité selon l'[âge](#age). 
-
-**Intérêt de l’indicateur et interprétation :**
-
-Comparaisons spatiales.
-En évolution, indique si la position du département s’améliore.
-Les disparités spatiales sont en partie liées aux différences de composition sociale, dont il faut tenir compte dans l’interprétation.
-
-**Qualité et limites :**
-
-Les résultats ([Estimations de population](#estim_pop)) sont provisoires ; ils deviennent définitifs avec le recensement de la population.
-Limites liées aux définitions : l’indicateur standardisé permet de comparer les départements en neutralisant l’effet de structure par [âge](#age), mais les taux bruts permettent une meilleure interprétation des évolutions dans le temps.
-Attention aux faibles effectifs concernés dans certains départements.
-
-----
-
-## **Taux de scolarisation à 2 ans**
-
-**ID_indicateur :** cont_tx_scol_2ans
-
-**Périodicité :** Annuelle
-
-**Définitions :**
-
-Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
-
-Le taux de scolarisation des enfants de deux ans est le rapport entre le nombre d'élèves de deux ans et le nombre estimé d'enfants du même âge.
-
-Les données relatives à la démographie proviennent du dernier bilan démographique diffusé par l’INSEE en janvier de chaque année. La DEPP redresse les effectifs des enfants en bas âge (les 0-5 ans) à l'aide des données issues de l’état civil et des enquêtes annuelles de recensement (EAR).
-
-La population des deux ans dans un département à la rentrée 2020 est estimée par vieillissement des naissances domiciliées de l'année 2018 et en faisant l'hypothèse que les taux de mortalité par âge et les soldes migratoires départementaux restent constants.
-
-La population des deux ans dans un département à la rentrée 2021 est estimée par vieillissement des naissances domiciliées de l'année 2019 et en faisant l'hypothèse que les taux de mortalité par âge et les soldes migratoires départementaux restent constants.
-
-La population des deux ans dans un département à la rentrée 2022 est estimée par vieillissement des naissances domiciliées de l'année 2020 et en faisant l'hypothèse que les taux de mortalité par âge et les soldes migratoires départementaux restent constants.
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
-
-Cet indicateur y contribue en mesurant le taux de scolarisation des enfants de deux ans.
-
-----
-
-## **Droit au Logement Opposable**
-
-**ID_indicateur :** dalo_heberg_benef_accueillis, dalo_heberg_benef_accueillis_et_refus, dalo_heberg_decisions, dalo_heberg_decisions_favorables, dalo_heberg_recours, dalo_heberg_refus_proposition, dalo_lgmt_benef_reloges, dalo_lgmt_decisions, dalo_lgmt_decisions_favorables, dalo_lgmt_recours, dalo_lgmt_refus_offre, dalo_lgmt_total_reloges_et_refus, dalo_tot_benef_reloges_accueillis, dalo_tot_benef_reloges_accueillis_et_refus, dalo_tot_decisions, dalo_tot_decisions_favorables, dalo_tot_recours, dalo_tot_refus_offre_proposition
-
-**Périodicité :** Annuelle
-
-**Définitions :**
-
-La loi DALO (Droit au logement opposable), promulguée le 5 mars 2007 et entrée en vigueur en 2008, reconnaît l'État comme garant du droit au logement.
-
-Les demandeurs de logement social peuvent déposer un recours auprès d'une commission départementale (Comed), chargée d'évaluer le caractère prioritaire et urgent de leur demande au regard des critères fixés par la loi.
-
-* **En cas de décision favorable** (reconnaissance du caractère prioritaire et urgent), conformément à l'article L441-2-3-1 et à l'article R441-16-1 du Code de la construction et de l'habitation (CCH), l'État est tenu de proposer un relogement dans un délai de 3 ou 6 mois, selon le délai fixé par arrêté préfectoral dans chaque département. Le logement proposé doit être adapté à la situation du demandeur, notamment à sa composition familiale, à ses ressources et à ses capacités. Si l'État ne procède pas au relogement dans le délai imparti, le demandeur peut saisir le tribunal administratif.
-
-* **En cas de décision défavorable**, d'absence de réponse de la Comed dans les délais prévus, d'absence de proposition de relogement dans les délais impartis malgré la reconnaissance du caractère prioritaire et urgent, ou encore lorsque la Comed oriente le demandeur vers un hébergement plutôt que vers un logement, différents recours peuvent être exercés selon la situation.
-
-Les indicateurs décrivent les différents états des dossiers, selon la proposition d'un hebergement ou d'un logement. 
-
-Dans les indicateurs totaux, les décisions favorables correspondent à la somme des décisions favorables logement, des décisions favorables hébergement et des réorientations des recours logement vers l'hébergement.
-Le nombre de décisions prises peut excéder le nombre de demandes reçues en raison du traitement des demandes de l'année précédente.
-
-----
-
-## **Employés pour la garde d'enfants**
-
-**ID_indicateur :** fam_nb_ass_mat, fam_nb_garde_dom
-
-**Périodicité :** Annuelle
-
-**Définitions :**
-
-Nombres de :
-
-- Assistantes maternelles employées par des particuliers
-- Garde d'enfants à domicile employées par des particuliers
-
-----
-
-## **Place d'accueil des enfants**
-
-**ID_indicateur :** fam_tx_equip_places_100_m3
-
-**Périodicité :** Annuelle
-
-**Définitions :**
-
-Taux d'équipement places d'accueil pour 100 enfants de moins de 3 ans
-
-----
-
-## **Explusions locatives**
-
-**ID_indicateur :** lgmt_nb_expulsions_locatives, lgmt_nb_expulsions_locatives_conditionnelles, lgmt_nb_expulsions_locatives_fermes, lgmt_tx_expulsions_locatives_1000men
-
-**Périodicité :** Annuelle
-
-**Définitions :**
-
-Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
-
-Il dénombre les décisions faisant suite aux demandes d’expulsion formulées devant le juge par les bailleurs (c’est-à-dire les assignations en justice en vue d’une expulsion locative, précédant l’éventuelle décision d’expulsion).
-Il existe 2 types de décisions :
-
-- L’expulsion « conditionnelle » : le juge suspend les effets de la clause résolutoire insérée dans le bail d’habilitation ou de la résiliation qu’il prononce et accorde des délais de paiement au locataire. Si les délais de paiement ne sont pas respectés, la clause résolutoire et la résiliation reprennent leurs effets et l’expulsion peut être poursuivie.
-- L’expulsion « ferme » : le juge constate ou prononce la résiliation du bail sans en suspendre les effets. L’occupant perd alors ses droits en tant que locataire ; il doit dès lors s’acquitter d’une « indemnité d’occupation » égale au montant des loyers et charges contractuelles jusqu’à la libération effective des lieux.
-Une fois l’expulsion décidée et la résiliation du bail effective, un commandement de quitter les lieux est adressé au ménage par un huissier de justice. Si le ménage refuse de partir dans le délai fixé par le commandement de quitter les lieux (en principe dans les deux mois lorsqu’il s’agit de l’habitation de l’occupant), l’expulsion est alors exécutée de manière forcée.
-
-Ces expulsions locatives comprennent :
-
-- les demandes en paiement des loyers et des charges et/ou tendant à faire prononcer ou constater la résiliation pour défaut de paiement ou défaut d'assurance et ordonner l'expulsion ;
-- les demandes tendant à l'exécution des autres obligations du locataire et/ou tendant à faire prononcer la résiliation pour inexécution de ces obligations et ordonner l'expulsion ;
-- les demandes du bailleur tendant à faire constater la validité du congé et à ordonner l'expulsion.
-
-Calcul du taux d'expulsions locatives :
-Décisions d'expulsions locatives pour 1000 ménages en 2019 = total des décisions d’expulsions en 2019 / nombre de ménages locataires (recensement de la population 2017)
-
-Décisions d'expulsions locatives pour 1000 ménages en 2018 = total des décisions d’expulsions en 2018 / nombre de ménages locataires (recensement de la population 2016)
+Indicateur exprimé en %
 
 **Objectif :**
 
 L'objectif stratégique des indicateurs relatifs aux minima sociaux et à l'insertion est de quantifier et décrire la population en situation de précarité, la population en risque ou en difficulté d'insertion, et en particulier les jeunes.
 
-Cet indicateur y contribue en mesurant l’expulsion pour impayé, qui traduit une situation extrême de charge de logement.
-
-----
-
-## **Surendettement**
-
-**ID_indicateur :** lgmt_nb_dossiers_surendet_energie, lgmt_part_dettes_surendet_energie, lgmt_part_dossiers_surendet_energie
-
-**Périodicité :** Annuelle
-
-**Définitions :**
-
-Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
-
-1) Un ménage est en situation de surendettement s'il ne parvient plus, malgré ses efforts et de façon durable :
-
-    - à rembourser ses mensualités de crédits ;
-    - et/ou plus généralement à faire face à ses dettes non professionnelles.
-
-2) Une situation de surendettement peut avoir différentes origines, notamment :
-
-    - un nombre trop important de crédits ;
-    - une baisse durable des ressources à la suite, par exemple, d’une perte d’emploi, d’une séparation ou d’une maladie.
-
-Sont fournis comme indicateurs :
-
-  - le nombre de dossiers présentant une dette pour impayés d'énergie (électricité, chauffage et gaz)
-  - la part de ces dossiers dans l'ensemble des dossiers de surendettement
-  - la part de cette dette pour impayés d'énergie dans la dette totale de l'ensemble des dossiers de surendettement
-
-Un dossier de surendettement décrit en effet les postes concernés par cette dette (les postes les plus importants étant l'immobilier et les prêts à la consommation). Les dettes pour impayés d'énergie sont considérées comme des dettes de charge courante.
-
-Suite à une refonte du système d'information du ministère de la Justice, les décisions d'expulsions locatives ne sont plus mises à jour depuis 2019 et ne sont donc plus affichées dans le [Panorama statistique](#pano).
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs aux minima sociaux et à l'insertion est de quantifier et décrire la population en situation de précarité, la population en risque ou en difficulté d'insertion, et en particulier les jeunes.
-
-Cet indicateur y contribue en permettant de voir dans quelle mesure le coût de l’énergie peut être un facteur de basculement dans la [pauvreté](#pauv).
+Cet indicateur y contribue en évaluant la part des jeunes en difficulté d'insertion par la part des jeunes ayant pris au moins un contact auprès d'une mission locale ou d'une PAIO.
 
 **Intérêt de l’indicateur et interprétation :**
 
-La notion de surendettement est subjective : c'est le ménage concerné qui fait la démarche de déclaration de surendettement auprès de la Banque de France.
-Il est possible que les différences locales soient liées à des politiques locales différentes : politique d'information auprès des consommateurs, de communication autour du surendettement,...
+A rapprocher des indicateurs régionaux concernant les jeunes (source : Céreq)
 
 **Qualité et limites :**
 
-Les résultats ([Estimations de population](#estim_pop)) sont provisoires ; ils deviennent définitifs avec le recensement de la population.
-Limites liées aux définitions : l’indicateur standardisé permet de comparer les départements en neutralisant l’effet de structure par [âge](#age), mais les taux bruts permettent une meilleure interprétation des évolutions dans le temps.
-Attention aux faibles effectifs concernés dans certains départements.
+Tous les jeunes en difficulté ne s’adressent pas au réseau ML-PAIO
+Données sur le diplôme déclaratives (sous-estimation probable du nombre de jeunes accueillis sans diplôme)
 
-----
+---- 
 
-## **Taux d'effort net**
+## **Diplomes délivrés dans les formations aux professions sociales**
 
-**ID_indicateur :** lgmt_tx_effort_net_median_allocataires_aide
+**ID_indicateur :** cont_dipl_prof_soc_yc_vae_partielle_aes, cont_dipl_prof_soc_yc_vae_partielle_af, cont_dipl_prof_soc_yc_vae_partielle_amp, cont_dipl_prof_soc_yc_vae_partielle_ass, cont_dipl_prof_soc_yc_vae_partielle_cafdes, cont_dipl_prof_soc_yc_vae_partielle_caferuis, cont_dipl_prof_soc_yc_vae_partielle_cesf, cont_dipl_prof_soc_yc_vae_partielle_deis, cont_dipl_prof_soc_yc_vae_partielle_eje, cont_dipl_prof_soc_yc_vae_partielle_es, cont_dipl_prof_soc_yc_vae_partielle_ets, cont_dipl_prof_soc_yc_vae_partielle_me, cont_dipl_prof_soc_yc_vae_partielle_mf, cont_dipl_prof_soc_yc_vae_partielle_tisf
 
 **Périodicité :** Annuelle
 
-**Définitions :**
+**Descriptif :**
 
-Le taux d’effort net est appréhendé par le ratio entre le coût du logement, déduction faite des allocations logement, et les revenus. Il représente donc la part du revenu des allocataires effectivement consacrée au loyer une fois prises en compte les allocations logement.
-
-Champ : Le taux d’effort est calculé pour l’ensemble des foyers bénéficiaires des aides au logement à l’exception des foyers se trouvant dans l’une des situations suivantes :
-
-- le responsable de dossier a 65 ans ou plus ;
-- le responsable de dossier est étudiant ;
-- le responsable de dossier a moins de 25 ans et ne dispose d’aucune ressource ;
-- les deux membres du couple sont bénéficiaires de l’allocation pour les adultes handicapés
-
-Calcul du taux d'effort : ratio entre le montant de loyer (charges forfaitaires comprises) dont sont déduites les aides au logement et les ressources de l’ensemble des personnes du foyer vivant dans le logement (salaires, revenus de remplacement [chômage, indemnités journalières…], revenus du patrimoine, pension alimentaires perçues… hors pensions alimentaires versées) auxquelles sont ajoutées les prestations perçues hors aides au logement au titre du mois de référence ;. 
-
-En l'absence d'information sur les charges réelles, on calcule des charges forfaitaires résultant du barème des allocations logement. 
-Pour le calcul des ressources du foyer : 
-Les ressources du foyer agrègent celles de chacun des membres du foyer, y compris les enfants et les autres personnes à charges qui y sont rattachées.
-Les ressources prises en comptes correspondent à celles ayant permis le calcul du droit. Elles sont issues :
-
-- des données mensuelles issues du DRM (Dispositif de ressources mensuelles) ;
-- des ressources au titre des années A-1 et A-2 extraites de l’appel au CNTDF (Centre National des Transports des Données Fiscales) ;
-- des ressources déclaratives faites par les allocataires et utilisées pour la détermination du droit. 
-
-Les ressources atypiques (ressources mensuelles supérieures en valeur absolue à 50 000€ ou ressources annuelles supérieures en valeur absolue à 100 000€) n’ont pas été prises en comptes dans le calcul des ressources. 
-Les pensions alimentaires perçues sont intégrées dans les ressources du foyer et les pensions alimentaires versées sont déduites. 
-
-L'indicateur est le taux d'effort médian dans la Caf de gestion à partir de 2023, du département auparavant.
-
-Attention rupture de série : avant 2021, le calcul du taux d’effort s’appuyait sur les ressources au titre de l’année N-1, qui constituait la période de référence des ressources la plus proche du mois de droit. Avec la mise en place de la réforme en janvier 2021, les ressources de l’année en cours sont désormais connues (de M-2 à M-13) et servent donc de référence au calcul du taux d’effort. L'année 2023 n'est pas comparable aux années précédentes car l'indicateur est calculé au 30/06 au lieu du 31/12, du fait d'une refonte de la chaîne de production statistique.
-
-Indicateur exprimé en %.
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires. Le taux d’effort vise à appréhender l’effort consenti par les foyers bénéficiaires des aides au logement pour payer leur loyer pour les locataires ou rembourser leurs mensualités pour les accédants à la propriété.
-
-**Intérêt de l’indicateur et interprétation :**
-
-Estimer le poids médian des dépenses de logement dans le budget des ménages qui ont des ressources suffisamment faibles pour percevoir une allocation logement.
-
-Les comparaisons dans le temps ne sont possibles qu'à législation inchangée.
+Nombre de diplômes délivrés dans les formations aux professions sociales, y compris Validation des Acquis de l'Expérience partielle
 
 **Qualité et limites :**
 
-L'estimation des charges peut sous-estimer les taux d'effort notamment dans le parc public, où les charges sont en général plus élevées (Jacquot et al., 2004). Le calcul compte les allocations logement comme des dépenses affectées. Le résultat serait différent si on les incluait dans le revenu. Le revenu pris en compte ne porte pas sur la même période que les dépenses nettes des allocations logement. Or, en cas de réduction de revenu suite notamment à la perte d'un emploi ou une séparation, les ressources prises en compte pour le calcul de l'éligibilité à une prestation logement et du montant de l'allocation tiennent compte de ce changement de niveau de ressources. Le revenu est surestimé et le taux d'effort en logement est alors sous-estimé.
-
-Attention, l'indicateur ne porte actuellement que sur le champ des allocataires de la CNAF, et non sur celui de la CCMSA.
-
-----
-
-## **RSA : Dépenses**
-
-**ID_indicateur :** ms_depenses_brutes_rsa_rso_rmi_cui_cont_avenir, ms_depenses_nettes_rsa_rso_rmi_cui_cont_avenir
-
-**Périodicité :** Annuelle
-
-**Définitions :**
-
-Dépenses totales brutes et nettes liées au [RSA](#rsa), RSO, RMI, CUI et contrat d'avenir
+Ces données ne sont disponibles qu'au niveau régionnal.
 
 ----
 
@@ -933,39 +746,6 @@ Les données portant sur les allocataires relevant des Caf sont établies selon 
 Guadeloupe : y compris Saint-Barthélemy et Saint-Martin
 Les données par département de résidence sont estimées pour les DOM. Les données départementales de la Haute-Corse et de la Corse du Sud 
 correspondent au nombre d'allocataires au niveau régional divisé par 2.
-
-----
-
-## **RSA : Population couverte**
-
-**ID_indicateur :** ms_part_pop_couv_rsa_new, ms_part_pop_couv_rsa_old
-
-**Périodicité :** Annuelle
-
-**Définitions :**
-
-Les personnes couvertes sont les allocataires, leurs conjoints et les personnes à charge des allocataires. Hors "RSA jeunes" (à la charge de l'État).
-
-- **Numérateur :** Nombre de personnes couvertes par le revenu de solidarité active (RSA) 
-- **Dénominateur :** Population totale au 01/01/N+1
-
-Attention rupture de série : à la suite d'une amélioration du système de production statistique de la Cnaf sur les bénéficiaires de prestations légales, les données à partir de 2016 ne sont pas comparables avec celles des années précédentes.
-
-Les données par département de résidence sont estimées pour les DOM. Les données départementales de la Haute-Corse et de la Corse du Sud correspondent au nombre d'allocataires au niveau régional divisé par 2.
-
-Indicateur exprimé en %
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs aux minima sociaux et à l'insertion est de quantifier et décrire la population en situation de précarité, la population en risque ou en difficulté d'insertion, et en particulier les jeunes.
-
-Cet indicateur y contribue en mesurant la part de population couverte par le [RSA](#rsa).
-
-**Intérêt de l’indicateur et interprétation :**
-
-Lié à la conjoncture économique et sociale locale
-Comparaison dans le temps
-Comparaisons spatiales
 
 ----
 
@@ -1021,7 +801,52 @@ Certaines données départementales sont estimées
 
 ----
 
-## **Taux de bénéficiares de la CSS**
+## **RSA : Dépenses**
+
+**ID_indicateur :** ms_depenses_brutes_rsa_rso_rmi_cui_cont_avenir, ms_depenses_nettes_rsa_rso_rmi_cui_cont_avenir
+
+**Périodicité :** Annuelle
+
+**Définitions :**
+
+Dépenses totales brutes et nettes liées au [RSA](#rsa), RSO, RMI, CUI et contrat d'avenir
+
+----
+
+## **RSA : Population couverte**
+
+**ID_indicateur :** ms_part_pop_couv_rsa_new, ms_part_pop_couv_rsa_old
+
+**Périodicité :** Annuelle
+
+**Définitions :**
+
+Les personnes couvertes sont les allocataires, leurs conjoints et les personnes à charge des allocataires. Hors "RSA jeunes" (à la charge de l'État).
+
+- **Numérateur :** Nombre de personnes couvertes par le revenu de solidarité active (RSA) 
+- **Dénominateur :** Population totale au 01/01/N+1
+
+Attention rupture de série : à la suite d'une amélioration du système de production statistique de la Cnaf sur les bénéficiaires de prestations légales, les données à partir de 2016 ne sont pas comparables avec celles des années précédentes.
+
+Les données par département de résidence sont estimées pour les DOM. Les données départementales de la Haute-Corse et de la Corse du Sud correspondent au nombre d'allocataires au niveau régional divisé par 2.
+
+Indicateur exprimé en %
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs aux minima sociaux et à l'insertion est de quantifier et décrire la population en situation de précarité, la population en risque ou en difficulté d'insertion, et en particulier les jeunes.
+
+Cet indicateur y contribue en mesurant la part de population couverte par le [RSA](#rsa).
+
+**Intérêt de l’indicateur et interprétation :**
+
+Lié à la conjoncture économique et sociale locale
+Comparaison dans le temps
+Comparaisons spatiales
+
+----
+
+## **Taux de bénéficiaires de la CSS**
 
 **ID_indicateur :** ms_tx_benef_cmuc_css, ms_tx_benef_css_ac_ss_part
 
@@ -1048,7 +873,7 @@ Cet indicateur y contribue en mesurant la part de population bénéficiant de la
 
 ----
 
-## **Répartition des bénéficiaires de l'APA**
+## **APA : Répartition des bénéficiaires**
 
 **ID_indicateur :** pa_part_benef_apa_60_74_f, pa_part_benef_apa_60_74_h, pa_part_benef_apa_75_89_f, pa_part_benef_apa_75_89_h, pa_part_benef_apa_90p_f, pa_part_benef_apa_90p_h, pa_part_benef_apa_couple_f, pa_part_benef_apa_couple_h, pa_part_benef_apa_gir1_60_74, pa_part_benef_apa_gir1_75_89, pa_part_benef_apa_gir1_90p, pa_part_benef_apa_gir1_f, pa_part_benef_apa_gir1_h, pa_part_benef_apa_gir2_60_74, pa_part_benef_apa_gir2_75_89, pa_part_benef_apa_gir2_90p, pa_part_benef_apa_gir2_f, pa_part_benef_apa_gir2_h, pa_part_benef_apa_gir3_60_74, pa_part_benef_apa_gir3_75_89, pa_part_benef_apa_gir3_90p, pa_part_benef_apa_gir3_f, pa_part_benef_apa_gir3_h, pa_part_benef_apa_gir4_60_74, pa_part_benef_apa_gir4_75_89, pa_part_benef_apa_gir4_90p, pa_part_benef_apa_gir4_f, pa_part_benef_apa_gir4_h, pa_part_benef_apa_gir56_60_74, pa_part_benef_apa_gir56_75_89, pa_part_benef_apa_gir56_90p, pa_part_benef_apa_gir56_f, pa_part_benef_apa_gir56_h, pa_part_benef_apa_seul_f, pa_part_benef_apa_seul_h
 
@@ -1061,15 +886,15 @@ L’[APA](#apa) est une prestation qui permet de financer les dépenses d’aide
 
 ----
 
-## **Limitations des personnes âgées**
+## **APA : Projection du nombre de bénéficiaires**
 
-**ID_indicateur :** pa_part_limitations_importante_comprehension, pa_part_limitations_importante_concentration, pa_part_limitations_importante_lever_bras, pa_part_limitations_importante_main, pa_part_limitations_importante_marche, pa_part_limitations_importante_ouie, pa_part_limitations_importante_sortir, pa_part_limitations_importante_vue
+**ID_indicateur :** pa_nb_benef_apa_f_60_74_proj, pa_nb_benef_apa_f_60p_proj, pa_nb_benef_apa_f_75_84_proj, pa_nb_benef_apa_f_85p_proj, pa_nb_benef_apa_h_60_74_proj, pa_nb_benef_apa_h_60p_proj, pa_nb_benef_apa_h_75_84_proj, pa_nb_benef_apa_h_85p_proj
 
 **Périodicité :** Ponctuelle
 
 **Définitions :**
 
-Part des personnes âgées déclarant des limitations importantes dans leurs activités quotidiennes.
+Projection 2015-2050 du nombre de bénéficiaires de l'[APA](#apa) par sexe et tranche d'[âge](#age).
 
 ----
 
@@ -1094,6 +919,186 @@ Part de plans saturés à 96 % pour les bénéficiaires de l'[APA](#apa) à domi
 **Définitions :**
 
 Distribution des revenus des bénéficiaires de l'[APA](#apa)
+
+----
+
+## **AAH : Nombre d'allocataires**
+
+**ID_indicateur :** ph_benef_aah
+
+**Périodicité :** Ponctuelle
+
+**Définitions :**
+
+Nombre d'allocataires de l'[AAH](aah)
+Pour les données Cnaf la répartition est faite selon le département de la caisse de gestion
+
+----
+
+## **AAH : Parts de bénéficiaires**
+
+**ID_indicateur :** ph_part_benef_aah_15_64_new, ph_part_benef_aah_15_64_old, ph_part_benef_aah_20_64_new, ph_part_benef_aah_20_64_old
+
+**Périodicité :** Annuelle
+
+**Définitions :**
+
+L’allocation aux adultes handicapés (AAH), instituée en 1975, s’adresse aux personnes handicapées ne pouvant prétendre ni à un avantage vieillesse ni à une rente d’accident du travail. Le titulaire doit justifier d’un taux d’incapacité d’au moins 80%, ou d’au moins 50% si la CDAPH (commission des droits et de l’autonomie des personnes handicapées) reconnaît qu’il lui est impossible de travailler en raison de son handicap.
+
+- **Numérateur :** Nombre d’allocataires de l’AAH au 31/12
+- **Dénominateur :** Population âgée de 20 à 64 ans au 01/01/N+1
+
+Attention rupture de série : à la suite d'une amélioration du système de production statistique de la Cnaf sur les bénéficiaires de prestations légales, les données à partir de 2016 sur le [RSA](#rsa), l'AAH et le total des minima sociaux ne sont pas comparables avec celles des années précédentes.
+
+Indicateur exprimé en %
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la part de la population en situation de handicap et des aides qui leur sont attribuées, selon différentes dimensions : risque de handicap, handicap ressenti, handicap reconnu, aides ou prestations attribuées, offre d'accueil et d'accompagnement. 
+
+Cet indicateur y contribue en mesurant la part de la population adulte reconnue en situation de handicap par la MDPH, via cette allocation. L’obtention de l'AAH dépendant du niveau de ressources de la personne, cet indicateur permet également de compléter l'approche de la précarité.
+
+**Intérêt de l’indicateur et interprétation :**
+
+Comparaisons dans le temps
+Comparaisons entre les départements
+
+**Qualité et limites :**
+
+Âge maximum : L'AAH n'est plus versée à partir de l'âge de départ à la retraite en cas d'incapacité de 50 % à 79 % ; à cet âge, les bénéficiaires basculent dans le régime de retraite pour inaptitude. En cas d'incapacité d'au moins 80 %, une AAH différentielle (allocation mensuelle réduite) peut être versée au-delà de cet âge en complément d'une retraite inférieure au minimum vieillesse.
+
+----
+
+## **Limitations dans les activités quotidiennes**
+
+**ID_indicateur :** ph_part_limitations_act_quo_25_59, ph_part_limitations_act_quo_60p, ph_part_limitations_act_quo_m25
+
+**Périodicité :** Annuelle
+
+**Définitions :**
+
+Part de la population déclarant des limitations dans leurs activités quotidiennes
+
+----
+
+## **Limitations des personnes âgées**
+
+**ID_indicateur :** pa_part_limitations_importante_comprehension, pa_part_limitations_importante_concentration, pa_part_limitations_importante_lever_bras, pa_part_limitations_importante_main, pa_part_limitations_importante_marche, pa_part_limitations_importante_ouie, pa_part_limitations_importante_sortir, pa_part_limitations_importante_vue
+
+**Périodicité :** Ponctuelle
+
+**Définitions :**
+
+Part des personnes âgées déclarant des limitations importantes dans leurs activités quotidiennes.
+
+----
+
+## **Scolarité des enfants handicapés**
+
+**ID_indicateur :** ph_enfants_part_eleves_handicap_1_2_deg_1000, ph_enfants_part_eleves_handicap_1_deg_1000, ph_enfants_part_eleves_handicap_2_deg_1000
+
+**Périodicité :** Ponctuelle
+
+**Définitions :**
+
+Les modalités de scolarisation d'un jeune en situation de handicap sont diverses : scolarisation à temps complet ou partiel, en milieu ordinaire (i.e. dans une école ou un établissement scolaire de second degré) ou dans un établissement spécialisé (sanitaire ou médico-social), à domicile avec l'aide d'une association ou du CNED, etc... Ces différents modes de scolarisation peuvent se succéder ou se combiner.
+
+La loi de 2005 sur l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées accorde la priorité à la scolarisation de l'enfant en situation de handicap dans une classe ordinaire (scolarisation individuelle), en milieu ordinaire. Lorsque cela est incompatible avec la situation ou l'état de santé du jeune, il peut être scolarisé dans une classe pour l'inclusion scolaire (CLIS) dans l'enseignement élémentaire ou dans une unité localisée pour l'inclusion scolaire (ULIS) dans le second degré (scolarisation collective). Il peut également être scolarisé dans un établissement sanitaire ou médico-social.
+
+- **Numérateur :** ph_enfants_part_eleves_handicap_1_deg : nombre d'élèves handicapés scolarisés en milieu scolaire ordinaire ou en unité d'enseignement en établissement sanitaire ou médico-social 
+
+- **Dénominateur :** ph_enfants_part_eleves_handicap_1_deg : nombre d'élèves du premier ou second degré en milieu scolaire ordinaire ou en unité d'enseignement établissement sanitaire ou médico-social
+
+Premier et second degré : les établissements de premier degré désignent les écoles maternelles et élémentaires; les établissements de second degré désignent les collèges et les lycées. 
+
+Indicateur exprimé pour 1000 élèves.
+
+La DEPP mène chaque année des enquêtes exhaustives et anonymes sur les élèves en situation de handicap. Il s’agit des opérations statistiques « n° 3 » et « n° 12 » relatives à la scolarisation des élèves dans les établissements du premier et du second degré d’enseignement relevant du ministère chargé de l’éducation nationale et de l’opération statistique « n° 32 » relative à la scolarisation des jeunes en situation de handicap accueillis dans les établissements hospitaliers et médico - sociaux. Le champ des enquêtes n° 3 et n° 12 concerne les élèves ayant un projet personnalisé de scolarisation (PPS). Le PPS rassemble dans un document les éléments relatifs au déroulement de la scolarité de l’élève en situation de handicap et les mesures de compensation nécessaires. Élaboré par l’équipe pluridisciplinaire de la MDPH, le PPS concerne les élèves reconnus en situation de handicap par la CDAPH. Les séries observées débutent en 2006 afin d’observer le système scolaire un an après la mise en œuvre de la loi du 11 février 2005.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la part de la population en situation de handicap et des aides qui leur sont attribuées, selon différentes dimensions : risque de handicap, handicap ressenti, handicap reconnu, aides ou prestations attribuées, offre d'accueil et d'accompagnement. 
+
+Cet indicateur y contribue sur la population des enfants en situation de handicap, au regard de la scolarisation. Il permet en particulier d'étudier le niveau d'inclusion scolaire des enfants en situation de handicap.
+
+**Intérêt de l’indicateur et interprétation :**
+
+Comparaisons spatiales : situer les territoires par rapport au niveau national, régional, aux autres départements.
+
+**Qualité et limites :**
+
+Il est conseillé d’interpréter avec prudence les évolutions de revenus ou de pauvreté entre deux années consécutives à l’échelon local du fait de changements méthodologiques et / ou de législation. 
+
+Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste la source de référence pour les indicateurs d’inégalité des niveaux de vie et de pauvreté. 
+
+Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
+
+----
+
+## **Mandataires**
+
+**ID_indicateur :** ph_nb_pers_mandataires_indiv, ph_nb_pers_mandataires_indiv_services, ph_nb_pers_mandataires_services
+
+**Périodicité :** Ponctuelle
+
+**Définitions :**
+
+Nombre de personnes prises en charge par des mandataires individuels, par des services mandataires et total
+
+----
+
+## **Taux d'effort net**
+
+**ID_indicateur :** lgmt_tx_effort_net_median_allocataires_aide
+
+**Périodicité :** Annuelle
+
+**Définitions :**
+
+Le taux d’effort net est appréhendé par le ratio entre le coût du logement, déduction faite des allocations logement, et les revenus. Il représente donc la part du revenu des allocataires effectivement consacrée au loyer une fois prises en compte les allocations logement.
+
+Champ : Le taux d’effort est calculé pour l’ensemble des foyers bénéficiaires des aides au logement à l’exception des foyers se trouvant dans l’une des situations suivantes :
+
+- le responsable de dossier a 65 ans ou plus ;
+- le responsable de dossier est étudiant ;
+- le responsable de dossier a moins de 25 ans et ne dispose d’aucune ressource ;
+- les deux membres du couple sont bénéficiaires de l’allocation pour les adultes handicapés
+
+Calcul du taux d'effort : ratio entre le montant de loyer (charges forfaitaires comprises) dont sont déduites les aides au logement et les ressources de l’ensemble des personnes du foyer vivant dans le logement (salaires, revenus de remplacement [chômage, indemnités journalières…], revenus du patrimoine, pension alimentaires perçues… hors pensions alimentaires versées) auxquelles sont ajoutées les prestations perçues hors aides au logement au titre du mois de référence ;. 
+
+En l'absence d'information sur les charges réelles, on calcule des charges forfaitaires résultant du barème des allocations logement. 
+Pour le calcul des ressources du foyer : 
+Les ressources du foyer agrègent celles de chacun des membres du foyer, y compris les enfants et les autres personnes à charges qui y sont rattachées.
+Les ressources prises en comptes correspondent à celles ayant permis le calcul du droit. Elles sont issues :
+
+- des données mensuelles issues du DRM (Dispositif de ressources mensuelles) ;
+- des ressources au titre des années A-1 et A-2 extraites de l’appel au CNTDF (Centre National des Transports des Données Fiscales) ;
+- des ressources déclaratives faites par les allocataires et utilisées pour la détermination du droit. 
+
+Les ressources atypiques (ressources mensuelles supérieures en valeur absolue à 50 000€ ou ressources annuelles supérieures en valeur absolue à 100 000€) n’ont pas été prises en comptes dans le calcul des ressources. 
+Les pensions alimentaires perçues sont intégrées dans les ressources du foyer et les pensions alimentaires versées sont déduites. 
+
+L'indicateur est le taux d'effort médian dans la Caf de gestion à partir de 2023, du département auparavant.
+
+Attention rupture de série : avant 2021, le calcul du taux d’effort s’appuyait sur les ressources au titre de l’année N-1, qui constituait la période de référence des ressources la plus proche du mois de droit. Avec la mise en place de la réforme en janvier 2021, les ressources de l’année en cours sont désormais connues (de M-2 à M-13) et servent donc de référence au calcul du taux d’effort. L'année 2023 n'est pas comparable aux années précédentes car l'indicateur est calculé au 30/06 au lieu du 31/12, du fait d'une refonte de la chaîne de production statistique.
+
+Indicateur exprimé en %.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires. Le taux d’effort vise à appréhender l’effort consenti par les foyers bénéficiaires des aides au logement pour payer leur loyer pour les locataires ou rembourser leurs mensualités pour les accédants à la propriété.
+
+**Intérêt de l’indicateur et interprétation :**
+
+Estimer le poids médian des dépenses de logement dans le budget des ménages qui ont des ressources suffisamment faibles pour percevoir une allocation logement.
+
+Les comparaisons dans le temps ne sont possibles qu'à législation inchangée.
+
+**Qualité et limites :**
+
+L'estimation des charges peut sous-estimer les taux d'effort notamment dans le parc public, où les charges sont en général plus élevées (Jacquot et al., 2004). Le calcul compte les allocations logement comme des dépenses affectées. Le résultat serait différent si on les incluait dans le revenu. Le revenu pris en compte ne porte pas sur la même période que les dépenses nettes des allocations logement. Or, en cas de réduction de revenu suite notamment à la perte d'un emploi ou une séparation, les ressources prises en compte pour le calcul de l'éligibilité à une prestation logement et du montant de l'allocation tiennent compte de ce changement de niveau de ressources. Le revenu est surestimé et le taux d'effort en logement est alors sous-estimé.
+
+Attention, l'indicateur ne porte actuellement que sur le champ des allocataires de la CNAF, et non sur celui de la CCMSA.
 
 ----
 
@@ -1474,115 +1479,110 @@ Compte tenu des changements méthodologiques importants entre les deux dispositi
 
 ----
 
-## **AAH : Nombre d'allocataires**
+## **Droit Au Logement Opposable**
 
-**ID_indicateur :** ph_benef_aah
-
-**Périodicité :** Ponctuelle
-
-**Définitions :**
-
-Nombre d'allocataires de l'[AAH](aah)
-Pour les données Cnaf la répartition est faite selon le département de la caisse de gestion
-
-----
-
-## **Scolarité des enfants handicapés**
-
-**ID_indicateur :** ph_enfants_part_eleves_handicap_1_2_deg_1000, ph_enfants_part_eleves_handicap_1_deg_1000, ph_enfants_part_eleves_handicap_2_deg_1000
-
-**Périodicité :** Ponctuelle
-
-**Définitions :**
-
-Les modalités de scolarisation d'un jeune en situation de handicap sont diverses : scolarisation à temps complet ou partiel, en milieu ordinaire (i.e. dans une école ou un établissement scolaire de second degré) ou dans un établissement spécialisé (sanitaire ou médico-social), à domicile avec l'aide d'une association ou du CNED, etc... Ces différents modes de scolarisation peuvent se succéder ou se combiner.
-
-La loi de 2005 sur l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées accorde la priorité à la scolarisation de l'enfant en situation de handicap dans une classe ordinaire (scolarisation individuelle), en milieu ordinaire. Lorsque cela est incompatible avec la situation ou l'état de santé du jeune, il peut être scolarisé dans une classe pour l'inclusion scolaire (CLIS) dans l'enseignement élémentaire ou dans une unité localisée pour l'inclusion scolaire (ULIS) dans le second degré (scolarisation collective). Il peut également être scolarisé dans un établissement sanitaire ou médico-social.
-
-- **Numérateur :** ph_enfants_part_eleves_handicap_1_deg : nombre d'élèves handicapés scolarisés en milieu scolaire ordinaire ou en unité d'enseignement en établissement sanitaire ou médico-social 
-
-- **Dénominateur :** ph_enfants_part_eleves_handicap_1_deg : nombre d'élèves du premier ou second degré en milieu scolaire ordinaire ou en unité d'enseignement établissement sanitaire ou médico-social
-
-Premier et second degré : les établissements de premier degré désignent les écoles maternelles et élémentaires; les établissements de second degré désignent les collèges et les lycées. 
-
-Indicateur exprimé pour 1000 élèves.
-
-La DEPP mène chaque année des enquêtes exhaustives et anonymes sur les élèves en situation de handicap. Il s’agit des opérations statistiques « n° 3 » et « n° 12 » relatives à la scolarisation des élèves dans les établissements du premier et du second degré d’enseignement relevant du ministère chargé de l’éducation nationale et de l’opération statistique « n° 32 » relative à la scolarisation des jeunes en situation de handicap accueillis dans les établissements hospitaliers et médico - sociaux. Le champ des enquêtes n° 3 et n° 12 concerne les élèves ayant un projet personnalisé de scolarisation (PPS). Le PPS rassemble dans un document les éléments relatifs au déroulement de la scolarité de l’élève en situation de handicap et les mesures de compensation nécessaires. Élaboré par l’équipe pluridisciplinaire de la MDPH, le PPS concerne les élèves reconnus en situation de handicap par la CDAPH. Les séries observées débutent en 2006 afin d’observer le système scolaire un an après la mise en œuvre de la loi du 11 février 2005.
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la part de la population en situation de handicap et des aides qui leur sont attribuées, selon différentes dimensions : risque de handicap, handicap ressenti, handicap reconnu, aides ou prestations attribuées, offre d'accueil et d'accompagnement. 
-
-Cet indicateur y contribue sur la population des enfants en situation de handicap, au regard de la scolarisation. Il permet en particulier d'étudier le niveau d'inclusion scolaire des enfants en situation de handicap.
-
-**Intérêt de l’indicateur et interprétation :**
-
-Comparaisons spatiales : situer les territoires par rapport au niveau national, régional, aux autres départements.
-
-**Qualité et limites :**
-
-Il est conseillé d’interpréter avec prudence les évolutions de revenus ou de pauvreté entre deux années consécutives à l’échelon local du fait de changements méthodologiques et / ou de législation. 
-
-Au niveau national, l’enquête sur les revenus fiscaux et sociaux (ERFS) reste la source de référence pour les indicateurs d’inégalité des niveaux de vie et de pauvreté. 
-
-Le nouveau dispositif [FiLoSoFi](#filosofi) crée une rupture de série. Il n'est donc pas possible de comparer les données à partir de 2012 avec celles des années antérieures.
-
-----
-
-## **Mandataires**
-
-**ID_indicateur :** ph_nb_pers_mandataires_indiv, ph_nb_pers_mandataires_indiv_services, ph_nb_pers_mandataires_services
-
-**Périodicité :** Ponctuelle
-
-**Définitions :**
-
-Nombre de personnes prises en charge par des mandataires individuels, par des services mandataires et total
-
-----
-
-## **AAH : Parts de bénéficiaires**
-
-**ID_indicateur :** ph_part_benef_aah_15_64_new, ph_part_benef_aah_15_64_old, ph_part_benef_aah_20_64_new, ph_part_benef_aah_20_64_old
+**ID_indicateur :** dalo_heberg_benef_accueillis, dalo_heberg_benef_accueillis_et_refus, dalo_heberg_decisions, dalo_heberg_decisions_favorables, dalo_heberg_recours, dalo_heberg_refus_proposition, dalo_lgmt_benef_reloges, dalo_lgmt_decisions, dalo_lgmt_decisions_favorables, dalo_lgmt_recours, dalo_lgmt_refus_offre, dalo_lgmt_total_reloges_et_refus, dalo_tot_benef_reloges_accueillis, dalo_tot_benef_reloges_accueillis_et_refus, dalo_tot_decisions, dalo_tot_decisions_favorables, dalo_tot_recours, dalo_tot_refus_offre_proposition
 
 **Périodicité :** Annuelle
 
 **Définitions :**
 
-L’allocation aux adultes handicapés (AAH), instituée en 1975, s’adresse aux personnes handicapées ne pouvant prétendre ni à un avantage vieillesse ni à une rente d’accident du travail. Le titulaire doit justifier d’un taux d’incapacité d’au moins 80%, ou d’au moins 50% si la CDAPH (commission des droits et de l’autonomie des personnes handicapées) reconnaît qu’il lui est impossible de travailler en raison de son handicap.
+La loi DALO (Droit au logement opposable), promulguée le 5 mars 2007 et entrée en vigueur en 2008, reconnaît l'État comme garant du droit au logement.
 
-- **Numérateur :** Nombre d’allocataires de l’AAH au 31/12
-- **Dénominateur :** Population âgée de 20 à 64 ans au 01/01/N+1
+Les demandeurs de logement social peuvent déposer un recours auprès d'une commission départementale (Comed), chargée d'évaluer le caractère prioritaire et urgent de leur demande au regard des critères fixés par la loi.
 
-Attention rupture de série : à la suite d'une amélioration du système de production statistique de la Cnaf sur les bénéficiaires de prestations légales, les données à partir de 2016 sur le [RSA](#rsa), l'AAH et le total des minima sociaux ne sont pas comparables avec celles des années précédentes.
+* **En cas de décision favorable** (reconnaissance du caractère prioritaire et urgent), conformément à l'article L441-2-3-1 et à l'article R441-16-1 du Code de la construction et de l'habitation (CCH), l'État est tenu de proposer un relogement dans un délai de 3 ou 6 mois, selon le délai fixé par arrêté préfectoral dans chaque département. Le logement proposé doit être adapté à la situation du demandeur, notamment à sa composition familiale, à ses ressources et à ses capacités. Si l'État ne procède pas au relogement dans le délai imparti, le demandeur peut saisir le tribunal administratif.
 
-Indicateur exprimé en %
+* **En cas de décision défavorable**, d'absence de réponse de la Comed dans les délais prévus, d'absence de proposition de relogement dans les délais impartis malgré la reconnaissance du caractère prioritaire et urgent, ou encore lorsque la Comed oriente le demandeur vers un hébergement plutôt que vers un logement, différents recours peuvent être exercés selon la situation.
 
-**Objectif :**
+Les indicateurs décrivent les différents états des dossiers, selon la proposition d'un hebergement ou d'un logement. 
 
-L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la part de la population en situation de handicap et des aides qui leur sont attribuées, selon différentes dimensions : risque de handicap, handicap ressenti, handicap reconnu, aides ou prestations attribuées, offre d'accueil et d'accompagnement. 
-
-Cet indicateur y contribue en mesurant la part de la population adulte reconnue en situation de handicap par la MDPH, via cette allocation. L’obtention de l'AAH dépendant du niveau de ressources de la personne, cet indicateur permet également de compléter l'approche de la précarité.
-
-**Intérêt de l’indicateur et interprétation :**
-
-Comparaisons dans le temps
-Comparaisons entre les départements
-
-**Qualité et limites :**
-
-Âge maximum : L'AAH n'est plus versée à partir de l'âge de départ à la retraite en cas d'incapacité de 50 % à 79 % ; à cet âge, les bénéficiaires basculent dans le régime de retraite pour inaptitude. En cas d'incapacité d'au moins 80 %, une AAH différentielle (allocation mensuelle réduite) peut être versée au-delà de cet âge en complément d'une retraite inférieure au minimum vieillesse.
+Dans les indicateurs totaux, les décisions favorables correspondent à la somme des décisions favorables logement, des décisions favorables hébergement et des réorientations des recours logement vers l'hébergement.
+Le nombre de décisions prises peut excéder le nombre de demandes reçues en raison du traitement des demandes de l'année précédente.
 
 ----
 
-## **Limitations dans les activités quotidiennes**
+## **Expulsions locatives**
 
-**ID_indicateur :** ph_part_limitations_act_quo_25_59, ph_part_limitations_act_quo_60p, ph_part_limitations_act_quo_m25
+**ID_indicateur :** lgmt_nb_expulsions_locatives, lgmt_nb_expulsions_locatives_conditionnelles, lgmt_nb_expulsions_locatives_fermes, lgmt_tx_expulsions_locatives_1000men
 
 **Périodicité :** Annuelle
 
 **Définitions :**
 
-Part de la population déclarant des limitations dans leurs activités quotidiennes
+Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
 
-------------------
+Il dénombre les décisions faisant suite aux demandes d’expulsion formulées devant le juge par les bailleurs (c’est-à-dire les assignations en justice en vue d’une expulsion locative, précédant l’éventuelle décision d’expulsion).
+Il existe 2 types de décisions :
+
+- L’expulsion « conditionnelle » : le juge suspend les effets de la clause résolutoire insérée dans le bail d’habilitation ou de la résiliation qu’il prononce et accorde des délais de paiement au locataire. Si les délais de paiement ne sont pas respectés, la clause résolutoire et la résiliation reprennent leurs effets et l’expulsion peut être poursuivie.
+- L’expulsion « ferme » : le juge constate ou prononce la résiliation du bail sans en suspendre les effets. L’occupant perd alors ses droits en tant que locataire ; il doit dès lors s’acquitter d’une « indemnité d’occupation » égale au montant des loyers et charges contractuelles jusqu’à la libération effective des lieux.
+Une fois l’expulsion décidée et la résiliation du bail effective, un commandement de quitter les lieux est adressé au ménage par un huissier de justice. Si le ménage refuse de partir dans le délai fixé par le commandement de quitter les lieux (en principe dans les deux mois lorsqu’il s’agit de l’habitation de l’occupant), l’expulsion est alors exécutée de manière forcée.
+
+Ces expulsions locatives comprennent :
+
+- les demandes en paiement des loyers et des charges et/ou tendant à faire prononcer ou constater la résiliation pour défaut de paiement ou défaut d'assurance et ordonner l'expulsion ;
+- les demandes tendant à l'exécution des autres obligations du locataire et/ou tendant à faire prononcer la résiliation pour inexécution de ces obligations et ordonner l'expulsion ;
+- les demandes du bailleur tendant à faire constater la validité du congé et à ordonner l'expulsion.
+
+Calcul du taux d'expulsions locatives :
+Décisions d'expulsions locatives pour 1000 ménages en 2019 = total des décisions d’expulsions en 2019 / nombre de ménages locataires (recensement de la population 2017)
+
+Décisions d'expulsions locatives pour 1000 ménages en 2018 = total des décisions d’expulsions en 2018 / nombre de ménages locataires (recensement de la population 2016)
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs aux minima sociaux et à l'insertion est de quantifier et décrire la population en situation de précarité, la population en risque ou en difficulté d'insertion, et en particulier les jeunes.
+
+Cet indicateur y contribue en mesurant l’expulsion pour impayé, qui traduit une situation extrême de charge de logement.
+
+----
+
+## **Surendettement**
+
+**ID_indicateur :** lgmt_nb_dossiers_surendet_energie, lgmt_part_dettes_surendet_energie, lgmt_part_dossiers_surendet_energie
+
+**Périodicité :** Annuelle
+
+**Définitions :**
+
+Cet indicateur, diffusé à partir de la vague 1 de mise à jour en 2019, est un indicateur de suivi du Plan Pluriannuel contre la Pauvreté et pour l’Inclusion Sociale (2013-2017).
+
+1) Un ménage est en situation de surendettement s'il ne parvient plus, malgré ses efforts et de façon durable :
+
+    - à rembourser ses mensualités de crédits ;
+    - et/ou plus généralement à faire face à ses dettes non professionnelles.
+
+2) Une situation de surendettement peut avoir différentes origines, notamment :
+
+    - un nombre trop important de crédits ;
+    - une baisse durable des ressources à la suite, par exemple, d’une perte d’emploi, d’une séparation ou d’une maladie.
+
+Sont fournis comme indicateurs :
+
+  - le nombre de dossiers présentant une dette pour impayés d'énergie (électricité, chauffage et gaz)
+  - la part de ces dossiers dans l'ensemble des dossiers de surendettement
+  - la part de cette dette pour impayés d'énergie dans la dette totale de l'ensemble des dossiers de surendettement
+
+Un dossier de surendettement décrit en effet les postes concernés par cette dette (les postes les plus importants étant l'immobilier et les prêts à la consommation). Les dettes pour impayés d'énergie sont considérées comme des dettes de charge courante.
+
+Suite à une refonte du système d'information du ministère de la Justice, les décisions d'expulsions locatives ne sont plus mises à jour depuis 2019 et ne sont donc plus affichées dans le [Panorama statistique](#pano).
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs aux minima sociaux et à l'insertion est de quantifier et décrire la population en situation de précarité, la population en risque ou en difficulté d'insertion, et en particulier les jeunes.
+
+Cet indicateur y contribue en permettant de voir dans quelle mesure le coût de l’énergie peut être un facteur de basculement dans la [pauvreté](#pauv).
+
+**Intérêt de l’indicateur et interprétation :**
+
+La notion de surendettement est subjective : c'est le ménage concerné qui fait la démarche de déclaration de surendettement auprès de la Banque de France.
+Il est possible que les différences locales soient liées à des politiques locales différentes : politique d'information auprès des consommateurs, de communication autour du surendettement,...
+
+**Qualité et limites :**
+
+Les résultats ([Estimations de population](#estim_pop)) sont provisoires ; ils deviennent définitifs avec le recensement de la population.
+Limites liées aux définitions : l’indicateur standardisé permet de comparer les départements en neutralisant l’effet de structure par [âge](#age), mais les taux bruts permettent une meilleure interprétation des évolutions dans le temps.
+Attention aux faibles effectifs concernés dans certains départements.
+
+----

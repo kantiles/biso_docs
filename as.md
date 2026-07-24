@@ -11,10 +11,16 @@
 
 Dépenses brutes totales d'aide sociale par habitant
 
-**Numérateur :** Dépenses annuelles brutes totales d'aide sociale, y compris les frais communs et les dépenses de personnel
-**Dénominateur :** Nombre d'habitants au 01/01/N+1
+- **Numérateur :** Dépenses annuelles brutes totales d'aide sociale, y compris les frais communs et les dépenses de personnel
+- **Dénominateur :** Nombre d'habitants au 01/01/N+1
 
 Indicateur exprimé en euros par habitant
+
+**Définitions :**
+
+Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
+
+Ces dépenses brutes sont toutefois exprimées après récupérations faites auprès des bénéficiaires, des obligés alimentaires et sur successions dans le cadre de l’aide sociale à l’hébergement (ASH) aux personnes âgées, afin de rendre plus robustes les comparaisons départementales. En effet, les pratiques départementales de récupérations de l'ASH sont très variables selon les collectivités et rendent impossible toute comparaison pertinente des dépenses brutes sur le sujet.
 
 **Objectif :**
 
@@ -22,11 +28,6 @@ L'objectif stratégique des indicateurs financiers est de fournir quelques élé
 
 Cet indicateur y contribue en estimant le coût global de l'aide sociale, normé par la taille de la population.
 
-**Définitions :**
-
-Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
-
-Ces dépenses brutes sont toutefois exprimées après récupérations faites auprès des bénéficiaires, des obligés alimentaires et sur successions dans le cadre de l’aide sociale à l’hébergement (ASH) aux personnes âgées, afin de rendre plus robustes les comparaisons départementales. En effet, les pratiques départementales de récupérations de l'ASH sont très variables selon les collectivités et rendent impossible toute comparaison pertinente des dépenses brutes sur le sujet.
 
 **Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles
 
@@ -53,15 +54,15 @@ Dépenses brutes de placement d'ASE par habitant ou bénéficiare
 
 Indicateurs exprimé en euros par habitant et par bénéficiaire
 
+**Définitions :**
+
+Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
+
 **Objectif :**
 
 L'objectif stratégique des indicateurs financiers est de fournir quelques éléments élémentaires de comparaison de coût et de dépenses, afin de compléter l'analyse des indicateurs thématiques. Ils ne peuvent permettre une analyse d’efficience rapportant les résultats aux moyens engagés.
 
 Cet indicateur y contribue en estimant le coût global de la principale dépense du département en matière de protection de l'enfance, normé par la taille de la population du département. Il donne également une estimation du coût moyen de la principale dépense du département en matière de protection de l'enfance par bénéficiaire.
-
-**Définitions :**
-
-Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
 
 **Intérêt de l’indicateur et interprétation :**
 
@@ -109,15 +110,15 @@ ase_part_aed_actions_educatives :
 
 Part des actions éducatives à domicile (AED) dans l'ensemble des actions éducatives et dans l'ensemble des mesure d'ASE
 
--**Numérateur :** Nombre d'actions éducatives à domicile au 31 décembre
--**Dénominateur :** Nombre d'actions éducatives au 31 Décembre
+- **Numérateur :** Nombre d'actions éducatives à domicile au 31 décembre
+- **Dénominateur :** Nombre d'actions éducatives au 31 Décembre
 
 ase_tx_actions_educ_0_20 :
 
 Taux d'actions éducatives (AED et AEMO) dans la population des 0-20 ans
 
--**Numérateur :** Nombre d'actions éducatives au 31 décembre
--**Dénominateur :** Population du département, au 01/01/N+1
+- **Numérateur :** Nombre d'actions éducatives au 31 décembre
+- **Dénominateur :** Population du département, au 01/01/N+1
 
 ase_tx_mesures_0_20 :
 
@@ -130,11 +131,6 @@ Sont pris en compte les actions éducatives à domicile (AED), les actions éduc
 
 Déclinaison par sous-population : Taux de mesures totales (mesures de placements et actions éducatives) dans la population des 0-20 ans ; Part des actions éducatives à domicile (AED) dans l'ensemble des mesures d'aide sociale à l'enfance ; Taux d'actions éducatives dans la population des 0-20 ans ; Part des actions éducatives à domicile dans l'ensemble des actions éducatives ; Taux de mesures de placements (enfants accueillis à l'ASE) dans la population des 0-20 ans ; Part des placements directs parmi les mesures de placement ; Part des mesures judiciaires parmi les enfants confiés ; Répartition par mode d'hébergement principal des enfants confiés à l'ASE
 
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs à la protection de l'enfance et de la jeunesse en danger est de mesurer la part de la population des mineurs et jeunes majeurs en risque de danger, ou en danger, ou encore bénéficiaires d'une mesure d'aide sociale à l'enfance ainsi que l'offre d'accueil existant pour ces publics.
-
-Cet indicateur y contribue en évaluant la part des mineurs et jeunes majeurs pris en charge par la protection de l'enfance. 
 
 **Définitions :**
 
@@ -155,6 +151,12 @@ Les mesures de placement à l’ASE sont de trois types :
 - les mesures judiciaires sont décidées par le [Juge des enfants](#jde). L’enfant est alors confié au service de l’ASE qui détermine les modalités de son placement. Elles comprennent la délégation de l’autorité parentale à l’ASE, le retrait partiel de l’autorité parentale, la tutelle d’État déférée à l’ASE, et le placement à l’ASE par le juge au titre de l’assistance éducative ou de l’ordonnance de 1945 sur l’enfance délinquante ;
 - les placements directs comprennent le placement par un juge auprès d’un établissement ou d’un tiers digne de confiance et la délégation de l’autorité parentale à un particulier ou à un établissement.
 
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs à la protection de l'enfance et de la jeunesse en danger est de mesurer la part de la population des mineurs et jeunes majeurs en risque de danger, ou en danger, ou encore bénéficiaires d'une mesure d'aide sociale à l'enfance ainsi que l'offre d'accueil existant pour ces publics.
+
+Cet indicateur y contribue en évaluant la part des mineurs et jeunes majeurs pris en charge par la protection de l'enfance. 
+
 **Intérêt de l’indicateur et interprétation :**
 
 Comparaisons spatiales, comparaisons dans le temps
@@ -173,16 +175,10 @@ Le nombre de mesures diffère du nombre de jeunes, certains d'entre eux pouvant 
 
 **Descriptif :**
 
-**Numérateur :** Nombre d'enfants confiés par mode d'hébergement principal
-**Dénominateur :** Population de moins de 21 ans du département au 01/01/N+1
+- **Numérateur :** Nombre d'enfants confiés par mode d'hébergement principal
+- **Dénominateur :** Population de moins de 21 ans du département au 01/01/N+1
 
 Sont pris en compte les actions éducatives à domicile (AED), les actions éducatives en milieu ouvert (AEMO), et l'ensemble des mesures de placements (placements directs par le juge en établissement et chez un tiers digne de confiance et placements ASE).
-
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs à la protection de l'enfance et de la jeunesse en danger est de mesurer la part de la population des mineurs et jeunes majeurs en risque de danger, ou en danger, ou encore bénéficiaires d'une mesure d'aide sociale à l'enfance ainsi que l'offre d'accueil existant pour ces publics.
-
-Cet indicateur y contribue en évaluant la part des mineurs et jeunes majeurs pris en charge par la protection de l'enfance.
 
 **Définitions :**
 
@@ -203,6 +199,12 @@ Les mesures de placement à l’ASE sont de trois types :
 - les mesures administratives sont décidées par le président du conseil départemental sur demande ou en accord avec la famille. Ce sont les accueils provisoires de mineurs, les accueils provisoires de jeunes majeurs et des pupilles de l’État ;
 - les mesures judiciaires sont décidées par le [Juge des enfants](#jde). L’enfant est alors confié au service de l’ASE qui détermine les modalités de son placement. Elles comprennent la délégation de l’autorité parentale à l’ASE, le retrait partiel de l’autorité parentale, la tutelle d’État déférée à l’ASE, et le placement à l’ASE par le juge au titre de l’assistance éducative ou de l’ordonnance de 1945 sur l’enfance délinquante ;
 - les placements directs comprennent le placement par un juge auprès d’un établissement ou d’un tiers digne de confiance et la délégation de l’autorité parentale à un particulier ou à un établissement.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs à la protection de l'enfance et de la jeunesse en danger est de mesurer la part de la population des mineurs et jeunes majeurs en risque de danger, ou en danger, ou encore bénéficiaires d'une mesure d'aide sociale à l'enfance ainsi que l'offre d'accueil existant pour ces publics.
+
+Cet indicateur y contribue en évaluant la part des mineurs et jeunes majeurs pris en charge par la protection de l'enfance.
 
 ----
 
@@ -228,18 +230,18 @@ Nombre d'actions éducatives à domicile (AED), en milieu ouvert (AEMO) ou au to
 
 Nombre de consultations et visite à domicile infantiles pour 1 000 enfants âgés de moins de 6 ans
 
-**Numérateur :** Nombre de consultations ou visite à domicile infantiles dans le département dans l'année N
-**Dénominateur :** Population de moins de 6 ans du département au 01/01/N+1
+- **Numérateur :** Nombre de consultations ou visite à domicile infantiles dans le département dans l'année N
+- **Dénominateur :** Population de moins de 6 ans du département au 01/01/N+1
 
 Nombre de consultations et entretiens en santé sexuelle pour 1 000 femmes âgées de 15 à 49 ans.
 
-**Numérateur :** Nombre de consultations/entretiens dans le département dans l'année N
-**Dénominateur :** Population de femmes agées de 15 à 49 ans du département au 01/01/N+1
+- **Numérateur :** Nombre de consultations/entretiens dans le département dans l'année N
+- **Dénominateur :** Population de femmes agées de 15 à 49 ans du département au 01/01/N+1
 
 Nombre de consultations et Visite A Domicile (VAD) pour 1 000 femmes ayant accouché au cours de l'année
 
-**Numérateur :** Nombre de consultations ou de Visite A Domicile (VAD) dans le département dans l'année N
-**Dénominateur :** Nombre de naissance dans le département dans l'année N
+- **Numérateur :** Nombre de consultations ou de Visite A Domicile (VAD) dans le département dans l'année N
+- **Dénominateur :** Nombre de naissance dans le département dans l'année N
 
 Indicateurs exprimé en pour 1000
 
@@ -317,8 +319,8 @@ Nombre de places dans les différentes structures d'accueil collectif au 31 déc
 
 Pour les indicateurs de répartitions : 
 
-**Numérateur :** Nombre de places dans les différentes structures d'accueil collectif au 31/12/N
-**Dénominateur :** Nombre total de places en accueil collectif au 31/12/N (fam_nb_places_acc_coll_m3)
+- **Numérateur :** Nombre de places dans les différentes structures d'accueil collectif au 31/12/N
+- **Dénominateur :** Nombre total de places en accueil collectif au 31/12/N (fam_nb_places_acc_coll_m3)
 
 Du fait de la réforme des modes d'accueil de 2021, une nouvelle nomenclature des établissements d'accueil des jeunes enfants a repris les spécifications inscrites dans le code de la Santé Publique (Article R2324-17). Les données ne sont donc pas comparables avec celles présentées dans les panoramas précédents.
 
@@ -347,12 +349,6 @@ Ne sont pas pris en compte les bénéficiaires du "RSA jeune", cette prestation 
 
 Indicateur exprimé en euros par habitant et en euros par bénéficiaire
 
-**Objectif :**
-
-L'objectif stratégique des indicateurs financiers est de fournir quelques éléments élémentaires de comparaison de coût et de dépenses, afin de compléter l'analyse des indicateurs thématiques. Ils ne peuvent permettre une analyse d’efficience rapportant les résultats aux moyens engagés.
-
-Cet indicateur y contribue en permettant d'estimer le coût global du [RSA](#rsa), normé par la taille de la population du département. Il donne également une estimation du coût moyen du [RSA](#rsa) par bénéficiaire.
-
 **Définitions :**
 
 Le [RSA](#rsa) est en vigueur depuis le 1er juin 2009 en France métropolitaine et depuis le 1er janvier 2011 dans les départements d’outre-mer. Il a remplacé le revenu minimum d’insertion (RMI), l’allocation de parent isolé (API) et les dispositifs associés d’intéressement à la reprise d’activité. 
@@ -362,6 +358,12 @@ Il est à la fois une allocation visant à garantir un revenu minimum de ressour
 Depuis le 1er septembre 2010, le [RSA](#rsa) est étendu au moins de 25 ans (RSA jeunes) sous condition de justifier de deux ans d’activité en équivalent temps plein, au cours des trois dernières années. Dans ce cas, il est financé par l'Etat.
 
 Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs financiers est de fournir quelques éléments élémentaires de comparaison de coût et de dépenses, afin de compléter l'analyse des indicateurs thématiques. Ils ne peuvent permettre une analyse d’efficience rapportant les résultats aux moyens engagés.
+
+Cet indicateur y contribue en permettant d'estimer le coût global du [RSA](#rsa), normé par la taille de la population du département. Il donne également une estimation du coût moyen du [RSA](#rsa) par bénéficiaire.
 
 **Intérêt de l’indicateur et interprétation :** Mesurer l'évolution de la charge financière par habitant liée au [RSA](#rsa) dans l'espace et dans le temps ; les variations spatiales sont fortement liées au contexte économique départemental
 
@@ -476,12 +478,6 @@ Bénéficiaires de l'ASH aux personnes âgées, en % du nombre de places d'hébe
 
 Indicateur exprimé en pourcentage.
 
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs aux personnes âgées est de mesurer la part des personnes âgées dépendantes ou en risque de dépendance et des aides qui leur sont attribuées, selon différentes dimensions : aide à domicile, y compris pour les personnes âgées en grande perte d'autonomie, aide en établissement, isolement et risque d'isolement des personnes âgées, offre de soins à domicile et d'hébergement, coordination gérontologique à l'échelle du département.
-
-Cet indicateur y contribue en donnant une évaluation de la part de personnes âgées hébergées dans le département mais dans l'incapacité de supporter sans aide les frais d'hébergement, par le rapport des bénéficiaires de l'ASH au nombre de places d'hébergement installées dans le département.
-
 **Définitions :**
 
 Les départements financent une partie des dépenses d’hébergement des personnes âgées dans le cadre de l’aide sociale à l’hébergement (ASH), si les revenus de la personne âgée et l'aide financière que ses enfants sont susceptibles de lui apporter dans le cadre de l'obligation alimentaire ne lui permettent pas de couvrir en totalité ses frais d'hébergement.
@@ -500,6 +496,12 @@ Le Fichier National des Établissements Sanitaires et Sociaux ([Finess](#finess)
 La Statistique annuelle des établissements de santé (SAE) est une enquête administrative exhaustive et obligatoire auprès des établissements de santé installés en France (métropole et DROM) y compris les structures qui ne réalisent qu’un seul type d’hospitalisation ou qui ont une autorisation pour une seule activité de soins. Les données sont collectées par la Drees.
 
 Bénéficiaires de l'ASH : Drees, [Enquête Aide sociale](#as), menée auprès des conseils départementaux
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs aux personnes âgées est de mesurer la part des personnes âgées dépendantes ou en risque de dépendance et des aides qui leur sont attribuées, selon différentes dimensions : aide à domicile, y compris pour les personnes âgées en grande perte d'autonomie, aide en établissement, isolement et risque d'isolement des personnes âgées, offre de soins à domicile et d'hébergement, coordination gérontologique à l'échelle du département.
+
+Cet indicateur y contribue en donnant une évaluation de la part de personnes âgées hébergées dans le département mais dans l'incapacité de supporter sans aide les frais d'hébergement, par le rapport des bénéficiaires de l'ASH au nombre de places d'hébergement installées dans le département.
 
 **Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles.
 Cet indicateur peut être rapproché des données de contexte sur le taux de [Pauvreté](#pauv) monétaire des personnes âgées et du taux d'équipement.
@@ -531,12 +533,6 @@ Nombre d'habitants de 60 ans et plus; Nombre d'habitants de 75 ans et plus
 
 Indicateur exprimé en %.
 
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs au personnes âgées est de mesurer la part des personnes âgées dépendantes ou en risque de dépendance et des aides qui leur sont attribuées, selon différentes dimensions : aide à domicile, y compris pour les personnes âgées en grande perte d'autonomie, aide en établissement, isolement et risque d'isolement des personnes âgées, offre de soins à domicile et d'hébergement, coordination gérontologique à l'échelle du département.
-
-Cet indicateur y contribue en évaluant la part de la population dépendante et bénéficiaire d'une prestation, par la part des personnes âgées bénéficiaires de l'APA.
-
 **Définitions :**
 
 Mise en place en 2002, l’allocation personnalisée d’autonomie ([APA](#apa)) est versée par les conseils départementaux aux personnes âgées de 60 ans ou plus qui sont évaluées comme dépendantes d’après la grille AGGIR, qu’elles vivent à leur domicile ou qu’elles résident en établissement. Cette prestation permet de financer en partie les différentes aides (humaines et techniques) auxquelles ces personnes ont recours pour compenser leurs difficultés dans la réalisation des actes de la vie quotidienne.
@@ -544,6 +540,12 @@ Mise en place en 2002, l’allocation personnalisée d’autonomie ([APA](#apa))
 Bénéficiaires de l'APA = personnes payées au titre du mois de décembre, y compris personnes bénéficiaires en établissement sous dotation globale.
 Les bénéficiaires de l'APA vivant dans un établissement d'une capacité inférieure à 25 places ou ayant un GIR moyen pondéré inférieur à 300 et qui a opté pour un budget n'intégrant pas de section de soins, sont considérés comme des bénéficiaires de l'APA à domicile, de même que les bénéficiaires hébergés en famille d'accueil à titre onéreux.
 Lorsqu'un bénéficiaire est hébergé en établissement hors de son département d'origine, il est bénéficiaire de l'APA dans son département d'origine et non dans le département d'accueil.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs au personnes âgées est de mesurer la part des personnes âgées dépendantes ou en risque de dépendance et des aides qui leur sont attribuées, selon différentes dimensions : aide à domicile, y compris pour les personnes âgées en grande perte d'autonomie, aide en établissement, isolement et risque d'isolement des personnes âgées, offre de soins à domicile et d'hébergement, coordination gérontologique à l'échelle du département.
+
+Cet indicateur y contribue en évaluant la part de la population dépendante et bénéficiaire d'une prestation, par la part des personnes âgées bénéficiaires de l'APA.
 
 **Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles
 
@@ -570,12 +572,6 @@ Déclinaison par sous-population : Tous âges ; 60 ans et plus ; Par type de pre
 
 Indicateur exprimé en pour 1000.
 
-**Objectif :**
-
-L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la part de la population en situation de handicap et des aides qui leur sont attribuées, selon différentes dimensions : risque de handicap, handicap ressenti, handicap reconnu, aides ou prestations attribuées, offre d'accueil et d'accompagnement. 
-
-Cet indicateur y contribue en mesurant la part de la population reconnue en situation de handicap et bénéficiaire de la PCH ou de l'ACTP parmi l'ensemble de la population.
-
 **Définitions :**
 
 Mise en place en 2006, la prestation de compensation (PCH) est versée par les conseils départementaux aux personnes handicapées, qu’elles vivent à leur domicile ou qu’elles résident en établissement. C’est une aide personnalisée, visant à financer les besoins de compensation des personnes au regard de leur projet de vie. Elle concerne les aides humaines, les aides techniques et matérielles (par exemple : aménagement du logement et du véhicule), les aides animalières. Peuvent en bénéficier les personnes reconnues éligibles à la PCH par les commissions des droits et de l’autonomie des personnes handicapées (CDAPH).
@@ -585,6 +581,12 @@ Le dispositif de l’ACTP (allocation compensatrice pour tierce personne) est re
 Les bénéficiaires sont les personnes ayant des droits ouverts au 31/12 par la CDAPH ou bénéficiant d'une procédure d'urgence. Sont exclues les personnes dont les droits sont interrompus avant le 31/12, suite à décès, déménagement hors du département ou choix de l'[APA](#apa).
 Pour la PCH, le droit peut avoir donné lieu à paiement ou non.
 Sont inclus les enfants bénéficiaires de la PCH.
+
+**Objectif :**
+
+L'objectif stratégique des indicateurs relatifs au handicap est de mesurer la part de la population en situation de handicap et des aides qui leur sont attribuées, selon différentes dimensions : risque de handicap, handicap ressenti, handicap reconnu, aides ou prestations attribuées, offre d'accueil et d'accompagnement. 
+
+Cet indicateur y contribue en mesurant la part de la population reconnue en situation de handicap et bénéficiaire de la PCH ou de l'ACTP parmi l'ensemble de la population.
 
 **Intérêt de l’indicateur et interprétation :**
 
@@ -712,4 +714,4 @@ Cet indicateur y contribue en mesurant la part de la population reconnue en situ
 
 **Intérêt de l’indicateur et interprétation :** Comparaisons spatiales et temporelles, les variations spatiales sont en partie liées au contexte départemental.
 
---------
+----
