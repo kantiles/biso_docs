@@ -43,7 +43,7 @@ Les résultats sont provisoires ; ils deviennent définitifs avec le recensement
 
 ----
 
-## **Naissances et décés**
+## **Naissances et décès**
 
 **ID_indicateur :** cont_nb_deces_domicilies, cont_nb_naissances
 
@@ -51,7 +51,7 @@ Les résultats sont provisoires ; ils deviennent définitifs avec le recensement
 
 **Définitions :**
 
-Nombre de décés domiciliés et de naissance dans l'année.
+Nombre de décès domiciliés et de naissance dans l'année.
 
 Avertissement : le total des décès domiciliés est différent de celui des tableaux nationaux, qui comptabilisent les décès enregistrés. 
 Par ailleurs, le total France comprend les décès de Mayotte. Toutefois, pour ce département, les données sur les décès sont à considérer prudemment car elles sont probablement sous-estimées. 
@@ -729,10 +729,7 @@ Nombres d'allocataires des minimas :
 
 Attention rupture de série : à la suite d'une amélioration du système de production statistique de la Cnaf sur les bénéficiaires de prestations légales, les données à partir de 2016 ne sont pas comparables avec celles des années précédentes.
 
-Le revenu de solidarité active ([RSA](#rsa)) est en vigueur depuis le 1er juin 2009 en France métropolitaine et depuis le 1er janvier 2011 dans les départements d’outre-mer. Il a remplacé le revenu minimum d’insertion (RMI), l’allocation de parent isolé (API) et les dispositifs associés d’intéressement à la reprise d’activité. 
-Il est à la fois une allocation visant à garantir un revenu minimum de ressources aux bénéficiaires et un dispositif d’accompagnement social et professionnel pour faciliter l’accès à l’emploi ou consolider les capacités professionnelles de ceux qui sont sans activité ou qui ne tirent de leur activité que des ressources limitées. Financé par les départements, il est un revenu minimum s'adressant aux personnes dont l'ensemble des ressources est inférieur à un montant forfaitaire dépendant de la composition du ménage. Ce montant est revu chaque année. Le RSA peut être majoré pour les personnes élevant seules de jeunes enfants.
-Depuis le 1er septembre 2010, le [RSA](#rsa) est étendu au moins de 25 ans (RSA jeunes) sous condition de justifier de deux ans d’activité en équivalent temps plein, au cours des trois dernières années. Dans ce cas, il est financé par l'Etat.
-Jusqu’en 2015, le RSA « activité », financé par l’État, s’adressait aux foyers ayant des revenus compris entre le montant forfaitaire et un revenu garanti. Depuis le 1er janvier 2016, le RSA activité a fusionné avec la prime pour l’emploi pour devenir la prime d’activité.
+Le [revenu de solidarité active](#rsa) est une allocation qui complète les ressources initiales du foyer pour qu'elles atteignent le niveau d'un revenu garanti.
 
 L’allocation de solidarité spécifique (ASS), instituée en 1984, est une allocation chômage s’adressant aux chômeurs ayant épuisé leurs droits à l’assurance chômage, et qui justifient d’au moins cinq années d’activité salariée au cours des dix dernières années précédant la rupture de leur contrat de travail.
 
@@ -930,7 +927,7 @@ Distribution des revenus des bénéficiaires de l'[APA](#apa)
 
 **Définitions :**
 
-Nombre d'allocataires de l'[AAH](aah)
+Nombre d'allocataires de l'[AAH](#aah)
 Pour les données Cnaf la répartition est faite selon le département de la caisse de gestion
 
 ----

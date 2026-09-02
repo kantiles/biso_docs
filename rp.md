@@ -18,7 +18,7 @@ L'objectif stratégique des indicateurs de contexte est de caractériser le terr
 
 ----
 
-## **Population définitives et part d'immigrés**
+## **Populations définitives et parts d'immigrés**
 
 **ID_indicateur :** pop_rp_tot, cont_part_pop_immig
 
