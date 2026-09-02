@@ -11,14 +11,15 @@ library(purrr)
 
 source("R/import_documentation.R")
 
+path_drive <- Sys.getenv("PATH_DRIVE")
+
 df_biso <- map(
   list.files(
-    paste0(
-      "../biso/data/format/",
-      "20_07_26",
-      "/livraison_huwise"
+    glue::glue(
+      "{path_drive}Common documents/Drees/Livraisons/Livraison 23 juillet 2026/"
     ),
-    full.names = TRUE
+    full.names = TRUE,
+    pattern = ".csv"
   ),
   read_csv
 ) |>

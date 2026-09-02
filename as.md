@@ -14,7 +14,7 @@ Dépenses brutes totales d'aide sociale par habitant
 - **Numérateur :** Dépenses annuelles brutes totales d'aide sociale, y compris les frais communs et les dépenses de personnel
 - **Dénominateur :** Nombre d'habitants au 01/01/N+1
 
-Indicateur exprimé en euros par habitant
+Indicateur exprimé en euros courants par habitant
 
 **Définitions :**
 
@@ -42,7 +42,7 @@ Cet indicateur y contribue en estimant le coût global de l'aide sociale, normé
 **Descriptif :**
 
 Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
-Indicateurs exprimé en euros 
+Indicateurs exprimé en euros courants
 
 Dépenses brutes de placement d'ASE par habitant ou bénéficiare
 
@@ -52,7 +52,7 @@ Dépenses brutes de placement d'ASE par habitant ou bénéficiare
   - Nombre d'habitants au 01/01/N+1 pour ase_depenses_brutes_placement_hab
   - Moyenne du nombre de bénéficiaires au 31/12 de l'année N-1 et de celui au 31/12 de l'année N pour ase_depenses_brutes_placement_benef
 
-Indicateurs exprimé en euros par habitant et par bénéficiaire
+Indicateurs exprimé en euros courants par habitant et par bénéficiaire
 
 **Définitions :**
 
@@ -336,26 +336,22 @@ Du fait de la réforme des modes d'accueil de 2021, une nouvelle nomenclature de
 
 Dépenses d'insertion et d'allocation liées au [RSA](#rsa) par habitant
 
-- **Numérateur :** Dépenses annuelles brutes d'allocation et d'insertion liées au [RSA](#rsa) en euros
+- **Numérateur :** Dépenses annuelles brutes d'allocation et d'insertion liées au [RSA](#rsa) en euros courants
 - **Dénominateur :** Nombre d'habitants au 01/01/N+1
 
 Dépenses d'insertion et d'allocation liées au [RSA](#rsa) par bénéficiaire
 
-- **Numérateur :** Dépenses annuelles brutes d'allocation et d'insertion liées au [RSA](#rsa) en euros
+- **Numérateur :** Dépenses annuelles brutes d'allocation et d'insertion liées au [RSA](#rsa) en euros courants
 - **Dénominateur :** Moyenne du nombre de bénéficiaires au 31/12 de l'année N-1 et de celui au 31/12 de l'année N
 
 On entend par bénéficiaire ici les allocataires, leurs conjoints et les personnes à charge des allocataires (population couverte).
 Ne sont pas pris en compte les bénéficiaires du "RSA jeune", cette prestation étant à la charge de l’État. Ils représentent moins de 1 % de l'ensemble de la population couverte par le [RSA](#rsa) total.
 
-Indicateur exprimé en euros par habitant et en euros par bénéficiaire
+Indicateur exprimé en euros courants par habitant et en euros courants par bénéficiaire
 
 **Définitions :**
 
-Le [RSA](#rsa) est en vigueur depuis le 1er juin 2009 en France métropolitaine et depuis le 1er janvier 2011 dans les départements d’outre-mer. Il a remplacé le revenu minimum d’insertion (RMI), l’allocation de parent isolé (API) et les dispositifs associés d’intéressement à la reprise d’activité. 
-
-Il est à la fois une allocation visant à garantir un revenu minimum de ressources aux bénéficiaires et un dispositif d’accompagnement social et professionnel pour faciliter l’accès à l’emploi ou consolider les capacités professionnelles de ceux qui sont sans activité ou qui ne tirent de leur activité que des ressources limitées. Financé par les départements, il est un revenu minimum s'adressant aux personnes dont l'ensemble des ressources est inférieur à un montant forfaitaire dépendant de la composition du ménage. Ce montant est revu chaque année. Le [RSA](#rsa) peut être majoré pour les personnes élevant seules de jeunes enfants.
-
-Depuis le 1er septembre 2010, le [RSA](#rsa) est étendu au moins de 25 ans (RSA jeunes) sous condition de justifier de deux ans d’activité en équivalent temps plein, au cours des trois dernières années. Dans ce cas, il est financé par l'Etat.
+Le [revenu de solidarité active](#rsa) est une allocation qui complète les ressources initiales du foyer pour qu'elles atteignent le niveau d'un revenu garanti.
 
 Dépenses brutes : dépenses de l'année avant déduction des recouvrements, remboursements et récupérations.
 
@@ -428,15 +424,15 @@ Dépenses brutes : dépenses de l'année avant déduction des recouvrements, rem
 
 Dépenses d'[APA](#apa) par habitant
 
-- **Numérateur :** Dépenses annuelles brutes d'APA en euros, hors frais de personnel 
+- **Numérateur :** Dépenses annuelles brutes d'APA en euros courants, hors frais de personnel 
 - **Dénominateur :** Nombre d'habitants au 01/01/N+1
 
 Dépenses d'[APA](#apa) par bénéficiaire
 
-- **Numérateur :** Dépenses annuelles brutes d'APA en euros, hors frais de personnel 
+- **Numérateur :** Dépenses annuelles brutes d'APA en euros courants, hors frais de personnel 
 - **Dénominateur :** Moyenne du nombre de bénéficiaires en décembre de l'année N-1 et de celui de l'année N.
 
-Indicateur exprimé en euros par habitant et par bénéficiaire
+Indicateur exprimé en euros courants par habitant et par bénéficiaire
 
 **Intérêt de l’indicateur et interprétation :**
 
@@ -511,7 +507,7 @@ Cet indicateur peut être rapproché des données de contexte sur le taux de [Pa
 - Certaines personnes âgées sont bénéficiaires de l'ASH dans leur département d'origine tout en étant hébergées dans un autre département. L'interprétation de l'indicateur serait donc à nuancer selon l'importance des flux de personnes entre départements.
 
 - [Finess](#finess) est un répertoire regroupant une sélection d’informations sur les établissements sanitaires et sociaux, actualisée au fil de l'eau en fonction des modifications effectuées au niveau territorial (ARS, DRJSCS), en lien avec la publication des textes officiels d'autorisation.
-L'enquête de la Drees auprès des établissements d'hébergement pour personnes âgées. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de [Finess](#finess) en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans [Finess](#finess) et un important travail de mise en cohérence est alors mené.
+L'enquête de la Drees auprès des établissements d'hébergement pour personnes âgées est quadriennale. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de [Finess](#finess) en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans [Finess](#finess) et un important travail de mise en cohérence est alors mené.
 
 ----
 
@@ -612,15 +608,15 @@ Dépenses brutes : dépenses de l'année avant déduction des recouvrements, rem
 
 Dépenses brutes d'aide à l'accueil en établissement par habitant
 
-- **Numérateur :** Dépenses annuelles brutes d'aide à l'accueil (accueil de jour et hébergement) en établissement (foyer d'hébergement, foyer occupationnel, foyer d'accueil médicalisé, maison de retraite), en euros
+- **Numérateur :** Dépenses annuelles brutes d'aide à l'accueil (accueil de jour et hébergement) en établissement (foyer d'hébergement, foyer occupationnel, foyer d'accueil médicalisé, maison de retraite), en euros courants
 - **Dénominateur :** Nombre d'habitants au 01/01/N+1
 
 Dépenses brutes d'aide à l'accueil en établissement par bénéficiaire
 
-- **Numérateur :** Dépenses annuelles brutes d'aide à l'accueil (accueil de jour et hébergement) en établissement (foyer d'hébergement, foyer occupationnel, foyer d'accueil médicalisé, maison de retraite), en euros
+- **Numérateur :** Dépenses annuelles brutes d'aide à l'accueil (accueil de jour et hébergement) en établissement (foyer d'hébergement, foyer occupationnel, foyer d'accueil médicalisé, maison de retraite), en euros courants
 - **Dénominateur :** Moyenne du nombre de bénéficiaires au 31/12 de l'année N-1 et de celui au 31/12 de l'année N
 
-Indicateur exprimé en euros par habitant et par bénéficiaire"
+Indicateur exprimé en euros courants par habitant et par bénéficiaire
 
 **Objectif :**
 
@@ -648,15 +644,15 @@ Dépenses brutes : dépenses de l'année avant déduction des recouvrements, rem
 
 Dépenses de PCH et d'ACTP par habitant
 
-- **Numérateur :** Dépenses annuelles brutes de PCH et d'ACTP en euros, hors frais de personnel
+- **Numérateur :** Dépenses annuelles brutes de PCH et d'ACTP en euros courants, hors frais de personnel
 - **Dénominateur :** Nombre d'habitants au 01/01/N+1
 
 Dépenses de PCH et d'ACTP par bénéficiaire
 
-- **Numérateur :** Dépenses annuelles brutes d'ACTP et de PCH en euros (avant déduction des recouvrements, remboursements et récupérations), hors frais de personnel 
+- **Numérateur :** Dépenses annuelles brutes d'ACTP et de PCH en euros courants (avant déduction des recouvrements, remboursements et récupérations), hors frais de personnel 
 - **Dénominateur :** Moyenne du nombre de bénéficiaires au 31/12 de l'année N-1 et de celui au 31/12 de l'année N
 
-Indicateur exprimé en euros par habitant et par bénéficiaire
+Indicateur exprimé en euros courants par habitant et par bénéficiaire
 
 **Objectif :**
 
