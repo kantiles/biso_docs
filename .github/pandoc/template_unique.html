@@ -5,15 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="format-detection" content="telephone=no,date=no,address=no,email=no,url=no">
   <meta name="theme-color" content="#000091">
-  <title>$pagetitle$ — BISO</title>
+  <title>$title$ — BISO</title>
   <link rel="stylesheet" href="dsfr/dsfr.min.css">
-  <link rel="stylesheet" href="dsfr/utility/icons/icons.min.css">
-  <link rel="apple-touch-icon" href="dsfr/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="dsfr/favicon/apple-touch-icon.png">
   <link rel="icon" href="dsfr/favicon/favicon.svg" type="image/svg+xml">
   <link rel="shortcut icon" href="dsfr/favicon/favicon.ico" type="image/x-icon">
   <link rel="manifest" href="dsfr/favicon/manifest.webmanifest" crossorigin="use-credentials">
   <style>
-    .biso-content h1 { margin-bottom: 2rem; }
+    .biso-content h1 { margin: 3rem 0 2rem; scroll-margin-top: 1rem; }
     .biso-content h2 { margin-top: 2.5rem; scroll-margin-top: 1rem; }
     .biso-content hr { margin: 2rem 0; }
   </style>
@@ -38,24 +37,20 @@ ${ entete() }
           <div class="fr-sidemenu__inner">
             <button class="fr-sidemenu__btn" aria-controls="menu-collapse" aria-expanded="false">Dans cette documentation</button>
             <div class="fr-collapse" id="menu-collapse">
-              <p class="fr-sidemenu__title" id="menu-title">Documentation BISO</p>
+              <p class="fr-sidemenu__title" id="menu-title">$title$</p>
               <ul class="fr-sidemenu__list">
-$for(navpages)$
-$if(navpages.active)$
-                <li class="fr-sidemenu__item fr-sidemenu__item--active">
-                  <button class="fr-sidemenu__btn" aria-expanded="true" aria-controls="menu-page">$navpages.title$</button>
-                  <div class="fr-collapse" id="menu-page">
+$for(chapitres)$
+                <li class="fr-sidemenu__item">
+                  <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="menu-$chapitres.num$">$chapitres.title$</button>
+                  <div class="fr-collapse" id="menu-$chapitres.num$">
                     <ul class="fr-sidemenu__list">
-                      <li class="fr-sidemenu__item"><a class="fr-sidemenu__link" href="$navpages.href$" aria-current="page">Haut de page</a></li>
-$for(sections)$
-                      <li class="fr-sidemenu__item"><a class="fr-sidemenu__link" href="#$sections.id$">$sections.title$</a></li>
+                      <li class="fr-sidemenu__item"><a class="fr-sidemenu__link" href="#$chapitres.id$">Début du chapitre</a></li>
+$for(chapitres.sections)$
+                      <li class="fr-sidemenu__item"><a class="fr-sidemenu__link" href="#$chapitres.sections.id$">$chapitres.sections.title$</a></li>
 $endfor$
                     </ul>
                   </div>
                 </li>
-$else$
-                <li class="fr-sidemenu__item"><a class="fr-sidemenu__link" href="$navpages.href$">$navpages.title$</a></li>
-$endif$
 $endfor$
               </ul>
             </div>
@@ -63,6 +58,8 @@ $endfor$
         </nav>
       </div>
       <main class="fr-col-12 fr-col-md-8 biso-content" id="contenu" role="main">
+        <h1>$title$</h1>
+        <p class="fr-text--sm">Générée le $date$</p>
 $body$
       </main>
     </div>
