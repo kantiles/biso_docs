@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr" data-fr-scheme="system">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="format-detection" content="telephone=no,date=no,address=no,email=no,url=no">
+  <meta name="theme-color" content="#000091">
+  <title>$pagetitle$ — BISO</title>
+  <link rel="stylesheet" href="dsfr/dsfr.min.css">
+  <link rel="stylesheet" href="dsfr/utility/icons/icons.min.css">
+  <link rel="apple-touch-icon" href="dsfr/favicon/apple-touch-icon.png">
+  <link rel="icon" href="dsfr/favicon/favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="dsfr/favicon/favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="dsfr/favicon/manifest.webmanifest" crossorigin="use-credentials">
+  <style>
+    .biso-content h1 { margin-bottom: 2rem; }
+    .biso-content h2 { margin-top: 2.5rem; scroll-margin-top: 1rem; }
+    .biso-content hr { margin: 2rem 0; }
+  </style>
+</head>
+<body>
+  <div class="fr-skiplinks">
+    <nav class="fr-container" role="navigation" aria-label="Accès rapide">
+      <ul class="fr-skiplinks__list">
+        <li><a class="fr-link" href="#contenu">Contenu</a></li>
+        <li><a class="fr-link" href="#menu">Menu</a></li>
+        <li><a class="fr-link" href="#footer">Pied de page</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header role="banner" class="fr-header">
+    <div class="fr-header__body">
+      <div class="fr-container">
+        <div class="fr-header__body-row">
+          <div class="fr-header__brand fr-enlarge-link">
+            <div class="fr-header__brand-top">
+              <div class="fr-header__logo">
+                <p class="fr-logo">République<br>Française</p>
+              </div>
+            </div>
+            <div class="fr-header__service">
+              <a href="index.html" title="Accueil - BISO">
+                <p class="fr-header__service-title">BISO</p>
+              </a>
+              <p class="fr-header__service-tagline">Documentation de la Base Indicateurs SOciaux — Drees</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="fr-container fr-my-6w">
+    <div class="fr-grid-row fr-grid-row--gutters">
+      <div class="fr-col-12 fr-col-md-4">
+        <nav class="fr-sidemenu fr-sidemenu--sticky-full-height" role="navigation" aria-labelledby="menu-title" id="menu">
+          <div class="fr-sidemenu__inner">
+            <button class="fr-sidemenu__btn" aria-controls="menu-collapse" aria-expanded="false">Dans cette documentation</button>
+            <div class="fr-collapse" id="menu-collapse">
+              <p class="fr-sidemenu__title" id="menu-title">Documentation BISO</p>
+              <ul class="fr-sidemenu__list">
+$for(navpages)$
+$if(navpages.active)$
+                <li class="fr-sidemenu__item fr-sidemenu__item--active">
+                  <button class="fr-sidemenu__btn" aria-expanded="true" aria-controls="menu-page">$navpages.title$</button>
+                  <div class="fr-collapse" id="menu-page">
+                    <ul class="fr-sidemenu__list">
+                      <li class="fr-sidemenu__item"><a class="fr-sidemenu__link" href="$navpages.href$" aria-current="page">Haut de page</a></li>
+$for(sections)$
+                      <li class="fr-sidemenu__item"><a class="fr-sidemenu__link" href="#$sections.id$">$sections.title$</a></li>
+$endfor$
+                    </ul>
+                  </div>
+                </li>
+$else$
+                <li class="fr-sidemenu__item"><a class="fr-sidemenu__link" href="$navpages.href$">$navpages.title$</a></li>
+$endif$
+$endfor$
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <main class="fr-col-12 fr-col-md-8 biso-content" id="contenu" role="main">
+$body$
+      </main>
+    </div>
+  </div>
+
+  <footer class="fr-footer" role="contentinfo" id="footer">
+    <div class="fr-container">
+      <div class="fr-footer__body">
+        <div class="fr-footer__brand fr-enlarge-link">
+          <a href="index.html" title="Retour à l'accueil de la documentation BISO">
+            <p class="fr-logo">République<br>Française</p>
+          </a>
+        </div>
+        <div class="fr-footer__content">
+          <p class="fr-footer__content-desc">Documentation de la Base Indicateurs SOciaux (BISO) de la Direction de la recherche, des études, de l'évaluation et des statistiques (Drees).</p>
+          <ul class="fr-footer__content-list">
+            <li class="fr-footer__content-item"><a class="fr-footer__content-link" target="_blank" rel="noopener" title="drees.solidarites-sante.gouv.fr - nouvelle fenêtre" href="https://drees.solidarites-sante.gouv.fr">drees.solidarites-sante.gouv.fr</a></li>
+            <li class="fr-footer__content-item"><a class="fr-footer__content-link" target="_blank" rel="noopener" title="info.gouv.fr - nouvelle fenêtre" href="https://www.info.gouv.fr">info.gouv.fr</a></li>
+            <li class="fr-footer__content-item"><a class="fr-footer__content-link" target="_blank" rel="noopener" title="data.gouv.fr - nouvelle fenêtre" href="https://www.data.gouv.fr">data.gouv.fr</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="fr-footer__bottom">
+        <ul class="fr-footer__bottom-list">
+          <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="$repo_url$">Sources de la documentation</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="dsfr/dsfr.module.min.js"></script>
+  <script nomodule src="dsfr/dsfr.nomodule.min.js"></script>
+</body>
+</html>

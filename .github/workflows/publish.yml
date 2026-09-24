@@ -22,23 +22,8 @@ jobs:
       - name: Installation de Pandoc
         uses: pandoc/actions/setup@v1
 
-      - name: Conversion Markdown -> HTML
-        run: |
-          mkdir -p _site
-          for f in *.md; do
-            name="${f%.md}"
-            [ "$name" = "readme" ] && name="index"
-            title=$(grep -m1 '^#' "$f" | sed -E 's/^#+ *//; s/\*\*//g; s/\[([^]]*)\]\([^)]*\)/\1/g; s/ *\{#[^}]*\}//')
-            pandoc "$f" \
-              --from markdown \
-              --to html5 \
-              --standalone \
-              --toc --toc-depth=2 \
-              --lua-filter .github/pandoc/links.lua \
-              --metadata pagetitle="${title:-$name}" \
-              --metadata lang=fr \
-              --output "_site/${name}.html"
-          done
+      - name: Conversion Markdown -> HTML (DSFR)
+        run: .github/pandoc/build.sh _site
 
       - uses: actions/upload-pages-artifact@v3
         with:
