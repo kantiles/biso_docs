@@ -10,7 +10,7 @@ BISO est l'héritière :
 - du panorama statistique cohésion sociale
 - des indicateurs alimentant l'outil VILAS
 
-Il réunit les trois objets.
+Elle réunit les trois objets.
 
 ## Structure
 
