@@ -1,5 +1,14 @@
 name: Publication HTML
 
+# Assemble les md, y insère libellés, codes ISD, panorama, sources et années
+# (équivalent de R/insertion_lignes.R) et publie le résultat sous forme d'une
+# page html unique au format DSFR.
+#
+# Secrets à définir (Settings > Secrets and variables > Actions) :
+#   KEY_GRIST              clé d'API Grist (R/import_documentation.R)
+#   SCW_KEY_ID             identifiants d'accès au S3 Scaleway
+#   SCW_ACCESS_KEY
+
 on:
   push:
   workflow_dispatch:
@@ -16,14 +25,52 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # Données BISO sur le S3 : s3://biso/data/indicateurs_biso_<source>.parquet
+      S3_ENDPOINT: https://s3.fr-par.scw.cloud
+      S3_PREFIXE: s3://biso/data/indicateurs_biso_
+      S3_SOURCES: finess as rp autre
+      AWS_DEFAULT_REGION: fr-par
+      BISO_DATA_DIR: donnees_biso
     steps:
       - uses: actions/checkout@v4
+
+      - name: Récupération des données BISO sur le S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.SCW_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.SCW_ACCESS_KEY }}
+        run: |
+          mkdir -p "$BISO_DATA_DIR"
+          for source in $S3_SOURCES; do
+            aws s3 cp --endpoint-url "$S3_ENDPOINT" \
+              "${S3_PREFIXE}${source}.parquet" "$BISO_DATA_DIR/"
+          done
+          ls -l "$BISO_DATA_DIR"
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::dplyr
+            any::stringr
+            any::readr
+            any::purrr
+            any::httr2
+            any::arrow
+
+      - name: Assemblage et enrichissement de la documentation
+        env:
+          KEY_GRIST: ${{ secrets.KEY_GRIST }}
+        run: Rscript R/export_html.R
 
       - name: Installation de Pandoc
         uses: pandoc/actions/setup@v1
 
       - name: Conversion Markdown -> HTML (DSFR)
-        run: .github/pandoc/build.sh _site
+        run: .github/pandoc/build.sh documentation_biso.md _site/index.html
 
       - uses: actions/upload-pages-artifact@v3
         with:

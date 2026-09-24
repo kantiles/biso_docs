@@ -19,11 +19,11 @@
 resp <-
   httr2::request(paste0(
     # Domaine
-    "https://kantiles.getgrist.com/api/docs/",
-    # Identifiant de la table
-    "aWZpGbns47vKeHj3SrAVBy",
+    "https://grist.numerique.gouv.fr/api/docs/",
+    # Identifiant du document
+    "vTbLn84jirY4",
     # Nom de la table
-    "/download/csv?tableId=Documentation"
+    "/download/csv?tableId=Documentation_biso"
   )) |>
   httr2::req_headers(
     Authorization = paste0("Bearer ", Sys.getenv("KEY_GRIST"))
