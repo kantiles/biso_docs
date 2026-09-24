@@ -25,7 +25,7 @@ jobs:
       S3_PREFIXE: s3://biso/data/indicateurs_biso_
       S3_SOURCES: finess as rp autre
       AWS_DEFAULT_REGION: fr-par
-      BISO_DATA_DIR: ${{ runner.temp }}/donnees_biso
+      BISO_DATA_DIR: donnees_biso
     steps:
       - uses: actions/checkout@v4
 
