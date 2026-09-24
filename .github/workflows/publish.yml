@@ -1,0 +1,56 @@
+name: Publication HTML
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installation de Pandoc
+        uses: pandoc/actions/setup@v1
+
+      - name: Conversion Markdown -> HTML
+        run: |
+          mkdir -p _site
+          for f in *.md; do
+            name="${f%.md}"
+            [ "$name" = "readme" ] && name="index"
+            title=$(grep -m1 '^#' "$f" | sed -E 's/^#+ *//; s/\*\*//g; s/\[([^]]*)\]\([^)]*\)/\1/g; s/ *\{#[^}]*\}//')
+            pandoc "$f" \
+              --from markdown \
+              --to html5 \
+              --standalone \
+              --toc --toc-depth=2 \
+              --lua-filter .github/pandoc/links.lua \
+              --metadata pagetitle="${title:-$name}" \
+              --metadata lang=fr \
+              --output "_site/${name}.html"
+          done
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
