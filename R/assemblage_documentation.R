@@ -54,7 +54,13 @@ message("Import des données BISO terminé.")
 # Table de correspondance
 
 df_correspondance <- df_biso_doc |>
-  select(id_indicateur, isd, panorama, lib_indicateur, source)
+  select(
+    id_indicateur,
+    isd = code_isd,
+    panorama = code_tableau_panorama,
+    lib_indicateur = libelle_indicateur,
+    source
+  )
 
 # Lecture et fusion des md
 
