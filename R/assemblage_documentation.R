@@ -9,8 +9,8 @@
 #                      html unique par .github/pandoc/build.sh
 #   "pdf"           : produit directement un pdf via Quarto
 #   "both"          : produit les deux
-# Le dossier des données BISO (csv ou parquet) peut être changé via la
-# variable d'environnement BISO_DATA_DIR.
+# Les données BISO sont lues sur le S3 Scaleway, avec les identifiants des
+# variables d'environnement AWS_ACCESS_KEY_ID et AWS_SECRET_ACCESS_KEY.
 
 library(tidyverse)
 
@@ -31,21 +31,19 @@ message("Import de la documentation Grist terminé.")
 
 # Données BISO
 message("Import des données BISO...")
+bucket_biso <- arrow::s3_bucket(
+  "biso",
+  endpoint_override = "s3.fr-par.scw.cloud",
+  region = "fr-par"
+)
+
 df_biso <- map(
-  list.files(
-    Sys.getenv(
-      "BISO_DATA_DIR",
-      "../biso/data/format/20_07_26/livraison_huwise"
-    ),
-    pattern = "\\.(csv|parquet)$",
-    full.names = TRUE
-  ),
-  \(fichier) {
-    if (str_ends(fichier, "\\.parquet")) {
-      arrow::read_parquet(fichier, col_select = c(id_indicateur, annee))
-    } else {
-      read_csv(fichier, show_col_types = FALSE)
-    }
+  c("finess", "as", "rp", "autre"),
+  \(source) {
+    arrow::read_parquet(
+      bucket_biso$path(paste0("data/indicateurs_biso_", source, ".parquet")),
+      col_select = c(id_indicateur, annee)
+    )
   }
 ) |>
   bind_rows()
@@ -298,7 +296,9 @@ resultat <- map(
   }
 ) |>
   unlist()
-message("Insertion des codes ISD, libellés, panorama, sources et années terminée.")
+message(
+  "Insertion des codes ISD, libellés, panorama, sources et années terminée."
+)
 
 # Ajout de liens et remplacements ----
 

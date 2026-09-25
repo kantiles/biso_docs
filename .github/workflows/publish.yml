@@ -27,11 +27,6 @@ jobs:
     runs-on: ubuntu-latest
     # Image avec R, le tidyverse, pandoc, sf (requis par gristapi) et arrow (S3)
     container: rocker/geospatial:latest
-    env:
-      # Données BISO sur le S3 : s3://biso/data/indicateurs_biso_<source>.parquet
-      S3_ENDPOINT: s3.fr-par.scw.cloud
-      S3_SOURCES: finess as rp autre
-      BISO_DATA_DIR: donnees_biso
     steps:
       - uses: actions/checkout@v4
 
@@ -42,32 +37,11 @@ jobs:
           Rscript -e 'install.packages("remotes")' \
             -e 'remotes::install_github("spyrales/gristapi", upgrade = "never")'
 
-      - name: Récupération des données BISO sur le S3
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.SCW_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.SCW_ACCESS_KEY }}
-        shell: Rscript {0}
-        run: |
-          dossier <- Sys.getenv("BISO_DATA_DIR")
-          dir.create(dossier, showWarnings = FALSE)
-          bucket <- arrow::s3_bucket(
-            "biso",
-            endpoint_override = Sys.getenv("S3_ENDPOINT"),
-            region = "fr-par"
-          )
-          for (source in strsplit(Sys.getenv("S3_SOURCES"), " ")[[1]]) {
-            fichier <- paste0("indicateurs_biso_", source, ".parquet")
-            arrow::read_parquet(
-              bucket$path(paste0("data/", fichier)),
-              as_data_frame = FALSE
-            ) |>
-              arrow::write_parquet(file.path(dossier, fichier))
-          }
-          print(file.info(list.files(dossier, full.names = TRUE))["size"])
-
       - name: Assemblage et enrichissement de la documentation
         env:
           KEY_GRIST: ${{ secrets.KEY_GRIST }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.SCW_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.SCW_ACCESS_KEY }}
         run: Rscript R/assemblage_documentation.R
 
       - name: Conversion Markdown -> HTML (DSFR)
