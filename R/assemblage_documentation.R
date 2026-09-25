@@ -3,12 +3,8 @@
 #-------------------------------------------------------#
 
 # Assemble les fichiers Markdown sources, y insère les codes ISD, les
-# libellés, panorama, sources et années, puis produit la documentation
-# finale au format souhaité, selon la variable d'environnement BISO_FORMAT :
-#   "html" (défaut) : écrit le Markdown fusionné, ensuite converti en page
-#                      html unique par .github/pandoc/build.sh
-#   "pdf"           : produit directement un pdf via Quarto
-#   "both"          : produit les deux
+# libellés, panorama, sources et années, puis écrit le Markdown fusionné,
+# ensuite converti en page html unique par .github/pandoc/build.sh.
 # Les données BISO sont lues sur le S3 Scaleway, avec les identifiants des
 # variables d'environnement AWS_ACCESS_KEY_ID et AWS_SECRET_ACCESS_KEY.
 
@@ -311,40 +307,7 @@ resultat_liens <- str_replace_all(
 
 # Export -----
 
-format <- Sys.getenv("BISO_FORMAT", "html")
-
-if (format %in% c("html", "both")) {
-  fichier_md <- Sys.getenv("BISO_DOC_MD", "documentation_biso.md")
-  message("Écriture du Markdown fusionné (", fichier_md, ")...")
-  write_lines(resultat_liens, fichier_md)
-  message("Écriture du Markdown fusionné terminée.")
-}
-
-if (format %in% c("pdf", "both")) {
-  message("Production du pdf via Quarto...")
-
-  yaml <- c(
-    "---
-  title: \"Documentation BISO\"
-  lang: fr
-  format:
-   pdf:
-     toc: true
-     number-sections: false
-     colorlinks: true
-     fontsize: 12pt
-     linestretch: 1.2
-     geometry:
-      - margin=2.5cm
----",
-    ""
-  )
-
-  write_lines(
-    c(yaml, resultat_liens),
-    "documentation_biso.qmd"
-  )
-
-  quarto::quarto_render("documentation_biso.qmd")
-  message("Production du pdf terminée.")
-}
+fichier_md <- Sys.getenv("BISO_DOC_MD", "documentation_biso.md")
+message("Écriture du Markdown fusionné (", fichier_md, ")...")
+write_lines(resultat_liens, fichier_md)
+message("Écriture du Markdown fusionné terminée.")
