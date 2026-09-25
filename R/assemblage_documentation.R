@@ -18,7 +18,7 @@ library(purrr)
 df_biso_doc <-
   gristapi::grist_api$new(
     server = 'https://grist.numerique.gouv.fr',
-    api_key = Sys.getenv("KEY_GRIST_DREES"),
+    api_key = Sys.getenv("KEY_GRIST"),
     doc_id = "vTbLn84jirY4"
   ) |>
   gristapi::fetch_table("Documentation_biso") |>
