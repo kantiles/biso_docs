@@ -58,7 +58,7 @@ jobs:
             any::stringr
             any::readr
             any::purrr
-            any::gristapi
+            github::spyrales/gristapi
             any::arrow
 
       - name: Assemblage et enrichissement de la documentation
