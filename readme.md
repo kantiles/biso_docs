@@ -24,6 +24,6 @@ La documentation se décompose en quatre fichiers selon leurs sources :
 Plus un fichier pour les éléments communs :
 - [Sources statistiques et définitions](meta.md)
 
-Un script permet leur agrégation, le rajout automatiques des années présentes dans biso ainsi que de la source, du code ISD, du code panorama et des libellés indiqués dans la documentation et la production d'un document pdf : 
+Un script permet leur agrégation, le rajout automatiques des années présentes dans biso ainsi que de la source, du code ISD, du code panorama et des libellés indiqués dans la documentation et la production d'un document html ou pdf (selon la variable d'environnement `BISO_FORMAT`) : 
 
-- [Script d'agregation](R/insertion_lignes.R)
+- [Script d'agregation](R/assemblage_documentation.R)

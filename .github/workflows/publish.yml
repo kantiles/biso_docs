@@ -1,7 +1,7 @@
 name: Publication HTML
 
 # Assemble les md, y insère libellés, codes ISD, panorama, sources et années
-# (équivalent de R/insertion_lignes.R) et publie le résultat sous forme d'une
+# (R/assemblage_documentation.R) et publie le résultat sous forme d'une
 # page html unique au format DSFR.
 #
 # Secrets à définir (Settings > Secrets and variables > Actions) :
@@ -36,6 +36,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Installation de gristapi
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
         run: |
           Rscript -e 'install.packages("remotes")' \
             -e 'remotes::install_github("spyrales/gristapi", upgrade = "never")'
@@ -66,7 +68,7 @@ jobs:
       - name: Assemblage et enrichissement de la documentation
         env:
           KEY_GRIST: ${{ secrets.KEY_GRIST }}
-        run: Rscript R/export_html.R
+        run: Rscript R/assemblage_documentation.R
 
       - name: Conversion Markdown -> HTML (DSFR)
         run: .github/pandoc/build.sh documentation_biso.md _site/index.html

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Convertit la documentation assemblée (R/export_html.R) en une page html
+# Convertit la documentation assemblée (R/assemblage_documentation.R) en une page html
 # unique et autonome au format DSFR (styles, polices et scripts intégrés).
 # Usage : .github/pandoc/build.sh [fichier_md] [fichier_html]
 #         (défauts : documentation_biso.md, _site/index.html)

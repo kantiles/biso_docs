@@ -1,9 +1,14 @@
 #-------------------------------------------------------#
-# Utilitaire pour insérer les codes isd et les libellés #
+# Assemblage et enrichissement de la documentation BISO #
 #-------------------------------------------------------#
 
-# Produit `resultat_liens` : les lignes Markdown fusionnées et enrichies,
-# utilisées par R/insertion_lignes.R (pdf) et R/export_html.R (html).
+# Assemble les fichiers Markdown sources, y insère les codes ISD, les
+# libellés, panorama, sources et années, puis produit la documentation
+# finale au format souhaité, selon la variable d'environnement BISO_FORMAT :
+#   "html" (défaut) : écrit le Markdown fusionné, ensuite converti en page
+#                      html unique par .github/pandoc/build.sh
+#   "pdf"           : produit directement un pdf via Quarto
+#   "both"          : produit les deux
 # Le dossier des données BISO (csv ou parquet) peut être changé via la
 # variable d'environnement BISO_DATA_DIR.
 
@@ -12,6 +17,7 @@ library(tidyverse)
 # Import ------
 
 # Documentation sur Grist
+message("Import de la documentation Grist...")
 df_biso_doc <-
   gristapi::grist_api$new(
     server = 'https://grist.numerique.gouv.fr',
@@ -21,8 +27,10 @@ df_biso_doc <-
   gristapi::fetch_table("Documentation_biso") |>
   filter(!is.na(lots)) |>
   select(-id)
+message("Import de la documentation Grist terminé.")
 
 # Données BISO
+message("Import des données BISO...")
 df_biso <- map(
   list.files(
     Sys.getenv(
@@ -41,6 +49,7 @@ df_biso <- map(
   }
 ) |>
   bind_rows()
+message("Import des données BISO terminé.")
 
 # Table de correspondance
 
@@ -49,6 +58,7 @@ df_correspondance <- df_biso_doc |>
 
 # Lecture et fusion des md
 
+message("Lecture et fusion des fichiers Markdown sources...")
 lignes <- map(
   c(
     "finess.md",
@@ -60,6 +70,7 @@ lignes <- map(
   read_lines
 ) |>
   flatten_chr()
+message("Lecture et fusion des fichiers Markdown sources terminées.")
 
 # Insertion d'éléments ----
 
@@ -117,6 +128,7 @@ df_annees <-
   )
 
 # On ajoute les codes ISD, les années, les sources, et les libellés des indicateurs
+message("Insertion des codes ISD, libellés, panorama, sources et années...")
 resultat <- map(
   seq_along(lignes),
   function(i) {
@@ -280,6 +292,7 @@ resultat <- map(
   }
 ) |>
   unlist()
+message("Insertion des codes ISD, libellés, panorama, sources et années terminée.")
 
 # Ajout de liens et remplacements ----
 
@@ -289,3 +302,43 @@ resultat_liens <- str_replace_all(
     "ID_indicateur" = "Identifiants des indicateurs"
   )
 )
+
+# Export -----
+
+format <- Sys.getenv("BISO_FORMAT", "html")
+
+if (format %in% c("html", "both")) {
+  fichier_md <- Sys.getenv("BISO_DOC_MD", "documentation_biso.md")
+  message("Écriture du Markdown fusionné (", fichier_md, ")...")
+  write_lines(resultat_liens, fichier_md)
+  message("Écriture du Markdown fusionné terminée.")
+}
+
+if (format %in% c("pdf", "both")) {
+  message("Production du pdf via Quarto...")
+
+  yaml <- c(
+    "---
+  title: \"Documentation BISO\"
+  lang: fr
+  format:
+   pdf:
+     toc: true
+     number-sections: false
+     colorlinks: true
+     fontsize: 12pt
+     linestretch: 1.2
+     geometry:
+      - margin=2.5cm
+---",
+    ""
+  )
+
+  write_lines(
+    c(yaml, resultat_liens),
+    "documentation_biso.qmd"
+  )
+
+  quarto::quarto_render("documentation_biso.qmd")
+  message("Production du pdf terminée.")
+}
