@@ -7,10 +7,7 @@
 # Le dossier des données BISO (csv ou parquet) peut être changé via la
 # variable d'environnement BISO_DATA_DIR.
 
-library(dplyr)
-library(stringr)
-library(readr)
-library(purrr)
+library(tidyverse)
 
 # Import ------
 
@@ -26,7 +23,6 @@ df_biso_doc <-
   select(-id)
 
 # Données BISO
-
 df_biso <- map(
   list.files(
     Sys.getenv(

@@ -3,7 +3,7 @@
 # unique et autonome au format DSFR (styles, polices et scripts intégrés).
 # Usage : .github/pandoc/build.sh [fichier_md] [fichier_html]
 #         (défauts : documentation_biso.md, _site/index.html)
-# Nécessite pandoc et npm.
+# Nécessite pandoc, et curl ou R pour télécharger le DSFR.
 set -euo pipefail
 
 DSFR_VERSION="1.15.3"
@@ -14,7 +14,13 @@ TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 
 # Ressources du Système de Design de l'État
-(cd "$TMP" && npm pack "@gouvfr/dsfr@$DSFR_VERSION" --silent >/dev/null && tar xzf gouvfr-dsfr-*.tgz)
+DSFR_URL="https://registry.npmjs.org/@gouvfr/dsfr/-/dsfr-$DSFR_VERSION.tgz"
+if command -v curl >/dev/null; then
+  curl -fsSL -o "$TMP/dsfr.tgz" "$DSFR_URL"
+else
+  Rscript -e "download.file('$DSFR_URL', '$TMP/dsfr.tgz', quiet = TRUE)"
+fi
+tar xzf "$TMP/dsfr.tgz" -C "$TMP"
 mkdir -p "$TMP/res" "$(dirname "$OUT")"
 ln -s "$TMP/package/dist" "$TMP/res/dsfr"
 

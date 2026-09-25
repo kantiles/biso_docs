@@ -25,49 +25,48 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Image avec R, le tidyverse, pandoc, sf (requis par gristapi) et arrow (S3)
+    container: rocker/geospatial:latest
     env:
       # Données BISO sur le S3 : s3://biso/data/indicateurs_biso_<source>.parquet
-      S3_ENDPOINT: https://s3.fr-par.scw.cloud
-      S3_PREFIXE: s3://biso/data/indicateurs_biso_
+      S3_ENDPOINT: s3.fr-par.scw.cloud
       S3_SOURCES: finess as rp autre
-      AWS_DEFAULT_REGION: fr-par
       BISO_DATA_DIR: donnees_biso
     steps:
       - uses: actions/checkout@v4
+
+      - name: Installation de gristapi
+        run: |
+          Rscript -e 'install.packages("remotes")' \
+            -e 'remotes::install_github("spyrales/gristapi", upgrade = "never")'
 
       - name: Récupération des données BISO sur le S3
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.SCW_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SCW_ACCESS_KEY }}
+        shell: Rscript {0}
         run: |
-          mkdir -p "$BISO_DATA_DIR"
-          for source in $S3_SOURCES; do
-            aws s3 cp --endpoint-url "$S3_ENDPOINT" \
-              "${S3_PREFIXE}${source}.parquet" "$BISO_DATA_DIR/"
-          done
-          ls -l "$BISO_DATA_DIR"
-
-      - uses: r-lib/actions/setup-r@v2
-        with:
-          use-public-rspm: true
-
-      - uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          packages: |
-            any::dplyr
-            any::stringr
-            any::readr
-            any::purrr
-            github::spyrales/gristapi
-            any::arrow
+          dossier <- Sys.getenv("BISO_DATA_DIR")
+          dir.create(dossier, showWarnings = FALSE)
+          bucket <- arrow::s3_bucket(
+            "biso",
+            endpoint_override = Sys.getenv("S3_ENDPOINT"),
+            region = "fr-par"
+          )
+          for (source in strsplit(Sys.getenv("S3_SOURCES"), " ")[[1]]) {
+            fichier <- paste0("indicateurs_biso_", source, ".parquet")
+            arrow::read_parquet(
+              bucket$path(paste0("data/", fichier)),
+              as_data_frame = FALSE
+            ) |>
+              arrow::write_parquet(file.path(dossier, fichier))
+          }
+          print(file.info(list.files(dossier, full.names = TRUE))["size"])
 
       - name: Assemblage et enrichissement de la documentation
         env:
-          KEY_GRIST_DREES: ${{ secrets.KEY_GRIST }}
+          KEY_GRIST: ${{ secrets.KEY_GRIST }}
         run: Rscript R/export_html.R
-
-      - name: Installation de Pandoc
-        uses: pandoc/actions/setup@v1
 
       - name: Conversion Markdown -> HTML (DSFR)
         run: .github/pandoc/build.sh documentation_biso.md _site/index.html
