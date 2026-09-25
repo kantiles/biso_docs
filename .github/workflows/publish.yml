@@ -5,7 +5,7 @@ name: Publication HTML
 # page html unique au format DSFR.
 #
 # Secrets à définir (Settings > Secrets and variables > Actions) :
-#   KEY_GRIST              clé d'API Grist (R/import_documentation.R)
+#   KEY_GRIST              clé d'API Grist (R/assemblage_documentation.R)
 #   SCW_KEY_ID             identifiants d'accès au S3 Scaleway
 #   SCW_ACCESS_KEY
 
@@ -58,12 +58,12 @@ jobs:
             any::stringr
             any::readr
             any::purrr
-            any::httr2
+            any::gristapi
             any::arrow
 
       - name: Assemblage et enrichissement de la documentation
         env:
-          KEY_GRIST: ${{ secrets.KEY_GRIST }}
+          KEY_GRIST_DREES: ${{ secrets.KEY_GRIST }}
         run: Rscript R/export_html.R
 
       - name: Installation de Pandoc

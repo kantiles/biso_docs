@@ -14,7 +14,18 @@ library(purrr)
 
 # Import ------
 
-source("R/import_documentation.R")
+# Documentation sur Grist
+df_biso_doc <-
+  gristapi::grist_api$new(
+    server = 'https://grist.numerique.gouv.fr',
+    api_key = Sys.getenv("KEY_GRIST_DREES"),
+    doc_id = "vTbLn84jirY4"
+  ) |>
+  gristapi::fetch_table("Documentation_biso") |>
+  filter(!is.na(lots)) |>
+  select(-id)
+
+# Données BISO
 
 df_biso <- map(
   list.files(
