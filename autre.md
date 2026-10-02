@@ -724,7 +724,9 @@ Nombres d'allocataires des minimas :
 - Allocation de solidarité spécifique (ASS)
 - Allocation supplémentaire vieillesse (ASV) et allocation de solidarité aux personnes âgées (ASPA)
 - Prime d'activité majorée ou non
-- [RSA](#rsa) majorée ou non et total (les bénéficiaires du "RSA jeunes" sont intégrés aux effectifs du RSA non majoré)
+- [RSA](#rsa) majorée ou non et total
+  - les bénéficiaires du "RSA jeunes" sont intégrés aux effectifs du RSA non majoré
+  - Les valeurs de l'année N-1, disponibles uniquement sur le total, sont temporaires et arrondies à la dizaine
 - Complémentaire Santé Solidaire avec et sans participation financière (CSS) (C2S, C2SP)
 
 Attention rupture de série : à la suite d'une amélioration du système de production statistique de la Cnaf sur les bénéficiaires de prestations légales, les données à partir de 2016 ne sont pas comparables avec celles des années précédentes.
