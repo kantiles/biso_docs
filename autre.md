@@ -569,6 +569,8 @@ Les élèves de 3ème ayant deux ans de retard scolarisés dans le secteur priv�
 
 Indicateur exprimé en %
 
+Champ : France métropolitaine + DROM, Public + Privé sous contrat, hors EREA/ULIS MENJS.
+ 
 **Objectif :**
 
 L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
