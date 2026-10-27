@@ -452,7 +452,7 @@ Sont retenues pour cet indicateur les dépenses brutes, par souci de cohérence 
 
 ## **Aides aux personnes agées : Type d'aide**
 
-**ID_indicateur :** pa_nb_benef_aide_menagere, pa_nb_benef_aide_sociale, pa_nb_benef_aide_sociale_accueil, pa_nb_benef_aide_sociale_dom, pa_nb_benef_aide_sociale_tot, pa_nb_benef_apa_tot
+**ID_indicateur :** pa_nb_benef_aide_menagere, pa_nb_benef_aide_sociale, pa_nb_benef_aide_sociale_accueil, pa_nb_benef_aide_sociale_dom, pa_nb_benef_apa_tot
 
 **Périodicité :** Annuelle
 
