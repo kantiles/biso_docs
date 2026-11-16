@@ -449,6 +449,8 @@ cont_nb_neet_16_25_brevet et cont_nb_neet_26_29_brevet correspondent à "Aucun d
 
 De même, cont_repart_neet_16_25_bac_p2 et cont_repart_neet_26_29_bac_p2 correspondent à l'ensemble "Diplôme d’études supérieures" soit respectivement à cont_repart_neet_16_25_bac_p2, cont_repart_neet_16_25_bac_p3_4 et cont_repart_neet_16_25_bac_p5p et cont_repart_neet_26_29_bac_p2, cont_repart_neet_26_29_bac_p3_4 et cont_repart_neet_26_29_bac_p5p.
 
+De 2006 à 2012, seule une modalité décrivait les "2e ou 3e cycle (bac+3 et plus)". Les indicateurs cont_repart_neet_16_25_bac_p3_4 et cont_repart_neet_26_29_bac_p3_4 indiquent donc les parts de NEET diplômés d'au moins un bac +3.
+
 **Qualité et limites :**
 
 Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
