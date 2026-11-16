@@ -624,13 +624,17 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 ## **Séniors : Type d'emploi**
 
-**ID_indicateur :** cont_part_empl_50_64_non_sal, cont_part_empl_50_64_sal, cont_part_empl_50_64_sal_cdd, cont_part_empl_50_64_sal_cdi, cont_part_empl_50_64_sal_interim, cont_part_empl_50_64_sal_tps_part
+**ID_indicateur :** cont_part_empl_50_64_non_sal, cont_part_empl_50_64_sal, cont_part_empl_50_64_sal_cdd, cont_part_empl_50_64_sal_cont_court, cont_part_empl_50_64_sal_cdi, cont_part_empl_50_64_sal_interim, cont_part_empl_50_64_sal_tps_part
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
 **Descriptif :**
 
 Répartition des 50-64 ans en emploi selon les caractéristiques de leurs contrats.
+
+Le bulletin individuel (BI) a été rénové pour l’enquête annuelle de recensement (EAR) 2025. Cette rénovation impacte donc les résultats 2023 qui voient les modalités "Autres emplois à durée limitée, CDD, contrat court,
+saisonnier, vacataire, etc", "Placés par une agence d’intérim", "En contrat d’apprentissage", "Emplois aidés" et "Stagiaires rémunérés en entreprise" agglomérés dans une seule "Autre contrat (CDD, intérim, stage, etc.)".
+Les indicateurs cont_part_empl_50_64_sal_tps_part, cont_part_empl_50_64_sal_interim et cont_part_empl_50_64_sal_cdd sont donc absents pour 2023 au profit de l'indicateur "cont_part_empl_50_64_sal_cont_court".
 
 **Qualité et limites :**
 
