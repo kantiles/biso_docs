@@ -444,6 +444,11 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 Nombre de NEET de 16 à 25 ans et de 26 à 29 ans et répartition selon le sexe, le diplome et le statut professionnel.
 
+En 2016, le diplôme des individus est récolté de manière moins fine que les autres années.
+cont_nb_neet_16_25_brevet et cont_nb_neet_26_29_brevet correspondent à "Aucun diplôme ou au mieux BEPC, Brevet des collèges, DNB" soit respectivement à l'ensemble cont_nb_neet_16_25_no_dipl et cont_nb_neet_16_25_brevet et à l'ensemble cont_nb_neet_26_29_no_dipl et cont_nb_neet_26_29_brevet.
+
+De même, cont_repart_neet_16_25_bac_p2 et cont_repart_neet_26_29_bac_p2 correspondent à l'ensemble "Diplôme d’études supérieures" soit respectivement à cont_repart_neet_16_25_bac_p2, cont_repart_neet_16_25_bac_p3_4 et cont_repart_neet_16_25_bac_p5p et cont_repart_neet_26_29_bac_p2, cont_repart_neet_26_29_bac_p3_4 et cont_repart_neet_26_29_bac_p5p.
+
 **Qualité et limites :**
 
 Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
