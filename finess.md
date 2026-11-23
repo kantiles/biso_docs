@@ -33,7 +33,7 @@ Cet indicateur y contribue en décrivant l'offre d'accueil en établissement d'a
 
 Afin d'apprécier au mieux l'offre globale d'accueil, cet indicateur est à rapprocher de l'offre d'accueil en placement familial.
 
-Certains jeunes ne sont pas accueillis dans leur département d'origine, l'offre d'accueil est donc à analyser avec précaution. Ainsi, d'après l'[Enquête Aide sociale](#as) de la Drees auprès des conseils départementaux, les placements hors départements concernent 9% des mesures de placement au 31 décembre 2016, ce taux variant d'un département à l'autre. Inférieur à 3% dans un quart des départements, compris entre 3% et 8% dans la moitié d'entre eux, il peut dépasser 40% dans certains départements, les valeurs les plus élevées étant observées dans les départements franciliens. Au niveau national, les bénéficiaires accueillis hors de leurs départements sont 39% en famille d'accueil, 45% en établissement et 16% dans d'autres modes d'hébergement."
+Certains jeunes ne sont pas accueillis dans leur département d'origine, l'offre d'accueil est donc à analyser avec précaution. Ainsi, d'après l'[Enquête Aide sociale](#as) de la Drees auprès des conseils départementaux, les placements hors départements concernent 9% des mesures de placement au 31 décembre 2016, ce taux variant d'un département à l'autre. Inférieur à 3% dans un quart des départements, compris entre 3% et 8% dans la moitié d'entre eux, il peut dépasser 40% dans certains départements, les valeurs les plus élevées étant observées dans les départements franciliens. Au niveau national, les bénéficiaires accueillis hors de leurs départements sont 39% en famille d'accueil, 45% en établissement et 16% dans d'autres modes d'hébergement.
 
 **Qualité et limites :** 
 
@@ -41,7 +41,7 @@ Certains jeunes ne sont pas accueillis dans leur département d'origine, l'offre
 
 L'enquête de la Drees auprès des établissements d'aide sociale à l'enfance est quadriennale. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de [Finess](#finess) en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans [Finess](#finess) et un important travail de mise en cohérence est alors mené.
 
-Attention aux comparaisons dans le temps au niveau départemental. En particulier le calcul du taux d'équipement a été légèrement modifié entre 2012 et 2013, suite à une révision des catégories d'établissement retenues dans [Finess](#finess).
+Attention aux comparaisons dans le temps au niveau départemental. En particulier le calcul du taux d'équipement a été légèrement modifié entre 2011 et 2013, suite à une révision des catégories d'établissement retenues dans [Finess](#finess).
 
 L'enquête auprès des établissements et services de la protection de l’enfance (ES-PE)
 
@@ -82,15 +82,15 @@ Certains jeunes ne sont pas accueillis dans leur département d'origine, l'offre
 
 L'enquête de la Drees auprès des établissements d'aide sociale à l'enfance est quadriennale. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de [Finess](#finess) en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans [Finess](#finess) et un important travail de mise en cohérence est alors mené.
 
-Attention aux comparaisons dans le temps au niveau départemental. En particulier le calcul du taux d'équipement a été légèrement modifié entre 2012 et 2013, suite à une révision des catégories d'établissement retenues dans [Finess](#finess).
+Attention aux comparaisons dans le temps au niveau départemental. En particulier le calcul du taux d'équipement a été légèrement modifié entre 2011 et 2013, suite à une révision des catégories d'établissement retenues dans [Finess](#finess).
 
 ----
 
-## **Hébergement : Nombre de places**
+## **Hébergement : Nombre de places et taux d'équipement**
 
 **ID_indicateur :** hs_places_autres_resid_soc, hs_places_fjt, hs_places_ftm, hs_places_heberg_soc, hs_places_insertion, hs_places_logement_accomp, hs_places_maisons_relais_pensions_fam, hs_places_stab, hs_places_urgences, hs_places_cada, hs_places_centre_acc_non_conv, hs_places_chrs, hs_places_cph, hs_tx_equip_heberg_1000adultes
 
-**Périodicité :**Annuelle
+**Périodicité :** Annuelle
 
 **Descriptif :**
 
@@ -295,9 +295,9 @@ Cet indicateur y contribue par la description de l’offre d'accueil et d'accomp
 
 Indicateur exprimé en pour 1000
 
-Le taux d'équipement en places dans les établissements pour enfants handicapés (ph_enfants_tx_equip_etab_1000_m20) est hors SESSAD, CMPP, CAMSP, jardins d'enfants spécialisés et places d'accueil temporaire.
+Le taux d'équipement en places d'hebergement pour adultes handicapés contient : places en Maisons d'accueil spécialisées (MAS), foyers d'accueil médicalisés (FAM), établissement d'accueil médicalisé (EAM), établissement d'accueil non médicalisé (EANM), foyers d'hébergement, foyers de vie et foyers polyvalents, hors places d'accueil de jour
 
-Le taux d'équipement en places dans les SESSAD (ph_enfants_tx_equip_sessad_1000_m20) est hors places d'accueil temporaire.
+À la suite à la mise en place d'une nouvelle nomenclature, la catégorie « établissements d'accueil non médicalisé » regroupe désormais les anciennes catégories « foyer d’hébergement », « foyer de vie » et « foyer d’accueil polyvalent » et autres « établissements d’accueil non médicalisé », sans distinction possible. Aussi, à partir de 2019, le taux d’équipement en seul foyer de vie n’est plus disponible.
 
 **Définitions :**
 
@@ -320,7 +320,7 @@ Donne la densité du nombre de places offertes dans le département.
 
 L'enquête de la Drees auprès des établissements et services pour personnes handicapées est quadriennale. Elle ne permet donc pas de mettre à jour un indicateur à un rythme annuel. La préparation du champ de l'enquête est l'occasion d'un contrôle de qualité du répertoire par les gestionnaires de [Finess](#finess) en région. De même, les résultats de l'enquête sont rapprochés des informations référencées dans [Finess](#finess) et un important travail de mise en cohérence est alors mené.
 
-Attention aux comparaisons dans le temps au niveau départemental. En particulier le calcul du taux d'équipement a été légèrement modifié entre 2011 et 2012, suite à une révision des catégories d'établissement retenues dans [Finess](#finess).
+Attention aux comparaisons dans le temps au niveau départemental. En particulier le calcul du taux d'équipement a été légèrement modifié entre 2011 et 2013, suite à une révision des catégories d'établissement retenues dans [Finess](#finess).
 
 ----
 
