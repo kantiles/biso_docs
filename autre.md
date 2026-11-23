@@ -569,6 +569,8 @@ Les élèves de 3ème ayant deux ans de retard scolarisés dans le secteur priv�
 
 Indicateur exprimé en %
 
+Champ : France métropolitaine + DROM, Public + Privé sous contrat, hors EREA/ULIS MENJS.
+ 
 **Objectif :**
 
 L'objectif stratégique des indicateurs de contexte est de caractériser le territoire selon ses spécificités démographiques, sociales, économiques et sanitaires.
@@ -724,7 +726,9 @@ Nombres d'allocataires des minimas :
 - Allocation de solidarité spécifique (ASS)
 - Allocation supplémentaire vieillesse (ASV) et allocation de solidarité aux personnes âgées (ASPA)
 - Prime d'activité majorée ou non
-- [RSA](#rsa) majorée ou non et total (les bénéficiaires du "RSA jeunes" sont intégrés aux effectifs du RSA non majoré)
+- [RSA](#rsa) majorée ou non et total
+  - les bénéficiaires du "RSA jeunes" sont intégrés aux effectifs du RSA non majoré
+  - Les valeurs de l'année N-1, disponibles uniquement sur le total, sont temporaires et arrondies à la dizaine
 - Complémentaire Santé Solidaire avec et sans participation financière (CSS) (C2S, C2SP)
 
 Attention rupture de série : à la suite d'une amélioration du système de production statistique de la Cnaf sur les bénéficiaires de prestations légales, les données à partir de 2016 ne sont pas comparables avec celles des années précédentes.
@@ -872,7 +876,7 @@ Cet indicateur y contribue en mesurant la part de population bénéficiant de la
 
 ## **APA : Répartition des bénéficiaires**
 
-**ID_indicateur :** pa_part_benef_apa_60_74_f, pa_part_benef_apa_60_74_h, pa_part_benef_apa_75_89_f, pa_part_benef_apa_75_89_h, pa_part_benef_apa_90p_f, pa_part_benef_apa_90p_h, pa_part_benef_apa_couple_f, pa_part_benef_apa_couple_h, pa_part_benef_apa_gir1_60_74, pa_part_benef_apa_gir1_75_89, pa_part_benef_apa_gir1_90p, pa_part_benef_apa_gir1_f, pa_part_benef_apa_gir1_h, pa_part_benef_apa_gir2_60_74, pa_part_benef_apa_gir2_75_89, pa_part_benef_apa_gir2_90p, pa_part_benef_apa_gir2_f, pa_part_benef_apa_gir2_h, pa_part_benef_apa_gir3_60_74, pa_part_benef_apa_gir3_75_89, pa_part_benef_apa_gir3_90p, pa_part_benef_apa_gir3_f, pa_part_benef_apa_gir3_h, pa_part_benef_apa_gir4_60_74, pa_part_benef_apa_gir4_75_89, pa_part_benef_apa_gir4_90p, pa_part_benef_apa_gir4_f, pa_part_benef_apa_gir4_h, pa_part_benef_apa_gir56_60_74, pa_part_benef_apa_gir56_75_89, pa_part_benef_apa_gir56_90p, pa_part_benef_apa_gir56_f, pa_part_benef_apa_gir56_h, pa_part_benef_apa_seul_f, pa_part_benef_apa_seul_h
+**ID_indicateur :** pa_part_benef_apa_60_74_f, pa_part_benef_apa_60_74_h, pa_part_benef_apa_75_89_f, pa_part_benef_apa_75_89_h, pa_part_benef_apa_90p_f, pa_part_benef_apa_90p_h, pa_part_benef_apa_couple_f, pa_part_benef_apa_couple_h, pa_part_benef_apa_gir1_60_74, pa_part_benef_apa_gir1_75_89, pa_part_benef_apa_gir1_90p, pa_part_benef_apa_gir1_f, pa_part_benef_apa_gir1_h, pa_part_benef_apa_gir2_60_74, pa_part_benef_apa_gir2_75_89, pa_part_benef_apa_gir2_90p, pa_part_benef_apa_gir2_f, pa_part_benef_apa_gir2_h, pa_part_benef_apa_gir3_60_74, pa_part_benef_apa_gir3_75_89, pa_part_benef_apa_gir3_90p, pa_part_benef_apa_gir3_f, pa_part_benef_apa_gir3_h, pa_part_benef_apa_gir4_60_74, pa_part_benef_apa_gir4_75_89, pa_part_benef_apa_gir4_90p, pa_part_benef_apa_gir4_f, pa_part_benef_apa_gir4_h, pa_part_benef_apa_seul_f, pa_part_benef_apa_seul_h
 
 **Périodicité :** Ponctuelle
 

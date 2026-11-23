@@ -1,0 +1,63 @@
+name: Publication HTML
+
+# Assemble les md, y insère libellés, codes ISD, panorama, sources et années
+# (R/assemblage_documentation.R) et publie le résultat sous forme d'une
+# page html unique au format DSFR.
+#
+# Secrets à définir (Settings > Secrets and variables > Actions) :
+#   KEY_GRIST              clé d'API Grist (R/assemblage_documentation.R)
+#   SCW_KEY_ID             identifiants d'accès au S3 Scaleway
+#   SCW_ACCESS_KEY
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Image avec R, le tidyverse, pandoc, sf (requis par gristapi) et arrow (S3)
+    container: rocker/geospatial:latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installation de gristapi
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          Rscript -e 'install.packages("remotes")' \
+            -e 'remotes::install_github("spyrales/gristapi", upgrade = "never")'
+
+      - name: Assemblage et enrichissement de la documentation
+        env:
+          KEY_GRIST: ${{ secrets.KEY_GRIST }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.SCW_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.SCW_ACCESS_KEY }}
+        run: Rscript R/assemblage_documentation.R
+
+      - name: Conversion Markdown -> HTML (DSFR)
+        run: .github/pandoc/build.sh documentation_biso.md _site/index.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

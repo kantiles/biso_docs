@@ -444,6 +444,13 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 Nombre de NEET de 16 à 25 ans et de 26 à 29 ans et répartition selon le sexe, le diplome et le statut professionnel.
 
+En 2016, le diplôme des individus est récolté de manière moins fine que les autres années.
+cont_nb_neet_16_25_brevet et cont_nb_neet_26_29_brevet correspondent à "Aucun diplôme ou au mieux BEPC, Brevet des collèges, DNB" soit respectivement à l'ensemble cont_nb_neet_16_25_no_dipl et cont_nb_neet_16_25_brevet et à l'ensemble cont_nb_neet_26_29_no_dipl et cont_nb_neet_26_29_brevet.
+
+De même, cont_repart_neet_16_25_bac_p2 et cont_repart_neet_26_29_bac_p2 correspondent à l'ensemble "Diplôme d’études supérieures" soit respectivement à cont_repart_neet_16_25_bac_p2, cont_repart_neet_16_25_bac_p3_4 et cont_repart_neet_16_25_bac_p5p et cont_repart_neet_26_29_bac_p2, cont_repart_neet_26_29_bac_p3_4 et cont_repart_neet_26_29_bac_p5p.
+
+De 2006 à 2012, seule une modalité décrivait les "2e ou 3e cycle (bac+3 et plus)". Les indicateurs cont_repart_neet_16_25_bac_p3_4 et cont_repart_neet_26_29_bac_p3_4 indiquent donc les parts de NEET diplômés d'au moins un bac +3.
+
 **Qualité et limites :**
 
 Les données du recensement sont pertinentes pour étudier les caractéristiques structurelles de la population en emploi et en recherche d’emploi.
@@ -619,13 +626,17 @@ Comparaison dans le temps (intervalle de 5 ans entre deux recensements, passé �
 
 ## **Séniors : Type d'emploi**
 
-**ID_indicateur :** cont_part_empl_50_64_non_sal, cont_part_empl_50_64_sal, cont_part_empl_50_64_sal_cdd, cont_part_empl_50_64_sal_cdi, cont_part_empl_50_64_sal_interim, cont_part_empl_50_64_sal_tps_part
+**ID_indicateur :** cont_part_empl_50_64_non_sal, cont_part_empl_50_64_sal, cont_part_empl_50_64_sal_cdd, cont_part_empl_50_64_sal_cont_court, cont_part_empl_50_64_sal_cdi, cont_part_empl_50_64_sal_interim, cont_part_empl_50_64_sal_tps_part
 
 **Périodicité :** Annuelle, mais les comparaisons temporelles ne sont pertinentes que sur un intervalle de 5 ans, période de renouvellement de l’ensemble de l’échantillon de collecte. 
 
 **Descriptif :**
 
 Répartition des 50-64 ans en emploi selon les caractéristiques de leurs contrats.
+
+Le bulletin individuel (BI) a été rénové pour l’enquête annuelle de recensement (EAR) 2025. Cette rénovation impacte donc les résultats 2023 qui voient les modalités "Autres emplois à durée limitée, CDD, contrat court,
+saisonnier, vacataire, etc", "Placés par une agence d’intérim", "En contrat d’apprentissage", "Emplois aidés" et "Stagiaires rémunérés en entreprise" agglomérés dans une seule "Autre contrat (CDD, intérim, stage, etc.)".
+Les indicateurs cont_part_empl_50_64_sal_tps_part, cont_part_empl_50_64_sal_interim et cont_part_empl_50_64_sal_cdd sont donc absents pour 2023 au profit de l'indicateur "cont_part_empl_50_64_sal_cont_court".
 
 **Qualité et limites :**
 

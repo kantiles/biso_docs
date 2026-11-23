@@ -243,6 +243,8 @@ Nombre de consultations et Visite A Domicile (VAD) pour 1 000 femmes ayant accou
 - **Numérateur :** Nombre de consultations ou de Visite A Domicile (VAD) dans le département dans l'année N
 - **Dénominateur :** Nombre de naissance dans le département dans l'année N
 
+Toutes les données ont été mises à jour en 2026 suite à l'utilisation d'une nouvelle base de données, mise au point en partenariat entre la Drees et l’Inserm. Elle base le total des naissances à partir des séjours d’enfants (et non plus des mères), après avoir amélioré le chainage mère-enfant d’où des petits écarts avec les données publiées précédemment.
+
 Indicateurs exprimé en pour 1000
 
 ----
@@ -446,7 +448,7 @@ Sont retenues pour cet indicateur les dépenses brutes, par souci de cohérence 
 
 ## **Aides aux personnes agées : Type d'aide**
 
-**ID_indicateur :** pa_nb_benef_aide_menagere, pa_nb_benef_aide_sociale, pa_nb_benef_aide_sociale_accueil, pa_nb_benef_aide_sociale_dom, pa_nb_benef_aide_sociale_tot, pa_nb_benef_apa_tot
+**ID_indicateur :** pa_nb_benef_aide_menagere, pa_nb_benef_aide_sociale, pa_nb_benef_aide_sociale_accueil, pa_nb_benef_aide_sociale_dom, pa_nb_benef_apa_tot
 
 **Périodicité :** Annuelle
 

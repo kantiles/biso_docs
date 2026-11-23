@@ -1,68 +1,76 @@
 #-------------------------------------------------------#
-# Utilitaire pour insérer les codes isd et les libellés #
+# Assemblage et enrichissement de la documentation BISO #
 #-------------------------------------------------------#
 
-library(dplyr)
-library(stringr)
-library(readr)
-library(purrr)
+# Assemble les fichiers Markdown sources, y insère les codes ISD, les
+# libellés, panorama, sources et années, puis écrit le Markdown fusionné,
+# ensuite converti en page html unique par .github/pandoc/build.sh.
+# Les données BISO sont lues sur le S3 Scaleway, avec les identifiants des
+# variables d'environnement AWS_ACCESS_KEY_ID et AWS_SECRET_ACCESS_KEY.
+
+library(tidyverse)
 
 # Import ------
 
-source("R/import_documentation.R")
+# Documentation sur Grist
+message("Import de la documentation Grist...")
+df_biso_doc <-
+  gristapi::grist_api$new(
+    server = 'https://grist.numerique.gouv.fr',
+    api_key = Sys.getenv("KEY_GRIST"),
+    doc_id = "vTbLn84jirY4"
+  ) |>
+  gristapi::fetch_table("Documentation_biso") |>
+  filter(!is.na(lots)) |>
+  select(-id)
+message("Import de la documentation Grist terminé.")
 
-path_drive <- Sys.getenv("PATH_DRIVE")
+# Données BISO
+message("Import des données BISO...")
+bucket_biso <- arrow::s3_bucket(
+  "biso",
+  endpoint_override = "s3.fr-par.scw.cloud",
+  region = "fr-par"
+)
 
 df_biso <- map(
-  list.files(
-    glue::glue(
-      "{path_drive}Common documents/Drees/Livraisons/Livraison 23 juillet 2026/"
-    ),
-    full.names = TRUE,
-    pattern = ".csv"
-  ),
-  read_csv
+  c("finess", "as", "rp", "autre"),
+  \(source) {
+    arrow::read_parquet(
+      bucket_biso$path(paste0("data/indicateurs_biso_", source, ".parquet")),
+      col_select = c(id_indicateur, annee)
+    )
+  }
 ) |>
   bind_rows()
+message("Import des données BISO terminé.")
 
 # Table de correspondance
 
 df_correspondance <- df_biso_doc |>
-  select(id_indicateur, isd, panorama, lib_indicateur, source)
+  select(
+    id_indicateur,
+    isd = code_isd,
+    panorama = code_tableau_panorama,
+    lib_indicateur = libelle_indicateur,
+    source
+  )
 
-# Lecture et fusion des qmd
+# Lecture et fusion des md
 
-yaml <- c(
-  "---
-  title: \"Documentation BISO\"
-  lang: fr
-  format: 
-   pdf:
-     toc: true
-     number-sections: false
-     colorlinks: true
-     fontsize: 12pt
-     linestretch: 1.2
-     geometry:
-      - margin=2.5cm
----",
-  ""
-)
-
-lignes <- c(
-  yaml,
-  map(
-    c(
-      "finess.md",
-      "as.md",
-      "rp.md",
-      "autre.md",
-      "meta.md"
-    ),
-    read_lines
-  ) |>
-    flatten_chr()
-)
+message("Lecture et fusion des fichiers Markdown sources...")
+lignes <- map(
+  c(
+    "finess.md",
+    "as.md",
+    "rp.md",
+    "autre.md",
+    "meta.md"
+  ),
+  read_lines
+) |>
+  flatten_chr()
+message("Lecture et fusion des fichiers Markdown sources terminées.")
 
 # Insertion d'éléments ----
 
@@ -120,6 +128,7 @@ df_annees <-
   )
 
 # On ajoute les codes ISD, les années, les sources, et les libellés des indicateurs
+message("Insertion des codes ISD, libellés, panorama, sources et années...")
 resultat <- map(
   seq_along(lignes),
   function(i) {
@@ -283,6 +292,9 @@ resultat <- map(
   }
 ) |>
   unlist()
+message(
+  "Insertion des codes ISD, libellés, panorama, sources et années terminée."
+)
 
 # Ajout de liens et remplacements ----
 
@@ -293,11 +305,9 @@ resultat_liens <- str_replace_all(
   )
 )
 
-# Écriture du nouveau qmd et production du pdf -----
+# Export -----
 
-write_lines(
-  resultat_liens,
-  "documentation_biso.qmd"
-)
-
-quarto::quarto_render("documentation_biso.qmd")
+fichier_md <- Sys.getenv("BISO_DOC_MD", "documentation_biso.md")
+message("Écriture du Markdown fusionné (", fichier_md, ")...")
+write_lines(resultat_liens, fichier_md)
+message("Écriture du Markdown fusionné terminée.")
